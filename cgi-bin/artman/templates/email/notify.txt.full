@@ -1,0 +1,154 @@
+Subject: Article $event$ by $user_fullname$
+
+Body: $user_fullname$ has $event$ the article entitled "$art_name$".
+
+Status: $status$.
+
+==== This is an automated e-mail.  Please contact $mail_sender_name$ at $mail_sender_email$ if you no longer wish to receive notifications. ====
+
+GLOBAL PLACEHOLDERS
+___url_gindex___ the url to the Global Index  
+$url_gindex$
+
+___url_publish___ the url to the directory containing all published files  
+$url_publish$
+
+___url_search___ the url to the software's Search Engine  
+$url_search$
+
+___file_gcategories___ the filepath to the Global Category List (none selected)  
+$file_gcategories$
+
+___file_gheadlines___ the filepath to the Global Headlines page  
+$file_gheadlines$
+
+___file_headlines_bycat___ the filepath to the Headlines by Category page 
+$file_headlines_bycat$
+ 
+___file_search___ the filepath to the Search Form  
+$file_search$
+
+___global_updated___ the date and time any published pages were last updated  
+$global_updated$
+
+___gcat_name___ the Global Category Name
+$gcat_name$
+  
+___url_thispage___ the url of the current page  
+$url_thispage$
+
+
+DOCUMENT PLACEHOLDERS
+___art_name___ the title of the article
+$art_name$
+
+___art_date___ the date of the article  
+$art_date$
+
+___art_time___ the time of the article
+$art_time$
+
+___art_field1___
+$art_field1$ 
+
+___art_field2___
+$art_field2$ 
+
+___art_field3___
+$art_field3$ 
+
+___art_field4___
+$art_field4$ 
+
+___art_field5___
+$art_field5$ 
+
+___art_field6___
+$art_field6$ 
+
+___art_field7___
+$art_field7$ 
+
+___art_field8___
+$art_field8$ 
+
+___art_field9___
+$art_field9$ 
+
+___art_field10___
+$art_field10$ 
+
+___art_field11___
+$art_field11$ 
+
+___art_field12___
+$art_field12$ 
+
+___art_field13___
+$art_field13$ 
+
+___art_field14___
+$art_field14$ 
+
+___art_field15___
+$art_field15$ 
+
+___art_field16___
+$art_field16$ 
+
+___art_field17___
+$art_field17$ 
+
+___art_field18___
+$art_field18$ 
+
+___art_field19___
+$art_field19$ 
+
+___art_field20___
+$art_field20$ 
+
+___cat_name___ the name of the article's category  
+$cat_name$
+
+___url_index___ the url to the Category Index page of the article's category  
+$url_index$
+
+___detail_link___ the url to the article's Detail Page  
+$detail_link$
+
+___file_categories___ the filepath to the Category List (with the article's category selected)  
+$file_categories$
+
+___file_headlines___ the filepath to the Category Headlines page of the article's category  
+$file_headlines$
+
+___art_num___ the record number of the article  
+$art_num$
+
+___cat_num___ the record number of the article's category  
+$cat_num$
+
+___art_day___ Date: day of the month of the article  
+$art_day$
+
+___art_mon___ Date: month number of the article (1 - 12)  
+$art_mon$
+
+___art_year___ Date: year of the article (four-digit)  
+$art_year$
+
+___art_hour___ Date: hour of the article  
+$art_hour$
+
+___art_min___ Date: minute of the article
+$art_min$
+
+___art_ampm___ Date: morning/evening indicator of the article
+$art_ampm$
+
+___art_summary___
+$art_summary$
+
+___art_content___
+$art_content$

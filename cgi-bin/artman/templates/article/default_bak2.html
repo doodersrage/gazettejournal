@@ -1,0 +1,103 @@
+<html><head><title>$art_name_he$</title>
+<link href="$_imageurl$common/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="bg_main" LEFTMARGIN="0" TOPMARGIN="0">
+<div align=center>
+<a name="top"></a>
+
+  <table border=0 cellspacing=0 cellpadding=10 width=100% class="bg_header" BGCOLOR="#003366">
+    <tr>
+      <td WIDTH="56%"> <IMG SRC="/gfx/masthead.gif" WIDTH="450" HEIGHT="58"></td>
+      <td align=right valign=top WIDTH="44%"> </td>
+    </tr></table>
+
+<!-- body: left nav -->
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100% height=100%>
+    <tr> 
+      <td class="bg_nav_left" valign=top COLSPAN="5" HEIGHT="2"> 
+        <DIV ALIGN="RIGHT"><SPAN CLASS="general_text"> <A HREF="#">Linkname</A> 
+          | <A HREF="#">Linkname</A> | <A HREF="#">Linkname</A> | <A HREF="#">Linkname</A> 
+          | <A HREF="#">Linkname</A>&nbsp; </SPAN></DIV>
+      </td>
+    </tr>
+    <tr> 
+      <td class="bg_nav_left" valign=top width=1%> <!-- INCLUDE CATEGORY LIST --> 
+        <!--#include virtual="$publishdir_virtualpath$$file_categories$" --> <!-- INCLUDE SEARCH FORM --> 
+        <!--#include virtual="$publishdir_virtualpath$$file_search$" --> <img src="$_imageurl$set1_maple/spacer.gif" height=3 width=150><br>
+      </td>
+      <td><img src="$_imageurl$set1_maple/spacer.gif" height=1 width=25></td>
+      <td width=100% valign=top> 
+        <P><SPAN CLASS="header_breadcrumb">$cat_breadcrumb$</SPAN></P>
+        <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="100%">
+          <TR> 
+            <TD WIDTH="100%" VALIGN="top" COLSPAN="5"><IMG BORDER="0" SRC="images/clear.gif" WIDTH="5" HEIGHT="5"></TD>
+          </TR>
+          <TR> 
+            <TD ROWSPAN="3" BGCOLOR="#333366" WIDTH="1" VALIGN="top"><IMG BORDER="0" SRC="images/clear.gif" WIDTH="1" HEIGHT="1"></TD>
+            <TD WIDTH="100%" COLSPAN="3" BGCOLOR="#333366"><IMG BORDER="0" SRC="images/clear.gif" WIDTH="1" HEIGHT="1"></TD>
+            <TD ROWSPAN="3" BGCOLOR="#333366" WIDTH="1" VALIGN="top"><IMG BORDER="0" SRC="images/clear.gif" WIDTH="1" HEIGHT="1"><IMG BORDER="0" SRC="images/clear.gif" WIDTH="1" HEIGHT="1"></TD>
+          </TR>
+          <TR> 
+            <TD WIDTH="15"></TD>
+            <TD WIDTH="90%" VALIGN="TOP"> 
+              <P>&nbsp; 
+              <P><BR>
+              <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=100%>
+                <TR> 
+                  <TD><SPAN CLASS="article_text"> <SPAN CLASS="article_title">$art_name$</SPAN><BR>
+                    By $art_field1$<BR>
+                    <BR>
+                    </SPAN> </TD>
+                  <TD ALIGN=right VALIGN=top> <SPAN CLASS="article_text"> <A HREF="mailto:?subject=$art_name_ue$&body=$url_thispage_ue$">Email&nbsp;this&nbsp;article</A><BR>
+                    &nbsp;<A HREF="$art_printer_url$">Printer&nbsp;friendly&nbsp;page</A><BR>
+                    </SPAN> </TD>
+                </TR>
+              </TABLE>
+              <SPAN CLASS="article_text">$art_content$ <!-- templatecell : img_caption --> 
+              <TABLE BORDER=0 CELLSPACING=5 CELLPADDING=0 WIDTH=$img_width$ ALIGN=$img_align$>
+                <TR> 
+                  <TD><IMG SRC="$img_url$" HEIGHT="$img_height$" WIDTH="$img_width$" BORDER=1></TD>
+                </TR>
+                <TR> 
+                  <TD><SPAN CLASS="image_caption">$img_caption$</SPAN></TD>
+                </TR>
+              </TABLE>
+              <!-- /templatecell : img_caption --> <!-- templatecell : img_nocaption --> 
+              <TABLE BORDER=0 CELLSPACING=2 CELLPADDING=0 WIDTH=$img_width$ ALIGN=$img_align$>
+                <TR> 
+                  <TD><IMG SRC="$img_url$" HEIGHT="$img_height$" WIDTH="$img_width$" BORDER=1></TD>
+                </TR>
+              </TABLE>
+              <!-- /templatecell : img_nocaption --> <br clear="all">
+              <br>
+              <SPAN CLASS="image_caption"> &copy; Copyright 2005, Tidewater Newspapers, 
+              Inc. <BR>
+              Box 2060, Gloucester, VA 23061 <BR>
+              804/693-3101 <br>
+              </SPAN> <br>
+              </span> <A HREF="#top">Top of Page</A><BR>
+              <P>&nbsp;</P>
+            </TD>
+            <TD WIDTH="15"></TD>
+          </TR>
+          <TR> 
+            <TD WIDTH="463" BGCOLOR="#333366" COLSPAN="3"><IMG BORDER="0" SRC="images/clear.gif" WIDTH="1" HEIGHT="1"></TD>
+          </TR>
+        </TABLE>
+        <P><SPAN CLASS="general_text">Last Updated: </SPAN><SPAN CLASS="global_updated">$global_updated$</SPAN></P>
+        <P>&nbsp;</P>
+      </td>
+      <td><img src="$_imageurl$set1_maple/spacer.gif" height=1 width=25></td>
+      <td  class="bg_nav_right" valign=top width=1%> <!-- INCLUDE TOP HEADLINES (from this category) --> 
+        <!--#include virtual="$publishdir_virtualpath$$file_headlines$" --> <img src="$_imageurl$set1_maple/spacer.gif" height=1 width=150><br>
+      </td>
+    </tr>
+  </table>
+
+<!-- footer -->
+
+</div>
+
+</body>
+</html>

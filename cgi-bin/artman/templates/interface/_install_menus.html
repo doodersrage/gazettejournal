@@ -1,0 +1,389 @@
+<!-- templatecell : _header -->
+<html><head><title>$_prog_name$ $_prog_ver$</title>
+ <meta name="robots" content="noindex,nofollow">
+  <script language="Javascript"><!--
+  // Check for CSS Support
+  if (navigator.userAgent.indexOf("MSIE 5") >= 0 ||
+      navigator.userAgent.indexOf("MSIE 6") >= 0) { CSS = true; }
+  else                                            { CSS = false; }
+  
+  function browse_dir(field_ref){
+  for (var form_number = 0; document.forms[form_number] != field_ref.form; form_number++) {
+    if (form_number > 100) { alert('Cannot find element in document.forms[]'); return false; }
+  }
+  var field_name = 'forms[' + form_number +  '].' + field_ref.name;
+  var sdir = field_ref.value;
+  window.open('$_cgiurl$?browse_dir=1&field_name=' + field_name + '&sdir=' + sdir,"PopUp",'resizable=yes,location=no,scrollbars=yes,toolbar=no,menubar=no,directories=no,status=yes,height=350,width=500');
+  return true;
+  }
+
+function browse_file(field_ref) {
+  for (var form_number = 0; document.forms[form_number] != field_ref.form; form_number++) {
+    if (form_number > 100) { alert('Cannot find element in document.forms[]'); return false; }
+  }
+  var field_name = 'forms[' + form_number +  '].' + field_ref.name;
+  var sdir = field_ref.value;
+  window.open('$_cgiurl$?browse_file=1&field_name=' + field_name + '&sdir=' + sdir,"PopUp",'resizable=yes,location=no,scrollbars=yes,toolbar=no,menubar=no,directories=no,status=yes,height=350,width=500');
+  return true;
+  }
+  
+  //--></script>
+</head>
+<body bgcolor="#EEEEEE" text="#000000" link="#0000CC" vlink="#0000CC" alink="#0000CC" marginwidth=0 marginheight=15 topmargin=15 leftmargin=0 onload="window.focus()"> 
+
+<form method=post action="$_cgiurl$">
+<input type="hidden" name="step" value="$_step$">
+<input type="hidden" name="save" value="1">
+<div align=center>
+
+<table border=0 cellspacing=0 cellpadding=0 width=590><tr><td bgcolor="#000000">
+<table border=0 cellspacing=1 cellpadding=5 width=100%>
+ <tr>
+  <td bgcolor="#0066CC" align=center>
+   <font face="ms sans serif, arial" color="#FFFFFF" size="2"><b>$_prog_name$ v$_prog_ver$</b></font><br>
+  </td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF">
+   <table border=0 cellspacing=0 cellpadding=5 width=100%><tr><td>
+    <font face="ms sans serif, arial" size="2">
+
+<!-- /templatecell : _header -->
+
+<!-- templatecell : welcome -->
+
+Welcome to the $_prog_name$ installation program.  This program will configure
+$_prog_name$ to run on your server.
+
+<P>WARNING:  This program is protected by copyright law and international treaties.
+
+<p>Unauthorized reproduction or distribution of this program, or any portion of
+it, may result in severe civil and criminal penalties, and will be prosecuted to the
+maximum extent possible under law.
+
+<br><br><div align=center>
+ If you have any questions please contact your vendor:<br>
+ <font size=+1><a href="$_vendor_url$" target="_new"><b>$_vendor_name$</b></a></font>
+</div><br><br>
+
+$_sublicense_notice$
+   <!-- /content -->
+   <!-- buttons -->
+   <hr size=1><div align=right>
+    <input type=submit value=" Next &gt;&gt; "><br>
+    </div>
+   <!-- /buttons -->
+
+<!-- /templatecell : welcome -->
+ 
+<br><hr>
+
+<!-- templatecell : license -->
+
+<p>Please read the following license agreement carefully.  Use the scroll bar to read
+the entire agreement.
+
+<p align=center>
+ <iframe src="$_cgiurl$?show_license=1" height=300 width=100%>
+  <a href="$_cgiurl$?show_license=1">Click here to read the license agreement</a>
+ </iframe>
+</p>
+
+<p>Do you accept all the terms of the preceding license agreement?  If so,
+click the "I Agree", otherwise, click "I Don't Agree" and the program will close.
+
+   <!-- /content -->
+   <!-- buttons -->
+    <hr size=1><div align=right>
+       <input type=submit name="agree" value="      I Agree      "> &nbsp;&nbsp;&nbsp;
+       <input type=submit name="dont_agree" value="I Don't Agree"> &nbsp;
+     </div>
+   <!-- /buttons -->
+
+<!-- /templatecell : license -->
+
+<br><hr>
+<!-- templatecell : cancelled -->
+
+<p>Installation Cancelled.
+
+<!-- /templatecell : cancelled -->
+
+<br><hr>
+
+<!-- templatecell : product_id -->
+   Please enter your company name (or your name), the domain name of the website
+   $_prog_name$ will be used on, and the Product ID you received with your software. 
+
+<center><p><font color="#FF0000"><b>$error$</b></font></center>
+
+   <p><table border=0 cellspacing=0 cellpadding=0>
+ <tr>
+  <td><font face="ms sans serif" size="2">Company Name&nbsp;&nbsp;</font></td>
+  <td><input type=text name="reg1" value="$_reg1$" size=45></td>
+ </tr>
+ <tr>
+  <td><font face="ms sans serif" size="2">Domain Name&nbsp;</font></td>
+  <td><font face="ta!homa,ms sans serif" size="2">http://</font> <input type=text name="reg2" value="$_reg2$" size=40></td>
+ </tr>
+ <tr>
+  <td><font face="ms sans serif" size="2">Product ID&nbsp;</font></td>
+  <td><input type=text name="reg3" value="$_reg3$" size=45></td>
+ </tr>
+</table>
+
+<p><b>Important Notice (read carefully):</b> 
+
+<p>Your Product ID gives you the right to use <b>one</b> copy of the software
+on <b>one</b> website.
+
+Installing multiple copies of the program is prohibited unless additional
+licenses are purchased for each installation. Using or allowing your 
+Product ID to be used to install the software multiple times is a violation
+of your license agreement.
+
+<p><input type="checkbox" name="agree"> I agree not to install more than one copy
+of the software and understand that doing so would violate my license agreement.
+
+<p>How many websites is this Product ID being used on? 
+<input type="text" name="reg4" value="$reg4$" size=3> (1-99)
+
+<p>Contact your vendor for information on purchasing additional licenses.
+
+   <!-- buttons -->
+    <hr size=1><div align=right>
+       <input type=submit value=" Next &gt;&gt; "><br>
+     </div>
+   <!-- /buttons -->
+
+<!-- /templatecell : product_id -->
+
+<!-- templatecell : too_many_sites -->
+<font color=red><b>
+Warning: You may only use your Product ID to install this program on ONE 
+website. Using or allowing your Product ID to be used to install the software 
+multiple times is a violation of your license agreement and may result in your 
+Vendor revoking your license.
+</b></font>
+<!-- /templatecell : too_many_sites -->
+
+<br><hr>
+
+<!-- templatecell : image_url -->
+<p>Please enter the url to the directory where $_prog_name$'s images
+can be found.  Click "Test" to check if the images can be found.
+
+ <p><table border=0 cellspacing=0 cellpadding=0>
+ <tr>
+  <td><font face="ms sans serif" size="2">Images URL &nbsp;</font></td>
+  <td>
+    <input type=text name="url_image" value="$url_image$" size=50>
+    <input type="button" value="  Test  " onclick="window.open('$_cgiurl$?image_url_test=1&imageurl=' + escape(document.forms[0].url_image.value),'Test','resizable=yes,location=yes,scrollbars=yes,toolbar=yes,menubar=yes,directories=no,status=yes');">
+  </td>
+ </tr>
+</table><br>
+
+   <!-- buttons -->
+    <hr size=1><div align=right>
+       <input type=submit value=" Next &gt;&gt; "><br>
+     </div>
+   <!-- /buttons -->
+
+<!-- /templatecell : image_url -->
+
+<br><hr>
+
+<!-- templatecell : image_url_test -->
+
+<p>If you can see the sample image below then the image URL
+is setup correctly.  If you see a broken image or no image at all then the
+server either can't find or can't display the images.<br><br>
+
+<div align=center>
+<img src="$images_url$sample_image.jpg" width="300" height="200"><br>
+
+<p>Image Path: <a href="$images_url$sample_image.jpg">$images_url$sample_image.jpg</a><br>
+
+</div>
+
+
+<p><b>TIP:</b> Some servers won't display images in the /cgi-bin/ directory. 
+If you've installed the program under /cgi-bin/ try uploading all the image
+files to another directory such as "/cgi-images/" and change the images url
+to point there "http://www.yourserver.com/cgi-images/".<br>
+   <!-- buttons -->
+    <hr size=1><div align=right><input type=button onClick="window.close()" value="   Close   "></div>
+   <!-- /buttons -->
+
+<!-- /templatecell : image_url_test -->
+
+<br><hr>
+
+<!-- templatecell : dirs_urls -->
+<p>$_prog_name$ also needs to know the URLs and paths to the following
+directories:
+
+ <p><table border=0 cellspacing=0 cellpadding=0>
+ <tr>
+  <td><font face="ms sans serif" size="2">Search Program URL &nbsp;</font></td>
+  <td>
+    <input type=text name="search_url" value="$search_url$" size=45>
+  </td>
+ </tr>
+ <tr>
+  <td><font face="ms sans serif" size="2">Viewer Program URL &nbsp;</font></td>
+  <td>
+    <input type=text name="viewer_url" value="$viewer_url$" size=45>
+  </td>
+ </tr>
+ <tr>
+  <td><font face="ms sans serif" size="2">Upload URL &nbsp;</font></td>
+  <td>
+    <input type=text name="url_upload" value="$url_upload$" size=45>
+  </td>
+ </tr>
+ <tr>
+  <td><font face="ms sans serif" size="2">Publish URL &nbsp;</font></td>
+  <td>
+    <input type=text name="url_publish" value="$url_publish$" size=45>
+  </td>
+ </tr>
+ <tr>
+  <td><font face="ms sans serif" size="2">Upload Directory &nbsp;</font></td>
+  <td>
+    <input type=text name="dir_upload" value="$dir_upload$" size=45>
+    <input type="button" value=" Browse " onclick="browse_dir(dir_upload);">
+  </td>
+ </tr>
+ <tr>
+  <td><font face="ms sans serif" size="2">Publish Directory &nbsp;</font></td>
+  <td>
+    <input type=text name="dir_publish" value="$dir_publish$" size=45>
+    <input type="button" value=" Browse " onclick="browse_dir(dir_publish);">
+  </td>
+ </tr>
+</table><br>
+
+   <!-- buttons -->
+    <hr size=1><div align=right>
+       <input type=submit name="step6" value=" Next &gt;&gt; "><br>
+     </div>
+   <!-- /buttons -->
+
+<!-- /templatecell : dirs_urls -->
+
+<br><hr>
+
+<!-- templatecell : mail -->
+<p>Next, the program needs to know how to send mail.  If you are unsure
+what to enter ask your system administrator for assistance.
+
+ <p><table border=0 cellspacing=0 cellpadding=0>
+
+   <tr>
+    <td><font face="arial,sans-serif" style="font-size: 12px;">Admin Email</td>
+    <td><input type="text" name="mail_admin" value="$mail_admin$" size=35></td>
+   </tr>
+
+   <tr><td colspan=2><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;</td>
+
+   <tr>
+    <td width=150><font face="arial,sans-serif" style="font-size: 12px;">Send mail with</td>
+    <td><input type="radio" name="mail_mailer" value="sendmail" $mail_mailer_sendmail_checked$> <font face="arial,sans-serif" style="font-size: 12px;">Sendmail (unix only)</font></td>
+   </tr>
+   <tr>
+    <td width=150><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;</td>
+    <td><input type="radio" name="mail_mailer" value="smtp" $mail_mailer_smtp_checked$> <font face="arial,sans-serif" style="font-size: 12px;">SMTP Server</font></td>
+   </tr>
+
+   <tr><td colspan=2><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;</td>
+
+   <tr>
+    <td><font face="arial,sans-serif" style="font-size: 12px;">Sendmail Path</td>
+    <td><input type="text" name="mail_sendmail" value="$mail_sendmail$" size=35> <input type="button" value="Browse..."  onClick="browse_file(mail_sendmail);"></td>
+   </tr>
+
+<!-- template insert : $sendmail_list$ -->
+<!-- templatecell : sendmail_row -->
+   <tr>
+    <td><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;</font></td>
+    <td><font face="arial,sans-serif" style="font-size: 12px;">Found in: $path$</font></td>
+   </tr>
+<!-- /templatecell : sendmail_row -->
+
+   <tr><td colspan=2><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;</td>
+
+   <tr>
+    <td><font face="arial,sans-serif" style="font-size: 12px;">SMTP Server</td>
+    <td><input type="text" name="mail_smtp" value="$mail_smtp$" size=35></td>
+   </tr>
+
+   <tr><input type="hidden" name="mail_pop3auth" value="0"> <!-- default checkbox value -->
+    <td><font face="arial,sans-serif" style="font-size: 12px;" height=27>&nbsp;</td>
+    <td><input type="checkbox" name="mail_pop3auth" value="1" $mail_pop3auth_1_checked$> <font face="arial,sans-serif" style="font-size: 12px;">POP3 Login? (required by some servers)</font></td>
+   </tr>
+   <tr>
+    <td><font face="arial,sans-serif" style="font-size: 12px;">POP3 Server</td>
+    <td><input type="text" name="mail_pop3" value="$mail_pop3$" size=35></td>
+   </tr>
+   <tr>
+    <td><font face="arial,sans-serif" style="font-size: 12px;">POP3 Username</td>
+    <td><input type="text" name="mail_pop3user" value="$mail_pop3user$" size=35></td>
+   </tr>
+   <tr>
+    <td><font face="arial,sans-serif" style="font-size: 12px;">POP3 Password</td>
+    <td><input type="password" name="mail_pop3pass" value="$mail_pop3pass$" size=35></td>
+   </tr>
+  </table><br>
+
+   <!-- buttons -->
+    <hr size=1><div align=right>
+       <input type=submit name="step6" value=" Next &gt;&gt; "><br>
+     </div>
+   <!-- /buttons -->
+
+<!-- /templatecell : mail -->
+
+<br><hr>
+
+<!-- templatecell : create_user -->
+<p>Please select a username and password and write them down in a safe place.
+If you forget your username and password you will need to re-install the program.
+
+<center><p><font color="#FF0000"><b>$error$</b></font></center>
+
+ <p><table border=0 cellspacing=0 cellpadding=0>
+ <tr>
+  <td><font face="ms sans serif" size="2">Admin Username&nbsp;</font></td>
+  <td><input type=text name="admin_id" value="$admin_id$" size=35></td>
+ </tr>
+ <tr>
+  <td><font face="ms sans serif" size="2">Admin Password&nbsp;</font></td>
+  <td><input type=text name="admin_pw" value="$admin_pw$" size=35></td>
+ </tr>
+</table><br>
+
+Once you have created your username and password click "Finish" and login to the
+program.<br>
+
+   <!-- buttons -->
+    <hr size=1><div align=right>
+       <input type=submit name="step7" value=" Finish &gt;&gt; "><br>
+     </div>
+   <!-- /buttons -->
+
+<!-- /templatecell : create_user -->
+
+
+<br><hr>
+
+<!-- templatecell : _footer -->
+</font>
+</td></tr></table>
+</td></tr></table>
+</td></tr></table>
+
+</div></form>
+</body></html>
+<!-- /templatecell : _footer -->
+

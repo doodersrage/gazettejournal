@@ -1,0 +1,142 @@
+<!--
+Found $search_match$ record(s)<br>
+Page $search_cpage$ of $search_tpage$<br>
+Showing results $search_lnum$ to $search_hnum$<br>
+-->
+
+<html><head><title>Search Results</title>
+<link href="$_imageurl$common/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="bg_main">
+
+<div align=center>
+<a name="top"></a>
+
+<table border=0 cellspacing=0 cellpadding=10 width=100% class="bg_header"><tr><td>
+
+   <table border=0 cellspacing=0 cellpadding=0>
+    <tr>
+            <td valign=top><span class="logo_text">GazetteJournal.net</span></td>
+    </tr>
+    <tr>
+            <td style="padding-left: 67px;"><span class="logo_sub"> News and Information</span><br>
+            </td>
+    </tr>
+   </table>
+ 
+</td><td align=right valign=top>
+<span class="general_text">
+
+    <a href="#">Linkname</a> | 
+    <a href="#">Linkname</a> | 
+    <a href="#">Linkname</a> | 
+    <a href="#">Linkname</a> | 
+    <a href="#">Linkname</a>&nbsp;<br><br>
+
+</span>
+</td></tr></table>
+
+<!-- body: left nav -->
+
+<table border=0 cellspacing=0 cellpadding=0 width=100% height=100%>
+ <tr>
+  <td class="bg_nav_left" valign=top width=1%>
+
+    <!-- INCLUDE CATEGORY LIST -->
+    <!--#include virtual="$publishdir_virtualpath$$file_categories$" -->
+    
+    <!-- INCLUDE SEARCH FORM -->
+    <!--#include virtual="$publishdir_virtualpath$$file_search$" -->
+
+   <img src="$_imageurl$set1_maple/spacer.gif" height=3 width=150><br>
+  </td>
+  <td><img src="$_imageurl$set1_maple/spacer.gif" height=1 width=25></td>
+  <td width=100% valign=top>
+
+        <table border=0 cellspacing=0 cellpadding=0 width=100%>
+          <tr>
+            <td> <span class="general_text"> 
+              <table border=0 cellspacing=0 cellpadding=0 width=100%>
+                <tr> 
+                  <td><span class="header_breadcrumb">SEARCH RESULTS</span></td>
+                  <td align="right">&nbsp;</td>
+                </tr>
+              </table>
+              <hr size=1>
+              <br>
+              <!-- template insert : $article_list$ --> <!-- templatecell : row --> 
+              <span class="summary_breadcrumb"><a name="$art_num$">$cat_breadcrumb$</a></span><br>
+              <span class="summary_title"><a href="$detail_link$">$art_name$</a></span><br>
+              <span class="summary">$art_summary$</span><br clear="all">
+              <br>
+              </span> <!-- /templatecell : row --> <!-- templatecell : row_summary --> 
+              <span class="summary_breadcrumb"><a name="$art_num$">$cat_breadcrumb$</a></span><br>
+              <span class="summary_title">$art_name$</span><br>
+              <span class="summary">$art_summary$</span><span class="summary_date"><br clear="all">
+              <br>
+              </span> <!-- /templatecell : row_summary --> <!-- templatecell : row_link --> 
+              <span class="summary_breadcrumb"><a name="$art_num$">$cat_breadcrumb$</a></span><br>
+              <span class="summary_title">$art_name$</span><br>
+              <span class="summary">$art_summary$</span> <span class="summary">[&nbsp;<a href="$detail_link$" target="_blank">Visit&nbsp;Website</a>&nbsp;]</span><span class="summary_date"><br clear="all">
+              <br>
+              </span> <!-- /templatecell : row_link --> <!-- templatecell : row_ufile --> 
+              <span class="summary_breadcrumb"><a name="$art_num$">$cat_breadcrumb$</a></span><br>
+              <span class="summary_title">$art_name$</span><br>
+              <span class="summary">$art_summary$</span> <span class="summary">[&nbsp;<a href="$detail_link$" target="_blank">Download/View&nbsp;File</a>&nbsp;]</span><span class="summary_date"><br clear="all">
+              <br>
+              </span> <!-- /templatecell : row_ufile --> <!-- templatecell : not_found --> 
+              <span class="summary">Sorry, no articles were found.</span><br>
+              <!-- /templatecell : not_found --> <!-- templatecell : img_caption --> 
+              <table border=0 cellspacing=2 cellpadding=0 width=$img_width$ align=$img_align$>
+                <tr>
+                  <td><img src="$img_url$" height="$img_height$" width="$img_width$" border=1></td>
+                </tr>
+                <tr>
+                  <td><span class="image_caption">$img_caption$</span></td>
+                </tr>
+              </table>
+              <!-- /templatecell : img_caption --> <!-- templatecell : img_nocaption --> 
+              <table border=0 cellspacing=2 cellpadding=0 width=$img_width$ align=$img_align$>
+                <tr>
+                  <td><img src="$img_url$" height="$img_height$" width="$img_width$" border=1></td>
+                </tr>
+              </table>
+              <!-- /templatecell : img_nocaption --> 
+              <div align=right><span class="more_headlines"> <!-- template insert : $prev$ --> 
+                <!-- templatecell : prev --> <a href="$prev_url$">&lt;&lt; prev</a> 
+                <!-- /templatecell : prev --> <!-- templatecell : no_prev --> 
+                <span>&lt;&lt; prev</span> <!-- /templatecell : no_prev --> <!-- template insert : $next$ --> 
+                <!-- templatecell : next --> <a href="$next_url$">next &gt;&gt;</a> 
+                <!-- /templatecell : next --> <!-- templatecell : no_next --> 
+                <span>next &gt;&gt;</span> <!-- /templatecell : no_next --> <!-- template insert : $more$ --> 
+                <!-- templatecell : more --> <a href="$more_url$">More Headlines</a> 
+                <!-- /templatecell : more --> <!-- templatecell : no_more --> 
+                <!-- /templatecell : no_more --> </span></div>
+              <br>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <DIV ALIGN="RIGHT"><SPAN CLASS="general_text">Last Updated: </SPAN><SPAN CLASS="global_updated">$global_updated$</SPAN></DIV>
+            </td>
+          </tr>
+        </table>
+   
+  </td>
+  <td><img src="$_imageurl$set1_maple/spacer.gif" height=1 width=25></td>
+  <td class="bg_nav_right" valign=top width=1%>
+
+    <!-- INCLUDE TOP HEADLINES (from each category) -->
+    <!--#include virtual="$publishdir_virtualpath$$file_headlines_bycat$" -->
+
+   <img src="$_imageurl$set1_maple/spacer.gif" height=1 width=150><br>
+  </td>
+ </tr>
+</table>
+
+<!-- footer -->
+
+</div>
+
+</body>
+</html>

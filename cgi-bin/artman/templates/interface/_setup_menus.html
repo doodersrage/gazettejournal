@@ -1,0 +1,1366 @@
+<!-- templatecell : header_null -->
+<html><head><title></title>
+<style type="text/css"><!--
+
+ a		{ text-decoration: none; color: #0000CC; }
+ a:hover	{ text-decoration: underline; }
+
+.NavLink	{ COLOR: #000000; text-decoration: none; }
+.NavUp		{ BORDER-STYLE: solid; BORDER-WIDTH: 1; BORDER-COLOR: #FFFFFF #999999 #999999 #FFFFFF; PADDING: 0 1 1 1; background-color: #CCCCCC; }
+.NavDown	{ BORDER-STYLE: solid; BORDER-WIDTH: 1; BORDER-COLOR: #999999 #FFFFFF #FFFFFF #999999; PADDING: 1 0 0 2; background-color: #CCCCCC; }
+.NavOff		{ BORDER-STYLE: solid; BORDER-WIDTH: 1; BORDER-COLOR: #CCCCCC #CCCCCC #CCCCCC #CCCCCC; PADDING: 0 1 1 1; background-color: #CCCCCC; }
+
+ --></style>
+  <script language="Javascript"><!--
+  // Check for CSS Support
+  if (navigator.userAgent.indexOf("MSIE 5") >= 0 ||
+      navigator.userAgent.indexOf("MSIE 6") >= 0) { CSS = true; }
+  else                                            { CSS = false; }
+
+  document.write ('<style type="text/css">');
+  if (CSS) {
+    document.write ('input.button  { background-color: #FFFFFF;  background-image: url(../images/button.gif); height: 16; width: 77; border: none; font-family: verdana, sans-serif; font-weight: normal;font-size: 10px; color: #000000; letter-spacing: -0.5pt; cursor: hand; }');
+    document.write ('input.button2 { background-color: #EEEEEE; background-image: url(../images/button.gif); height: 16; width: 77; border: none; font-family: verdana, sans-serif; font-weight: normal;font-size: 10px; color: #000000; letter-spacing: -0.5pt; cursor: hand; }');
+    document.write ('input.button_sm { background-color: #FFFFFF; background-image: url(../images/button_sm.gif); height: 16; width: 46; border: none; font-family: verdana, sans-serif; font-weight: normal;font-size: 10px; color: #000000; letter-spacing: -0.5pt; cursor: hand; }');
+    }
+  else { document.write ('.NavOff	{ BORDER-STYLE: none; BORDER-WIDTH: 0; PADDING: 0 0 0 0; }'); }
+  document.write ('</style>');
+
+// Menu Button Functions //
+
+function btnUp(obj)   { obj.className = "NavUp"; }
+function btnHide(obj) { obj.className = "NavOff"; }
+function btnDown(obj) { obj.className = "NavDown"; }
+
+//--></script>
+</head>
+<body bgcolor="#FFFFFF" marginwidth=15 marginheight=15 topmargin=15 leftmargin=15> 
+<form>
+
+<!-- /templatecell : header_null -->
+
+
+<!-- templatecell : tab_bar -->
+ <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td background="$_imageurl$ui_tab_middle.gif">
+ <table border=0 cellspacing=0 cellpadding=0>
+  <tr>
+  <!-- template insert : $tab_list$ -->
+<!-- templatecell : tab_selected -->
+   <td bgcolor="#FFFFFF" background="$_imageurl$ui_tab_l2.gif"><img src="$_imageurl$spacer.gif" height=20 width=2 border=0></td>
+   <td bgcolor="#FFFFFF" background="$_imageurl$ui_tab_bg2.gif"><a href="$_cgiurl$?setup_tab$tab_num$=1" style="text-decoration: none;"><font face="arial,sans-serif" size=2 style="text-decoration: none;" color="#000000">&nbsp;&nbsp;$tab_name$&nbsp;&nbsp;</a></td>
+   <td bgcolor="#FFFFFF" background="$_imageurl$ui_tab_r2.gif"><img src="$_imageurl$spacer.gif" height=20 width=2 border=0></td>
+   <td><img src="$_imageurl$ui_tab_middle.gif" height=20 width=2 border=0></td>
+<!-- /templatecell : tab_selected -->
+<!-- templatecell : tab_unselected -->
+   <td bgcolor="#EEEEEE" background="$_imageurl$ui_tab_l1.gif"><img src="$_imageurl$spacer.gif" height=20 width=2 border=0></td>
+   <td bgcolor="#EEEEEE" background="$_imageurl$ui_tab_bg1.gif"><a href="$_cgiurl$?setup_tab$tab_num$=1" style="text-decoration: none;"><font face="arial,sans-serif" size=2 style="text-decoration: none;" color="#000000">&nbsp;&nbsp;$tab_name$&nbsp;&nbsp;</a></td>
+   <td bgcolor="#EEEEEE" background="$_imageurl$ui_tab_r1.gif"><img src="$_imageurl$spacer.gif" height=20 width=2 border=0></td>   
+   <td><img src="$_imageurl$ui_tab_middle.gif" height=20 width=2 border=0></td>
+<!-- /templatecell : tab_unselected -->
+  </tr>
+</table>
+</td></tr></table>
+<!-- /templatecell : tab_bar -->
+
+
+<!-- templatecell : setup_warning -->
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr>
+   <td height=22 bgcolor="#EEEEEE"><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></td>
+  </tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+ 
+  
+    
+   <center><br><br><br><br>
+   <b><font color="#FF0000">Warning! Setup Options should only be updated by advanced users.</b><br>
+   Modifying these settings may cause your program to stop working correctly.<br>
+   <br><br><Br></center>
+
+
+   
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="setup_tab1" value="Continue">
+   <input type="submit" class="button" name="" value=" Go Back "><br>
+  </td>
+ </tr>
+</table>
+
+
+<!-- /templatecell : setup_warning -->
+
+
+
+
+<!-- templatecell : tab1 -->
+
+  <input type="hidden" name="setup_tab1" value="1">
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr><td bgcolor="#EEEEEE">
+  <table border=0 width=100% cellspacing=0 cellpadding=0><tr>
+   <td align=left height=22><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></td>
+   <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+    <input type="submit" class="button2" name="setup_save" value="   Save   ">
+    <input type="submit" class="button2" name="setup_tab1" value=" Cancel ">&nbsp;
+   </td>
+  </tr></table>
+  </td></tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+$_header_tab1$
+
+<!-- START : tab content -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+ <tr>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=1 width=1200><img src="$_imageurl$spacer.gif" height=10 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF">
+
+  <table border=0 cellspacing=0 cellpadding=0>
+   <tr>
+    <td rowspan=99><img src="$_imageurl$spacer.gif" height=1 width=25 border=0></td>
+    <td width=200>Titlebar Message &nbsp;</td>
+    <td><input type="text" name="titlebar" value="$titlebar$" size=30></td>
+   </tr>
+   <tr>
+    <td>Footer Message &nbsp;</td>
+    <td><input type="text" name="footer" value="$footer$" size=30></td>
+   </tr>
+   <tr><td colspan=3>&nbsp;</td></tr>
+   <tr>
+    <td>Display "confirm erase" page</td>
+    <td>
+     <input type="radio" name="confirm_erase" value="1" $confirm_erase_1_checked$>&nbsp;Yes
+     <input type="radio" name="confirm_erase" value="0" $confirm_erase_0_checked$>&nbsp;No
+    </td>
+   </tr>
+   <tr>
+    <td>Display "record erased" page</td>
+    <td>
+     <input type="radio" name="confirm_erased" value="1" $confirm_erased_1_checked$>&nbsp;Yes
+     <input type="radio" name="confirm_erased" value="0" $confirm_erased_0_checked$>&nbsp;No
+    </td>
+   </tr>
+   <tr>
+    <td>Display "record saved" page</td>
+    <td>
+     <input type="radio" name="confirm_saved" value="1" $confirm_saved_1_checked$>&nbsp;Yes
+     <input type="radio" name="confirm_saved" value="0" $confirm_saved_0_checked$>&nbsp;No
+    </td>
+   </tr>
+   <tr>
+    <td>Display "setup warning" page &nbsp;</td>
+    <td>
+     <input type="radio" name="setup_warning" value="1" $setup_warning_1_checked$>&nbsp;Yes
+     <input type="radio" name="setup_warning" value="0" $setup_warning_0_checked$>&nbsp;No
+    </td>
+   </tr>
+  </table>
+
+<!-- Editor Settings -->
+  <p><table border=0 cellspacing=0 cellpadding=3 width=100%>
+   <tr><td bgcolor="#EEEEEE"><b>&nbsp;Editor Settings</b></td></tr>
+  </table><font size=1><br>
+  
+  <table border=0 cellspacing=0 cellpadding=0>
+   <td rowspan=99><img src="$_imageurl$spacer.gif" height=1 width=25 border=0></td>
+    <td height=22 width=200>Default content format &nbsp;</td>
+    <td>
+     <input type="checkbox" name="default_autoformat" value="1" $default_autoformat_1_checked$> Auto Format by default
+        <input type="hidden" name="default_autoformat_default_to" value="0">
+    </td>
+   </tr>
+   <tr>
+    <td height=22>HTML Tag Parsing &nbsp;</td>
+    <td><input type="checkbox" name="allow_html" value="1" $allow_html_1_checked$> Allow HTML Tags in article content
+        <input type="hidden" name="allow_html_default_to" value="0">
+       </td>
+   </tr>
+   <tr>
+    <td height=22>Advanced Article Types &nbsp;</td>
+    <td><input type="checkbox" name="allow_art_types" value="1" $allow_art_types_1_checked$> Allow Article Types
+        <input type="hidden" name="allow_art_types_default_to" value="0">
+       </td>
+   </tr>
+   <tr>
+    <td height=22>Article Filenames &nbsp;</td>
+    <td><input type="checkbox" name="allow_art_filename" value="1" $allow_art_filename_1_checked$> Allow users to specify filenames for individual articles
+        <input type="hidden" name="allow_art_filename_default_to" value="0">
+       </td>
+   </tr>
+     <tr>
+    <td height=22>Re-publish all files &nbsp;</td>
+    <td valign=bottom><input type="submit" name="publish_all" value="Publish All" style="font-size: 12px;"></td>
+   </tr>
+</table>
+
+
+<!-- Dynamic Page Settings -->
+
+  <p><table border=0 cellspacing=0 cellpadding=3 width=100%>
+   <tr><td bgcolor="#EEEEEE"><b>&nbsp;Dynamic Page Settings</b></td></tr>
+  </table><font size=1><br>
+
+
+<table border=0 cellspacing=0 cellpadding=0>   
+   <tr>
+    <td rowspan=99><img src="$_imageurl$spacer.gif" height=1 width=25 border=0></td>
+    <td height=22 width="200">Dynamic Article Viewer &nbsp;</td>
+    <td><input type="checkbox" name="view_program_active" value="1" $view_program_active_1_checked$> Allow visitors to view articles dynamically
+        <input type="hidden" name="view_program_active_default_to" value="0">
+       </td>
+   </tr>
+   <tr>
+    <td height=22>Article Search Feature &nbsp;</td>
+    <td><input type="checkbox" name="search_program_active" value="1" $search_program_active_1_checked$> Allow visitors to search articles
+        <input type="hidden" name="search_program_active_default_to" value="0">
+       </td>
+   </tr>
+   <tr>
+    <td height=22>Webfeed Generator &nbsp;</td>
+    <td><input type="checkbox" name="webfeed_gen_active" value="1" $webfeed_gen_active_1_checked$> Allow visitors to access Webfeed Generator
+        <input type="hidden" name="webfeed_gen_active_default_to" value="0">
+       </td>
+   </tr>
+
+<tr><td colspan="2">&nbsp;</td></tr>
+
+   <tr>
+    <td height=22>Dynamic Page Rendering &nbsp;<br>&nbsp;</td>
+    <td><input type="radio" name="parse_ssi" value="" $parse_ssi__checked$> Resolve "template include" tags<br>
+<input type="radio" name="parse_ssi" value="1" $parse_ssi_1_checked$> Resolve SSIs and Server-side Scripting
+       </td>
+   </tr>
+
+<tr><td colspan="2">&nbsp;</td></tr>
+
+
+       <tr>
+        <td height=22 valign="top"><img src="$_imageurl$spacer.gif" height=4  width=1 border=0><br>Login Information for <br>
+Password Protected Folders&nbsp;</td>
+            <td>
+                  <table cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                    <td>
+                    Username&nbsp;</td>
+                    <td><input type="text" name="ssi_http_auth_username" value="$ssi_http_auth_username$"></td>
+                </tr>
+                <tr>
+                    <td>
+                    Password&nbsp;</td>
+                    <td><input type="password" name="ssi_http_auth_password" value="$ssi_http_auth_password$"></td>
+                </tr>
+              </table>
+           </td>
+       </tr>
+
+       <tr><td colspan="2"><img src="$_imageurl$spacer.gif" height=10  width=1 border=0></td></tr>
+       <tr>
+            <td>&nbsp;</td>
+            <td>
+              If your website or publish directory is password protected, 
+              login information is required by search.cgi, view.cgi, 
+              and admin.cgi (article previews) to display pages correctly.
+
+           </td>
+       </tr>
+  </table>
+  
+
+<!-- Article Fields -->
+  
+  <p><table border=0 cellspacing=0 cellpadding=3 width=100%>
+   <tr><td bgcolor="#EEEEEE"><b>&nbsp;Article Fields</b></td></tr>
+  </table><font size=1><br>
+  
+  <table border=0 cellspacing=0 cellpadding=0>   
+   <tr>
+    <td rowspan=99><img src="$_imageurl$spacer.gif" height=1 width=25 border=0></td>
+    <td align=center><b>placeholder</b></td>
+    <td rowspan=99><b>&nbsp;&nbsp;&nbsp;</b></td>
+    <td align=center><b>enabled</b></td>
+    <td rowspan=99><b>&nbsp;&nbsp;&nbsp;</b></td>
+    <td align=center><b>order</b></td>
+    <td rowspan=99><b>&nbsp;&nbsp;&nbsp;</b></td>
+    <td><b>field name</b></td>
+    <td rowspan=99><b>&nbsp;&nbsp;&nbsp;</b></td>
+    <td><b>field type</b></td>
+    <td rowspan=99><b>&nbsp;&nbsp;&nbsp;</b></td>
+    <td align=center><b>erase</b></td>
+   </tr>
+
+<!-- template insert : $spare_list$ -->
+<!-- templatecell : spare_row -->
+
+   <tr>
+    <td>art_field$num$</td>
+    <td align=center><input type="checkbox" name="sfield_enabled$num$" value="1"$enabled$><input type="hidden" name="sfield_enabled$num$_default_to" value="NULL"></td>
+    <td><input type="text" name="sfield_order$num$" value="$order$" size=2 maxlength=2></td>
+    <td><input type="text" name="sfield_name$num$" value="$name$" size=26></td>
+    <td><select name="sfield_type$num$"><option value="1" $type_1_selected$>text field<option value="3" $type_3_selected$>textarea<option value="5" $type_5_selected$>WYSIWYG<option value="2" $type_2_selected$>pulldown<option value="4" $type_4_selected$>checkbox</select></td>
+    <td><a href="$_cgiurl$?sfield_erase$num$=1">erase</a></td>
+   </tr>
+
+<!-- /templatecell : spare_row -->
+
+   <tr>
+    <td>art_summary</td>
+    <td align=center><input type="checkbox" name="summary_enabled" value="1"$summary_enabled_1_checked$><input type="hidden" name="summary_enabled_default_to" value="NULL"></td>
+    <td>&nbsp;</td>
+    <td><input type="text" name="summary_name" value="$summary_name$" size=26></td>
+    <td><select name="summary_type"><option value="0" $summary_type_0_selected$>textarea<option value="1" $summary_type_1_selected$>WYSIWYG</select></td>
+    <td>&nbsp;</td>
+   </tr>
+   <tr>
+    <td>art_content</td>
+    <td align=center><input type="checkbox" name="content_enabled" value="1"$content_enabled_1_checked$><input type="hidden" name="content_enabled_default_to" value="NULL"></td>
+    <td>&nbsp;</td>
+    <td><input type="text" name="content_name" value="$content_name$" size=26></td>
+    <td><select name="content_type"><option value="0" $content_type_0_selected$>textarea<option value="1" $content_type_1_selected$>WYSIWYG</select></td>
+    <td>&nbsp;</td>
+   </tr>
+
+</table>
+
+  
+  <p><table border=0 cellspacing=0 cellpadding=3 width=100%>
+   <tr><td bgcolor="#EEEEEE"><b>&nbsp;Article Sorting</b></td></tr>
+  </table><font size=1><br>
+  
+  <table border=0 cellspacing=0 cellpadding=1>
+   <tr>
+    <td rowspan=99><img src="$_imageurl$spacer.gif" height=1 width=25 border=0></td>
+    <td width=115>Sort field 1 &nbsp;</td>
+    <td>
+     <select name="sort1field"><option value="">-- None --<option value="stamp"$sort1field_stamp_selected$>Date<option value="spare1"$sort1field_spare1_selected$>Spare Field 1<option value="spare2"$sort1field_spare2_selected$>Spare Field 2<option value="spare3"$sort1field_spare3_selected$>Spare Field 3<option value="spare4"$sort1field_spare4_selected$>Spare Field 4<option value="spare5"$sort1field_spare5_selected$>Spare Field 5<option value="spare6"$sort1field_spare6_selected$>Spare Field 6<option value="spare7"$sort1field_spare7_selected$>Spare Field 7<option value="spare8"$sort1field_spare8_selected$>Spare Field 8<option value="spare9"$sort1field_spare9_selected$>Spare Field 9<option value="spare10"$sort1field_spare10_selected$>Spare Field 10<option value="spare11"$sort1field_spare11_selected$>Spare Field 11<option value="spare12"$sort1field_spare12_selected$>Spare Field 12<option value="spare13"$sort1field_spare13_selected$>Spare Field 13<option value="spare14"$sort1field_spare14_selected$>Spare Field 14<option value="spare15"$sort1field_spare15_selected$>Spare Field 15<option value="spare16"$sort1field_spare16_selected$>Spare Field 16<option value="spare17"$sort1field_spare17_selected$>Spare Field 17<option value="spare18"$sort1field_spare18_selected$>Spare Field 18<option value="spare19"$sort1field_spare19_selected$>Spare Field 19<option value="spare20"$sort1field_spare20_selected$>Spare Field 20<option value="name" $sort1field_name_selected$>Title<option value="summary"$sort1field_summary_selected$>Summary<option value="content"$sort1field_content_selected$>Content</select>
+     <input type="hidden" name="sort1reverse" value="0">
+     <input type="hidden" name="sort1numeric" value="0">
+     &nbsp; &nbsp; <input name="sort1reverse" type="checkbox" value="1"$sort1reverse_1_checked$> Reverse
+            &nbsp; <input name="sort1numeric" type="checkbox" value="1"$sort1numeric_1_checked$> Numeric
+    </td>
+   </tr>
+   <tr>
+    <td width=120>Sort field 2 &nbsp;</td>
+    <td>
+     <select name="sort2field"><option value="">-- None --<option value="stamp"$sort2field_stamp_selected$>Date<option value="spare1"$sort2field_spare1_selected$>Spare Field 1<option value="spare2"$sort2field_spare2_selected$>Spare Field 2<option value="spare3"$sort2field_spare3_selected$>Spare Field 3<option value="spare4"$sort2field_spare4_selected$>Spare Field 4<option value="spare5"$sort2field_spare5_selected$>Spare Field 5<option value="spare6"$sort2field_spare6_selected$>Spare Field 6<option value="spare7"$sort2field_spare7_selected$>Spare Field 7<option value="spare8"$sort2field_spare8_selected$>Spare Field 8<option value="spare9"$sort2field_spare9_selected$>Spare Field 9<option value="spare10"$sort2field_spare10_selected$>Spare Field 10<option value="spare11"$sort2field_spare11_selected$>Spare Field 11<option value="spare12"$sort2field_spare12_selected$>Spare Field 12<option value="spare13"$sort2field_spare13_selected$>Spare Field 13<option value="spare14"$sort2field_spare14_selected$>Spare Field 14<option value="spare15"$sort2field_spare15_selected$>Spare Field 15<option value="spare16"$sort2field_spare16_selected$>Spare Field 16<option value="spare17"$sort2field_spare17_selected$>Spare Field 17<option value="spare18"$sort2field_spare18_selected$>Spare Field 18<option value="spare19"$sort2field_spare19_selected$>Spare Field 19<option value="spare20"$sort2field_spare20_selected$>Spare Field 20<option value="name" $sort2field_name_selected$>Title<option value="summary"$sort2field_summary_selected$>Summary<option value="content"$sort2field_content_selected$>Content</select>
+     <input type="hidden" name="sort2reverse" value="0">
+     <input type="hidden" name="sort2numeric" value="0">
+     &nbsp; &nbsp; <input name="sort2reverse" type="checkbox" value="1"$sort2reverse_1_checked$> Reverse
+            &nbsp; <input name="sort2numeric" type="checkbox" value="1"$sort2numeric_1_checked$> Numeric
+    </td>
+   </tr>
+   <tr>
+    <td width=120>Sort field 3 &nbsp;</td>
+    <td>
+     <select name="sort3field"><option value="">-- None --<option value="stamp"$sort3field_stamp_selected$>Date<option value="spare1"$sort3field_spare1_selected$>Spare Field 1<option value="spare2"$sort3field_spare2_selected$>Spare Field 2<option value="spare3"$sort3field_spare3_selected$>Spare Field 3<option value="spare4"$sort3field_spare4_selected$>Spare Field 4<option value="spare5"$sort3field_spare5_selected$>Spare Field 5<option value="spare6"$sort3field_spare6_selected$>Spare Field 6<option value="spare7"$sort3field_spare7_selected$>Spare Field 7<option value="spare8"$sort3field_spare8_selected$>Spare Field 8<option value="spare9"$sort3field_spare9_selected$>Spare Field 9<option value="spare10"$sort3field_spare10_selected$>Spare Field 10<option value="spare11"$sort3field_spare11_selected$>Spare Field 11<option value="spare12"$sort3field_spare12_selected$>Spare Field 12<option value="spare13"$sort3field_spare13_selected$>Spare Field 13<option value="spare14"$sort3field_spare14_selected$>Spare Field 14<option value="spare15"$sort3field_spare15_selected$>Spare Field 15<option value="spare16"$sort3field_spare16_selected$>Spare Field 16<option value="spare17"$sort3field_spare17_selected$>Spare Field 17<option value="spare18"$sort3field_spare18_selected$>Spare Field 18<option value="spare19"$sort3field_spare19_selected$>Spare Field 19<option value="spare20"$sort3field_spare20_selected$>Spare Field 20<option value="name" $sort3field_name_selected$>Title<option value="summary"$sort3field_summary_selected$>Summary<option value="content"$sort3field_content_selected$>Content</select>
+     <input type="hidden" name="sort3reverse" value="0">
+     <input type="hidden" name="sort3numeric" value="0">
+     &nbsp; &nbsp; <input name="sort3reverse" type="checkbox" value="1"$sort3reverse_1_checked$> Reverse
+            &nbsp; <input name="sort3numeric" type="checkbox" value="1"$sort3numeric_1_checked$> Numeric
+    </td>
+   </tr>
+</table>
+
+  <p><table border=0 cellspacing=0 cellpadding=3 width=100%>
+   <tr><td bgcolor="#EEEEEE"><b>&nbsp;Upload Settings</b></td></tr>
+  </table><font size=1><br>
+  
+  <table border=0 cellspacing=0 cellpadding=0>
+   <tr>
+    <td rowspan=99><img src="$_imageurl$spacer.gif" height=1 width=25 border=0></td>
+    <td>Max file size for uploads</td>
+    <td>
+     <input type="radio" name="uploadlimit" value="0" $uploadlimit_0_checked$> None
+     <input type="radio" name="uploadlimit" value="1" $uploadlimit_1_checked$>
+     <input type="text" name="uploadmax" value="$uploadmax$" size=4> Kbytes<br>
+    </td>
+   </tr>
+   <tr>
+    <td width=200>Max image size for uploads &nbsp;</td>
+    <td>
+     <input type="text" name="upload_height" value="$upload_height$" size=3> Height &nbsp;
+     <input type="hidden" name="upload_height_default_to" value="NULL">
+     <input type="text" name="upload_width" value="$upload_width$" size=3> Width
+     <input type="hidden" name="upload_width_default_to" value="NULL">
+    </td>
+   </tr>
+   <tr>
+    <td width=200>Accepted upload extensions &nbsp;</td>
+    <td><input type="text" name="uploadext" value="$uploadext$" size=30></td>
+   </tr>
+</table>
+
+  <p><table border=0 cellspacing=0 cellpadding=3 width=100%>
+   <tr><td bgcolor="#EEEEEE"><b>&nbsp;Version Information</b></td></tr>
+  </table><font size=1><br>
+
+  <table border=0 cellspacing=0 cellpadding=0>
+   <tr>
+    <td rowspan=99><img src="$_imageurl$spacer.gif" height=1 width=25 border=0></td>
+    <td width=200>Your version</td>
+    <td>
+     $_prog_ver$
+    </td>
+   </tr>
+
+<p>
+ <table border=0 cellspacing=7 cellpadding=0 width=100%>
+  <tr><td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="setup_save" value="   Save   ">
+   <input type="submit" class="button" name="setup_tab1" value=" Cancel "><br>
+  </td></tr>
+ </table>
+    
+  </td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=3 width=1 border=0></td></tr>
+ <tr><td bgcolor="#000000" colspan=5><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td></tr>
+</table>
+<!-- END : tab content --> 
+
+
+<!-- /templatecell : tab1 -->
+
+
+<!-- templatecell : tab2 -->
+
+  <input type="hidden" name="setup_tab2" value="1">
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr><td bgcolor="#EEEEEE">
+  <table border=0 width=100% cellspacing=0 cellpadding=0><tr>
+   <td align=left height=22><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></td>
+   <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+    <input type="submit" class="button2" name="setup_save" value="   Save   ">
+    <input type="submit" class="button2" name="setup_tab2" value=" Cancel ">&nbsp;
+   </td>
+  </tr></table>
+  </td></tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+$_header_tab2$
+
+<!-- START : tab content -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+ <tr>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=1 width=1200><img src="$_imageurl$spacer.gif" height=10 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF">
+  
+  <!-- start of content -->
+  
+<!-- general info -->
+
+  <table border=0 cellspacing=0 cellpadding=0>
+   <tr>
+    <td rowspan=99><img src="$_imageurl$spacer.gif" height=1 width=25 border=0></td>
+    <td width=150>Server Name &nbsp;</td>
+    <td height=22>$env_server_name$</td>
+   </tr>
+   <tr>
+    <td>Server Software &nbsp;</td>
+    <td height=22>$env_server_software$</td>
+   </tr>
+   <tr>
+    <td>Perl version &nbsp;</td>
+    <td height=22>$env_perl_ver$ ($env_perl_os$)</td>
+   </tr>
+   <tr>
+    <td>mod_perl &nbsp;</td>
+    <td height=22>$env_mod_perl$</td>
+   </tr>
+   <tr>
+    <td>program dir &nbsp;</td>
+    <td height=22>$env_cgidir$</td>
+   </tr>
+   <tr>
+    <td>Remote&nbsp;Address&nbsp;&nbsp;</td>
+    <td height=22>$env_remote_addr$</td>
+   </tr>
+   <tr>
+    <td>Remote Host &nbsp;</td>
+    <td height=22>$env_remote_host$</td>
+   </tr>
+  </table>
+
+<!-- Directories and URLs -->
+
+ <p><table border=0 cellspacing=0 cellpadding=3 width=100%>
+   <tr><td colspan=3 bgcolor="#EEEEEE"><b>&nbsp;Directories and URLs</b></td></tr>
+  </table>
+
+  <font size=1><br>
+
+  <table border=0 cellspacing=0 cellpadding=0>
+   <tr>
+    <td rowspan=99><img src="$_imageurl$spacer.gif" height=1 width=25 border=0></td>
+    <td>Publish Dir</td>
+    <td><input type="text" name="dir_publish" value="$dir_publish$" size=35> <input type="button" value="Browse..."  onClick="browse_dir(dir_publish);"></td>
+   </tr>
+   <tr>
+    <td>Publish URL</td>
+    <td><input type="text" name="url_publish" value="$url_publish$" size=35></td>
+   </tr>
+   <tr><td colspan=2>&nbsp;</td>
+   <tr>
+    <td width=150>Upload Dir</td>
+    <td><input type="text" name="dir_upload" value="$dir_upload$" size=35> <input type="button" value="Browse..." onClick="browse_dir(dir_upload);"></td>
+   </tr>
+   <tr>
+    <td>Upload URL</td>
+    <td><input type="text" name="url_upload" value="$url_upload$" size=35></td>
+   </tr>
+   <tr><td colspan=2>&nbsp;</td>
+   <tr>
+    <td>Images URL</td>
+    <td><input type="text" name="url_image" value="$url_image$" size=35></td>
+   </tr>
+   <tr>
+    <td>Search URL</td>
+    <td><input type="text" name="search_url" value="$search_url$" size=35></td>
+   </tr>
+   <tr>
+    <td>Dynamic Viewer URL</td>
+    <td><input type="text" name="viewer_url" value="$viewer_url$" size=35></td>
+   </tr>
+   <tr>
+    <td>Help (?) URL</td>
+    <td><input type="text" name="url_help" value="$url_help$" size=35></td>
+   </tr>
+   <tr>
+    <td>Logoff URL</td>
+    <td><input type="text" name="url_logoff" value="$url_logoff$" size=35></td>
+   </tr>
+  </table>
+
+  
+  <!-- Publish File Settings -->
+
+  <p><table border=0 cellspacing=0 cellpadding=3 width=100%>
+   <tr><td bgcolor="#EEEEEE"><b>&nbsp;Publish File Settings</b></td></tr>
+  </table>
+  
+  <font size=1><br>
+  
+<table border=0 cellspacing=0 cellpadding=0>
+   <tr>
+    <td rowspan=99><img src="$_imageurl$spacer.gif" height=1 width=25 border=0></td>
+    <td width=150>Global Category Name &nbsp;</td>
+    <td><input type="text" name="gcat_name" value="$gcat_name$" size=30></td>
+   </tr>
+  </table>
+
+<p><table border=0 cellspacing=0 cellpadding=0>
+   <tr>
+    <td rowspan=99><img src="$_imageurl$spacer.gif" height=1 width=25 border=0></td>
+    <td width=150>&nbsp;</td>
+    <td align=center><b>Filename Prefix</b></td>
+    <td rowspan=99><b>&nbsp;&nbsp;&nbsp;</b></td>
+    <td><b>per page</b></td>
+    <td rowspan=99><b>&nbsp;&nbsp;&nbsp;</b></td>
+    <td align=center><b>publish</b></td>
+    <td rowspan=99><b>&nbsp;&nbsp;&nbsp;</b></td>
+    <td><b>example output</b></td>
+   </tr>
+   <tr>
+    <td>Global Index &nbsp;</td>
+    <td><input type="text" name="publish_index_fileprefix" value="$publish_index_fileprefix$" size=16></td>
+    <td align=center><input type="text" name="publish_index_qty" value="$publish_index_qty$" size=4 maxlength=5></td>
+    <td align=center><input type="checkbox" name="publish_index" value=1 $publish_index_1_checked$><input type="hidden" name="publish_index_default_to" value="0"></td>
+    <td>$publish_index_fileprefix$.$publish_fileext$</td>
+   </tr>
+   <tr>
+    <td>Category Indexes &nbsp;</td>
+    <td><input type="text" name="publish_cat_fileprefix" value="$publish_cat_fileprefix$" size=16></td>
+    <td align=center><input type="text" name="publish_cat_qty" value="$publish_cat_qty$" size=4 maxlength=5></td>
+    <td align=center><input type="checkbox" name="publish_cat" value=1 $publish_cat_1_checked$><input type="hidden" name="publish_cat_default_to" value="0"></td>
+    <td>$publish_cat_fileprefix$123.$publish_fileext$</td>
+   </tr>
+   <tr>
+    <td>Global Headlines &nbsp;</td>
+    <td><input type="text" name="publish_headline_fileprefix" value="$publish_headline_fileprefix$" size=16></td>
+    <td align=center><input type="text" name="publish_headline_qty" value="$publish_headline_qty$" size=4 maxlength=5></td>
+    <td align=center><input type="checkbox" name="publish_headlines" value=1 $publish_headlines_1_checked$><input type="hidden" name="publish_headlines_default_to" value="0"></td>
+    <td>$publish_headline_fileprefix$.$publish_fileext$</td>
+   </tr>
+   <tr>
+    <td>Category Headlines &nbsp;</td>
+    <td><input type="text" name="publish_cat_headline_fileprefix" value="$publish_cat_headline_fileprefix$" size=16></td>
+    <td align=center><input type="text" name="publish_cat_headline_qty" value="$publish_cat_headline_qty$" size=4 maxlength=5></td>
+    <td align=center><input type="checkbox" name="publish_cat_headlines" value=1 $publish_cat_headlines_1_checked$><input type="hidden" name="publish_cat_headlines_default_to" value="0"></td>
+    <td>$publish_cat_headline_fileprefix$123.$publish_fileext$</td>
+   </tr>
+   <tr>
+    <td>Top Headlines&nbsp;&nbsp;</td>
+    <td><input type="text" name="publish_sampler_fileprefix" value="$publish_sampler_fileprefix$" size=16></td>
+    <td align=center><input type="text" name="publish_sampler_qty" value="$publish_sampler_qty$" size=4 maxlength=5></td>
+    <td align=center><input type="checkbox" name="publish_sampler" value=1 $publish_sampler_1_checked$><input type="hidden" name="publish_sampler_default_to" value="0"></td>
+    <td>$publish_sampler_fileprefix$.$publish_fileext$</td>
+   </tr>
+
+   <tr>
+    <td>Syndicated&nbsp;Content&nbsp;</td>
+    <td><input type="text" name="publish_syndicate_fileprefix" value="$publish_syndicate_fileprefix$" size=16></td>
+    <td align=center><input type="text" name="publish_syndicate_qty" value="$publish_syndicate_qty$" size=4 maxlength=5></td>
+    <td align=center><input type="checkbox" name="publish_syndicate" value=1 $publish_syndicate_1_checked$><input type="hidden" name="publish_syndicate_default_to" value="0"></td>
+    <td>$publish_syndicate_fileprefix$123.js</td>
+   </tr>
+
+   <tr>
+    <td>Category List &nbsp;</td>
+    <td><input type="text" name="publish_cat_list_fileprefix" value="$publish_cat_list_fileprefix$" size=16></td>
+    <td align=center>n/a</td>
+    <td align=center><input type="checkbox" name="publish_list_of_cats" value=1 $publish_list_of_cats_1_checked$><input type="hidden" name="publish_list_of_cats_default_to" value="0"></td>
+    <td>$publish_cat_list_fileprefix$123.$publish_fileext$</td>
+   </tr>
+   <tr>
+    <td>Search Form &nbsp;</td>
+    <td><input type="text" name="publish_search_form_fileprefix" value="$publish_search_form_fileprefix$" size=16></td>
+    <td align=center>n/a</td>
+    <td align=center><input type="checkbox" name="publish_search_form" value=1 $publish_search_form_1_checked$><input type="hidden" name="publish_search_form_default_to" value="0"></td>
+    <td>$publish_search_form_fileprefix$.$publish_fileext$</td>
+   </tr>
+   <tr>
+    <td>Article Pages &nbsp;</td>
+    <td><input type="text" name="publish_art_fileprefix" value="$publish_art_fileprefix$" size=16></td>
+    <td align=center>n/a</td>
+    <td align=center><input type="checkbox" name="publish_article" value=1 $publish_article_1_checked$><input type="hidden" name="publish_article_default_to" value="0"></td>
+    <td>$publish_art_fileprefix$123.$publish_fileext$</td>
+   </tr>
+   <tr>
+    <td>Article&nbsp;Printer&nbsp;Pages&nbsp;</td>
+    <td><input type="text" name="publish_art_printer_fileprefix" value="$publish_art_printer_fileprefix$" size=16></td>
+    <td align=center>n/a</td>
+    <td align=center><input type="checkbox" name="publish_printer" value=1 $publish_printer_1_checked$><input type="hidden" name="publish_printer_default_to" value="0"></td>
+    <td>$publish_art_printer_fileprefix$123.$publish_fileext$</td>
+   </tr>
+</table>
+  
+  
+<!-- Subcategory Settings -->
+
+  <p><table border=0 cellspacing=0 cellpadding=3 width=100%>
+   <tr><td bgcolor="#EEEEEE"><b>&nbsp;Subcategory Settings</b></td></tr>
+  </table><font size=1><br>
+
+
+<table border=0 cellspacing=0 cellpadding=0>
+   <tr>
+    <td rowspan=99><img src="images/spacer.gif" height=1 width=25 border=0></td>
+   </tr>
+
+   <tr>
+    <td height=22 width=150>Subcategory&nbsp;Indexing&nbsp;&nbsp;</td>
+    <td>
+     <input type="hidden" name="include_subcat_articles_default_to" value="0">
+     <input type="checkbox" name="include_subcat_articles" value="1" $include_subcat_articles_1_checked$ style="vertical-align: middle">
+     Include subcategory articles in parent category article lists
+    </td>
+   </tr>
+   <tr>
+    <td height=22>Max Subcategory Depth &nbsp;</td>
+    <td>
+     Allow <input type="text" name="max_subcat_depth" value="$max_subcat_depth$" size=3 style="vertical-align: middle"> level(s) of depth
+    </td>
+   </tr>
+  <tr><td colspan=2>&nbsp;</td></tr>
+  <tr>
+   <td valign=top>Subcategory Format</td>
+   <td>
+   
+    <dl>
+     <dt><input type="radio" name="subcat_format" value="show_all" $subcat_format_show_all_checked$ style="vertical-align: middle"><b>Show All</b></dt>
+     <dd>All categories and subcategories are visible (recommended)</dd>
+  
+     <dt><input type="radio" name="subcat_format" value="one_level" $subcat_format_one_level_checked$ style="vertical-align: middle"><b>One Level</b></dt>
+     <dd>Always show 1st level categories and allow users to navigate deeper</dd>
+     
+     <dt><input type="radio" name="subcat_format" value="two_level" $subcat_format_two_level_checked$ style="vertical-align: middle"><b>Two Level</b></dt>
+     <dd>Show 1st and 2nd level categories and allow users to navigate deeper</dd>
+
+     <dt><input type="radio" name="subcat_format" value="selected_branch_only" $subcat_format_selected_branch_only_checked$ style="vertical-align: middle"><b>Selected Branch Only</b></dt>
+     <dd>Only show parents and subcategories of the selected category.</dd>
+
+     <dt><input type="radio" name="subcat_format" value="subcats_only" $subcat_format_subcats_only_checked$ style="vertical-align: middle"><b>Subcategories Only</b></dt>
+     <dd>Only show subcategories of the selected category (advanced).</dd>
+   </dl>
+   
+   </td>
+  </tr>
+   <tr>
+    <td height=22>Re-publish all files &nbsp;</td>
+    <td valign=bottom><input type="submit" name="publish_all" value="Publish All" style="font-size: 12px;"></td>
+   </tr>
+ </table>
+
+<!-- Publish Settings -->
+
+  <p><table border=0 cellspacing=0 cellpadding=3 width=100%>
+   <tr><td bgcolor="#EEEEEE"><b>&nbsp;Publish Settings</b></td></tr>
+  </table><font size=1><br>
+
+
+<table border=0 cellspacing=0 cellpadding=0>
+   <tr>
+    <td rowspan=99><img src="images/spacer.gif" height=1 width=25 border=0></td>
+   </tr>
+
+   <tr>
+    <td height=22 width=150>Auto Publish&nbsp;</td>
+    <td><input type="checkbox" name="auto_publish" value="1" $auto_publish_1_checked$> Update HTML pages automatically when content changes.
+        <input type="hidden" name="auto_publish_default_to" value="0">
+    </td>
+   </tr>
+   <tr>
+    <td height=22>Identify published pages &nbsp;</td>
+    <td><input type="checkbox" name="branding" value="1" $branding_1_checked$> Add meta generator tag and timestamp.
+        <input type="hidden" name="branding_default_to" value="0">
+    </td>
+   </tr>
+   <tr>
+    <td height=22>Archived article pages &nbsp;</td>
+    <td><input type="checkbox" name="static_archive_pages" value="1" $static_archive_pages_1_checked$> Publish "redirect" pages for external search engines.
+        <input type="hidden" name="static_archive_pages_default_to" value="0">
+    </td>
+   </tr>
+   <tr>
+    <td height=22>Dynamic Viewer URLs &nbsp;</td>
+    <td><input type="checkbox" name="viewer_pathinfo" value="1" $viewer_pathinfo_1_checked$> Use search engine friendly URLs.  (Not compatible with IIS)
+        <input type="hidden" name="viewer_pathinfo_default_to" value="0">
+    </td>
+   </tr>
+   <tr>
+    <td height=22>Hidden Category Indexes &nbsp;</td>
+    <td><input type="checkbox" name="publish_hidden_index" value="1" $publish_hidden_index_1_checked$> Update hidden category's indexes and syndicated files.
+        <input type="hidden" name="publish_hidden_index_default_to" value="0">
+    </td>
+   </tr>
+   <tr>
+    <td>Publish file extension &nbsp;</td>
+    <td><input type="text" name="publish_fileext" value="$publish_fileext$" size=6> example: shtml</td>
+   </tr>
+   <tr>
+    <td height=22>Re-publish all files &nbsp;</td>
+    <td valign=bottom><input type="submit" name="publish_all" value="Publish All" style="font-size: 12px;"></td>
+   </tr>
+  </table>
+ 
+<!-- Email Settings -->
+<script Language="JavaScript">
+function TestEmail() {
+  var url = '$_cgiurl$?setup_testmail=1';
+
+  // ensure sender name and email available
+  var mailOBJ = document.forms[0].mail_sender_email;
+  if (mailOBJ.value.length == 0) { alert("Sender Email may not be left blank.  Test cancelled.");   mailOBJ.focus();   return false; }
+  url = url + '&mail_sender_email=' + escape(mailOBJ.value);
+  
+  mailOBJ = document.forms[0].mail_sender_name;
+  if (mailOBJ.value.length == 0) { alert("Sender Name may not be left blank.  Test cancelled.");   mailOBJ.focus();   return false; }
+  url = url + '&mail_sender_name=' + escape(mailOBJ.value);
+  
+  // determine which mail program we are using
+  var mailArr = document.forms[0].mail_mailer;
+  var isSMTP;  // 0 is array index for sendmail, while 1 is the index for smtp
+  for (isSMTP = 0; isSMTP < mailArr.length; isSMTP++) { if (mailArr[isSMTP].checked) { break; } }
+  if (isSMTP) {
+    url = url + '&mail_mailer=smtp';
+    mailOBJ = document.forms[0].mail_smtp;
+    if (mailOBJ.value.length == 0) { alert("SMTP Server may not be left blank.  Test cancelled.");   mailOBJ.focus();   return false; }
+    url = url + '&mail_smtp=' + escape(mailOBJ.value);
+    mailOBJ = document.forms[0].mail_pop3auth;
+    if (mailOBJ.checked) {
+      url = url + '&mail_pop3auth=' + escape(mailOBJ.value);
+      mailOBJ = document.forms[0].mail_pop3;
+      if (mailOBJ.value.length == 0) { alert("POP3 Host may not be left blank.  Test cancelled.");   mailOBJ.focus();   return false; }
+      url = url + '&mail_pop3=' + escape(mailOBJ.value);
+      mailOBJ = document.forms[0].mail_pop3user;
+      if (mailOBJ.value.length == 0) { alert("POP3 Username may not be left blank.  Test cancelled.");   mailOBJ.focus();   return false; }
+      url = url + '&mail_pop3user=' + escape(mailOBJ.value);
+      mailOBJ = document.forms[0].mail_pop3pass;
+      if (mailOBJ.value.length == 0) { alert("POP3 Password may not be left blank.  Test cancelled.");   mailOBJ.focus();   return false; }
+      url = url + '&mail_pop3pass=' + escape(mailOBJ.value);
+    }
+  } else {  // collect sendmail form fields
+    url = url + '&mail_mailer=sendmail';
+    mailOBJ = document.forms[0].mail_sendmail;
+    if (mailOBJ.value.length == 0) { alert("Sendmail Path may not be left blank.  Test cancelled.");   mailOBJ.focus();   return false; }
+    url = url + '&mail_sendmail=' + escape(mailOBJ.value);
+  }
+  win_popup(url, 180, 350, true);
+}
+</script>
+<p><table border=0 cellspacing=0 cellpadding=3 width=100%>
+   <tr><td colspan=3 bgcolor="#EEEEEE"><b>&nbsp;Email Settings</b></td></tr>
+  </table><font size=1><br>
+
+<table border=0 cellspacing=0 cellpadding=0>
+   <tr>
+    <td rowspan=99><img src="$_imageurl$spacer.gif" height=1 width=25 border=0></td>
+    <td width="150">Enable Email Notification&nbsp;</td><td><input type="checkbox" name="email_notification_enabled" value="1" $email_notification_enabled_1_checked$> Notification preferences are configured in Login Accounts<input type="hidden" name="email_notification_enabled_default_to" value="null">
+    </td>
+   </tr>
+   <tr>
+     <td colspan=2>&nbsp;</td>
+   </tr>
+   <tr>
+    <td width="150">Sender Email</td>
+    <td><input type="text" name="mail_sender_email" value="$mail_sender_email$" size="35"></td>
+   </tr>
+   <tr>
+    <td>Sender Name</td>
+    <td><input type="text" name="mail_sender_name" value="$mail_sender_name$" size="35">&nbsp;</td>
+   <tr>
+     <td colspan=2>&nbsp;</td>
+   </tr>
+   <tr>
+    <td valign="top">Send email with:</td>
+    <td>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+        <td>
+        <input type="radio" name="mail_mailer" value="sendmail" $mail_mailer_sendmail_checked$></td>
+        <td> <b>Sendmail</b> (unix only)</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;Sendmail Path<br>
+&nbsp;<input type="text" name="mail_sendmail" value="$mail_sendmail$" size="25"><input type="button" value="Browse..."  onClick="browse_file(mail_sendmail);"></td>
+      </tr>
+      <!-- template insert : $sendmail_list$ -->
+<!-- templatecell : sendmail_row -->
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;Found in: $path$</td>
+      </tr>
+<!-- /templatecell : sendmail_row -->
+    </table>
+    </td>
+   </tr>
+   <tr>
+     <td colspan=2>&nbsp;</td>
+   </tr>
+   <tr>
+    <td>&nbsp;</td>
+    <td>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+        <td><input type="radio" name="mail_mailer" value="smtp" $mail_mailer_smtp_checked$></td>
+        <td><b>SMTP Server</b></td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td colspan="2">&nbsp;SMTP Server<br>
+&nbsp;<input type="text" name="mail_smtp" value="$mail_smtp$" size=36></td>
+      </tr>
+      <tr>
+        <td colspan="3">&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td colspan="2"><input type="checkbox" name="mail_pop3auth" value="1" $mail_pop3auth_1_checked$> POP3 Login? (required by some servers)
+                        <input type="hidden" name="mail_pop3auth_default_to" value="null">
+        </td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td> &nbsp;POP3 Host</td>
+        <td> <input type="text" name="mail_pop3" value="$mail_pop3$" size=20></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;POP3 Username</td>
+        <td><input type="text" name="mail_pop3user" value="$mail_pop3user$" size="20"></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;POP3 Password</td>
+        <td><input type="password" name="mail_pop3pass" value="$mail_pop3pass$" size="20"></td>
+      </tr>
+    </table>
+    </td>
+   </tr>
+   <tr><td colspan=2>&nbsp;</td>
+   <tr>
+    <td valign="bottom">Send test email</td>
+    <td valign="bottom">
+    <input type="button" value="Test Email" onClick="TestEmail()">&nbsp;(uses Email Settings above without saving)</td>
+   </tr>
+  </table>
+
+
+<!-- Local Time Adjustment -->
+
+ <p><table border=0 cellspacing=0 cellpadding=3 width=100%>
+   <tr><td colspan=3 bgcolor="#EEEEEE"><b>&nbsp;Local Time Adjustment</b></td></tr>
+  </table>
+
+  <font size=1><br>
+
+  <table border=0 cellspacing=0 cellpadding=0>
+   <tr>
+    <td rowspan=99><img src="$_imageurl$spacer.gif" height=1 width=25 border=0></td>
+    <td width=150>Server Time &nbsp;</td>
+    <td height=22>$stime$</td>
+   </tr>
+   <tr>
+    <td>Adjust Hours &nbsp;</td>
+    <td>
+     <select name="lhour"><option value="add" $lhour_add_selected$>add<option value="minus" $lhour_minus_selected$>minus</select>
+     <input type="text" name="lhour_offset" value="$lhour_offset$" size=4> hour(s)<br>
+    </td>
+   </tr>
+   <tr>
+    <td>Adjust Minutes &nbsp;</td>
+    <td>
+     <select name="lmin"><option value="add" $lmin_add_selected$>add<option value="minus" $lmin_minus_selected$>minus</select>
+     <input type="text" name="lmin_offset" value="$lmin_offset$" size=4> minute(s)<br>
+    </td>
+   </tr>
+   <tr>
+    <td>Local Time &nbsp;</td>
+    <td height=22>$ltime$</td>
+   </tr>
+  </table>
+
+
+
+<!-- end of content -->
+
+ <p><table border=0 cellspacing=7 cellpadding=0 width=100%>
+  <tr><td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="setup_save" value="   Save   ">
+   <input type="submit" class="button" name="setup_tab2" value=" Cancel "><br>
+  </td></tr>
+ </table>
+    
+  </td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=3 width=1 border=0></td></tr>
+ <tr><td bgcolor="#000000" colspan=5><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td></tr>
+</table>
+<!-- END : tab content --> 
+
+
+<!-- /templatecell : tab2 -->
+
+
+<!-- templatecell : tab9 -->
+
+  <input type="hidden" name="setup_tab9" value="1">
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr><td bgcolor="#EEEEEE">
+  <table border=0 width=100% cellspacing=0 cellpadding=0><tr>
+   <td align=left height=22><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></td>
+   <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+    <input type="submit" class="button2" name="setup_save" value="   Save   ">
+    <input type="submit" class="button2" name="setup_tab9" value=" Cancel ">&nbsp;
+   </td>
+  </tr></table>
+  </td></tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+ 
+$_header_tab9$
+
+<!-- START : tab content -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+ <tr>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=1 width=1200><img src="$_imageurl$spacer.gif" height=10 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF">
+
+    <p align=center><b><font color="#FF0000">$error$</b></p>
+
+    <table border=0 cellspacing=0 cellpadding=0>
+     <tr>
+      <td>Company&nbsp;Name&nbsp;</td>
+      <td><input type=text name="reg1" value="$_reg1$" size=30></td>
+     </tr>
+     <tr>
+      <td>Domain&nbsp;Name&nbsp;</td>
+      <td><input type=text name="reg2" value="$_reg2$" size=30></td>
+     </tr>
+     <tr>
+      <td>Product&nbsp;ID&nbsp;</td>
+      <td><input type=text name="reg3" value="$_reg3$" size=30></td>
+     </tr>
+     <tr><td>&nbsp;</td></tr>
+     <tr>
+      <td valign="top">Vendor&nbsp;</td>
+      <td><a href="$_vendor_url$" target="_new">$_vendor_name$</a>
+          <p>$_sublicense_notice$
+          </td>
+     </tr>
+    </table>
+
+ <table border=0 cellspacing=7 cellpadding=0 width=100%>
+  <tr><td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="setup_save" value="   Save   ">
+   <input type="submit" class="button" name="setup_tab9" value=" Cancel "><br>
+  </td></tr>
+ </table>
+
+  </td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=3 width=1 border=0></td></tr>
+ <tr><td bgcolor="#000000" colspan=5><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td></tr>
+</table>
+<!-- END : tab content --> 
+
+
+<!-- /templatecell : tab9 -->
+
+
+<!-- templatecell : saved_tab1 -->
+
+  <input type="hidden" name="setup_tab1" value="1">
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr>
+   <td height=22 bgcolor="#EEEEEE"><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></td>
+  </tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+$_header_tab1$
+
+<!-- START : tab content -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+ <tr>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=1 width=1200><img src="$_imageurl$spacer.gif" height=10 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF" align=center>
+    
+   <center><br><br><br><br>
+   <b>General settings have been saved</b>
+   <br><br><br></center>
+   
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="setup_tab1" value="     OK     "><br>
+  </td>
+ </tr>
+</table>
+
+  </td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=3 width=1 border=0></td></tr>
+ <tr><td bgcolor="#000000" colspan=5><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td></tr>
+</table>
+
+<!-- /templatecell : saved_tab1 -->
+
+
+<!-- templatecell : saved_tab2 -->
+
+  <input type="hidden" name="setup_tab2" value="1">
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr>
+   <td height=22 bgcolor="#EEEEEE"><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></td>
+  </tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+$_header_tab2$
+
+<!-- START : tab content -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+ <tr>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=1 width=1200><img src="$_imageurl$spacer.gif" height=10 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF" align=center>
+    
+   <center><br><br><br><br>
+   <b>Server settings have been saved</b>
+   <br><br><br></center>
+   
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="setup_tab2" value="     OK     "><br>
+  </td>
+ </tr>
+</table>
+
+  </td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=3 width=1 border=0></td></tr>
+ <tr><td bgcolor="#000000" colspan=5><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td></tr>
+</table>
+
+<!-- /templatecell : saved_tab2 -->
+
+<!-- templatecell : saved_tab4 -->
+
+  <input type="hidden" name="setup_tab4" value="1">
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr>
+   <td height=22 bgcolor="#EEEEEE"><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></td>
+  </tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+$_header_tab4$
+
+<!-- START : tab content -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+ <tr>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=1 width=1200><img src="$_imageurl$spacer.gif" height=10 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF" align=center>
+    
+   <center><br><br><br><br>
+   <b>Server settings have been saved</b>
+   <br><br><br></center>
+   
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="setup_tab4" value="     OK     "><br>
+  </td>
+ </tr>
+</table>
+
+  </td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=3 width=1 border=0></td></tr>
+ <tr><td bgcolor="#000000" colspan=5><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td></tr>
+</table>
+
+<!-- /templatecell : saved_tab4 -->
+
+
+<!-- templatecell : saved_tab9 -->
+
+  <input type="hidden" name="setup_tab9" value="1">
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr>
+   <td height=22 bgcolor="#EEEEEE"><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></td>
+  </tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+$_header_tab9$
+
+<!-- START : tab content -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+ <tr>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=1 width=1200><img src="$_imageurl$spacer.gif" height=10 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF" align=center>
+    
+   <center><br><br><br><br>
+   <b>License Info have been saved</b>
+   <br><br><br></center>
+   
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="setup_tab9" value="     OK     "><br>
+  </td>
+ </tr>
+</table>
+
+  </td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=3 width=1 border=0></td></tr>
+ <tr><td bgcolor="#000000" colspan=5><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td></tr>
+</table>
+
+<!-- /templatecell : saved_tab9 -->
+
+<!-- templatecell : confirm_spare_erase -->
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr>
+   <td height=22 bgcolor="#EEEEEE"><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></td>
+  </tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+$_header_tab1$
+
+<!-- START : tab content -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+ <tr>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=1 width=1200><img src="$_imageurl$spacer.gif" height=10 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF" align=center>
+
+   <center><br><br><br><br>
+   <b>Erasing a spare field will reset data in that field for all records.</b><br>
+   Are you sure you want to erase spare field #$field$?
+   <br><br><br></center>
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="sfield_confirm_erase$field$" value="  Erase  ">
+   <input type="submit" class="button" name="setup_tab1" value=" Cancel "><br>
+  </td>
+ </tr>
+</table>
+
+  </td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=3 width=1 border=0></td></tr>
+ <tr><td bgcolor="#000000" colspan=5><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td></tr>
+</table>
+<!-- /templatecell : confirm_spare_erase -->
+
+<!-- templatecell : spare_erased -->
+
+  <input type="hidden" name="setup_tab1" value="1">
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr>
+   <td height=22 bgcolor="#EEEEEE"><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></td>
+  </tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+$_header_tab1$
+
+<!-- START : tab content -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+ <tr>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=1 width=1200><img src="$_imageurl$spacer.gif" height=10 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF" align=center>
+    
+   <center><br><br><br><br>
+   <b>Spare Field #$field$ has been erased.</b>
+   <br><br><br></center>
+   
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="setup_tab1" value="     OK     "><br>
+  </td>
+ </tr>
+</table>
+
+  </td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=3 width=1 border=0></td></tr>
+ <tr><td bgcolor="#000000" colspan=5><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td></tr>
+</table>
+
+<!-- /templatecell : spare_erased -->
+
+<!-- templatecell : published_all -->
+
+  <input type="hidden" name="setup_tab1" value="1">
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr>
+   <td height=22 bgcolor="#EEEEEE"><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></td>
+  </tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+$_header_tab1$
+
+<!-- START : tab content -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+ <tr>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=1 width=1200><img src="$_imageurl$spacer.gif" height=10 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF" align=center>
+    
+   <center><br><br><br><br>
+   <b>All files have been published</b>
+   <br><br><br></center>
+   
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="setup_tab1" value="     OK     "><br>
+  </td>
+ </tr>
+</table>
+
+  </td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=3 width=1 border=0></td></tr>
+ <tr><td bgcolor="#000000" colspan=5><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td></tr>
+</table>
+
+<!-- /templatecell : published_all -->

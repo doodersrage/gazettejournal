@@ -1,0 +1,36 @@
+
+   <table border=0 cellspacing=0 cellpadding=5 width=100%>
+    <tr>
+     <td class="bg_nav_right_header" align=center>
+      <span class="nav_right_category_header">$cat_name$</span><br>
+      <span class="nav_right_header">Latest Headlines</span><br>
+     </td>
+    </tr>
+   </table>
+
+   <table border=0 cellspacing=1 cellpadding=2 width=100%>   
+    <!-- template insert : $article_list$ -->
+
+      <!-- templatecell : row -->
+      <tr><td><span class="nav_right_headlines"><a href="$detail_link$">$art_name$</a></span></td></tr>
+      <!-- /templatecell : row -->
+      
+      <!-- templatecell : row_summary -->
+      <tr><td><span class="nav_right_headlines"><a href="$url_index$#$art_num$">$art_name$</a></span></td></tr>
+      <!-- /templatecell : row_summary -->
+      
+      <!-- templatecell : row_link -->
+      <tr><td><span class="nav_right_headlines"><a href="$url_index$#$art_num$">$art_name$</a></span></td></tr>
+      <!-- /templatecell : row_link -->
+      
+      <!-- templatecell : row_ufile -->
+      <tr><td><span class="nav_right_headlines"><a href="$url_index$#$art_num$">$art_name$</a></span></td></tr>
+      <!-- /templatecell : row_ufile -->
+      
+      <!-- templatecell : not_found -->
+      <tr><td><span class="nav_right_headlines">No articles available.</SPAN></td></tr>
+      <!-- /templatecell : not_found -->
+
+      <!-- templatecell : img_caption --> <!-- /templatecell : img_caption -->
+      <!-- templatecell : img_nocaption --> <!-- /templatecell : img_nocaption -->
+   </table>

@@ -1,0 +1,3 @@
+Subject: Mail Test
+
+Body: Since you have received this e-mail, the settings entered are correct and working.

@@ -1,0 +1,3166 @@
+"Christian, Emerald A"	"Baltimore, Md."	"Bristow, Myron Edison"	Gloucester	MJ	6/15/1905
+"Hudgins, Birdie Eulalia"	Laban	"Hudgins, Carroll"		MJ	6/22/1905
+"Shackleford, Mary Henry"	Mathews	"Mattox, Raymond J."	Mathews	MJ	6/22/1905
+"Hudgins, Laura"	Laban	"Sadler, Eddie"	Laban	MJ	6/29/1905
+"Hudgins, May"	York County	"Hudgins, Luther"	New Point	MJ	7/13/1905
+"Hudgins, Mae D."		"Hudgins, Thomas L."		MJ	7/20/1905
+"Ewell, Lessie"	Foster	"Morgan, Nelson"		MJ	8/3/1905
+"Hudgins, B. B., Mrs."	Mathews	"Hudgins, B. B."	Mathews	MJ	8/10/1905
+"Armistead, Mattie L."	Mathews	"Lilly, Rufus S."		MJ	11/16/1905
+"Foster, W. M., Mrs."	Redart	"Foster, W. M."	Redart	MJ	11/23/1905
+"Marchant, Maude V."		"Minter, R. C."		MJ	11/30/1905
+"Marble, Hulda"	Gloucester	"German, James"	Gloucester	MJ	12/7/1905
+"McCandlish, Virginia"	Saluda	"Evans, William Dunbar"		MJ	12/7/1905
+"Callis, Myrtle M."		"Hudgins, William G."		MJ	12/14/1905
+"Williams, Erastus P., Mrs."	Lancaster	"Williams, Erastus P."	Lancaster	MJ	12/14/1905
+"Winder, E E., Mrs."	Redart	"Winder, E. E."	Redart	MJ	12/14/1905
+"Fitchett, Lillian"	Port Haywood	"Hogue, Arthur"	Newport News	MJ	12/21/1905
+"Jones, Anne Burwell"	Newport News	"Rogers, Ernest B."	"Warren, Pa."	MJ	12/21/1905
+"Bassett, Sallie C."		"Foster, Robert H."		MJ	1/5/1906
+"Callis, Amanda N."	Cobbs Creek	"Ashburn, Ellis Edward"		MJ	1/5/1906
+"Callis, Mary Louise"		"Callis, Carter Braxton"		MJ	1/5/1906
+"Forrest, Sarah Lee"		"Foster, Emmet Fenton"		MJ	1/5/1906
+"Powell, Sallie E."		"Callis, Robert H. "		MJ	1/5/1906
+"Collins, Harry, Mrs."	Susan	"Collins, Harry"	Susan	MJ	1/11/1906
+"Hudgins, L. W.Mrs."	Mobjack	"Hudgins, L. W. (15th anniv)"	Mobjack	MJ	1/18/1906
+"Jones, Dora"	Bohannon	"Hughes, Curtis"	Bohannon	MJ	1/18/1906
+"Sadler, Peachie"	Laban	"Hudgins, Grover"		MJ	1/18/1906
+"Callis, Belle"	Gwynn	"Godsey, Robert"	Gwynn's Island	MJ	1/25/1906
+"Diggs, Miss"	Laban	"Diggs, Monroe"	Laban	MJ	2/8/1906
+"Powell, Mary Gwynn"		"Wiley, Robert Ludwig"	Mathews	MJ	2/8/1906
+"Foster, Wade H., Mrs."	Hudgins	"Foster, Wade H."	Hudgins	MJ	3/1/1906
+"Adams, Grace W."	Hallieford	"Heacock, Edwin"	"Birmingham, Mich."	MJ	3/15/1906
+"Downs, Lena"	North	"Nelson, Harry"	North	MJ	4/12/1906
+"Downs, Lena"	North	"Nelson, Harry"	North	MJ	4/12/1906
+"Brown, Fannie Lee"	Gwynn's Island	"Anderton, Charles Bernard"	Mathews	MJ	4/26/1906
+"Richardson, Annie"		"Ashberry, Grover Cleveland"		MJ	5/17/1906
+"Evans, Emily B."	"Wilmington, N.C."	"Ferguson, John W."	"Charlotte, N.C."	MJ	6/7/1906
+"Foster, Mary Sharpe"	Bohannon	"White, Otlie A."	Bohannon	MJ	6/14/1906
+"Pugh, Ida M."	Mathews	"Grubbs, Walter J."	Portsmouth	MJ	6/14/1906
+"Toleson, Earlean"	Mathews	"White, William H."	Mathews	MJ	6/21/1906
+"Thurston, Blanche"		"Forrest, G. W. "		MJ	6/28/1906
+"Borum, Eloise"		"Borum, Luther A."		MJ	7/5/1906
+"Callis, Josephine Virginia"	Mathews	"Watson, William"	York County	MJ	7/5/1906
+"Jarvis, Hattie M."		"White, Clarence"		MJ	7/5/1906
+"Owens, Sarah Althiza"		"Hurst, Bernard Howell"		MJ	7/5/1906
+"Singleton, Nettie"	Susan	"Diggs, Willie"		MJ	7/5/1906
+"Soles, Josephine"	Soles	"Lewis, John Calvin"		MJ	7/5/1906
+"Hughes, Rosa"	Glebe	"Williams, Joseph R."	Hudgins	MJ	9/27/1906
+"Hughes, Rosa"	Glebe	"Williams, Joseph R."	Hudgins	MJ	10/4/1906
+"Morgan, Alice"	"Baltimore, Md."	"Benser, E. W."	"Baltimore, Md."	MJ	10/4/1906
+"Hughes, Rosa"	Glebe	"Williams, Joseph R."	Hudgins	MJ	10/11/1906
+"Respess, Maud"	Gwynn	"Raymond, Frank B., Rev."	Newport News	MJ	10/11/1906
+"Miller, Bessie Dale"	Mathews	"Hoskins, Robert Roy, Dr."	Mathews	MJ	10/25/1906
+"Miller, Bessie Dale"	Mathews	"Hoskins, Robert Roy, Dr."	Mathews	MJ	10/25/1906
+"Crewe, Mary"	Richmond	"Shinault, James Monroe (engagement)"	Mathews	MJ	12/6/1906
+"Edwards, Mrs."		"Edwards, Wattie"		MJ	12/6/1906
+"Gay, Arthur"		"Godsey, Bell"		MJ	12/6/1906
+"Green, Maggie"	Portsmouth	"Diggs, Marvin"	Port Haywood	MJ	12/6/1906
+"Covill, Miss"		"Hudgins, Hubert"	New Point	MJ	1/3/1907
+"Crockett, Alice B."		"Hurst, Thomas M."		MJ	1/3/1907
+"Miller, Florence"	North	"Scott, Edwin"		MJ	1/3/1907
+"Davis, Russia"		"Buchannon, Mr."		MJ	1/10/1907
+"Forrest, __zie"		"Jones, Edmond"		MJ	1/10/1907
+"Fox, Miss"		"Fox, Daniel"		MJ	1/10/1907
+"Thomas, Lena"		"Hudgins, Muscoe"		MJ	1/10/1907
+"Forrest, Elizabeth Stuart"		"Jones, Edmond H."		MJ	1/17/1907
+"Machen, Maggie"	Mobjack	"White, Harry"	Mobjack	MJ	1/17/1907
+"Thomas, Lena"		"Hudgins, Moscow"		MJ	1/17/1907
+"Hearst, Ada"		"Brooks, James T."	Blakes	MJ	1/24/1907
+"Tabor, Mattie"		"Tylor, Noah C."		MJ	1/31/1907
+"Butler, Mollie"		"Oliver, Carroll"	Mobjack	MJ	2/14/1907
+"Bush, Nora"	"LeNoir, N.C."	"Enos, John"	Susan	MJ	2/21/1907
+"Miller, Nellie"		"Thomas, George W."		MJ	2/21/1907
+"Foster, Lizzie"	Gwynn	"Edwards, Mr."		MJ	3/7/1907
+"Stone, Hattie"	Hudgins	"Cahoun, Edward"	Norfolk	MJ	3/7/1907
+"Miller, Nellie"		"Thomas, George W."	Laban	MJ	3/14/1907
+"Baines, Lilian Budd"	Hampton	"Hudgins, John Malvern"	Mathews	MJ	4/4/1907
+"Crew, Essie L."		"DuVal, Curtis"		MJ	4/4/1907
+"Lewis, Bertie"	Mathews	"Diggs, Charles"	Mathews	MJ	4/4/1907
+"Minor, Nettie"		"Garrett, Edwin"		MJ	4/4/1907
+"Robbins, Josephine"	Bohannon	"Edwards, Willie"		MJ	4/4/1907
+"Minor, Nettie R."	Bohannon	"Garrett, Edward S."		MJ	4/11/1907
+"Sadler, Clara T. (engagement)"	Hudgins	"Brooks, Enos L."	Hallieford	MJ	4/11/1907
+"Brownley, Edythe (engagement)"		"Hudgins, Vernie"	Susan	MJ	4/18/1907
+"Forrest, Mary Estell"	Gwynn's Island	"Godsey, Richard Gordon"		MJ	4/18/1907
+"Peters, Dora"		"Bassett, Gilbert"		MJ	4/18/1907
+"Brownley, Edythe  "		"Hudgins, Vernie"		MJ	4/25/1907
+"Hudgins, Lula"		"Shorts, John"		MJ	4/25/1907
+"Sadler, Clara T.  "	Hudgins	"Brooks, Enos L."	Hallieford	MJ	4/25/1907
+"White, Celia"	Susan	"Gayle, Thomas"		MJ	4/25/1907
+"Brownley, Edythe (2 notices)"	Susan	"Hudgins, Vernie"	Portsmouth	MJ	5/2/1907
+"Hudgins, Lulie V."		"Brownley, Marshall J."		MJ	5/2/1907
+"Tolson, Leah A."	"Morehead City, N.C."	"Treakle, S. B."	Mathews	MJ	5/2/1907
+"Diggs, Lena"		"Hudgins, Oliver"		MJ	5/16/1907
+"Hodges, Florence"	Crab Neck	"White, Royall"	Bohannon	MJ	5/23/1907
+"Diggs, Cotha"	Laban	"Foster, Robert  "		MJ	6/20/1907
+"Hudgins, Emma J."		"Hurst, Johnnie A."		MJ	6/20/1907
+"Hodges, Annie Lee"	Norfolk	"Jarvis, J.B."		MJ	6/27/1907
+"Turner, Ruth A."	"Greensboro, N.C."	"Ferguson, Cornelius Guy"	Mathews	MJ	6/27/1907
+"Morgan, Mary"	White's Neck	"White, Jesse"	White's Neck	MJ	7/18/1907
+"Gayle, Florence"		"Hudgins, Ed"	Laban	MJ	8/1/1907
+"Forrest, Marion Gertrude (engagement)"	Mathews	"Fowler, Daniel Lee"	Norfolk	MJ	8/29/1907
+"Sadler, Elizabeth"	Diggs	"Hudgins, Berrie"	Diggs	MJ	8/29/1907
+"Forrest, Marion  "		"Fowler, Daniel Lee"		MJ	9/5/1907
+"Marchant, Ruby Gem (eng.)"		"Foster, Luther M., Capt."	Norfolk	MJ	9/5/1907
+"Foster, Margaret Louise"	Hudgins	"White, Ernest F."	Glebe	MJ	10/3/1907
+"Morgan, Nellie"	Diggs	"Drisgell, Floyd"	Diggs	MJ	10/3/1907
+"White, Carrie (engaged)"	Mathews	"Smither, Charles R."		MJ	10/10/1907
+"Gordon, Annie Taylor"	Fredericksburg (?)	"Lane, Henry Gardiner, Rev."	Warsaw; Port Haywood	MJ	10/17/1907
+"Marchant, Amy"		"Story, Leonard"		MJ	10/17/1907
+"Marchant, Ruby  "		"Foster, Luther M., Capt."		MJ	10/17/1907
+"Miles, Clara Virginia"	Mathews	"Burton, Gustavus Winfrey"	Old Point	MJ	10/24/1907
+"White, Carrie  "		"Smither, Charles R."		MJ	10/24/1907
+"White, Ellen"	Redart	"Moore, James L., Capt."	Redart	MJ	11/7/1907
+"Armistead, Sallie G."		"Armistead, Charles L."		MJ	11/14/1907
+"Davis, Lillie"		"Brooks, James L."		MJ	12/5/1907
+"Hudgins, Ruby (engaged)"	Susan	"Thomas, Clarence"		MJ	12/5/1907
+"Davis, Lillie"		"Brooks, James L."		MJ	12/19/1907
+"Stephens, Jessie"		"Dodge, W. W."		MJ	12/19/1907
+"Davis, Lillie"	Mathews	"Brooks, James L."		MJ	1/2/1908
+"Godsey, Helen"	Gwynn's Island	"Adams, John W."		MJ	1/2/1908
+"Minter, Bessie"		"Hudgins, George R."		MJ	1/2/1908
+"Pritchett, Grace"	New Point	"Armistead, Lindsay"		MJ	1/2/1908
+"Thomas, Eunice"	Susan	"Miles, Wesley, Capt."	Susan	MJ	1/2/1908
+"Diggs, Vandelia"	Laban	"Diggs, Gayus"		MJ	1/9/1908
+"Hurst, Nellie"		"Knight, G. Cleveland"	Mathews	MJ	1/9/1908
+"Winder, Clara Bell"	Cricket Hill	"Foster, Roland L."	Redart	MJ	1/9/1908
+"Armistead, Annie"	Susan	"Hudgins, Riley"	Susan	MJ	1/16/1908
+"White, Annie M."	Hicks Wharf	"Williams, T. A."	"Baltimore, Md."	MJ	1/16/1908
+"Hudgins, Mayme Watson"	Mathews	"Ward, william Calude"	"Mt. Olive, N.C."	MJ	3/12/1908
+"Wright, Celia Hope"	Gloucester	"Lewis, W. E."	Portsmouth	MJ	4/16/1908
+"Hudgins, Eunice"	Laban	"Hurst, Cecil"	Laban	MJ	4/23/1908
+"Pugh, Virgie"	Laban	"Owens, Millard"	Laban	MJ	4/23/1908
+"Buck, Elizabeth Janette"	Gloucester	"Hogg, James C."	Gloucester	MJ	5/7/1908
+"Disley,  Gertrude O."	"Baltimore, Md."	"Hunley, Archie G."		MJ	5/7/1908
+"Drisgell, Elva"	Diggs	"White, Robert B."		MJ	5/7/1908
+"Maddery, Ellen"		"Smith, Charles C., Dr."	Gloucester	MJ	5/7/1908
+"Forrest, Della A."	Mathews	"Hubers, Albert W."	"Baltimore, Md."	MJ	5/14/1908
+"Morgan, Florence"	Diggs	"Hyselop, Lloyd K."	Portsmouth	MJ	5/14/1908
+"Woodhouse, Lucy E."	Back Bay	"Hudgins, Virgil"	Gwynn's Island	MJ	5/14/1908
+"Hudgins, Mae"	Norfolk	"Cason, Philip Alonzo"		MJ	5/21/1908
+"Thomas, Lillie"	Susan	"Stewart, Monroe"		MJ	5/21/1908
+"Hart, Lucy"	Middlesex	"Hundley, Dean"	Essex	MJ	5/28/1908
+"Bristow, Sally C."		"Spencer, Otto H."	 	MJ	6/4/1908
+"Forrest, Nora "	Port Haywood	"Keeling, S. S."	Norfolk	MJ	6/4/1908
+"Smith, Mattie"	Gloucester Point	"Shackelford, George E."	Gloucester Point	MJ	6/4/1908
+"Boothe, Gertrude Marie"		"James, S. P."	Mathews	MJ	6/11/1908
+"Hudgins, Mae"	Norfolk	"Cason, Philip Alonzo"		MJ	6/11/1908
+"Walker, Lucile Elma Warwick"		"Fleet, Calvin L."	Mathews	MJ	6/11/1908
+"Knight, Mary L."		"Hudgins, John S."	New Point	MJ	6/18/1908
+"Callis, Sophie"		"Hurst, Vernon"	Gwynn's Island	MJ	6/25/1908
+"Sanderson, Mary W."		"Smith, Lucius"		MJ	7/2/1908
+"Hunley, Ida"		"Atherton, Joseph"	Queens Creek	MJ	7/23/1908
+"Wroten, Hattie"	Gwynn's Island	"Forrest, Hezzie"	Gwynn's Island	MJ	8/6/1908
+"Froelich, Annie"	"Baltimore, Md."	"Thomas, George M.L."	Mathews	MJ	8/20/1908
+"Gayle, Sarah"	Susan	"Hudgins, Genius"	Laban	MJ	8/27/1908
+"Revere, Bessie Lee"	Wake	"Clark, Yates D."	Lancaster	MJ	8/27/1908
+"Stoermer, Dosie"	Hudgins	"Hunley, George"	Retz	MJ	9/17/1908
+"Wingfield, Alice (engagement)"		"Nelson, W. W., Dr."	Richmond; North	MJ	9/17/1908
+"Pettit, Genevieve (engagement)"	Fluvanna	"Davin, Aldred"	Louisa	MJ	10/1/1908
+"Ewers, Miss (engagement)"	"Baltimore, Md."	"Perrin, William Kennon"	Gloucester	MJ	10/8/1908
+"Hughes, John Earle, Mrs."		"Hughes, John Earle"	North	MJ	10/8/1908
+"Hunley, Grace"	Fitchetts	"Miles, Willie"	"Calvert County, Md."	MJ	10/8/1908
+"Lee, Evelyn Boyd"	Gloucester	"Hutcheson, Henry Edmunds"	"Baltimore, Md."	MJ	10/8/1908
+"Lloyd, Mrs."		"Lloyd, Harry"	Hallieford	MJ	10/8/1908
+"Wiatt, Nomena"	Gloucester	"Wright, William Abbott"	Norfolk	MJ	10/8/1908
+"Knight, Blanche"	"Baltimore, Md."	"Morgan, A. J., Capt."	Norfolk; Diggs	MJ	10/15/1908
+"Blake, Pearl (engagement)"		"Mitchem, Dorsey"	Gwynn's Island	MJ	11/3/1908
+"Brooks, Edna"	Laban	"Diggs, James"	Laban	MJ	11/3/1908
+"Diggs, Addie (engagement)"		"Rowe, Vernon"	Gwynn's Island	MJ	11/3/1908
+"Brownley, Edna"		"Foster, Joseph"	Cardinal	MJ	11/12/1908
+"Miller, Maggie"		"Callis, James"		MJ	11/12/1908
+"Williams, May S."	Mathews	"Stephenson, Cadmus T."	Southampton	MJ	11/26/1908
+"Lawson, Nellie"	Harmony Village	"Stiff, James William"	Middlesex	MJ	12/24/1908
+"Lewis, Edith"	Redart	"Wise, Thomas"	Redart	MJ	12/24/1908
+"Brooks, Elizabeth Lena"	Laban	"Owens, William Taylor"		MJ	1/7/1909
+"Brooks, Mary L."	Laban	"Hudgins, Arthur C."		MJ	1/7/1909
+"Diggs, Daisy Watson"	Laban	"Diggs, John Borum"	Laban	MJ	1/7/1909
+"James, Grace"	Fitchetts	"Rowland, W. H."		MJ	1/7/1909
+"Richardson, Sadie Ellen"	Laban	"Sadler, Willie J."		MJ	1/7/1909
+"Machen, Grace"	Mobjack	"Miles, Herbert"	Miles	MJ	1/14/1909
+"Owens, Edna"		"Sparrow, Raymond"	Gwynn's Island	MJ	1/14/1909
+"Burton, Alma"	Urbanna	"Scott, A. Francis, Rev."	"Hinton, W. Va."	MJ	1/21/1909
+"Lawson, Nellie Kelsick"		"Stiff, James William"		MJ	1/21/1909
+"Messick, Mary Kate"	Irvington	"Stierman, Ornis Holmes"	"Baltimore, Md."	MJ	1/21/1909
+"Allmond, Leranea"	Allmondsville	"Seward, Murray"		MJ	1/28/1909
+"Coleman, Ethel Lee"	Gloucester	"Vanname, Arthur L."	Gloucester	MJ	1/28/1909
+"Gordans, Anna, Dr."		"Powell, E. L., Rev."	"Louisville, Ky"	MJ	1/28/1909
+"Minter, Ethel Gates"		"Parr, Claude"	Norfolk	MJ	1/28/1909
+"Hibble, Nora"	Gloucester	"Stubblefield, R. B."	Gloucester	MJ	3/11/1909
+"Hogg, Clarissa"	Gloucester	"Spencer, James"	Middlesex	MJ	3/11/1909
+"Archer, Fannie Walthall"	Richmond	"Brown, Charles Atkinson"	Richmond;Mathews	MJ	4/1/1909
+"Brooks, Lula"	West Point	"Clopton, Edwin Doswell"	Gloucester	MJ	4/8/1909
+"Gwathmey, Sue Fleet"	Middlesex	"Mercer, Edwin Dean"	Richmond	MJ	4/8/1909
+"White, Julia"	Susan	"Handy, Gilbert"	Susan	MJ	4/8/1909
+"Archer, Fannie Walthall"		"Brown, Charles Atkinson"		MJ	4/22/1909
+"Atkins, Lessie B."	Laban	"Forrest, William P."	Tabernacle	MJ	4/22/1909
+"Baker, Emily Gay"		"Lane, Thomas B., Jr."		MJ	4/22/1909
+"Hudgins, Laura"	New Point	"Hudgins, Edwin"		MJ	4/22/1909
+"Borum, Mary Evelyn"	Grimstead	"Powell, Floyd"	Cricket Hill	MJ	4/29/1909
+"Chiveral, Allie V."	"Baltimore, Md."	"Raines, Charles S."	Irvington	MJ	4/29/1909
+"Diggs, Lula Gertrude"	Mathews	"Davis, Q. C., Jr."	South Norfolk	MJ	4/29/1909
+"Brooks, Daisy"	King and Queen	"Topping, Harvey E."	West Point	MJ	5/6/1909
+"Forrest, Ruby"	Glebe	"Foster, Chester"	Gwynn's Island	MJ	5/6/1909
+"Field, Clara Walker"	Gloucester	"Sinclair, Junius Claiborne"	Gloucester	MJ	5/13/1909
+"Phillips, Bertha F."	Newport News	"Gordon, Louis T."	West Point	MJ	5/20/1909
+"Brooks, Maria Louisa (engagement)"		"Clopton, Edwin Doswell"	Gloucester	MJ	5/27/1909
+"Daniel, Bessie M."		"Hurst, William Henry"	Mathews	MJ	5/27/1909
+"Diggs, Addie  "		"Rowe, Vernon"	Gwynn's Island	MJ	5/27/1909
+"Field, Clara Walker"	Gloucester	"Sinclair, Junius Claiborne"	Gloucester	MJ	5/27/1909
+"Pugh, Addie"	Mathews	"Marchant, W. E."	Cricket Hill	MJ	5/27/1909
+"Rowe, Annie Kathryne"	Heathsville	"Hogan, Charles Betts"	Lynchburg	MJ	5/27/1909
+"Anderton, Mabel Lee"	Saluda	"Vaden, Arthur Grayson, Dr."	Mathews	MJ	6/3/1909
+"Callis, Lizzie"	Hallieford	"Taylor, Roamie"	Redart	MJ	6/3/1909
+"Diggs, Addie"		"Rowe, Vernon"	Gwynn's Island	MJ	6/3/1909
+"Dixon, W. A., Mrs."	"Baltimore, Md."	"Dixon, William A."	Redart	MJ	6/3/1909
+"Taliaferro, Helen"		"Shackelford, Ferdinand A."	Norfolk	MJ	6/3/1909
+"Brooks, Lulie"		"Clopton, Edwin Doswell"	Gloucester	MJ	6/10/1909
+"Haydon, Ida Joe"	Irvington	"Messick, Russell"		MJ	6/10/1909
+"Segar, Emma Dew"	Middlesex	"Land, Nathaniel J., Jr."	Norfolk	MJ	6/10/1909
+"Shackelford, Dola"	Retz	"Hammond, Harry"	Foster	MJ	6/10/1909
+"Dennert, Lillie C."	Gloucester	"Vaughan, Charles B."	Gloucester	MJ	6/17/1909
+"Jones, Maria Ashby"	Urbanna	"Bundon, William"	Norfolk	MJ	6/17/1909
+"Shackelford, Mary Ruth"		"Marchant, A. M., Dr."	Mathews	MJ	6/17/1909
+"Smith, Ida J."	"Baltimore, Md."	"Bohannon, Clarence J."		MJ	6/24/1909
+"Anderton, Dora Lee"	North River	"White, Moscow"		MJ	7/1/1909
+"Mitchell, Ethel"	Blakes	"Davis, Robert H."	Blakes	MJ	7/8/1909
+"Pugh, Ruby Ellen"	Horn Harbor	"Hudgins, Sheppard"	New Point	MJ	7/8/1909
+"Turner, Beulah"	Lancaster	"Hall, Harry"	Lottsburg	MJ	7/8/1909
+"Blassingham, Fannie"	Gloucester	"Nevins, W. G."	Norfolk	MJ	8/12/1909
+"Forrest, Susie Belle"	Foster	"Nelson, James Wesley"	North	MJ	8/12/1909
+"Fox, Josephine Thomas"	Mathews	"Rodgers, Samuel Judson"	Newport News	MJ	8/26/1909
+"Hinton, Laura"	Fairfield	"Shackelford, John F."	Middlesex	MJ	9/16/1909
+"Foster, Mary Lula"	Williamsburg	"Rowan, Charles"	Mississippi	MJ	9/23/1909
+"Wolffe, Bertha B."	Mathews	"Foster, Richard W."	Mathews	MJ	9/23/1909
+"Douglas, Anne Sutton"		"Powell, Rohlin L."	Norfolk	MJ	9/30/1909
+"Shreves, Cora"	Middlesex	"Kennard, John, Capt."		MJ	9/30/1909
+"Lawson, Celia Dola"		"Hudgins, Ernest Clifton"	Mathews	MJ	10/7/1909
+"Nottingham, Laura"	Northampton	"Tignor, John"		MJ	11/4/1909
+"Bohannon, Lillie Mae"		"Campbell, Charles A., Rev."	Charlottesville	MJ	11/11/1909
+"Nottingham, Laura Cooke"	Cheriton	"Tignor, Walter"	Newport News	MJ	11/11/1909
+"Jordan, Frank, Mrs. (30 anniversary)"	Cardinal	"Jordan, Frank"	Cardinal	MJ	11/18/1909
+"Bassett, Nellie Lynwood"		"Rains, Ernest Lee"	Bohannon	MJ	11/25/1909
+"Burton, Eva"	Urbanna	"Leath, Louis H."	Waverly	MJ	11/25/1909
+"Dutton, Marion White"	Middlesex	"Laughton, James R., Rev."	Lynchburg; Mathews	MJ	11/25/1909
+"Jarvis, Rachel"	New Point	"Davis, Charlie"	New Point	MJ	11/25/1909
+"Gayle, Carrie Virginia"		"Jones, W. Percy, Dr."	Middlesex	MJ	12/2/1909
+"Nelson, Hilda"	Urbanna	"Davis, Benjamin"	Urbanna	MJ	12/2/1909
+"Thomas, Sarah"		"Hudgins, Edwin C."		MJ	12/2/1909
+"Armistead, Delos G."	New Point	"Hudgins, Daniel"	New Point	MJ	12/9/1909
+"Garnett, Eva"	 	"Foster, Maxwell, Dr."	Mathews	MJ	12/9/1909
+"Hudgins, Helen M."		"Marchant, James W."	Middlesex	MJ	12/9/1909
+"White, Sadie F."	New Point	"Grinnell, Warren E."		MJ	12/9/1909
+"Armistead, Eva Garnett"	"Rockingham, N.C."	"Foster, Maxwell Sibley, Dr."	Mathews	MJ	1/6/1910
+"Brooks, Hattie M."		"Dow, Henry L."		MJ	1/6/1910
+"Diggs, Ethel"	Susan	"Harris, Floyd"	Surry Co.	MJ	1/6/1910
+"Hearn, Maud"	North	"Miller, Clarence Edward"	North	MJ	1/6/1910
+"Hinman, Edith M."		"Lewis, John M."		MJ	1/6/1910
+"Hudgins, Helen  "	Redart	"Marchant, James W."	Churchview	MJ	1/6/1910
+"Miller, Alice Parker"	North	"Hearn, J. V."	North	MJ	1/6/1910
+"Thomas, Edith M."		"Diggs, Arthur V."		MJ	1/6/1910
+"Ward, Selma"		"Aldrich, William E."		MJ	1/6/1910
+"Tabor, Pearl"	Redart	"Callis, Charlie"	Hallieford	MJ	1/20/1910
+"Wise, May"	Redart	"Marchant, Martin"	Cricket Hill	MJ	1/20/1910
+"Coleman, Maude Arrendall"	Gloucester	"Gulick, James W."		MJ	2/3/1910
+"Edwards, Nena B."	"Baltimore, Md."	"Garner, Griffin F."	Irvington	MJ	2/3/1910
+"Mussen, Nina Mae"	East River	"Potter, Walter B."	"Alberta, Canada"	MJ	2/3/1910
+"Childs, Lillian"	Richmond County	"Brooks, J.H."	Richmond County	MJ	2/24/1910
+"Morgan, Mattie May"		"Armistead, Willie L."		MJ	3/24/1910
+"Adams, Maggie"	New Point	"Mitchem, Thomas"	Gwynn's Island	MJ	4/7/1910
+"Marchant, Irma Virginia"		"Laws, William N."		MJ	4/7/1910
+"Hyslup, Ada Mapp"	Accomac	"Guerrant, T. Connally"	Danville	MJ	4/14/1910
+"Winder, Lessie Lee"	Mathews	"Foster, Robert Sidney"	South Carolina	MJ	4/14/1910
+"DuVal, Susannah Pagnard (engagement)"	Gloucester	"Lawson, Thomas Younger"	Middlesex	MJ	4/21/1910
+"Seawell, Mary T."	Gloucester	"West, John T."	Gloucester	MJ	4/28/1910
+"Callis, Kate Reba"	Gwynn's Island	"Carney, John W., Jr."	Gwynn's Island	MJ	5/19/1910
+"Godsey, Mrs."		"Godsey, R. E."	Gwynn's Island	MJ	5/19/1910
+"Hudgins, Annie Ruth"	Tabernacle	"Sadler, J. L."	Newport News	MJ	5/19/1910
+"Hudgins, Etta"	Gwynn's Island	"Sparrow, Johnny"	Gwynn's Island	MJ	5/19/1910
+"Jarvis, Emma Lee"		"Brownley, Robert"	Penny	MJ	5/19/1910
+"Lambert, Lena May"	"Jacksonville, Fla."	"Hudgins, Frank C."	Laban	MJ	5/19/1910
+"Diggs, Della"	New Point	"Hutson, George E."	New Point	MJ	6/23/1910
+"Miles, Georgie"	Susan	"Armistead, Grover L."	Susan	MJ	6/30/1910
+"Hudgins, Maydie"	Laban	"Diggs, Thaddeus"		MJ	7/7/1910
+"Mundie, Julia Estelle"	Essex	"Maxey, John S., Rev."	Roanoke	MJ	7/14/1910
+"Williams, Mary P."	Essex	"Rucker, M. P. "	Bedford City	MJ	7/14/1910
+"Lane, Levin Winder, Mrs."	Williamsburg	"Lane, Levin Winder (5oth anniver)"	Williamsburg	MJ	7/21/1910
+"Estes, Ada"	Middlesex	"Soles, Eppa"	Mathews	MJ	8/4/1910
+"Perkins, Claudia"	Newport News	"Taylor, Charles A., Jr."	Urbanna	MJ	8/18/1910
+"Scott, Sadie Kriete"		"Kellam, Vernon Hope"	Norfolk	MJ	8/25/1910
+"Blake, Catherine E."	Amburg	"Jones, Thurman W."	Amburg	MJ	9/15/1910
+"Graves, Lucy E."	"Baltimore, Md."	"Ward, Hollis C."	Bohannon	MJ	9/15/1910
+"Gressitt, Irene M."	Urbanna	"Dix, John Robert"	Urbanna	MJ	9/15/1910
+"Kent, Bessie"	Ball's Neck	"Kent, Oscar R."	Wicomico Church	MJ	9/15/1910
+"Brown, Hettie"	Urbanna	"Milby, Elvin"	Shacklefords	MJ	9/22/1910
+"Palmer, Carrie Mason"	"Shanghai, China"	"George, James Hardin, Jr., Rev."	Connecticut	MJ	9/29/1910
+"Brewington, Lillie"	Irvington	"Rock, Howard O."	Irvington	MJ	10/6/1910
+"Dunaway, Anna (engaged)"	Saluda	"Butzner, W. W. "	Fredericksburg	MJ	10/6/1910
+"Gaines, Lily Maxwell (engaged)"	Center Cross	"Phillips, Eugene"	Tappahannock	MJ	10/6/1910
+"Treakle, Laura"	Mathews	"Graves, Enward W."		MJ	10/6/1910
+"Edwards, Emma"	Gloucester	"Nauman, C. E."	Turk's Ferry	MJ	10/13/1910
+"Marchant, Mary Virginia"	Middlesex	"Carrol, Jams Washington"	"Baltimore, Md."	MJ	10/13/1910
+"Hudgins, Carrie Brooks"	Mathews	"Jenkins, John W."	Mathews	MJ	10/20/1910
+"Armstrong, Celestia Virginia"		"Marchant, John Dixon"		MJ	11/10/1910
+"Lewis, Nora"	Norfolk	"Cullison, Z. W., Capt."	Norfolk	MJ	11/10/1910
+"Trader, Edith Pearl"	Redart	"Knight, Junius Richard"	Newport News	MJ	11/10/1910
+"Armstrong, Celestia Virginia"		"Marchant, John Dixon"	Norfolk	MJ	11/24/1910
+"Dewick, Helen"	Waterview	"Haile, L. E."	Middlesex	MJ	11/24/1910
+"Dodson, Aweatter"	Lancaster	"Hayden, Emmett"	Lancaster	MJ	11/24/1910
+"Hutson, Ora May"	New Point	J. Samuel Hudgins	New Point	MJ	11/24/1910
+"Miller, Gillie"	Mathews	"Nelson, Howard"	North	MJ	12/1/1910
+"Davis, Effie L."	Mobjack	"Machen, Walter E."	Mobjack	MJ	1/5/1911
+"Diggs, Ellen"	Laban	"Brooks, John J."	Laban	MJ	1/5/1911
+"Diggs, Pearl"	Laban	"Abernathy, Arthur T."	"Philadelphia, Pa."	MJ	1/5/1911
+"Fitchett, Blanche M."	Soles	"Sutton, E. C."	Soles	MJ	1/5/1911
+"Fitchett, M. Belle"	Soles	"Soles, Robert W."	Soles	MJ	1/5/1911
+"Green, Ida May"		"Atherton, Willie J."		MJ	1/5/1911
+"Griffin, Sarah Gertrude"		"Minter, Robert Clayton"		MJ	1/5/1911
+"Hudgins, Annie Carl"	Laban	"Marshall, William R."	Laban	MJ	1/5/1911
+"Hudgins, Effie G."	Laban	"Diggs, Otis V."	Laban	MJ	1/5/1911
+"Hudgins, Nora S."		"Jarvis, Henry G."	Norfolk	MJ	1/5/1911
+"Kemp, Laura L."	North	"Ewell, Seth J."	North	MJ	1/5/1911
+"Peed, Bessie"		"Diggs, Harvy"		MJ	1/5/1911
+"Rhodes, Annie Katherine"	Cartersville	"Mason, Philip Henry"	Mathews	MJ	1/5/1911
+"Burton, Minnie"	Lamberths Point	"Hazelwood, John Walker"	Urbanna	MJ	1/12/1911
+"Hudgins, Louise"	Diggs	"White, William Marshall"	Tabernacle	MJ	1/12/1911
+"Lewis, Caroline Virginia"	"Baltimore, Md."	"Thompson, Luther Franklin"	Mathews	MJ	1/19/1911
+"Lane, Martha (engaged)"	Williamsburg	"Dovell, Ashton"		MJ	1/26/1911
+"Meredith, Levy Virginia"	Gloucester	"Eason, Camillus Franklin, Dr."		MJ	1/26/1911
+"Foster, Lola May"	Mathews	"Sawyer, Milton C."		MJ	3/2/1911
+"Lillard, Effie B."	Richmond	"Campbell, J. M."	Mathews	MJ	3/2/1911
+"Tabb, Emily Bertrand"	Newport News	"James, Lorimer F., Dr."	Gloucester	MJ	3/2/1911
+"Maxwell, Jean (engaged)"		"Browne, Randolph Maury"	Norfolk	MJ	4/13/1911
+"Topping, Ethel May"	Amburg	"Folkes, William Wiatt"		MJ	4/13/1911
+"Diggs, Daisy  "		"Shaeffer, Alan E."	"Hampstead, Md."	MJ	4/20/1911
+"Taylor, Ethel Chandler"	Urbanna	"Williams, R. Elwood"	Norfolk	MJ	4/20/1911
+"Pierce, Mora"	Pinetta	"Green, William D."	"Tulare, Cal."	MJ	5/11/1911
+"Bristow, Gladys Riley (engaged)"	Stormont	"Kerr, Harvey W."	King and Queen	MJ	5/25/1911
+"Callis, Lola B."	Gwynn's Island	"Forrest, B. V."	Mathews	MJ	5/25/1911
+"Wilson, Daisy Powell"	Norfolk	"Foster, Russell Sage"	Norfolk	MJ	5/25/1911
+"Gardner, Cora Evelyn"	Middlesex	"Moore, Emmett"	Hampton	MJ	6/1/1911
+"White, Nannie"	Portsmouth; Mathews	"Dews, Julian"	Portsmouth	MJ	6/8/1911
+"Franklin, Nettie"	Urbanna	"Burton, Samuel"		MJ	6/15/1911
+"Hudgins, Belle"	New Point	"Thomas, George E."	New Point	MJ	6/15/1911
+"Hudgins, Emily Virginia"	"Baltimore, Md."	"Kahle, W. D., Dr."	"Baltimore, Md."	MJ	6/15/1911
+"Hudgins, Mabel C."	Onemo	"Handy, William C."	New Point	MJ	6/15/1911
+"Williams, Margaret"	"Baltimore, Md."	"Covington, W. B."	Streets	MJ	6/15/1911
+"Newbill, Irene Temple"	Essex	"Newbill, J.H."	Essex	MJ	6/18/1911
+"Marchant, Helen"	Redart	"Kemp, Frank"	"Baltimore, Md."	MJ	6/22/1911
+"Mason, Laura H."	Oklahoma	"Mason, Edward H."	Gloucester	MJ	6/22/1911
+"Tabb, Rebecca Lloyd"	Gloucester	"Bouldin, Henry W."	Northumberland	MJ	6/22/1911
+"Kemp, Mary E."	North	"Heath, Aubrey"	Urbanna	MJ	6/29/1911
+"White, Elizabeth"	North River	"Rains, Clarence"	Bohannon	MJ	6/29/1911
+"Armistead, Linda"	 	"Diggs, Charles E."	Susan	MJ	7/6/1911
+"Bristow, Gladys R."		"Kerr, H. Watlington"		MJ	7/6/1911
+"Machen, Miss"		"Pugh, John"		MJ	7/6/1911
+"George, Mamie F."	Urbanna	"Bonner, Robert L."	"Baltimore, Md."	MJ	7/13/1911
+"Lawson, Nellie Gray"		"Hibble, Lewis W."		MJ	7/13/1911
+"Ross, E. C., Mrs."	Urbanna	"Loubkin, J. R."		MJ	7/20/1911
+"Adams, Pearl"	Hicks Wharf	"Pribble, Linwood"	West Mathews	MJ	7/27/1911
+"Owens, Annie"	Diggs	"Starr, Allen W."	"Baltimore, Md."	MJ	7/27/1911
+"Gray, Ruth"	Blakes	"Williams, Charles"	Blakes	MJ	8/17/1911
+"Gray, Ruth"	Blakes	"Williams, Charles"	Blakes	MJ	8/24/1911
+"Payne, Olive"	Blakes	"Foster, Henry"	Blakes	MJ	8/24/1911
+"Forrest, Mary"		"Merrill, John"	Norfolk	MJ	9/5/1911
+"Wilson, Velma"	King and Queen	"Norman, Forrest"	King and Queen	MJ	9/21/1911
+"Donahue, Mary Legrand (engaged)"		"McCandlish, F. H."	Middlesex	MJ	9/28/1911
+"Larkin, Mary Ella"	Gloucester	"Scheular, Charles"	"Baltimore, Md."	MJ	9/28/1911
+"Butts, Emma G. (engaged)"	Franktown	"Brock, Swepson"	Norfolk	MJ	10/12/1911
+"Butts, Emma G.  "	Franktown	"Brock, Swepson"	Norfolk	MJ	10/19/1911
+"Mason, Clarine Jackson"	North	"Lackey, Herbert"	Norfolk	MJ	10/19/1911
+"Soles, Sophia Lee"	Soles	"Marchant, William Morris"	Cricket Hill	MJ	11/2/1911
+"Donahue, Mary  "	Fairfax	"McCandlish, H. S."	Saluda	MJ	11/9/1911
+"Douty, A. Elizabeth"	Ruark	"Crittenden, John F."		MJ	11/9/1911
+"Buford, Ruby Thomas"	Richmond	"Saunders, Walter"	Dixondale	MJ	1/4/1912
+"Davis, Lessie Bernice"	upper Mathews	"Hudgins, Claud V."	upper Mathews	MJ	1/4/1912
+"Forrest, Lottie"	Mathews	"Wright, Royal"	North Carolina	MJ	1/4/1912
+"Minor, Violet"		"Oliver, James"	Mobjack	MJ	1/4/1912
+"Sadler, Emma"	upper Mathews	"Davis, Shelby"	upper Mathews	MJ	1/4/1912
+"Singleton, Ida"	Susan	"Singleton, John F."	Susan	MJ	1/4/1912
+"Stewart, Roselia"	Penny	"Hudgins, Boyd"	New Point	MJ	1/4/1912
+"Thomas, Cassie"	Foster	"Hutchinson, Harry L."	Lancaster	MJ	1/4/1912
+"Smith, Pearl"	"Laingsburg, W. Va."	"Pratt, Thomas A."	Hicks Wharf	MJ	1/11/1912
+"Bristow, Alice"	Amburg	"Mason, Rae"	Eastern Shore	MJ	1/18/1912
+"Faulkner, Marguerite"	Tappahannock	"Ware, Robert"	Ware's Wharf	MJ	2/15/1912
+"Kendall, Annie"	Middlesex	"Wyatt, Rosser S."		MJ	2/15/1912
+"Marchant, Clara Bell"		"Callis, Edgar"	Gwynn's Island	MJ	2/15/1912
+"Diggs, Katheryn"	Port Haywood	"Clash, Spencer Montague"		MJ	2/29/1912
+"Forrest, Myrtle"	Tabernacle	"Hurst, J. Walter"	Tabernacle	MJ	3/14/1912
+"Lewis, Eva"	Soles	"Sadler, Harry"	Hallieford	MJ	3/21/1912
+"Munden, Nettie"	Norfolk	"Diggs, Elmer B."	Diggs Wharf	MJ	4/4/1912
+"Diggs, Essie"	Diggs	"Stoakes, Walter R."	Moon	MJ	4/11/1912
+"Green, Joseph Lillian"	upper Mathews	"Jager, Oscar Lawrence"	Traders	MJ	4/11/1912
+"Hudgins, Brazoria Brooks"	Sarah	"Hudgins, Joseph Randolph"	New Point	MJ	5/2/1912
+"Phelps, Hazel Blanche"	Norfolk	"Parrott, John William"	Norfolk; Mathews	MJ	5/2/1912
+"Hudgins, Brazoria Brooks"	Sarah	"Hudgins, Joseph Randolph"	New Point	MJ	5/9/1912
+"Dudley, Mary Nelson"	North	"Sigman, R. M."	Norfolk	MJ	5/16/1912
+"Hudgins, Viola"	Tabernacle	"Hall, Robert T."	Hampton	MJ	5/16/1912
+"Minter, Hattie"	Gwynn's Island	"Bradshaw, Lloyd"	Smith Island	MJ	5/30/1912
+"Rowe, A. Z."		"Harper, L. C."	Clay Bank	MJ	6/6/1912
+"Hudgins, Bertie Coles (engaged)"	New Point	"Burroughs, Walter"	New Point	MJ	6/20/1912
+"Sadler, Kate"	Diggs	"Hudgins, Earl"	New Point	MJ	6/20/1912
+"Whitaker, Mary"	Lancaster	"Walden, Hugh B."	Middlesex	MJ	6/20/1912
+"Fox, Clara May"	Mathews	"Majett, William L."	Mathews	MJ	6/27/1912
+"Gwynn, Ruth Galloway"	"Robins Neck, Gloucester"	"Deal, St. George"	"Robins Neck, Gloucester"	MJ	6/27/1912
+"Hudgins, Anna May"	Peary	"Davis, J. Edward"	New Point	MJ	6/27/1912
+"Ambrose, Elizabeth (engaged)"	Gloucester	"Brooks, J. H."		MJ	7/4/1912
+"Berryman, Mary"		"Diggs, George R."	Mathews	MJ	7/4/1912
+"Hudgins, Anna May"	Peary	"Davis, Edward"		MJ	7/4/1912
+"Hudgins, Bertie Coles  "	New Point	"Burroughs, Walter"	New Point	MJ	7/4/1912
+"Jones, Mary"	Urbanna	"Mason, Roy, Rev."	Westmoreland	MJ	7/4/1912
+"Kibble, Mary Lou"	Gloucester	"Abbott, Lonnie Welford"	Lancaster	MJ	7/4/1912
+"Shackleford, Nellie"	Mathews	"Smith, C. S., Jr."	Gloucester	MJ	7/4/1912
+"Callis, Belle"	Gwynn's Island	"Hurst, Preston"	Gwynn's Island	MJ	7/11/1912
+"Hibble, Mary Lou"	Gloucester	"Abbott, Looney"	Weems	MJ	7/11/1912
+"Grinnell, Lilly"	New Point	"Tease, Charles J."	Portsmouth	MJ	7/18/1912
+"Heath, Lucy"	Remlik	"Kain, Willie"	Urbanna	Mj	7/18/1912
+"Wiatt, Eleanor Bayton (engaged)"	Gloucester	"Belcher, Burton"	"Largo, Fl."	MJ	7/25/1912
+"Forrest, Lillian"	Diggs	"Hurst, Ernest"	Tabernacle	MJ	8/8/1912
+"Miller, Eva"	Urbanna	"Sherman, Warren"	Urbanna	MJ	8/8/1912
+"Ashbury, Susie"	Foster	"Sadler, Robert Jr."	Foster	MJ	8/15/1912
+"Miller, Madeline"	Richmond	"Hart, Logan"	Urbanna	MJ	8/22/1912
+"Bridges, Marie Jannita"	Norfolk	"Smith, James Waller"	Gloucester	MJ	8/29/1912
+"Jones, Belle"	Samos	"Muire, Hugh"	Streets	MJ	8/29/1912
+"Minter, Martha Alexina (engaged)"		"Morris, McCullough"		MJ	8/29/1912
+"Hudgins, Mary L."	Port Haywood	"Richardson, Ellis Clark"	Kilmarnock	MJ	9/5/1912
+"Robins, Frances Jefferson"	Gloucester	"Sinclair, Allen"	Hampton	MJ	9/5/1912
+"Gwathmey, Bessie Temple"	Middlesex	"Scott, Frank Woolfolk"	Arkansas	Mj	9/19/1912
+"Miller, Rubie H."	Mathews	"Hudgins, John C."	Mathews	MJ	9/19/1912
+"Sadler, Louise"	Mathews	"Haynes, Bennett"	Gloucester	MJ	9/26/1912
+"Gayle, Sally Reed"	Onancock	"Whitehurst, Ernest L."	Norfolk	MJ	10/3/1912
+"Hudgins, Mary Lillie"	Mathews	"Snow, William A."	Mathews	MJ	10/3/1912
+"Minter, Martha A."	Bohannon	"Morris, McCullough"	"Lake City, S. C."	MJ	10/3/1912
+"Gwathmey, Bessie Temple"	King and Queen	"Scott, Frank Woolfolk"		MJ	10/10/1912
+"Robertson, Ellen Harrison"	Port Haywood	"Harrison, Lewis Carter"	"East Aurora, NY"	MJ	10/10/1912
+"Sadler, Sarah Louise"	Diggs	"Haynes, Bennett"	Gloucester	MJ	10/10/1912
+"Faucett, Kathrine"	Laneview	"Johnson, H. A."	Missouri	MJ	10/17/1912
+"Forrest, Lula Belle"	Blakes	"Cannon, Logan Bernard"	Reedville	MJ	10/17/1912
+"Miller, Louise"	North	"Corr, W. E."	Norfolk; Gloucester	MJ	10/17/1912
+"Jennings, Julia"	Gloucester	"Bridges, John T."		MJ	10/24/1912
+"Morgan, Rosa"	Diggs	"Sadler, Carroll"	Diggs  	MJ	10/24/1912
+"Ripley, Janey"	Susan	"Hudgins, Oscar"	New Point	MJ	10/24/1912
+"Almond, Ruth B."		"White, Rodney"	Mobjack	MJ	10/31/1912
+"Jennings, Julia"	Gloucester	"Bridges, John T."	Gloucester	MJ	10/31/1912
+"Lewis, Sarah Columbia"	North	"Abernathy, Charles Henry"	Gloucester	MJ	11/7/1912
+"Duvall, Essie"	Foster	"Miles, Martin Luther"	Redart	MJ	11/14/1912
+"Muse, Mary Montague (engaged)"	Gloucester	"Howle, Thomas Holleman"		MJ	11/14/1912
+"Collier, Katie"	Middlesex	"Hudgins, William D."		MJ	11/21/1912
+"Fitchett, Florence"	Middlesex	"Williams,Mr."	Gloucester	MJ	11/21/1912
+"Jeffries, Lucy"	King and Queen	"Douglas, J. R."	Irvington	MJ	11/21/1912
+"Smither, Birdie Lee"	Churchview`	"Evans, M. B."		MJ	11/21/1912
+"West, Virginia"	King and Queen	"Regensburg, W. A."	Gloucester	MJ	11/21/1912
+"Williams, Claire Beecher"	Middlesex	"Headly, Louis Taliaferro"	Village	MJ	11/21/1912
+"Armistead, Carrie B."	Susan	"White, Ira D."	New Point	MJ	11/28/1912
+"Enos, Marion"	Susan	"Walton, Harmon"	"Valley Forge, Va."	MJ	11/28/1912
+"Topping, Mabel"	Middleson	"Heywood, R. C."	Norfolk	MJ	11/28/1912
+"Enos, Marion V."	Susan	"Walton, Harmon"	Clifton Forge	MJ	12/5/1912
+"Green, Bessie"	Mathews	"Mapp, Robert"	Eastern Shore	MJ	12/5/1912
+"Hogge, Nolie Clyde"	Gloucester	"William,Lloyd Bernice"	Gloucester	MJ	12/5/1912
+"Garrett, Mabel"	King and Queen	"Moore, Frank"	Stormont	MJ	12/12/1912
+"Fitchett, Carrie Lillian"	Cobbs Creek	"Shipley, James Vandom"	Cobbs Creek	MJ	12/19/1912
+"Kelley, Julia Stephens"	Richmond	"Belfield, Alexander Bruce"		MJ	12/19/1912
+"Morris, Mollie Bassett"	Blakes	"Cray, John"		MJ	12/19/1912
+"Thornton, Alice Garnett"	Gloucester	"Hayes, William Rodney"	Gloucester	MJ	12/19/1912
+"Brooks, Nannie B."	Laban	"Shockley, Ernest A."	"Somerset, Md."	MJ	1/2/1913
+"Crockett, Dora"	Redart	"Johnson, Floyd"	Moon	MJ	1/2/1913
+"Foster, Eva"	upper Mathews	"Pierce, Reubin S."	Gloucester	MJ	1/2/1913
+"Garrett, Lucille O'Neil"		"Moore, William F."		MJ	1/2/1913
+"Hudgins, Irene"	Winter Harbor	"Thomas, Will"	East River	MJ	1/2/1913
+"Kelly, Julia Stevens"	Richmond	"Belfield, Alexander Bruce"		MJ	1/2/1913
+"Morgan, Edith G."	East River	"White, Dorsey E."	Mobjack	MJ	1/2/1913
+"Owens, Sadie"	Penny	"Burroughs, Willie"	New Point	MJ	1/2/1913
+"Rowe, Lucy Oneda"	Gloucester	"Jennings, James Nixon"	"Berkley, Norfolk"	MJ	1/2/1913
+"Thornton, Alice Garnett"	Gloucester	"Hayes, William Rodney"	Gloucester	MJ	1/2/1913
+"Wiggs, Mary Emma"	Norfolk	"Forrest, Luther Frank"	Mathews	MJ	1/2/1913
+"Watkins, Bettie"		"Brooks, H. M."	Mathews	MJ	1/16/1913
+"Freeman, Helen"	Cardinal	"Forrest, C. Edward"	Foster	MJ	1/23/1913
+"Forrest, Mrs. John J."	Diggs	"Forrest, John J., 50-year anniv"	Diggs	MJ	1/30/1913
+"Booker, Lula"		"Moore, Thomas"	Churchview	MJ	2/13/1913
+"Oliver, Rebecca"	Gloucester	"Fleming, Orium"		MJ	2/20/1913
+"South, Eva"	Gloucester	"Haynes, Boggs"	Gloucester	MJ	2/20/1913
+"Robins, Edith"	Ware Neck	"Nuttall, Luther"	Ware Neck	MJ	2/27/1913
+"Shawn, Lessie V."	Mathews	"Thomas, L. Calvin"	Newport News	MJ	2/27/1913
+"Hudgins, Fannie Gray (2items)"	Laban	"Hudgins, Arthur Chester"	Diggs	MJ	3/6/1913
+"Shawn, Lessie V."	Mathews	"Thomas, L. Calvin"	Newport News	MJ	3/6/1913
+"Taylor, Hilda Elizabeth"	Norfolk; Mathews	"Philpotts, George Albert"	Mathews	MJ	3/13/1913
+"White, Bertha"	North River	"Anderton, Roland D."	Bohannon	MJ	3/20/1913
+"Diggs, Dana"	Laban	"Hunt, George Lemuel"	Port Haywood	MJ	3/27/1913
+"Smith, Annie Laurie"	Ware Neck	"Hudgins, Sidney"	Gloucester	MJ	3/27/1913
+"White, Bertha"	Mathews	"Anderton, Roland C."	Bohannon	MJ	3/27/1913
+"Rowe, Ohler"	"Cedars, Gloucester"	"Thomas, Charles Deavitt"	Norfolk; Gloucester	MJ	4/3/1913
+"Miller, Bertha Leonia (engaged)"	Mathews	"Burton, Robert Stringfellow"	North	MJ	4/10/1913
+"Diggs, Lillian Myrtle"	Garden Creek	"Brooks, Rodger C."	Peary	MJ	4/17/1913
+"Miller, Bertha Leonia  "	Mathews	"Burton, Robert Stringfellow"	North	MJ	4/24/1913
+"Payne, Annette (engaged)"	Mathews	"Frampton, Duward D."	"Pittsburgh, Pa."	MJ	4/24/1913
+"Bray, Garnett Smith"	Middlesex	"Basye, Edwin"	Northumberland	MJ	5/8/1913
+"Borum, Alice"	Susan	unknown		MJ	5/15/1913
+"Green, Katherine Stringfellow(engaged)"	Retz	"Jarvis, R. E."	Mathews	MJ	5/15/1913
+"Maxwell, Elvira Marie"		"Hearn, Ira K."		MJ	5/15/1913
+"Forrest, Della K."		"Johnson, John Calvin"	Norfolk; Mathews	MJ	5/22/1913
+"Green, Katherine Stringfellow"	Retz	"Jarvis, R. E."	Mathews	MJ	5/29/1913
+"Hudgins, Belle"	Gwynn's Island	"Mitchem, Edgar"	Gwynn's Island	MJ	5/29/1913
+"Hudgins, Bertie Lee"	Winter Harbor	"Diggs, Malvern B."	Port Haywood	MJ	5/29/1913
+"Soles, Virginia Lee"	Soles	"Callis, J. Ray"	Norfolk; Mathews	MJ	5/29/1913
+"Armistead, Walter"	Peary	"Hutson, Nina E."	New Point	MJ	6/5/1913
+"Carter, Ollie Ellen"	Cobbs Creek	"Riley, Lester M."	Deltaville	MJ	6/12/1913
+"Payne, Annette (engaged)"	Mathews	"Frampton, Duward D."	"Pittsburgh, Pa."	MJ	6/19/1913
+"Hunley, Viviam M."	Cricket Hill	"Morgan, James Edgar"	Norfolk; Mathews	MJ	6/26/1913
+"Payne, Annette "	Mathews	"Frampton, Duward D."	"Pittsburgh, Pa."	MJ	6/26/1913
+"Ranier, Mamie L."	upper Mathews	"Sadler, Walter M., Capt."	Middlesex	MJ	6/26/1913
+"Bryan, Naomi"	"Huntington, W. Va."	"Foster, Allan E."	Cardinal	MJ	7/3/1913
+"Lewis, Grace Lea"	Norfolk	"Forrest, Monroe"	Norfolk; Mathews	MJ	7/3/1913
+"Burton, Katherine Ward (engaged)"	"Baltimore, Md."	"Manning, Bernard"	"Sumter, S. C."	MJ	7/10/1913
+"Adams, Annie May"	Gwynn's Island	"Mathews, Joseph (2 items)"	Gwynn's Island	MJ	7/17/1913
+"Marchant, Elizabeth"	Cricket Hill	"Armstrong, John D."	Norfolk	MJ	7/31/1913
+"Bridges, Ellen Elizabeth (engaged)"	Norfolk	"Tabb, Dr."	Gloucester	MJ	8/14/1913
+"Hudgins, Ida Belle"	Laban	"Diggs, William Roger"	Ruff	MJ	8/21/1913
+"Hudgins, Ruth Lee"	Laban	"White, Luther Thomas"	New Point	MJ	8/28/1913
+"Bridges, Ellen Elizabeth  "	Norfolk	"Tabb, Harry Adams, Dr."	Gloucester	MJ	9/4/1913
+"Blake, Emily Dunlop"	Richmond	"Cottrell, Emmett Drewry"	Richmond	MJ	9/11/1913
+"Crupp, Susie"	Lynchburg	"Garnett, Taylor"	"Washington, D. C."	MJ	9/11/1913
+"Sleet, Garrison Tankard"	Norfolk; Mathews	"Addison, Fred J."	Norfolk	MJ	9/11/1913
+"Timmons, Pauline"	Gwynn's Island	"Brown, Broadus"	Gwynn's Island	MJ	9/18/1913
+"Buck, Beulah"	Gloucester	"Rowe, J. W."	Gloucester	MJ	9/25/1913
+"Miles, Peachy Alice"	Cow Neck	"Forrest, Earlie J."	Gwynn's Island	MJ	9/25/1913
+"Billups, Jeanie Christian"	Moon	"Bing, Bennett Ellis"	Albemarle	MJ	10/2/1913
+"Nelson, Lillian Tabb"	North	"Somers, R. L., Dr."	Newport News	MJ	10/2/1913
+"Wolffe, Emma (engaged)"	Mathews	"Gleason, William L."	Newport News	MJ	10/2/1913
+"Owens, Lottie G."	Diggs	"Diggs, J. Butts"	Sarah	MJ	10/16/1913
+"Wolffe, Emma  "	Mathews	"Gleason, William L."	Newport News	MJ	10/16/1913
+"Crump, Susie"	Lynchburg	"Garnett, Griffin Taylor"	"Washington, D. C."	MJ	10/23/1913
+"Hunley, Mary Gibson"		"Terrie, Henry L."	Mathews	MJ	10/23/1913
+"Crump, Susie"	Lynchburg	"Garnett, Griffin Taylor"	"Washington, D. C."	MJ	10/30/1913
+"Jones, Nellie Christian (engaged)"	Urbanna	"Clarke, Otis M., Rev."		MJ	10/30/1913
+"Stiff, Salome"	Middlesex	"Ferneyhough, Charles J."		MJ	10/30/1913
+"Grinnelle, Hattie (engaged)"	New Point	"Owens, Henry"	Peary	MJ	11/6/1913
+"Grinnelle, Sadie (engaged)"	New Point	"Hudgins, Colie"	Laban	MJ	11/6/1913
+"Percifull, Heloise"	Middlesex	"Grimm, Randolph M., Dr."	"Savannah, Ga."	MJ	11/6/1913
+"Borum, Clara Dorothy (engaged)"	Port Haywood	"Cox, Charles W."	Hampton	MJ	11/13/1913
+"Sutton, Rosalind (engaged)"	Plainview	"Heywood, Robert Franklin"	Bena	MJ	11/13/1913
+"Crockett, Amanda"	Reedville	"Bristow, Frank M."	Middlesex	MJ	12/4/1913
+"Jones, Nellie Christian"	Urbanna	"Clarke, Otis M., Rev."	West Point	MJ	12/4/1913
+"Smith, Irene Langhorne"	Gloucester	"Seawell, William McKeen"	Norfolk; Gloucester	MJ	12/4/1913
+"Foster, Mabel E."	Cardinal	"Billups, Andrew J."	North	MJ	12/11/1913
+"Hunley, Mary Gibson"	Mathews	"Terrie, Henry L."		MJ	12/11/1913
+"Grinnelle, Hattie  "	New Point	"Owens, Henry Butts"	Peary	MJ	12/18/1913
+"Respass, Sallie"	Gwynn's Island	"Hudgins, Kirby"	Gwynn's Island	MJ	12/18/1913
+"Sutton, Rosa "	King and Queen	"Haywood, Mr"	Gloucester	MJ	12/18/1913
+"Thomas, Nellie C."	New Point	"Burroughs, Grover C."	New Point	MJ	12/18/1913
+"Coburn, Bertie A."	Norfolk	"Brownley, Harry Elliott"	Norfolk; Hicks Wharf	MJ	1/1/1914
+"Davis, Ida Belle"	Cow Neck	"Lewis, Campbell"	Cobbs Creek	MJ	1/1/1914
+"Flemming, Bertie"	White Marsh	"Williams, Wallace, Jr."	"Baltimore, Md.; Gloucester"	MJ	1/1/1914
+"Foster, Inez Marchant"	Peary	"Hudgins, William Sheppard"		MJ	1/1/1914
+"Hudgins, Mary"	Laban	"Hudgins, Cleveland"	Sarah	MJ	1/1/1914
+"Lewis, Pearl"	Norfolk	"Hurst, Edgar Lee"	Norfolk	MJ	1/1/1914
+"Powell, M_____"	Mathews	"Hernandez, Mr."	Norfolk	MJ	1/1/1914
+"Pugh, Mattie"	Peary	"Owens, Lawrence"	Peary	MJ	1/1/1914
+"Randall, Rosamond"	"Baltimore, Md."	"Forrest, Floyd"	Mathews	MJ	1/1/1914
+"Doole, Ruth Margaret"	Norfolk	"Treakle, Edgar Raymond"	Norfolk; Mathews	MJ	1/8/1914
+"Hurst, Lessie May"	Gwynn's Island	"Owens, Linwood Z."	Gwynn's Island	MJ	1/8/1914
+"Morgan, Mary"	Diggs	"Hudgins, Oren Franklin"	Laban	MJ	1/8/1914
+"Waring, Lavina Curtis"	Dunnsville	"Miller, William Roland"	Norfolk; Mathews	MJ	1/8/1914
+"Wise, Maggie Lee"	Crab Neck	"Callis, James Edgar"	Moon	MJ	1/8/1914
+"Callis, Rebecca"	Gwynn's Island	"Hall, Charles"	Foster	MJ	1/15/1914
+"Hurst, Ethel"	Hudgins	"Gwynn, James"	Cricket Hill	MJ	1/22/1914
+"Borum, Ida D."	Grimstead	"Grimstead, Walter L."	Grimstead	MJ	1/29/1914
+"Foster, Bettie F."	Blakes	"Garrett, Carrol C."	Blakes	MJ	1/29/1914
+"Sadler, Edith Pearl"	Hallieford	"Powell, Dallas Milton"	Gwynn's Island	MJ	2/5/1914
+"Machen, Mamie"	Gwynn's Island	"Forrest, William Coles"	Mathews	MJ	2/12/1914
+"Fitchett, Nannie Virginia (engaged)"	Streets	"Cardwell, Lloyd"	Samos	MJ	2/19/1914
+"Marsden, Helen Lydia"	Hallieford	"Davis, William C."	"Fayetteville, N.C."	MJ	3/5/1914
+"Lawson, Elsa L."	Gloucester	"Lowe, Luther T."	Gloucester	MJ	3/12/1914
+"Curling, Annie Laurie"	Norfolk	"Carlisle, Hazlett, Capt."	Mobjack	MJ	3/19/1914
+"Marsden, Helen Lydia"	upper Mathews	"Davis, William C."	"Fayetteville, N.C."	MJ	3/19/1914
+"Vaughan, Ora Bass (engaged)"	Deltaville	"Gwathmey, William Ryland, Dr."		MJ	3/19/1914
+"Hurley, Edna Pearl (engaged)"	Urbanna	"Turnage, Mark Leslie"	"Greenville, N.C."	MJ	3/26/1914
+"Vaughan, Ora Bass"	Deltaville	"Gwathmey, William Ryland, Dr."		MJ	3/26/1914
+"Worlds, Clemie"	Gloucester	"Crockett, Willie"	Fitchetts	MJ	4/9/1914
+"Hurley, Ethel May"	Urbanna	"Richardson, Samuel Elliott"		MJ	4/16/1914
+"Smith, Ruth"	Urbanna	"Knott, G. W."	"Henderson, N.C."	MJ	4/16/1914
+"Foster, Susie"	Gloucester	"Kemp, Eddie"	North	MJ	4/23/1914
+"Ingram, Annie L."		"Johnson, Thomas Yates, Capt."	Middlesex	MJ	4/23/1914
+"Noland, Blanche Dimmock"	Gloucester	"Dabney, Franklin Perrin"	Gloucester	MJ	4/23/1914
+"Gayle, Annie Louise"		"Walton, Alfred R."	Middlesex	MJ	4/30/1914
+"Sibley, Ethel Lee"	Locust Hill	"Wilson, Howard W."	Locust Hill	MJ	4/30/1914
+"Restein, Anna"	Cape Charles	"Jarvis, A. L."	Cape Charles; Mathews	MJ	5/7/1914
+"White, Clara A."	Whites Nec	"Minor, Robert Ashley"	Whites Neck	MJ	5/7/1914
+"Wickham, Mattie Grace"	Salem	"Kirkpatrick, Robert D."	Mathews	MJ	5/7/1914
+"Wright, Edna Belle"	Lynchburg	"Corbell, Robert"	Richmond; Gloucester	MJ	5/7/1914
+"Matthews, Mary Minor (engaged)"		"Taylor, Lorimer Bland, Rev."	Middlesex	MJ	5/21/1914
+"Hurley, Edna Pearl"	Urbanna	"Turnage, Mark Leslie"	"Greenville, N.C."	MJ	5/28/1914
+"Carr, Mary Elizabeth"	Gloucester	"Wainwright, Robert F."	York	MJ	6/4/1914
+"Hall, Ruby (engaged)"	Middlesex	"Norris, S. Rogers"		MJ	6/4/1914
+"Hurley, Edna Pearl"	Urbanna	"Turnage, Mark Leslie"	"Greenville, N.C."	MJ	6/4/1914
+"Owens, Hattie Mae"		"Roberts, R. L."	Norfolk	MJ	6/4/1914
+"Diggs, Blanche O."	Laban	"Ripley, Willie O."	Susan	MJ	6/11/1914
+"Phaup, Christine"	Reams	"Barnes, Wilton Langford"		MJ	6/11/1914
+"Dexter, Flora"	Norfolk	"Miles, G. Wray"	Retz	MJ	6/18/1914
+"Hall, Ruby  "	Middlesex	"Norris, S. Rogers"		MJ	6/18/1914
+"Matthews, Mary Minor  "	Warehouse	"Taylor, Lorimer Bland, Rev."	Deltaville	MJ	6/18/1914
+"Redd, Daisy Waring"	Jamaica	"Gough, Thomas Dandridge"	Miskimon	MJ	6/18/1914
+"Williams, Ivory Hyacinth"	Norfolk	"Ackiss, Cecil DeWitt"	Norfolk	MJ	6/18/1914
+"Crewe, Mattie"		"Hughes, Thomas M."	Retz	MJ	6/25/1914
+"Crittenden, Susie N."	Amburg	"Glenn, Herbert W."		MJ	6/25/1914
+"Jarvis, Mamie E."	Susan	"Handy, Emmett"	New Point	MJ	6/25/1914
+"Major, Annie N."	Stormont	"Saunders, John T."	Deltaville	MJ	6/25/1914
+"Matthews, Mary Minor"	Warehouse	"Taylor, Lorimer Bland, Rev."	Deltaville	MJ	6/25/1914
+"Nelson, Lillian Tabb"	North	"Somers, Royal Thomas, Dr."	Norfolk	MJ	6/25/1914
+"Nelson, Lillian Tabb"	North	"Somers, Royal Thomas, Dr."	Norfolk	MJ	7/2/1914
+"Phaup, Christine"	Dinwiddie; Mathews	"Barnes, Wilton Langford"	Norfolk	MJ	7/2/1914
+"Hunley, Mattie E."	Fitchetts	"Morgan, Elmer V."	Gwynn's Island	MJ	7/9/1914
+"Spicer, Elsie"	Richmond	"Northjung, Ernest"	Richmond	MJ	7/9/1914
+"Machen, Bessie"	Laban	"Pierce, Maxwell"	Gloucester	MJ	7/30/1914
+"Armistead, Ida May"	Cobbs Creek	"Byrd, Herman A."	Crisfield	MJ	8/6/1914
+"Walker, Bertha Ray"	Urbanna	"Callis, R. A."	Urbanna	MJ	8/6/1914
+"Wiatt, Fay Carter"	Gloucester	"Rhodes, Robert C."	Ware Neck	MJ	8/20/1914
+"Erdman, Margaret"	"Baltimore, Md."	"Ashcom, Y. P. D."	Urbanna	MJ	8/27/1914
+"Hudgins, Kate Virginia"	Norfolk	"Bentley, Alymer Wesley"	Norfolk; Mathews	MJ	8/27/1914
+"Hudgins, Elisma"	Moon	"Moore, Herbert Christian"	York	MJ	9/3/1914
+"Poole, Cleora Estelle"	Norfolk	"Terrie, R. Stanley"	Norfolk	MJ	9/3/1914
+"James, Laura Culpeper"	Mobjack	"Hopkins, Joseph W."	Gloucester	MJ	9/10/1914
+"Hodges, Bertha Roane"	Cobbs Creek	"Hurst, Howard W."	Cobbs Creek	MJ	9/17/1914
+"Merritt, Mary Bertha"	Richmond	"Callis, Hartley"	Port Haywood	MJ	9/17/1914
+"Fogues, Corinne"	Nelson County	"Minter, Harvey"	Mathews	MJ	9/24/1914
+"Miller, Gussie"	Norfolk; Mathews	"Bullock, Jesse"	Caroline	MJ	10/1/1914
+"Miller, Madeline"	Norfolk	"Jones, William Edgar, Dr."	Arkansas	MJ	10/8/1914
+"Fields, Lee"	Gloucester	"Wyatt, Todd"	Newport News	MJ	10/15/1914
+"Hudgins, Lenora B."	Tabernacle	"Hall, John E."	Isle of Wight	MJ	10/15/1914
+"Lewis, Emma"	Hallieford	"Sadler, Frank"	Hallieford	MJ	10/15/1914
+"Sibley, Clement Lee"	Middlesex	"Osterman, Paul Leo"	"Baltimore, Md."	MJ	10/15/1914
+"Blaylock, Susie M."	Blakes	"Ruark, Thomas H."	Middlesex	MJ	10/22/1914
+"Brooks, Ruby Rose"	Diggs	"Brooks, William James"	Peary	MJ	10/22/1914
+"Callis, Goldy Berrey"	Gwynn's Island	"Morgan, Benjamin C."	Norfolk; Mathews	MJ	10/22/1914
+"Ranier, Geneva"	Blakes	"Armistead, Boyd Lee"	Cobbs Creek	MJ	10/22/1914
+"Brownley, Sadie A."	Laban	"Todd, Samuel James"	Warwick Co.	MJ	10/29/1914
+"Games, Norma"	Deltaville	"Dozier, D. T."	Deltaville	MJ	10/29/1914
+"Lee, Ellen Byrd"	Gloucester	"Wilson, John Mallison"	Roanoke	MJ	10/29/1914
+"Lewis, Nora Ellen"	North	"Grimstead, James Benjamin"	Soles	MJ	10/29/1914
+"Brooks, Beryl"	Laban	"Miller, John C."	Susan	MJ	11/5/1914
+"Brooks, Ruby  "		"Brooks, William  "		MJ	11/5/1914
+"Daniel, Lucy Croxton"	Harmony Village	"Gantt, Price Perkins, Jr."	Nelson Co.	MJ	11/5/1914
+"Grills, Harriett W."	New York; Cardinal	"Miller, T. B."	North	MJ	11/5/1914
+"Foushee, Emma Hortense"		"Johnson, E. N."	Ivor	MJ	11/12/1914
+"Brooks, Beryl"	Laban	"Miller, John C."	Susan	MJ	11/19/1914
+"Miller, Julia Butts"		"Hudgins, S. Foster"	Laban	MJ	11/19/1914
+"Crockett, Lillian B."	Fitchetts	"Lewis, Dorsey James"	Redart	MJ	11/26/1914
+"Daniel, Lucy Croxton"	Harmony Village	"Gantt, Price Perkins, Jr."		MJ	11/26/1914
+"Sibley, Eunice"	North River	"Knipp, Harry Edward, Dr."	"Baltimore, Md."	MJ	11/26/1914
+"Foster, Elbert"	Hicks Wharf	"Matter, Ray Clyde"	Norfolk	MJ	12/3/1914
+"Foster, Ruth Sears Virginia"	"Baltimore, Md."	"Price, Ernest Sterling"	"Centerville, Md."	MJ	12/3/1914
+"Parsons, Susan B."	"Wappocomo, W. Va."	"Rowe, Charles Henry"	North River	MJ	12/3/1914
+"Riley, Mildred"	Gloucester	"Rowe, Samuel"	Gloucester	MJ	12/3/1914
+"Thomas, Hazel"	Severn	"Robins, Hammond"	Perrin	MJ	12/17/1914
+"Watkins, Hannah Ellen"	King and Queen	"Segar, Earl"	Middlesex	MJ	12/17/1914
+"Blake, Mary"	Bena	"Tillage, Nathan"	Crab	MJ	12/24/1914
+"Callis, Mildred"	Retz	"Carmine, Rufus W."	York	MJ	12/24/1914
+"Mattox, Ruth"	Norfolk	"Hudgins, Melvin P."	Mathews	MJ	12/24/1914
+"Sadler, Bertha May"		"Brooks, Thomas C."	Norfolk	MJ	12/24/1914
+"Browne, Elizabeth"	Severn	"Blake, Paul"	Bena	MJ	1/6/1916
+"Conkling, Annie A."		"Hudgins, Atwood E."	Traders	MJ	1/6/1916
+"Davis, Carrie May"	Hallieford	"Hudgins, Milton"	Hallieford	MJ	1/6/1916
+"Hudgins, Florence E."	Gloucester	"Britton, Charles"	Richmond	MJ	1/6/1916
+"Stewart, Ronie May"	Laban	"Diggs, David"	Susan	MJ	1/6/1916
+"Walker, Pearl"	Gloucester	"Smith, _____"		MJ	1/6/1916
+"Conkling, Annie A. (correction)"		"Hudgins, Atwood E."	Traders	MJ	1/13/1916
+"Hurst, Kate Lilly"	Port Haywood	"Hudgins, Claude Perrin"	Laban	MJ	1/13/1916
+"Machen, Lena C."	Mobjack	"White, Alfred Earl"	Mobjack	MJ	2/3/1916
+"Hudgins, Lula Elizabeth"	Hudgins	"Foster, Clarence Linwood"	Baltimore	MJ	2/17/1916
+"Powell, Susie Aurelia"	Cricket Hill	"Magett, Charles K."	Cricket Hill	MJ	2/24/1916
+"Arvin, Bessie Clara"	Keysville	"Ingram, Arthur Ashberry"	Foster	MJ	3/2/1916
+"Hudgins, Lola"		"Foster, Clarence Linwood"	Baltimore; Hudgins	MJ	3/2/1916
+"Leigh, Rosa Elizabeth"	Gloucester	"Blick, Charles Elmer"	Norfolk	MJ	3/2/1916
+"Morgan, Hilda"	Hallieford	"Hudgins, Albert"	Hallieford	MJ	3/9/1916
+"Milby, Eva Waring"	Gloucester	"Griggs, O. T."	Newport News	MJ	3/23/1916
+"Chapman, Mary Lena (engaged)"	Woods Cross Roads	"Garland, Henry Burnley"	Wake	MJ	3/30/1916
+"Bratton, Levia V."	Middlesex	"Ailsworth, R. C. "	Middlesex	MJ	4/20/1916
+"Dow, Violet White"	New Point	"Snow, John E., Capt."	New Point	MJ	4/20/1916
+"Walton, Maggie Gray"	Gloucester	"Horsley, J. Dabney"	Gloucester	MJ	4/20/1916
+"Williams, Lilas"	Stormont	"Walton, J. Emory"	Gloucester	MJ	4/20/1916
+"Atherton, Clemmie Bell"		"Shawn, Charles Leslie"	Mathews	MJ	4/27/1916
+"Bassett, Ruby Lee"		"Diggs, Gilbert C."	Peary	MJ	4/27/1916
+"Lee, Rubinette"	Irvington	"Fleet, Robert Hill"	King and Queen	MJ	4/27/1916
+"Atherton, Lessie Pearl"		"Twist, Thomas"	Mathews	MJ	5/4/1916
+"Respess, Annie"	Gwynn's Island	"Mitchem, Walter R."	Gwynn's Island	MJ	5/4/1916
+"Bassett, Ruth Virginia"	Hallieford	"Hudgins, Earl R."	Hudgins	MJ	5/11/1916
+"Belvin, Mary S. Pugh"	Peary	"Belvin, Fred"	New Point	MJ	5/11/1916
+"Booze, Helen"	Cardinal	"Jordan, Wesley E."	Bohannon	MJ	5/11/1916
+"Davis, Bessie Brooks (engaged)"	Middlesex	"Vaughan, Cecil Parker"	King and Queen	Mj	5/11/1916
+"Hearn, Blanche Rowe (engaged)"		"Hearn, James Wilmore"		MJ	5/11/1916
+"Machen, Ada E."		"White, Rodney C., Capt."	Mobjack	MJ	5/11/1916
+"Hudgins, Elsie R. Loyd"	Blakes	"Myers, Ernest"	Amburg	MJ	5/18/1916
+"Hearn, Blanche Rose"	North	"Hearn, James Wilmore"		MJ	5/25/1916
+"Leddie, Alice Lee"	Norfolk; Mathews	"Sykes, Clarence J."		MJ	5/25/1916
+"Ostendorf, Ellen Ruth"	Cobbs Creek	"Hudgins, Ervey"	Gwynn's Island	MJ	5/25/1916
+"West, Edna Maud"	New Point	"Hurst, Norman"	New Point	MJ	6/1/1916
+"Anderton, Ethel"	Saluda	"McGraw, William S."	Newsome	MJ	6/8/1916
+"Leddie, Alice Lee"	Norfolk; Mathews	"Sykes, Clarence J."		MJ	6/8/1916
+"Vaden, Kate Whiteman"	Mathews	"Baily, James K..Jr."		MJ	6/8/1916
+"Leddie, Alice Lee"	Norfolk; Mathews	"Sykes, Clarence J."		MJ	6/15/1916
+"Bridges, Sallie Foster"	Gloucester	"Simcoe, Hugh"	Norfolk	Mj	6/22/1916
+"Carr, Ethel Jones (engaged)"		"Maxwell, Clarence J."		MJ	6/22/1916
+"Davis, Bessie Brooks  "	Middlesex	"Vaughn, C. Porter"	King and Queen	MJ	6/22/1916
+"Mercer, Mabel W."	Syringa	"Dougherty, Lloyd"	Northampton Co.	MJ	6/22/1916
+"Carlton, Blanche"	Adner	"Gayle, M. Dalby"	Urbanna	MJ	6/29/1916
+"Carr, Ethel  "	Gloucester	"Maxwell, Clarence J."	Cardinal	MJ	6/29/1916
+"Lee, Rubenette"	Irvington	"Fleet, Robert Hill"	King and Queen	MJ	6/29/1916
+"Minter, Mary L."		"Rollins, A."	Hampton	MJ	6/29/1916
+"Morgan, Mary Lizzie"	Diggs	"Wilson, James Russell"	Laban	MJ	6/29/1916
+"Page, Mildred Hope"	Norfolk	"Philpotts, Alphonso C."	Norfolk	MJ	6/29/1916
+"Sadler, Bertha E."	Norfolk	"Cullen, Frank"	Norfolk	MJ	7/6/1916
+"Booker, Kate Elizabeth"	Middlesex	"Seward, Robert William"	Stormont	MJ	7/27/1916
+"Perciful, Virginia Montague"	Nesting	"Ashley, James, Jr."	Stafford	MJ	8/3/1916
+"Carneale, Edna"	Middlesex	"Brown, Silas"	Urbanna	MJ	8/10/1916
+"Pritchard, Julia Maude"	"Chapel Hill, N.C."	"Bristow, A. Brantly"	Urbanna	MJ	8/10/1916
+"Buchannon, Flora"	Hallieford	"Green, Taylor"	Hallieford	MJ	8/17/1916
+"Davis, Josephine Matilda"	Susan	"Diggs, Andrew Jackson"	Peary	MJ	8/17/1916
+"Borum, Blanche Lee"	Gwynn's Island	"Powell, William Thomas"	Norfolk	MJ	8/24/1916
+"Pritchard, Julia Maude"	"Chapel Hill, N.C."	"Bristow, Arthur Brantly"	Urbanna	MJ	8/24/1916
+"Lewis, Myrtle May"	Hallieford	"Hudgins, Gaston"	Hallieford	MJ	8/31/1916
+"Murden, Ruth"	Portsmouth 	"Smith, Seabrook"	Fitchetts	MJ	8/31/1916
+"Bull, Phoebe E."	York	"Hogg, Hinton F."	Gloucester	MJ	9/7/1916
+"Hart, Elizabeth Goodwin"	Albemarle	"Jones, William Atkinson, Jr."	Warsaw	MJ	9/7/1916
+"Callis, Agnes Callis"		"Edwards, Warner L."		MJ	9/14/1916
+"Palmer, Lillia"	Urbanna	"Jones, T. G."	Urbanna	MJ	9/14/1916
+"Perciful, Virginia Montague"	Nesting	"Ashby, James, Jr."	Stafford	MJ	9/14/1916
+"Whitehouse, Eulalia"	Fredericksburg	"Travers, L. Reed"	Mathews	MJ	9/14/1916
+"Hudgins, Ritchie Lane"	New Point	"White, Robert Hartley"	Mathews	MJ	9/21/1916
+"Anderton, Lynda Fairfax"	Saluda	"Hagin, Edward McConnill"	"Douglasville, Ga."	MJ	9/28/1916
+"Clayville, Clara"	Moon	"Morgan, W. B."		MJ	9/28/1916
+"Hibble, Emily L. (engaged)"	Woods Cross Roads	"Jarvis, Cecil B."	Locust Hill	MJ	9/28/1916
+"Taylor, Margaret Catherine"	Onancock	"Fogle, George Godwin"		MJ	9/28/1916
+"Carney, Mary Elizabeth"	Gwynn's Island	"Respess, William W."	Gwynn's Island	MJ	10/5/1916
+"Weston, Mable Gray"	"Mt. Washington, Md."	"Smith, George H."		MJ	10/5/1916
+"Fletcher, Mamie Hulda"	Woods Cross Roads	"Clements, Philip"	Wan	MJ	10/12/1916
+"Miller, Hillie"	Susan	"Minter, Leonard Diggs"	Laban	MJ	10/12/1916
+"Sadler, Lilly Butts (engaged)"	Diggs	"Hudgins, Granville Moss"	Laban	MJ	10/12/1916
+"Anderton, Lynda Fairfax"	Saluda	"Hagin, Edward McConnill"	"Douglasville, Ga."	MJ	10/19/1916
+"Blake, Mary Emily"	Retz	"Callis, Elwood Eugene"		MJ	10/19/1916
+"Burroughs, Ruby May"	Newport News	"Bryant, Otis Pittman"		MJ	10/19/1916
+"Hudgins, Alma Duke"	Norfolk; Mathews	"Johnson, Thomas Jeter"	Roanoke	MJ	10/19/1916
+"Miles, Georgie Gertrude"	Mathews	"Ames, B. Heyward"	Cape Charles; Mathews	MJ	10/19/1916
+"Sadler, Lilly Butts  "	Diggs	"Hudgins, Granville Moss"	Laban	MJ	10/19/1916
+"Wynne, Elizabeth May"		"Hudgins, Walter Gwynne"		MJ	10/19/1916
+"Stone, Edna Earle"		"South, Jeff ""Happy"""	Mathews	MJ	10/26/1916
+"Thompson, Ella Mabel"		"Trader, William Northern, Dr."	"Sonyea, N.Y.; Mathews"	MJ	10/26/1916
+"Bew, Minnie M."	Richmond	"Sears, Richard B."	Pampa	MJ	11/2/1916
+"Blake, Mary Emily"	Retz	"Callis, Elwood Eugene"	Grimstead	MJ	11/2/1916
+"Folkes, Kate"	Gloucester	"Wolffe, Herman A."	Gloucester	MJ	11/2/1916
+"Walker, Sadie"	Sassafras	"Mayo, James"	West Point	MJ	11/2/1916
+"Morgan, Irene"	Diggs	"Brownley, Wilbur F."	Cape Charles; Mathews	MJ	11/9/1916
+Stubbs (50-year anniversary)	Gloucester	"Stubbs, James New"	Woods Cross Roads	MJ	11/9/1916
+"Trader, Elizabeth Lee"	Newport News	"Bright, William J., Jr."	Newport News	MJ	11/9/1916
+"West, Ruth Fleet"	Peary	"Hutson, Jessie Monroe"	Susan	MJ	11/9/1916
+"Burroughs, Lillie May"		"Hudgins, Maywood Schoofield"	Norfolk	MJ	11/16/1916
+"Grinnell, Mamie Virginia"	New Point	"Hutson, John Lemuel"	New Point	MJ	11/16/1916
+"Haynes, Countess Bentrick"	Cobbs Creek	"Hodges, Andrew Stewart"	Cobbs Creek	MJ	11/16/1916
+"Philpotts, Nancy Vivian"	Mobjack	"Roane, Bascom Hefflin"		MJ	11/16/1916
+"West, Ruth Fleet"	Peary	"Hutson, Jesse Monroe"	New Point	MJ	11/16/1916
+"Edwards, Maggie"	Gwynn's Island	"Robins, Todd"	Gloucester	MJ	11/23/1916
+"Grinnell, Minnie Virginia"	New Point	"Hutson, John Lemuel"	New Point	MJ	11/23/1916
+"Miller, Mary Virginia"	Roanoke	"Treakle, T. K."	Mathews	MJ	11/23/1916
+Stubbs (50-year anniversary)	Gloucester	"Stubbs, James New"	Woods Cross Roads	MJ	11/23/1916
+"Duncom, Mary Frances"		"Culbertson, Alexander McKee"		MJ	11/30/1916
+"Hudgins, Rema"	New Point	"Hudgins, Eddie M."	New Point	MJ	11/30/1916
+"Jones, Allie"	Samos	"West, Thurman"	New Point	MJ	11/30/1916
+"Lewis, Gladys"	Redart	"Callis, Arthur"	Redart	MJ	11/30/1916
+"Philpotts, Nancy Vivian"	Mobjack	"Roane, Bascom Hefflin"	Portsmouth	MJ	11/30/1916
+"Postles, Mary Braxton"	"Washington, D.C."	"Flather, George Elmer"		MJ	11/30/1916
+"Carnell, Althi"	Glenns	"Carter, Robert Payne"	King and Queen	MJ	12/7/1916
+"Forrest, Mary Emily (engaged)"	Mathews	"Zambelli, William A."	"New York, N.Y."	MJ	12/7/1916
+"Hazelwood, Grace"	Streets	"Didlake, Henry"	Urbanna	MJ	12/7/1916
+"Miller, Mary Virginia"	Roanoke	"Treakle, T. Keeler"	Mathews	MJ	12/7/1916
+"Spear, Maggie Respess"	Gwynn's Island	"Morris, Howard Dale"	Richmond Co.	MJ	12/7/1916
+"Wright, Stella Jolyiffe"	Gloucester	"Harper, C. T."	Florida	MJ	12/7/1916
+"Forrest, Mary Emily (correction)"	Mathews	"Zambelli, William A."	"New York, N.Y."	MJ	12/14/1916
+"Mitchem, Susie V."	Gwynn's Island	"Diggs, James W."	Gwynn's Island	MJ	12/14/1916
+"Lewis, Ruby G."	Hallieford	"Davis, James A."	Hallieford	MJ	12/21/1916
+"Morgan, Ellen"	"Baltimore, Md."	"Atherton, Sidney"		MJ	12/21/1916
+"West, Goldie Louise"	Peary	"Hudgins, Robert M."	Susan	MJ	12/21/1916
+"Trant, Ada Haseltine"	Portmouth	"Butt, Alexander Bruce, Jr."	Gloucester	NR	4/4/1917
+"Caulk, Eliza Gertrude"	"Sharptown, Md."	"Nuttall, Harry Taliaferro"	Ware Neck	NR	7/5/1917
+"Gwyn, Pearl"	Naxera	"Teagle, Thad"		NR	7/5/1917
+"Diggs, Nellie Gray"	Gwynn's Island	"Topping, George W."	York	MJ	1/3/1918
+"Hudgins, Jennie E."	Mathews	"Davis, James Thomas"	Isle of Wight	MJ	1/3/1918
+"Deagle, Mary Thelma"	Gwynn's Island	"Magette, Edgie Raymond"		MJ	1/10/1918
+"Morgan, Edna L."	Diggs	"Hudgins, Earl McCoy"	Mathews	MJ	1/10/1918
+"Owens, Clara Lee"	Peary	"Burroughs, Alonza"	New Point	MJ	1/10/1918
+"Howlett, Lucy Park"	Green Point	"Milby, Walter W., Capt."	Fortress Monroe	MJ	1/17/1918
+"McCurrick, Anna Hamilton"		"Taliaferro, Philip Boswell, Lt."	Gloucester	MJ	1/24/1918
+"Montague, Janet Roy"	Richmond	"Nunnally, William J., Lt."	Georgia	MJ	1/24/1918
+"Armistead, Georgie Ruth"	Susan	"Adams, G. W."	New Point	MJ	1/31/1918
+"Towll, Mary Louise"	Middlesex	"Blake, James Boadman"	Retz	MJ	2/14/1918
+"Reid, Cornelia"		"Kerns, George L., Rev."	Gloucester	NR	2/21/1918
+"Taggart, Marguerite Lucille"		"Saxelby, Charles M., Lt."		NR	2/28/1918
+"West, Violet Newbill"	Norfolk	"Bailey, William Howard "	Bailey's Wharf	NR	2/28/1918
+"Loftis, Margaret"		"Soper, Thomas Melvin"	Foster	MJ	3/14/1918
+"Templeman, Lucy L."		"Shackelford, John M."	Severn	NR	4/18/1918
+"Hartzell, Gertrude Waddill"	"Cheraw, S.C."	"Foster, Benjamin Freeman"		MJ	5/2/1918
+"Pugh, Virginia F."	Port Haywood	"Fitchett, George"	Port Haywood	MJ	5/9/1918
+"Robertson, M.E."		"Jordan, J. E. C."		MJ	5/9/1918
+"Borum, Columbia"	Shadow	"Spindle, John W."	Christiansburg	MJ	5/23/1918
+"Fitchett, Susie"	New Point	"Armistead, Glen M."	New Point	MJ	5/23/1918
+"Lane, Hilda Virginia"		"Winn, Wirt L."	Norfolk; Mathews	MJ	5/23/1918
+"Robins, Cora Belle"	Cardinal	"Ashbury, Jones"		MJ	5/23/1918
+"Down, Hannah Ramsay"	"Hagerstown, Md."	"Ingram, Herbert A."	"Hagerstown, Md."	MJ	5/30/1918
+"Bassett, Bertha"	Blakes	"Latch, Charles"	Penniman	MJ	6/6/1918
+"Garrett, Colie Virginia"	Mathews	"Davis, Eugene R."	Mobjack	MJ	6/6/1918
+"Keyes, May"	Foster	"Wiersdorf, Frederick"		MJ	6/13/1918
+"Hartzell, Gertrude Waddill"	"Cheraw, S.C."	"Foster, B. Freeman"	Mathews	MJ	6/20/1918
+"Ragland, Laura Augusta"	"Baltimore, Md."	"Dozier, Robert F."	"Sparrows Pt., Md."	MJ	6/20/1918
+"Brooks, Carrye Compton"	Mathews	"Hudgins, Charlie Diggs"	Mathews	MJ	6/27/1918
+"Philips, Margery Louise"	Gloucester	"Ball, Marvin"	"Atlanta, Ga."	MJ	6/27/1918
+"Hudgins, Nellie"	Mathews	"West, Albert"	Newport News	MJ	7/11/1918
+"Lang, Grace"	Montana	S. Guy Forrest	Mathews	MJ	7/25/1918
+"Billups, Allie"	Moon	"Winder, Arthur L."		MJ	8/1/1918
+"West, Mary"	Gloucester	"Deal, John Calvin"	Gloucester	MJ	8/22/1918
+"Dillehay, Gaynelle"	Mathews	"Dixon, Boyd Sears"	Mathews	MJ	9/5/1918
+"Dunston, Catherin V."	Cobbs Creek	"Britton, Herbert C."	"Pottstown, Pa."	MJ	9/5/1918
+"Hudgins, Ellen Gertrude"	Sarah	"Hudgins, Irvin M."	Tabernacle	MJ	9/5/1918
+"Rhea, Nellie K."	Mobjack	"White, Bernard F."		MJ	9/5/1918
+"Barnes, Ora"	Laban	"Borum, C. C."	New Point	MJ	9/19/1918
+"Smith, Sadie"	Diggs	"Owens, Joseph Stanley"	Diggs	MJ	9/19/1918
+"Diggs, Annie May"	Achilles	"Sykes, A. M."	Portsmouth	MJ	9/26/1918
+"Williams, Blanche"	Norfolk; Mathews	"Slagle, Charles"		MJ	9/26/1918
+"Crockett, Callis"		"Callis, Edward Lee"		MJ	10/3/1918
+"Armistead, Velma"	New Point	"Albricht, August David"	"Hooper, Nebraska"	MJ	1/2/1919
+"Ripley, Georgie Lee"	Susan	"Hudgins, Carroll"	New Point	MJ	1/2/1919
+"Sadler, Janie E."	Diggs	"Owens, Bertram L."	Diggs	MJ	1/2/1919
+"White, Alice Belle"	Motorun	"Thomas, Luther Snow"		MJ	1/2/1919
+"Douglas, Vivian Leigh"	Mathews	"Gunther, William"	Norfolk	MJ	1/9/1919
+"Minor, Ruth"	Gloucester	"Kerns, Vernon"	Gloucester	GG	1/9/1919
+"Toler, Elizabeth"		"Hurst, Thoms C., Jr."	Norfolk; Mathews	MJ	1/9/1919
+"Tatterson, Susie B."	Peary	"Smith, Harry C."	Peary	MJ	1/16/1919
+"White, Rhoda B."	Blakes	"Carmean, William W."	Blakes	MJ	1/16/1919
+"Armistead, Mary Frances"	Peary	"Hudgins, George Vernon"	Susan	MJ	1/30/1919
+"Rock, Mary L."		"Kennard, William K."		MJ	1/30/1919
+"Smith, Susie"		"Diggs, W. Linwood"		MJ	1/30/1919
+"Armistead, Mary Frances"	Peary	"Hudgins, George Vernon"	Susan	MJ	2/6/1919
+"Chandler, Lucy S."	Ware Neck	"Dunston, W. H."	Gloucester	MJ	2/6/1919
+"Payne, Frances Rebecca Randolph"	"Washington, D.C."	"Chisholm, Robert Donald"	"Washington, D.C."	MJ	2/6/1919
+"Robinson, Mildred Dlp"	Richmond	"Mason, Harry F."	North	MJ	2/6/1919
+"Bradford, Blanche Gaines"	Norfolk	"Atkins, Joseph Winder"	Gloucester	GG	2/13/1919
+"Payne, Frances Rebecca Randolph"	"Washington, D.C."	"Chisholm, Robert Donald"	"Washington, D.C."	MJ	2/13/1919
+"Callis, Hazel Florence"	Gwynn's Island	"Hudgins, Walter Guy"	Gwynn's Island	MJ	2/27/1919
+"Morgan, Lucy J."	Tabernacle	"Forrest, Levin J."	Tabernacle	MJ	2/27/1919
+"Gwynn, Eva Virginia"	Redart	"Hernandez, St. Elmo Phillips"		MJ	3/6/1919
+"Hudgins, Rilla B."	Susan	"Hurst, John Dawson"	New Point	MJ	3/6/1919
+"Walker, Virginia Kathrine"	Gloucester	"Horsley, James Herman"	Gloucester	GG	3/20/1919
+"Walker, Virginia Kathrine"	Gloucester	"Horsley, James Herman"	Gloucester	MJ	3/27/1919
+"Hudgins, Kate Vivian"	Norfolk; Mathews	"Hurst, Luther James"	Norfolk; Mathews	MJ	4/3/1919
+"Machen, M. Bernice (engaged)"	Cardinal	"Sandberg, E. T., Dr."		MJ	4/10/1919
+"Meyer, Frieda"	"Baltimore, Md."	"Groh, Louis"	Clay Bank	GG	4/10/1919
+"Marchant, Winnie D."	Mathews	"Ashburn, E. S."	Lancaster	MJ	4/17/1919
+"Bassett, Mabel Lillian"		"Hill, Charles Nelson"		MJ	4/24/1919
+"Clements, Eliza Virginia"	Gloucester	"Ball, William Lee"	"Marianna, Fla.; Virginia"	GG	4/24/1919
+"Downs, Myrtle O."	Tabernacle	"Hatter, William"	Newport News	MJ	4/24/1919
+"Edwards, Allie V."	Northumberland	"Fleet, W. Howard"	Norfolk; Mathews	MJ	4/24/1919
+"Milner, Ruth"	Norfolk	"Martin, John C."	Norfolk; Gloucester	GG	4/24/1919
+"Callis, Alma"		"Mitchem, Cary"	Gwynn's Island	MJ	5/1/1919
+"James, Mary Agnes"	Mobjack	"Elwang, William Braxton"	"Louisville, Ky."	MJ	5/1/1919
+"Wiatt, Mary Sinclair (engaged)"		"Gray, Russell Hancock"		GG	5/1/1919
+"Jagger, Ella B."	Mathews	"Grimstead, Garland L."	Norfolk	MJ	5/8/1919
+"James, Mary Agnes"	Mobjack	"Elwang, William Braxton"	"Louisville, Ky."	MJ	5/8/1919
+"Wiatt, Mary Sinclair  "		"Gray, Russell Hancock"		GG	5/8/1919
+"Fitchett, Albirda (engaged)"	New Point	"Burroughs, Norman Christopher"	Motorun	MJ	5/15/1919
+"Machen, M. Bernice (engaged)"	Cardinal	"Sandberg, E. T., Dr."		MJ	5/15/1919
+"Sutton, Ruth Blanche"	Plain View	"Bland, Robert Tyler"	Plain View	GG	5/15/1919
+"Wiatt, Mary Sinclair"	Signpine	"Gray, Russell Hancock"	Signpine	GG	5/15/1919
+"Fitchett, Albirda  "	New Point	"Burroughs, Norman Christopher"	Motorun	MJ	5/29/1919
+"Machen, M. Bernice  "	Cardinal	"Sandberg, E. T., Dr."		MJ	5/29/1919
+"Jones, Fannie Ellen Wellford"		"Smith, Charles Henry"	Alexandria	GG	6/12/1919
+"Milby, Alice"	Cobbs Creek	"Wood, William J."	Middlesex	MJ	6/12/1919
+"Oliver, Nannie Cunningham (engaged)"		"Foster, W. Merritt"	Williamsburg	MJ	6/12/1919
+"Rowley, Lena"	"Baltimore, Md."	"Hart, James W."	"Baltimore, Md."	MJ	6/12/1919
+"Walker, Winfred Davis (engaged)"	Urbanna	"Dietz, Carl F."	"Bremerton, Wash."	MJ	6/12/1919
+"Hudgins, Susie B."	lower Mathews	"Jarvis, Marshall"	Susan	MJ	6/19/1919
+"Minor, Elizabeth"	"San Antonio, Texas"	"Tabb, Warner T."	"New York, N.Y.; Gloucester"	GG	6/19/1919
+"Andreson, Bessie Beall"		"Cooke, Joseph Branham"	Gloucester	MJ	6/26/1919
+"Hudgins, Carrie Irene"		"King, J. W."	Richmond	MJ	6/26/1919
+"Jones, Fannie Ellen Wellford"		"Smith, Charles Henry"	Alexandria	MJ	6/26/1919
+"Jones, Fannie Ellen Wellford"	Gloucester	"Smith, Charles Henry"	Alexandria	GG	6/26/1919
+"Miles, Lillian Maude"	Traders	"Hall, Joe Watt"	Bena	MJ	6/26/1919
+"Miller, Mary Maude (engaged)"	Raccoon Ford	"Green, Charlie Edward"	Mathews	MJ	6/26/1919
+"Stoermer, Hettie Ottilia"	Hudgins	"Bristow, Howard"	Urbanna	MJ	6/26/1919
+"Williams, Nellie May"	Foster	"Pierson, George H."	Richmond	MJ	6/26/1919
+"Anderson, Bessie Beall"	Norfolk	"Cooke, Joseph Branham"	Gloucester	GG	7/3/1919
+"Clements, Elizabeth Adams"	North	"Smith, L. Louis"	Norfolk	MJ	7/3/1919
+"Johnson, Marion Frances"	"Philadelphia, Pa."	"Kemp, Matthew Boyd"	Gloucester	GG	7/3/1919
+"Miles, Lillian Maude"	Traders	"Hall, Joe Watt"	Gloucester	GG	7/3/1919
+"Pinckney, Mary Middleton"	South Carolina	"Lee, Robert E., Col."		MJ	7/3/1919
+"Sadler, Genevieve"	Mathews	"Carr, William David"	Portsmouth	MJ	7/3/1919
+"Thomas, Ella Virginia"	"Baltimore, Md."	"Shackelford, Harry K"	Newport News; Gloucester	GG	7/3/1919
+"Ingram, Virginia Ella"	"Mt. Gilead,N.C."	"Stubbs, Winston L."	Norfolk	GG	7/10/1919
+"Mitchell, Madge D."		"Haywood, Ira K."	Gloucester	MJ	7/10/1919
+"Clements, Elizabeth Adams"	North	"Smith, L. Louis"	Norfolk	MJ	7/17/1919
+"Hudgins, Novella"	Susan	"Morgan, Robert Wesley"		MJ	7/17/1919
+"Miles, Goldie May"	North	"Giesen, John J., Dr."	Radford	MJ	7/17/1919
+"Collier, Clara Ethel (engaged)"	Gloucester	"Bingham, Edwin Leonard"	Norfolk	GG	7/24/1919
+"Riddick, Daisy Weston"	Portsmouth 	"Taylor, Richard Atwell"	New Point	MJ	7/24/1919
+"Hudgins, Novella"	Susan	"Morgan, Robert Wesley"	New Point	MJ	7/31/1919
+"Lehman, Ruth"	"Canton, O."	"Handy, Herbert, Rev."	New Point	MJ	7/31/1919
+"Collier, Clara Ethel"	Gloucester	"Bingham, Edwin Leonard"	Norfolk	MJ	8/7/1919
+"Cole, Elizabeth Marshall (engaged)"	"Raleigh, N.C."	"Gayle, Robert Finley, Dr."	Urbanna	MJ	8/14/1919
+"Carlton, Linda Gray"	Adner	"Fitchett, Richard"	Samos	MJ	8/28/1919
+"Hayes, Aileen Frances"	Bena	"Smith, William Coleman"	Norfolk	MJ	8/28/1919
+"Smart, Elizabeth"	"East Orange, N.J."	"Tabb, James R."	Richmond	MJ	8/28/1919
+"Ashbury, Hattie Letitia"	Newport News	"Strailman, Gilbert Thacker"		MJ	9/4/1919
+"James, Annie Tennis"	Mathews	"Simoson, Jesse James"	Fort Monroe	MJ	9/4/1919
+"Mays, Gladys Louise (engaged)"		"Brownley, John Winfield"		MJ	9/4/1919
+"Oliver, Nannie Cunningham  "	Irvington	"Foster, Merritt Woodhull"	Williamsburg	MJ	9/4/1919
+"Palmer, Julia C. (engaged)"	Saluda	"Anderton, George G."	Saluda	MJ	9/4/1919
+"Winn, Mabel Clair (engaged)"	Mathews	"Williams, Clemm C., Dr."	"Washington, D.C."	MJ	9/4/1919
+"Winn, Pearle Elizabeth"	Albemarle	"Corbell, Julian Cary"	Gloucester	GG	9/4/1919
+"Collier, Clara Ethel"	Gloucester Point	"Bingham, Edwin Leonard"	"Omaha, Ne."	GG	9/11/1919
+"Powell, Amy Ray"	Susan	"Read, Robert W."	Newport News	MJ	9/11/1919
+"Bergeron, Mae"		"Hudgins, William B., Capt."	Laban	MJ	9/18/1919
+"Burroughs, Lillian Ethel (engaged)"	Mathews	"Diggs, Charles Clemmitte"	Mathews	MJ	9/18/1919
+"Callis, Delma Cosett (engaged)"	Mathews	"Lawson, Lionel D."	"Spartanburg, S.C."	MJ	9/18/1919
+"Forrest, Alma Louise"	Norfolk	"Mitchell, Neal Arnold"	Massachusetts	MJ	9/18/1919
+"Powell, Amy Ray"	Susan	"Read, Robert W."	Newport News	MJ	9/18/1919
+"Winn, Pearl Elizabeth"	Albemarle	"Corbell, Julian Carr"	Gloucester	MJ	9/18/1919
+"Fore, Sallie Hines (engaged)"	Clover	"Tabb, Joseph James"	Gloucester	MJ	9/25/1919
+"Smither, Helen Suzanne (engaged)"	Norfolk	"Jeffrey, Madison Peters"	"Malden, Mass."	MJ	9/25/1919
+"Soles, Willie Maude"	Soles	"Howlette, J. Hancock"	Soles	MJ	9/25/1919
+"Thompson, Adelle"	North	"Sadler, Floyd"	Tabernacle	MJ	9/25/1919
+"Winn, Mabel Clair  "	Norfolk	"Williams, Clem Carey, Dr."	"Washington, D.C."	MJ	9/25/1919
+"Burroughs, Lillian Ethel  "		"Diggs, Charles Clemmitte"		MJ	10/2/1919
+"Soles, Ruth Marion"	Soles	"Lewis, James C."	Soles	MJ	10/2/1919
+"Burroughs, Lillian Ethel"		"Diggs, Charles Clemmitte"		MJ	10/9/1919
+"Clements, Kate Hope (engaged)"		"Soles, Vernon C."		MJ	10/9/1919
+"Clements, Kate Hope (engaged)"	Gloucester	"Soles, Vernon C."	Soles	GG	10/9/1919
+"Edwards, Lucy Lane"	Gwynn's Island	"Deagle, George"	Gwynn's Island	MJ	10/9/1919
+"Hudgins, Georgie"	Susan	"Weaver, E. S."	"Washington, D.C."	MJ	10/9/1919
+"Hudgins, Georgie"	Susan	"Weaver, E. S."	"Washington, D.C."	MJ	10/9/1919
+"Sibley, Ella R."	"Philadelphia, Pa."	"Vansiclan, John"	Newport News	MJ	10/9/1919
+"West, Lulia Virginia"	Urbanna; Gloucester	"Ward, W. F., Sr."	Urbanna	MJ	10/9/1919
+"Deal, Margaret Elizabeth"	Norfolk	"Gresham, Alvin Evans"	Gloucester	GG	10/16/1919
+"Fore, Sallie Hines"	Clover	"Tabb, Joseph James"	Gloucester	GG	10/16/1919
+"Jenkins, Lucy Ann"	Gloucester	"Muse, Bernard W."	Gloucester	MJ	10/16/1919
+"Mays, Gladys Louise"	Norfolk	"Brownley, John Wingfield"	Norfolk	MJ	10/16/1919
+"Williams, Sallie Virginia (engaged)"	Gloucester	"Morris, Edwin Loyall"	Norfolk	GG	10/16/1919
+"Allen, Helen Burns"	Gloucester	"Robins, William Augustus, Jr."	Gloucester	GG	10/23/1919
+"Callis, Delma Cossette"	Tabernacle	"Lawson, Lionel D."	"Spartanburg, S.C."	MJ	10/23/1919
+"Crockett, Inez"	"Crisfield, Md."	"Butler, Samuel J., Jr."	Northumberland	GG	10/23/1919
+"Deal, Elizabeth"	Gloucester	"Gresham, Alvin"	Gloucester	GG	10/23/1919
+"Foster, Lucy"	Mathews	"Buck, William McKinley"	Norfolk	MJ	10/23/1919
+"Hudgins, Lucile"	Laban	"Hudgins, William O., Jr."	New Point	MJ	10/23/1919
+"Pugh, Elizabeth Howlette (engaged)"	Mathews	"Healy, Joseph Edward"	Mathews	MJ	10/23/1919
+"Williams, Sallie Virginia (engaged)"	Gloucester	"Morris, Edwin Loyall"	Norfolk	MJ	10/23/1919
+"Dudley, Edna Estelle  "	Bridges	"Harrell, Kenneth Wilson"	Portsmouth	GG	10/30/1919
+"Clements, Kate Hope   "	Gloucester	"Soles, Vernon C."	Soles	MJ	11/6/1919
+"Grinnell, Susie Belle"	New Point	"Brown, Lennie David"	New Point	MJ	11/6/1919
+"Morgan, Lillian"	Norfolk	"Hudgins, L. Waverly"	Norfolk; Mathews	MJ	11/6/1919
+"Revere, Nettie Wray"	Wake	"Bristow, Francis Addison"	West Point	MJ	11/6/1919
+"Sinclair, Martha Mallory"	Hampton	"Field, George Booth, Jr."	Hampton; Gloucester	GG	11/6/1919
+"Clements, Kate Hope"	Gloucester	"Soles, Vernon Coles"	Soles	GG	11/13/1919
+"Hoelsche, Edith Pauline (engaged)"	"Pittsburgh, Pa."	"Bell, J. Austin"	Zanoni	GG	11/13/1919
+"Hudgins, Kate"	New Point	"Callis, W. G."	Moon	MJ	11/13/1919
+"Kerns, Sannie (engaged)"	Gloucester	"Howard, Allan Stevens"		GG	11/13/1919
+"Lewis, Nellie E."	Cobbs Creek	"Lewis, Bernard M."	North	MJ	11/13/1919
+"Lewis, Nellie E."	North	"Lewis, Bernard  "	North	GG	11/13/1919
+"Pugh, Elizabeth Howlette  "	Mathews	"Healy, Joseph Edward"	Mathews	MJ	11/13/1919
+"Sinclair, Martha Mallory"	Hampton	"Field, George Boothe"	Gloucester	MJ	11/13/1919
+"Foster, Georgie Glenn"	Mathews	"Granberry, Howard Martin"	Norfolk	MJ	11/20/1919
+"Hudgins, Athelia Maude"	Laban	"Preston, Robbie T."	New Point	MJ	11/20/1919
+"Palmer, Julia C.  "	Middlesex	"Anderton, George G."	Saluda	MJ	11/20/1919
+"Respess, Thelma"	Gwynn's Island	"Buchannon, George"	Gwynn's Island	MJ	11/20/1919
+"White, Serena"	Dixie	"White, Marion W."	Bohannon	MJ	11/20/1919
+"Wilson, Bessie L. (engaged)"	Norfolk	"Miles, William H."	Port Haywood	MJ	11/20/1919
+"Blassingham, Maude"	Mathews	"Nevins, William G."	Norfolk	MJ	11/27/1919
+"Eaton, Mary"	Norfolk	"Watson, George"	Norfolk	MJ	11/27/1919
+"Kerns, Sannie  "	Gloucester	"Howard, Allan Stevens"	Gloucester	GG	11/27/1919
+"Tucker, Edna Virginia "	Norfolk	"Bridges, Thomas, Jr."	Norfolk	GG	11/27/1919
+"Smither, Helen Suzanne"	Norfolk	"Jeffrey, Madison Peters"		MJ	12/4/1919
+"Wilson, Bessie Lou"	Norfolk	"Miles, William Hanse"	Port Haywood	MJ	12/4/1919
+"Smither, Helen Suzanne  "	Norfolk	"Jeffrey, Madison Peters"		MJ	12/11/1919
+"Clements, Mrs. R. J. (50th anniversary)"		"Clements, R. J."	Gloucester	GG	12/18/1919
+"Bensten, Mary Louise"	Gwynn's Island	"Grimstead, Malcolm"	Gwynn's Island	MJ	12/25/1919
+"Clements, B. E., Mrs."	North	"James, Dallas"	Redart	MJ	12/25/1919
+"Diggs, Nannie Shepard"	Laban	"Brooks, J. Howard"	Diggs	MJ	12/25/1919
+"Dunston, Bertha A."	Hayes Store	"Rigau, Felix R."	Porto Rico	MJ	12/25/1919
+"Greaves, Elizabeth (engaged)"	Charlottesville	"Page, Cecil"	Shelly	GG	12/25/1919
+"Powell, Hilda May"	Norfolk	"West, Romie"	"Guinea, Gloucester"	MJ	12/25/1919
+"Brown, Mary Ruth  "		"Mattson, Hugh"		GG	1/8/1920
+"German, Laura Catherine  "		"German, Benjamin Calvin"		GG	1/8/1920
+"Lewis, Marion Weston"	West Point	"Feild, Richard Bernard"	West Point	GG	1/8/1920
+"Shepherd, Lillie Mae"	Belroi	"Smith, E. Warren"	Gum Fork	GG	1/8/1920
+"Atherton, Ora"	Hudgins	"Amory, Thomas E."	Urbanna	MJ	1/15/1920
+"Brooks, Iris"	Laban	"Dameron, Randolph"		MJ	1/15/1920
+"Miller, Margaret Emerson (engaged)"	North	"Harrison, John O."	Norfolk	MJ	1/15/1920
+"Muse, Katherine Fleet"		"Graves, Charles Weartly"		GG	1/15/1920
+"Plummer, Bertha Aleathea"		"Moore, Herbert H."		GG	1/15/1920
+"Minor, Harriet E."	Bohannon	"Colvin, John L."	Garrisonville	MJ	1/22/1920
+"Callis, A. J., Mrs. (50th anniv)"	Newport News	"Callis, A. J. (50 years)"	Newport News	MJ	1/29/1920
+"Dunstan,Nannie Boyd"	Gloucester	"Cooper, Joseph B."	"Baltimore, Md."	GG	1/29/1920
+"Gray, Catherine Bunch"		"Stables, Linton D., Rev."	Belroi	GG	1/29/1920
+"Miles, Louise"	Norfolk	"Kellum, Russell"	Franktown	MJ	1/29/1920
+"Muse, Katherine Fleet (engaged)"		"Graves, Charles Weartly"	"Baltimore, Md."	GG	1/29/1920
+"Dunston, Nannie Boyd"	Gloucester	"Cooper, Joseph B."	"Baltimore, Md."	MJ	2/5/1920
+"Gray, Catherine Bunch"		"Stables, Linton D., Rev."		GG	2/5/1920
+"Gray, Katherine Bunch (engaged)"	Gloucester	"Staples, L. D., Rev."	Bellamy	MJ	2/5/1920
+"Muse, Katherine Fleet (engaged)"	Gloucester	"Graves, Charles Weartly"	"Baltimore, Md.; Gloucester"	MJ	2/5/1920
+"Shackelford, Mable"		"Tillage, Moody"		GG	2/5/1920
+"White, Nettie Lee"	Dixie	"Hughes, Spencer H."	Hampton; Bohannon	MJ	2/5/1920
+"Muse, Katherine Fleet  "	Gloucester	"Graves, Charles Weartly"	"Baltimore, Md.; Gloucester"	MJ	2/12/1920
+"Shackelford, Mabel"	Gloucester	"Tillage, Moody"	Gloucester	MJ	2/12/1920
+"Croswell, Thelma"	Wicomico	"Christenburg, John Wesley"	"Bakersfield, Ca."	GG	2/19/1920
+"Gray, Katherine Bunch  "	Signpine	"Staples, Linton D., Rev."	Bellamy	MJ	2/19/1920
+"Hudgins, Victoria L."	Mathews	"Moore, Richard Henry"	Hampton	MJ	2/19/1920
+"Stone, Lucy D."	Mathews	"Shawn, Samuel T."	Mathews	MJ	2/19/1920
+"Bell, Florence Elizabeth"	Hudgins	"Morgan, Clarence L."	Diggs	MJ	2/26/1920
+"King, Odalite"	Severn	?		GG	2/26/1920
+"McLellan, Phyllis Jeanette"	"St. George, Canada"	"Hudgins, Linwood L."	Mobjack	MJ	2/26/1920
+"Hudgins, Nannie"	Sarah	"Diggs, C. B."	Laban	MJ	3/4/1920
+"Muse, Katherine Fleet"		"Graves, Charles Weartly"		GG	3/4/1920
+"Plummer, Bertha Aleathea"		"Moore, Herbert H."		GG	3/4/1920
+"Anderson, Frances"	"Greenwich, Ct."	"Diggs, Curtis W."	Norfolk	MJ	3/11/1920
+"Plummer, Bertha Aleathea (engaged)"		"Moore, Herbert H."		MJ	3/11/1920
+"Brisbous, Urcile M."	Laban	"Hudgins, Boyd"	Williams Wharf	MJ	3/18/1920
+"Brooks, Gladys Pearl"	Hallieford	"Twigg, Enoch Pratt"	Dixie	MJ	3/25/1920
+"Smith, Virginia Lovejoy (engaged)"	"Baltimore, Md."	"Sibley, Herbert Wade"	Middlesex	MJ	3/25/1920
+"Pointer, Evelyn Marion"		"Barnes, J. C."		GG	4/8/1920
+"Sears, Cora Ellen"		"Mallet, Robert W."		GG	4/8/1920
+"Jones, Willie Carter"	Suffolk	"Hunley, Walter R."	Fitchetts	MJ	4/15/1920
+"McCord, Annie"	Hilton	"Shawn, Walter M."	Mathews	MJ	4/15/1920
+"Pointer, Evelyn Marion"	Achilles	"Barnes, J. C."		MJ	4/15/1920
+"Sheppard, Lucy Catherine"		"Oliver, Garry F."		GG	4/15/1920
+"Taylor, Mary Thelma"	Middlesex	"Hudgins, Willard R."	Mathews	GG	4/15/1920
+"Banks, Elsie H."	Diggs	"Forrest, Freddie W."	Diggs	MJ	4/22/1920
+"Billups, Virginia N."	Baltimore; Mathews	"Walker, Stanley"	Mobjack	MJ	4/22/1920
+"Brooking, Alma Marie  "	New Upton	"Pierce, Virgil Samuel"	"Baltimore, Md."	GG	4/22/1920
+"Funk, Virginia F. Jarvis (50 year anniv)"	Baltimore; New Point	"Funk, John W."	"Baltimore, Md."	MJ	4/22/1920
+"Root, Catherine"	"St. Louis, Mo."	"Browne, Ernest Walton"	Norfolk; Mathews	MJ	4/22/1920
+"Taylor, Mary Thelma"	Middlesex	"Hudgins, Willard R."	Mathews	MJ	4/22/1920
+"Brown, Leona"		"Porter, Alfred"		GG	4/29/1920
+"Hogg, Mattie"		"Hogg, Willie"		GG	4/29/1920
+"Hudgins, Violet B."	Mathews	"Ripley, William S."	Mathews	MJ	4/29/1920
+"Jackson, Mary Louise"	Newport News; Mathews	"Livesay, Joseph Stanley"		MJ	4/29/1920
+"Plummer, Bertha"		"Moore, Herbert Hope"		GG	4/29/1920
+"Brown, Leona"	Perrin	"Porter, Alfred"	"Baltimore, Md."	MJ	5/6/1920
+"Healy, Emily Lee"	Warner	"Robbins, John"	Warner	MJ	5/6/1920
+"Kemp, Clara H."		"Hall, Christopher T."		GG	5/6/1920
+"Jenkins, Elizabeth  "		"Brown, Alvord"		GG	5/13/1920
+"Lemon, Ola"	Gloucester	"Brown, R. Hobson"	Gloucester	GG	5/13/1920
+"Walker, Emily Mason  "	Belroi	"Walker, Jefferson"	Belroi	GG	5/13/1920
+"Carter, Mary Randolph"	Charles City	"Yerger, O. M., Rev."	Mathews	MJ	5/20/1920
+"Hicks, Virginia"	North	"Hicks, Howard E."	New York  	MJ	5/20/1920
+"Hicks, Virginia"	North	"Hicks, Howard E."	North	GG	5/20/1920
+"Hogge, Lessie  "		"Carmine, Orris Waldron"	Wicomico	GG	5/20/1920
+"Rowe, Grace Seawell"		"Shackelford, John Morgan"		GG	5/20/1920
+"Thomas, Mary Jane  "		"Brown, Joseph Ira"		GG	5/20/1920
+"Campbell, Jessie"	Laban	"Brooks, Edward Wingfield"	Laban	MJ	5/27/1920
+"Hudgins, Hattie Belle"	Laban	"Downs, Charlie W."	Milford Haven	MJ	5/27/1920
+"Armistead, Lelia"	Norfolk	"Collier, Paul G."	Portsmouth	MJ	6/3/1920
+"Brown, Nannie I."	New Point	"Armistead, Clifton"	New Point	MJ	6/3/1920
+"Green, Edna Randolph"	Mathews	"Hodges, John Dewey"	Norfolk	MJ	6/3/1920
+"Williams, Alice"	Richmond	"Mason, James"	Norfolk; North	MJ	6/3/1920
+"Brown, Wanda F."	Hudgins	"Hatch, James A."	"Akron, O."	MJ	6/10/1920
+"Gayle, May Louise (engaged)"	Urbanna	"Chowning, Carroll C."	Urbanna	MJ	6/10/1920
+"Jackson, Mable Elizabeth"	Norfolk	"Watkins, William Thomas"		MJ	6/10/1920
+"Walker, Katherine   "		"Lemon, John"	Shelly	GG	6/10/1920
+"Whitehurst, Midlred Lucile"	Norfolk	"Machen, James Reginald"	North	MJ	6/10/1920
+"Williard, Anna Adlin"	"Pittsburgh, Pa."	"Treakle, G. A."	Mathews	MJ	6/10/1920
+"Clopton, Katherine Anderson"	Gloucester Point	"Asher, Alexander Spotswood"	Concord	GG	6/17/1920
+"Morgan, Lottie J."	Diggs	"Brooks, Charlie C."	Susan	MJ	6/17/1920
+"Muse, Carrie Elizabeth"	Gloucester	"Vaughan, Linwood"	King and Queen	GG	6/17/1920
+"Thomas, Bertha Macon (engaged)"		"Smith, Lee Augustus"	North	MJ	6/17/1920
+"Willard, Anna"	"Pittsburgh, Pa."	"Treakle, Guerdon"	"Brooklyn, N.Y."	MJ	6/17/1920
+"Adams, Annie"		"Thornton, Wilson"		GG	6/24/1920
+"Ashe, Ruby"	Hayes Store	"Yates, Mr."		GG	6/24/1920
+"Ashe, Sarah Ruby"	Gloucester Point	"Gates, Kenneth W."	"Greenwood, Mass."	GG	6/24/1920
+"Clopton, Katherine"		"Asher, Alexander Spotswood"		GG	6/24/1920
+"Clopton, Katherine A."	Gloucester Point	"Asher, Alexander S."	Norfolk	MJ	6/24/1920
+"Coates, Sadie Lucille"	Sadler's Neck	"West, Ernest Monroe"	Sadler's Neck	GG	6/24/1920
+"Hurst, Pearl"	Susan	"Eberly, Robert F."	Richmond	MJ	6/24/1920
+"Knapp, Elizabeth"	"Santa Barbara, CA."	"Williams, J. Wilton"	"Akron, O.; Gloucester"	GG	6/24/1920
+"Muse, Carrie"		"Vaughan, Linwood"		GG	6/24/1920
+"Muse, Carrie Elizabeth"	Gloucester	"Vaughan, Linwood"	King and Queen	MJ	6/24/1920
+"Nuttall, Alice"	Retz	"Galloger, James"	Cardinal and Wisconsin	MJ	6/24/1920
+"Oliver, Nellie"	Gloucester	"Bray, Willie"	"Akron, O.; Gloucester"	GG	6/24/1920
+"Robins, Florence Maud"		"Brown, Charles Martin"		GG	6/24/1920
+"Wells, Nina Haven"	Richmond	"Newcomb, Benjamin Coleman"	Cappahosic	GG	6/24/1920
+"Anderson, Frances"	"Greenwich, Ct."	"Diggs, Curtis W."	Laban	MJ	7/1/1920
+"Ashe, Sarah Lucy"	Gloucester	"Gates, Kenneth W."	"Greenwood, Mass."	MJ	7/1/1920
+"Coates, Sadie Lucille"	Sadler's Neck	"Rowe, Ernest Monroe (corrected)"	Sadler's Neck	GG	7/1/1920
+"Gayle, May"	Urba	"Chowning, Carroll C."	Urbanna	GG	7/1/1920
+"Watson, Rettie K."	"Philadelphia, Pa."	"Lamberth, George E."	New Upton	GG	7/1/1920
+"Willis, Nina Harven"	Richmond	"Newcomb, Benjamin C."	Gloucester	MJ	7/1/1920
+"Gayle, May Louise  "	Urbanna	"Chowning, Carroll C."	Urbanna	MJ	7/8/1920
+"Hudgins, Hattie  "	New Point	"Thomas, Jesse Ray"	Pittsburgh; Mathews	MJ	7/8/1920
+"Dulin, Ruth E."	"Annapolis, Md."	"Roane, Walter D."	Gloucester	GG	7/15/1920
+"Gayle, May Louise"	Urbanna	"Chowning, Carroll C."	Urbanna	GG	7/15/1920
+"Kemp, Bessie Pearl"		"Roby, Thomas L."		GG	7/15/1920
+"Thomas, Bertha Macon  "	Sarah	"Smith, Leighal Augustus"	Norfolk	MJ	7/15/1920
+"Parker, Geraldine"	Foster	"Atherton, Luther B."	Foster	MJ	7/22/1920
+"Stubbs, Ida Gazelle (engaged)"	Saluda	"Smith, R. G., Dr."	Norfolk	MJ	7/29/1920
+"White, Ola Stuart"	New Point	"Burford, Charles Lee"	Norfolk	MJ	7/29/1920
+"Shackelford, Edith Byrd (engaged)"	Saluda	"Coppedge, Charles Granville"	Reedville	MJ	8/5/1920
+"Stubbs, Ida Gazelle (engaged)"	Saluda	"Smith, R. G., Dr."	Norfolk	GG	8/5/1920
+"Temple, Sara (engaged)"	Saluda	"Scott, James Holland"	"Bridgetown, W. Va."	MJ	8/5/1920
+"Harrison, Ida (engaged)"	"Tucson, Az."	"Healy, John H."	Churchview	MJ	8/12/1920
+"Smith, Mamie"	Milford Haven	"Hudgins, George Wash"	Susan	MJ	8/19/1920
+"Hollingsworth, Ruth (engaged)"	"Washington, D.C."	"Healy, Charles W."	Mathews	MJ	8/26/1920
+"Saunders, Nettie"	Mascot	"Foster, William Thomas"	Remlik	MJ	8/26/1920
+"Kennedy, Florence"		"Hollerith, Charles"	"Indianapolis, Ind."	MJ	9/2/1920
+"Williams, Mary Evelyn"	Gloucester	"Dunn, Donald Douglas"	Norfolk	MJ	9/2/1920
+"Hollingsworth, Ruth"	"Washington, D.C."	"Healy, Charles W."	Mathews	MJ	9/9/1920
+"Abbott, Louise Vann (engaged)"		"Gayle, William Wagner"	Urbanna	MJ	9/16/1920
+"Haynes, Hazel Elizabeth (engaged)"	Foster	"Christian, James Todd"	Mathews	MJ	9/16/1920
+"Haynes, Hazel Elizabeth (engaged)"	Foster	"Christian, James Tod"	Mathews	GG	9/16/1920
+"Hollingsworth, Ruth"	"Washington, D.C."	"Healy, Charles W."	Mathews	MJ	9/16/1920
+"Farinholt, Eloise DuVal"	Newport News	"Wiatt, Francis Churchill"	Gloucester	GG	9/23/1920
+"James, Gertrude"	Mathews	"Jarrett, Louis"	"Baltimore, Md."	MJ	9/23/1920
+"Ryland, Lucile Isabel (engaged)"	Urbanna	"Palmer, Richard O."	Urbanna	MJ	9/23/1920
+"Stubbs, Rebecca"	Gloucester	"Mitchell, G. T."	"Columbia, S. C."	GG	9/23/1920
+"Chewning, Ethel O. (engaged)"	Urbanna	"Eubank, W. H."	King and Queen	MJ	9/30/1920
+"Forrest, Beatrice Lee"	Diggs	"Griffith, William Marvin"		MJ	9/30/1920
+"Stubbs, Rebecca"	Gloucester	"Mitchell, G. T."	"Columbia, S. C."	GG	9/30/1920
+"Cook, Leola DuBois"	Belroi	"Sapp, J. L. Dr."	Norfolk	GG	10/7/1920
+"Haynes, Hazel Elizabeth  "	Foster	"Christian, James Tod "	Mathews	MJ	10/7/1920
+"Hudgins, Florence Mabel"	Susan	"Owens, Charles E."	Peary	MJ	10/7/1920
+"Miller, F. Garland"	Mathews	"McKenzie, James"	"Augusta, Me."	MJ	10/7/1920
+"Brownley, Mary E."		"Diggs, Edgar L."	Peary	MJ	10/14/1920
+"Callis, Lena (engaged)"	Gwynn's Island	"Diggs, George Wayne"	Laban	MJ	10/14/1920
+"Rowe, Florida Louise"	Gloucester	"Lewis, John Norman"	Norfolk	GG	10/14/1920
+"Seddon, Mary Alexander (engaged)"	Portsmouth 	"Lee, William B., Jr., Rev."	Blacksburg; Gloucester	GG	10/14/1920
+"Wellford, Gay Montague (engaged)"	Richmond	"Moore, Charles Beatty, Maj."		MJ	10/14/1920
+"Williams, Rebecca H."	Wicomico	"Charles, Andrew G."	"Lancaster, Pa."	GG	10/14/1920
+"Abbott, Louise Van "	Norfolk	"Gayle, William Wagner"	Urbanna	MJ	10/21/1920
+"Atherton, Effie May"	Hudgins	"Williams, James Robert"	Cobbs Creek	MJ	10/21/1920
+"Bristow, Flossie Elizabeth (engaged)"		"Eastman, Frank Peterson"		MJ	10/21/1920
+"Browne, Urline C."	Norfolk	"Smith, Charles Walker"	Lynchburg	MJ	10/21/1920
+"Buchannon, Nettie Lee"	Gwynn's Island	"Smith, W. T."	Gwynn's Island	MJ	10/21/1920
+"Callis, Lena  "	Gwynn's Island	"Diggs, George William"	Laban	MJ	10/21/1920
+"Hunley, Florence Virginia"	Hudgins	"Stoermer, Robert H."	Hudgins	MJ	10/21/1920
+"Ryland, Lucile Isabel"	Urbanna	"Palmer, Richard O."	Urbanna	MJ	10/21/1920
+"Segar, Sudie Smith (engaged)"	Saluda	"Palmer, Walter Cary, Jr."		MJ	10/21/1920
+"Stubbs, Ida Gazelle (engaged)"	Saluda	"Smith, Robert Guy, Dr."	Norfolk	GG	10/21/1920
+"West, Mattie Lee"	Urbanna	"Greggs, John Thomas"	Gloucester	GG	10/21/1920
+"Chewning, Ethel Oliver"	Urbanna	"Eubank, William Hugh"	King and Queen	MJ	10/28/1920
+"Downs, Bernice May"	Moon	"Shawn, Linwood Charles"	Newport News	MJ	10/28/1920
+"Winder, Alma"		"Marchant, Talmadge C."		MJ	10/29/1920
+"Clarke, Elizabeth Louise"	"Baltimore, Md."	"Lewis, James F."	North	MJ	11/4/1920
+"Gort, Lydia Frederick"	Portsmouth 	"Armistead, Ulric Holder, Dr."	Mathews	MJ	11/4/1920
+"Seddon, Mary Alexander  "	Portsmouth 	"Lee, William B., Jr., Rev."	Blacksburg; Gloucester	GG	11/4/1920
+"Stubbs, Ida Gazelle  "	Saluda	"Smith, Robert Guy, Dr."	Norfolk	MJ	11/4/1920
+"Taylor, Jessie"	"Ft. Meade, Fl."	"Bentley, Robert E."	Richmond; Mathews	MJ	11/4/1920
+"Winder, Bertha Alma"		"Marchant, Talmadge Carlysle"		MJ	11/4/1920
+"Clements, Mary Elnor"	Gloucester	"Hudgins, James Maryus"		GG	11/11/1920
+"Stubbs, Ida Gazelle"	Saluda	"Smith, Robert Guy, Dr."	Norfolk	GG	11/11/1920
+"Booker, Gladys Reda"	Sadler's Neck	"Hall, Ira B., Jr."	Zanoni	GG	11/18/1920
+"Thomas, Sallie Lawrendia"		"Shackelford, Charles Ernest"	"Goldsboro, N.C."	GG	11/18/1920
+"Bowen, Helen Summerville (engaged)"		"Duncan, William Barr"		GG	11/25/1920
+"Diggs, Fannie C."	Laban	"Forrest, Elvin Preston"	Norfolk; Mathews	MJ	11/25/1920
+"Thomas, Ivy Gray"	Susan	"Handy, Leonard G."	Susan	MJ	11/25/1920
+"Thomas, Anna Elizabeth"	"Baltimore, Md."	"March, Elmer Burbank"	"Philadelphia, Pa."	MJ	12/2/1920
+"White, Elizabeth C."	Bohannon	"Stallings, Junius B."	"Mayville, N.C."	MJ	12/2/1920
+"Collins, Mary Ethel"	Cologne	"Trevilian, George E., Jr."	Plain View	GG	12/9/1920
+"Faulkner, Anna Grace"	Mathews	"Meares, Samuel T."	"LaGrange, N.C.; Mathews"	MJ	12/16/1920
+"Simmons, Ethel"	"Baltimore, Md."	"Nelson, Fred A."	"Baltimore, Md.; Mathews"	MJ	12/16/1920
+"South, Hilda"	Pampa	"Hatch, Enoch"		GG	12/23/1920
+"West, Margie"	Peary	"Hudgins, Walter D."	Susan	MJ	12/23/1920
+"Diggs, Carrie Lee"		"Pugh, James M."	Laban	MJ	1/6/1921
+"Hudgins, Edna Louise"	Peary	"Hall, Claudie"	Peary	MJ	1/6/1921
+"Shackelford, Alma Ruth"	Foster	"Casey, Frank Mdonough"	"Annapolis, Md."	MJ	1/6/1921
+"South, Hilda"	Pampa	"Hatch, Enoch"		GG	1/6/1921
+"West, Cora Pearl"		"Smith, William McKinley"	Glass	GG	1/6/1921
+"West, Mamie L."		"Owens, John F."	Glass	GG	1/6/1921
+"Blake, Louise Clay"	Newport News	"Stevenson, Francis Lionel"	"Brookland, NY"	MJ	1/13/1921
+"McCormick, Dorothy Vaughn"	"Harrisburg, Pa."	"Powell, S. B."	Spotsylvania	MJ	1/13/1921
+"Nelson, Anna C."	Foster	"Rumph, Archie"	"Casper, Wyoming"	MJ	1/13/1921
+"Callis, Mattie B."	Gwynn's Island	"Mitchem, Dorsie E."	Gwynn's Island	MJ	1/20/1921
+"Minter, Mary S."	Beaverlett	"Hudgins, Charles D., Jr."	New Point	MJ	1/20/1921
+"Merthyr, Mary"	"Washington, D.C."	"Smith, William Harleigh"	Millers Tavern	GG	1/27/1921
+"Newcomb, Martha Jane (engaged)"	Gloucester	"Gates, Hunter Brantley"	Richmond	MJ	1/27/1921
+"Hudgins, Grace"	Gwynn's Island	"Minter, Baron"	Beaverlett	MJ	2/3/1921
+"Martin, Ida  "	Orange	"Sears, John H."	Gloucester	MJ	2/3/1921
+"Merthyr, Mary"	"Washington, D.C."	"Smith, William Harleigh"	Millers Tavern	MJ	2/3/1921
+"Moore, Myrtle"	Belroi	"Lewis, Addison Lee"	Belroi	GG	2/3/1921
+"Schwartz, Annie Belle"	Port Haywood	"Joyner, Walter Linwood"		MJ	2/3/1921
+"Borum, Maude Mae"	Onancock	"Gibson, Thomas Kirkland"	"Bennettsville, S.C."	MJ	2/10/1921
+"Martin, Ida Mae"	Orange	"Sears, John H."	Pampa	GG	2/10/1921
+"Newcomb, Martha Jane (engaged)"		"Gates, Hunter Brantley"	Richmond	GG	2/10/1921
+"Godsey, Edith"	Gwynn's Island	"Walston, Irving"	Norfolk	MJ	2/24/1921
+"Newcomb, Martha  "		"Gates, Hunter Brantley"	Richmond	GG	2/24/1921
+"Kemp, Lavinia A."	North	"Moore, Richard C."	Sassafras	MJ	3/3/1921
+"Kemp, Lavinia A."	North	"Moore, Richard C."	Sassafras	GG	3/10/1921
+"Stewart, Mary Diana"	Norfolk	"Oliver, James Clarence"	Newport News	GG	3/10/1921
+"Ranier, Joyce"	Blakes	"Stone, John M."	Hudgins	MJ	3/17/1921
+"Edwards, Lillie"	Owl Trap	"Pierce, Jimmie"		GG	3/24/1921
+"Belvin, Daisy Florence"	Perrin	"Misel, Morris"	"Philadelphia, Pa."	GG	3/31/1921
+"Diggs, Sarah Virginia (engaged)"	Peary	"Grinnelle, Richard"	New Point	MJ	3/31/1921
+"Hunley, Adele"	Mathews	"Truitt, V. R."	Mathews	MJ	3/31/1921
+"Lewis, Helen L."	North	"Miller, Walter F."	Harcum	GG	3/31/1921
+"Pugh, Marion Elizabeth"	Sarah	"Parker, George Dewey"	Norfolk	MJ	3/31/1921
+"Hunley, Adele"	Mathews	"Truitt, V. R."	Mathews	MJ	4/7/1921
+"Lewis, Helen L."	North	"Miller, Walter F."	Harcum	MJ	4/7/1921
+"Thornton, Mae"	Achilles	"Williams, Preston Cabot"	Hayes Store	GG	4/7/1921
+"Diggs, Sarah Virginia  "	Peary	"Grinnelle, Richard"	New Point	MJ	4/14/1921
+"Jenkins, Fannie"	Severn	"Smith, Luther"	Ware Neck	GG	4/14/1921
+"Williams, Georgie"	Port Haywood	"Hunley, Russell"	Norfolk	MJ	4/14/1921
+"Diggs, Sarah Virginia"	Peary	"Grinnelle, Richard"	New Point	MJ	4/21/1921
+"Grinnelle, Clemmie"	New Point	"Callis, Stanley"	Diggs	MJ	4/21/1921
+"Hogge, Helen Ruth"	Wicomico	"Carmine, Powell Horace"	Wicomico	GG	4/21/1921
+"Kemp, Mabel"	Dutton	"Ranier, James"	Blakes	MJ	4/21/1921
+"Miller, Thelma E."	Norfolk	"Gordon, Mathew"	Norfolk	MJ	4/21/1921
+"White, Irene"	Motorun	"Haywood, Charles H., Jr."	Susan	MJ	4/21/1921
+"Cotter, Bessie"	Glass	"Thomas, Raymond"	Severn	GG	4/28/1921
+"Hogg, Rose Matilda"		"Dame, Thomas Earl"		GG	4/28/1921
+"Payne, Elizabeth Edmunds"	Norfolk	"Ellis, Everett Edward"	"Hamburg, Germany"	GG	4/28/1921
+"Sutton, Ada Lucile"	Plain View	"Burton, James Aubrey"	Urbanna	MJ	4/28/1921
+"Borum, Mary E."	New Point	"Keene, Edward Byron"	Norfolk	MJ	5/5/1921
+"Kemp, Emma Lee"	Gloucester	"Pointer, Michael Harvey"	Clay Bank	GG	5/5/1921
+"Page, Anne"	Hanover	"Johns, Frank Stoddard, Dr."	Richmond	GG	5/5/1921
+"Hudgins, Alice Moore"		"Cherry, William S."	Norfolk	MJ	5/12/1921
+"Preston, Virginia Lillian"		"Hudgins, Ray"	Laban	MJ	5/12/1921
+"Sutton, Ada Lucile"	Plain View	"Burton, James Aubrey"	Urbanna	GG	5/12/1921
+"Twigg, Helen"	Dixie	"Rammell, John B."	Dixie	MJ	5/12/1921
+"Pugh, Estelle"		"Day, Thomas, Jr."	Norfolk	MJ	5/19/1921
+"Purcell, Helen"	Ware Neck	"Curfman, Howard"	Foster	MJ	5/19/1921
+"Grinnelle, Sadie"	New Point	"Armistead, Vannie"	Peary	MJ	5/26/1921
+"Diggs, Christine"	Diggs	"Hudgins, Archie Schley"	New Point	MJ	6/2/1921
+"Heath, Minnie"	Remlik	"Blake, Raymond"	Topping	MJ	6/2/1921
+"Respess, Taxie"	Gwynn's Island	"Buchannon, John A."	Gwynn's Island	MJ	6/2/1921
+"Respess, Texie"	Gwynn's Island	"Buchannon, John A."	Gwynn's Island	MJ	6/2/1921
+"Callis, Janie Delle"	Tabernacle	"Hudgins, Herman W."	Susan	MJ	6/9/1921
+"Faulkner, Margaret"	Urbanna	"Hoge, Hamden"	Richmond	MJ	6/9/1921
+"Richardson, Alys L."	"Baltimore, Md."	"Arnold, Edward Cladwell"	"Baltimore, Md."	MJ	6/9/1921
+"Thompson, Estelle James"	Soles	"Robbins, John Roger"	Perrin	MJ	6/9/1921
+"Barrows, Josephine (engaged)"	Norfolk	"Fleming, Robert Lee"	Gloucester	GG	6/16/1921
+"Bowen, Helen S."	"Moorefield, W. Va."	"Duncan, William B."	Gloucester	GG	6/16/1921
+"Hatch, Nannie Maude (engaged)"		"Mason, Linwood"	Nansemond Co.	MJ	6/16/1921
+"Hudgins, Mamie"	Cobbs Creek	"Hunley, Harold W."	Blakes 	MJ	6/16/1921
+"Parks, Bessie Dale (engaged)"		"Rudd, Hilton Allen"	Yorktown	GG	6/16/1921
+"Hatch, Nannie Maude  "	Cobbs Creek	"Mason, Linwood"	Nansemond Co.	MJ	6/30/1921
+"Miller, Olive De Shazo"	Harcum	"Thompson, Elwood Thomas"	Mathews	GG	6/30/1921
+"Miller, Ollie"	Harcum	"Thompson, Elwood Thomas"	Cobbs Creek	MJ	6/30/1921
+"Miller, Ollie DeShazo"	Harcum	"Thompson, Elwood Thomas"	Cobbs Creek	MJ	7/7/1921
+"Stormer, Bessie Pauline"	Hudgins	"Blaylock, James"	Blakes	MJ	7/7/1921
+"Willis, Jennie Emma"	Gloucester	"Robins, Edward Henry"	Gloucester	GG	7/7/1921
+"Hogg, Jennie"	Hayes Store	"Rowe, Mortie"	Hayes Store	GG	7/14/1921
+"Kirkpatrick, Margaret (engaged)"	Mathews	"Schumaker, Ralph"	"New York, NY"	MJ	7/14/1921
+"Minor, Elsie"		"Buck, Herman"	Hayes Store	GG	7/14/1921
+"Broaddus, Janette Alexander (engaged)"	Gloucester	"Dalby, Calvin Holmes"	Norfolk	GG	7/21/1921
+"Broaddus, Janette Alexander (engaged)"	Gloucester	"Dalby, Calvin Holmes"	Norfolk	MJ	7/21/1921
+"Harrow, Ruby A."	Deltaville	"Sibley, H. Bryan"	Locust Hill	MJ	7/21/1921
+"Hunley, Elizabeth"	Mathews	"Acey, William"	Norfolk; Mathews	MJ	7/21/1921
+"Ambrose, Salone"	Wicomico	"Hall, John William"	Mathews	GG	7/28/1921
+"Trevilian, Alice"		"Booker, R. C."		GG	7/28/1921
+"Ambrose, Salone"	Wicomico	"Hall, John William"	Mathews	MJ	8/4/1921
+"Foster, Susie Belle"	Blakes	"Ranier, Evy L."	Hallieford	MJ	8/4/1921
+"Lathrop, Nellie"	Mathews	"Severson, Maynard"	Mathews	MJ	8/4/1921
+"Drisgill, Ellen Webster"	Mobjack	"Machen, Charles Abbott"	Mobjack	MJ	8/11/1921
+"Everage, Nellie G."	Foster	"Faulkner, William M."	Middlesex	MJ	8/18/1921
+"Hogg, Nellie"	Wicomico	"Mowry, Victor"	Pennsylvania	GG	8/25/1921
+"Thompson, Mattie"	"Baltimore, MD."	"Haynes, James F."	Gloucester	GG	8/25/1921
+"Hogge, Nellie"	Wicomico	"Mowry, Victor R."	"Derry, Pa."	GG	9/1/1921
+"Miller, Ella  "		"Grimstead, Willie  "		MJ	9/1/1921
+"Kirkpatrick, Alice Virginia"	Mathews	"Carson, Emmett B."	Newport News	MJ	9/8/1921
+"Miller, Ella Montague"	Harcum	"Grimstead, William Coles"	Soles	GG	9/8/1921
+"Green, Marion Elizabeth"	Hallieford	"Miles, George Wendell"	Traders	MJ	9/15/1921
+"Hudgins, Pamela Marchant"		"Wiley, Robert Ludwig"		MJ	9/15/1921
+"Miller, Ella Montague"	Harcum	"Grimstead, William Coles"	Soles	MJ	9/15/1921
+"Plummer, Lillian"	Cash	"Clements, Billy"		GG	9/15/1921
+"Downs, Hattie Frances"	Mathews	"Hall, William J."	"Norfolk; Chester, Pa."	MJ	9/22/1921
+"Thomas, Martha Elizabeth"	Severn	"Walthall, James Hayes"		GG	9/29/1921
+"Ashbury, Nannie Banks"	Retz	"Hunley, Arthur K."	Retz	MJ	10/6/1921
+"Blake, Esther Decatur"	Bena	"Brown, Earlie Rodney"	Perrin	GG	10/6/1921
+"Lear, Adele Whitman"	Norfolk	"DeLoatch, William Floyd"	"Conway, NC"	MJ	10/6/1921
+"Wright, Ada (engaged)"	Wicomico	"Williams, James Arthur"	Norfolk	GG	10/6/1921
+"Wright, Ada (engaged)"	Gloucester	"Williams, James Arthur"	Norfolk	MJ	10/6/1921
+"Brooks, May"	Port Haywood	"Holliday, Calvin"	Newport News	MJ	10/13/1921
+"Hudgins, Carrie L."	Susan	"Brooks, Edward L."	Sarah	MJ	10/13/1921
+"Hudgins, Florence Yeatman"	Blakes	"Shipley, Vincent Vivian"	Cobbs Creek	MJ	10/13/1921
+"Shipley, Susie Mava"	Cobbs Creek	"Hudgins, Howard E."	Cobbs Creek	MJ	10/13/1921
+"Armistead, Ellen"	Hampton	"Futress, S. Wingate"	Suffolk	MJ	10/20/1921
+"Raines, Elizabeth"	Bohannon	"Braman, Percy C."	Bohannon	MJ	10/20/1921
+"White, Bernice Elizabeth"	Bohannon	"White, Tylor M."	Cobbs Creek	MJ	10/20/1921
+"Baruch, Amalie Rayner"	"New York, N.Y."	"Frank, Perry Belmont"	"New York, N.Y."	GG	10/27/1921
+"Hunley, Virginia"	Amburg	"Hudgins, Thomas"	Cobbs Creek	MJ	10/27/1921
+"Parker, Margaret Douglas"		"Sinclair, Jack Baytop"	Newport News	GG	10/27/1921
+"Ware, Ada Lillian (engaged)"	Crewe	"Phelps, Leon Malcolm"	Richmond	MJ	10/27/1921
+"Baruch, Amalie Rayner"	"New York, N.Y."	"Frank, Perry Belmont"	"New York, N.Y."	GG	11/3/1921
+"Dugger, Louise"	Lynchburg	"Acey, Wilmer"	Norfolk	MJ	11/3/1921
+"Jones, Maria Pollard (engaged)"		"Merle, T. F."	"New York, N.Y."	GG	11/3/1921
+"Hudgins, Alese"	Sarah	"Hurst, W. A."	Susan	MJ	11/10/1921
+"Parker, Ivy Pearl"	Diggs	"Hudgins, James Alva"	Laban	MJ	11/10/1921
+"Soles, Dora C."	Soles	"Heilman, Ray R."	"Dorsey, Md."	MJ	11/10/1921
+"Stores, Ruth Virginia"		"Connelly, Harry Lieb"	"Lancaster, Pa."	MJ	11/10/1921
+"Thomas, Della Loraine"		"Diggs, Samuel Templeman"		GG	11/10/1921
+"Farinholt, Lillian"	Freeport	"Jones, Lewis"	Middlesex	MJ	11/17/1921
+"Farinholt, Mary Lillian"	Freeport	"Jones, Lewis"	Urbanna	GG	11/17/1921
+"Hogg, Nelie"	Wicomico	"DeHardit, George Paul"	Gloucester	GG	11/17/1921
+"Hogg, Nelie"	Wicomico	"DeHardit, George Paul"	Gloucester	MJ	11/17/1921
+"Buchannon, Cora Francis"	Diggs	"Corbett, John E."	Moon	MJ	11/24/1921
+"Kellogg, Mary"	Eastern Shore	"Caffee, John Staub"		MJ	11/24/1921
+"Miller, Lena"	Mathews	"Reed, Benjamine"	"Baltimore, Md."	MJ	11/24/1921
+"Callis, Annie Lucille"	Gwynn's Island	"Bell, Allen Duncan"	Portsmouth	MJ	12/1/1921
+"Callis, Sadie"	Hallieford	"Diggs, Leslie Edward"	Beaverlett	MJ	12/1/1921
+"Farinholt, Mary Selma"	Cash	"Spencer, William Wilton Powell"	Waterview	MJ	12/1/1921
+"Field, Lucy Jones"	Gloucester	"Hopkins, Gerard"	Dixondale	GG	12/1/1921
+"Field, Lucy Jones"	Gloucester	"Hopkins, Gerard"	Dixondale	MJ	12/1/1921
+"Mickelborough, Irma L."	Bohannon	"Hughes, Sidney"		MJ	12/1/1921
+"Morgan, Dora"	Mobjack	"Hill, Allen C."	"East Orange, NJ"	MJ	12/1/1921
+"Wright, Ada J."	Gloucester	"Williams, J. Arthur"	Norfolk	GG	12/1/1921
+"Bassett, Selma"	Blakes	"Marek, Peter, Jr."	Mathews	MJ	12/8/1921
+"Belvin, Florence"	Gloucester	"Aron, William Nicholas"	Norfolk	GG	12/8/1921
+"Best, Lola Holland (engaged)"	"Currituck, N.C."	"Collier, William Sterling"	Norfolk	GG	12/8/1921
+"Callis, Sadie"	Hallieford	"Diggs, Leslie  "	Beaverlett	MJ	12/8/1921
+"Farinholt, Mary Selma"	Cash	"Spencer, William Wilton Powell"	Waterview	GG	12/8/1921
+"Monsell, Mrs. Sidney (50 years)"	Cappahosic	"Monsell, Sidney"	Cappahosic	GG	12/8/1921
+"Bassford, Doris C."		"Waddell, Cecil"	Ware Neck	GG	12/15/1921
+"Belvin, Susie"	Severn	"Phillips, Hannie"	Gloucester Point	GG	12/15/1921
+"Nottingham, Mary Agnes"		"Ames, Henry Wise"	Fairview	MJ	12/15/1921
+"Ryder, Lucy A."		"Hudgins, Jerome"	Mathews	MJ	12/15/1921
+"Taylor, Nellie Dean (engaged)"		"Greaves, Gennad Alban, Capt."		GG	12/15/1921
+"Ryder, Lucy A."	Portsmouth 	"Hudgins, Jerome"	Mathews	MJ	12/22/1921
+"Sadler, Alice P."	Hudgins	"Billups, John W."	Hudgins	MJ	12/22/1921
+"Strickland, Laura"	"Wilson, NC"	"White, Robert R."	Bohannon	MJ	12/22/1921
+"Atherton, Mary Lou"	Foster	"Shawn, W. M."	Mathews	MJ	1/5/1922
+"Best, Lola"	"Kitty Hawk, N.C."	"Collier, William S."	Gloucester Point	MJ	1/5/1922
+"Diggs, Frances Ethel"	Cardinal	"Walker, John Gayle"	Mobjack	MJ	1/5/1922
+"Edwards, Pearl"	Dixie	"Hudson, Stanley B."	Gloucester	MJ	1/5/1922
+"Forrest, Lillie"	Blakes	"Brann, Jacob Lawson"	Northumberland	MJ	1/5/1922
+"Foster, Ethel"	Blakes	"Sadler, Clinton"	Blakes	MJ	1/5/1922
+"Garrett, Susie"	James Store	"Proctor, Randolph"	Mathews	MJ	1/5/1922
+"Gwynn, Sallie D."	Redart	"Edwards, Thomas Clinton"	Susan	MJ	1/5/1922
+"Hudgins, Frances"	Traders	"Cofer, Paul Dashiel"	Newport News	MJ	1/5/1922
+"Hudgins, Kate Frances"	Laban	"Ambrose, ___ E"	Gwynn's Island	MJ	1/5/1922
+"Johnson, Sarah Elizabeth"	Gloucester	"Moody, Phillip"	Gloucester	GG	1/5/1922
+"Miller, Lillian"	Diggs	"Hurst, R. L."	Mathews	MJ	1/5/1922
+"Ritter, Dorothy Alberta"	"Baltimore, Md."	"Allmond, Meade"	Gloucester	GG	1/5/1922
+"Sadler, Ottie Callis"	Moon	"Fox, Richard Henry"		MJ	1/5/1922
+"Taylor, Nellie Dean"	Gloucester	"Greaves, Gennad Alban, Capt."		MJ	1/5/1922
+"Taylor, Nellie Dean  "	Belle Farm	"Graeves, Gennad Alban, Capt."	Albemarle County	GG	1/5/1922
+"Thompson, ___nie"	Foster	"Shackelford, Joe"		MJ	1/5/1922
+"Whitmore, Iola Matilda"	Surry	"Hunt, Charles E."	Port Haywood	MJ	1/5/1922
+"Bendall, Mary Virginia"	Mathews	"Evans, Thomas H."	Cape Charles 	MJ	1/12/1922
+"Dozier, Anna Louise"	Norfolk	"Owens, William Edward"	Mathews	MJ	1/12/1922
+"Edwards, Pearl"	Dixie	"Hudson, Stanley B."	Gloucester	GG	1/12/1922
+"Turner, Frances Bell"	Norfolk	"Foster, Alvin Rufus"	Hicks Wharf	MJ	1/12/1922
+"Winn, Helen Constance (engaged)"		"Stoeffel, Elmer J."	"Racine, Wisc."	MJ	1/12/1922
+"Best, Lola  "	"Kitty Hawk, N.C."	"Collier, William S."	Gloucester Point	GG	1/19/1922
+"Johnson, Elizabeth"	Gloucester	"Moody, Phillip"	Gloucester	MJ	1/19/1922
+"Vandegrift, Elizabeth (engaged)"	Gloucester	"Warden, Robert Bruce"	"Washington, D.C."	GG	1/19/1922
+"Withers, Elizabeth Vandegrift (engaged)"		"Warden, Robert Bruce"	"Washington, D.C."	MJ	1/19/1922
+"Brewer, L'Marie"	Mathews	"Cullen, Frank"	North	MJ	1/26/1922
+"Fleet, Pierce Elizabeth (engaged)"		"Davis, John Wallace"	Middlesex	MJ	1/26/1922
+"Foster, Lucy Golda"	Redart	"Foster, Wilbur C."	Redart	MJ	1/26/1922
+"Stubblefield, Abbie Ruth"	Cappahosic	"Stubblefield, Robert Jesse"	Cappahosic	GG	1/26/1922
+"Callis, Mearle"	Gwynn's Island	"Lewis, Nelson"	Hallieford	MJ	2/2/1922
+"Reeves, Martha"	Deltaville	"Valient, J. H."	Tilghman's Island	MJ	2/2/1922
+"Stubblefield, Annie Ruth"	Gloucester	"Stubblefield, Robert Jesse"	Gloucester	MJ	2/2/1922
+"Dutton, Martha Marionette"		"Sears, Benjamin Clarence"	Blands Wharf	GG	2/16/1922
+"Blake, Richie Adelade"	Cobbs Creek	"Sumrall, Archie V."	Norfolk	MJ	2/23/1922
+"Bridges, Ethel Marie"	Hallieford	"Blaylock, Thomas Glenn"	Blakes	MJ	2/23/1922
+"Todd, Grace Elena"	"Baltimore, MD."	"Meredith, Arthur Edward"	Cash	GG	2/23/1922
+"Winn, Helen Constance  "		"Stoffel, Elmer J."	"Racine, Wisc."	MJ	2/23/1922
+"Butt, Catherine Nimmo (engaged)"		"Trant, James Parrish"		GG	3/2/1922
+"Lyon, Clara Gay"	Newport News	"Farinholt, Casper Roane"	Gloucester	GG	3/2/1922
+"Adams, Margaret"		"Streagle, Mack B."	Gloucester	GG	3/9/1922
+"Sadler, Nannie"	Blakes	"Sadler, Carroll James"	Hallieford	MJ	3/9/1922
+"Thomas, Mary V."	Wilton	"Hart, Emory W."	Lot	MJ	3/9/1922
+"Howell, Virginia Madeline"		"Ransone, John Tucker"	Bohannon	MJ	3/16/1922
+"Radenac, Bertha Marie"	France	"Shackelford, Lewis Hadley"	Severn	GG	3/16/1922
+"Radenac, Bertha Marie (2)"	France	"Shackelford, Lewis Hadley"	Severn	GG	3/23/1922
+"Gunn, Rebecca Adelaid (engaged)"		"Boroughs, John Paul"		GG	3/30/1922
+"Horsley, Sadie Vastella"	Gloucester	"Edwards, Richard Walter"	Pampa	GG	3/30/1922
+"Lewis, Chrissie"	Cobbs Creek	"Soles, John R."	Dutton	MJ	3/30/1922
+"Callis, Benita B."	Hallieford	"Morris, Thomas J."	Blakes	MJ	4/6/1922
+"Gunn, Rebecca Adelaide (engaged)"	Gloucester	"Burroughs, John Paul"		MJ	4/6/1922
+"Horsley, Sadie Vastella"		"Edwards, Richard Walter"		MJ	4/6/1922
+"Diggs, Mary Louise"	Laban	"Bradshaw, George McAllister"	Messick	MJ	4/20/1922
+"Gunn, Rebecca Adelaid  "	Clay Bank	"Boroughs, John Paul"	Barhamsville	GG	4/20/1922
+"Lewis, Ada Lee"	Gloucester	"Shackelford, Hubert Landon"	Achilles	GG	4/20/1922
+"Marchant, Pearl"	Redart	"Hudgins, Aubrey B."	Redart	MJ	4/20/1922
+"Chapman, Bertha Davies (engaged)"		"Reimann, William Frederick"		GG	4/27/1922
+"Gunn, Rebecca Adelaid"	Clay Bank	"Boroughs, John Paul"	Barhamsville	GG	4/27/1922
+"Suddith, Martha Jane"	Lanexa	"Hubbard, John Andrew"	Lanexa	MJ	4/27/1922
+"Clay, Mary"	"Paris, Ky."	"Broon, Beverley"	"Charleston, W.Va."	MJ	5/4/1922
+"White, Ruby Gayle"	North	"Shinault, James M."	Retz	MJ	5/4/1922
+"Lewis, Josie Madolyn"	Newport News; Gloucester	"Dickenson, William Tabb"		GG	5/11/1922
+"Brown, Mary Virginia"	New Point	"White, Wilmer C."	New Point	MJ	5/18/1922
+"Withers, Elizabeth Vandegrift"	Gloucester	"Warden, Robert Bruce"	"Washington, D.C."	GG	5/18/1922
+"Withers, Elizabeth Vandegrift"	Gloucester	"Warden, Robert Bruce"	"Washington, D.C."	MJ	5/18/1922
+"Robinson, Louise Pintard (engaged)"	Norfolk	"Horchner, Richard A."	"East River, Conn."	GG	6/1/1922
+"Hevener, Irene"		"Buckles, Paul King, Rev."		GG	6/8/1922
+"Pugh, Gladys"	Peary	"Hutson, Charles Diggs"	New Point	MJ	6/8/1922
+"Friend, Lelia"	Richmond	"Turner, Charles Green"	Fauquier	GG	6/15/1922
+"Greggs, Virginia Evelyn"	Glenns	"Miller, Bernard Diggs"	New Upton	GG	6/15/1922
+"Greggs, Virginia Evelyn"	Glenns	"Miller, Bernard Diggs"	Newport News	MJ	6/15/1922
+"Hudgins, Sarah M."		"Preston, Benjamin Delmar"	Motorun	MJ	6/15/1922
+"Presson, Lola Sears"	Diggs	"Diggs, John Grayson"	Laban	MJ	6/15/1922
+"Riggan, Ruth"	"Baltimore, Md."	"Haynes, Marvin C."	Soles	MJ	6/15/1922
+"Shield, Catherine Howard"	Yorktown	"Ballentine, John J., Lt."	USN	GG	6/15/1922
+"Shockley, Sadie"	Port Haywood	"Parker, Patrick L."	"Currituck, N.C."	MJ	6/15/1922
+"Fitzhugh, Christine"	"Rochester, NY"	"Roane, Woodford Octavius"	Cash	GG	6/22/1922
+"Healy, Alice Catherine"	Mathews	"Davis, Maurice A."	Mobjack	MJ	6/22/1922
+"Shockley, Sadie"	Port Haywood	"Parker, Patrick L."	"Currituck, N.C."	MJ	6/22/1922
+"Anderson, Ora Spencer (2)"	King and Queen	"Williams, Willie Gilbert"	Port Haywood	MJ	6/29/1922
+"Fitzhugh, Christine"	"Rochester, NY"	"Roane, Woodford Octavius"	Cash	MJ	6/29/1922
+"Hudgins, Mattie Virginia"	Onemo	"Sadler, Bernard F."	Diggs	MJ	6/29/1922
+"Hudgins, Violet C."	Laban	"Brooks, Gradie"	Diggs	MJ	6/29/1922
+"Marchant, Ethel Louise"	Redart	"Spear, Kemper"	"Elizabeth City, N.C."	MJ	6/29/1922
+"Mott, Catherine Sanders (engaged)"	Gloucester	"Catlett, Landon Carter, Lt."	Gloucester	MJ	6/29/1922
+"Mott, Elizabeth St. Clair (engaged)"	Gloucester	"Field, Catesby Todd"	Gloucester	MJ	6/29/1922
+"Owings, Achsah"	"Baltimore, Md."	"Hudgins, Richard T."	"Baltimore, Md."	MJ	6/29/1922
+"Flippen, Carrie Estelle"	Diggs	"Tabor, Daniel"	Redart	MJ	7/6/1922
+"Given, Katie"	Norfolk	"Bourne, Grover C."	Saluda	MJ	7/6/1922
+"Haislep, Marion Lee"	"High Point, NC"	"Christian, William S."	Urbanna	MJ	7/6/1922
+"Morey, Mary Melber"		"Croswell, James Vernice"	Wicomico	GG	7/6/1922
+"Machen, Carrie Virginia"	Laban	"Hudgins, Thomas Charlie"	New Point	MJ	7/13/1922
+"Morris, Indie Linwood"	Blakes	"Taylor, Theodore Roosevelt"	Hudgins	MJ	7/27/1922
+"Benson, Nancy (engaged)"	Ware Neck	"Reger, Rees Robert"	"Philadelphia, Pa."	GG	8/3/1922
+"Knight, Iris (engaged)"	"Dunellon, Fl."	"Roane, H. Gray"	"Baltimore, Md.; Gloucester"	GG	8/3/1922
+"White, Gladys"	Mobjack	"Morgan, Johnnie"	Mobjack	MJ	8/3/1922
+"Benson, Lelia Nancy (engaged)"	Ware Neck	"Regar, R. R."	"Philadelphia, Pa."	MJ	8/10/1922
+"Knight, Iris (engaged)"	"Baltimore, Md."	"Roane, H. Gray"	Gloucester	MJ	8/10/1922
+"Taylor, Sophie"	New Point	"Davis, Joseph A."	Mathews	MJ	8/10/1922
+"Beamon, Gladys Marie"	"Gates, N.C."	"Woodland, Luther"	Gloucester	GG	8/17/1922
+"Blake, Nettie E."	Amburg	"Blake, Jeter W."	Topping	MJ	8/17/1922
+"Hudgins, Nelie Pearl"	Blakes	"Hunley, Millard Renforth"	Bohannon	MJ	8/17/1922
+"Moody, Lucy"	Healys	"Woodward, Richard Henry"	Saluda	MJ	8/17/1922
+"Oliver, Lillian Estelle"	Mobjack	"Jarvis, Clifton D."	Bohannon	MJ	8/17/1922
+"Arnold, Gertrude Virginia (engaged)"	Revell	"Farinholt, Boyd Healy"	Freeport	MJ	8/24/1922
+"Beamon, Gladys Marie"	"Gates, N.C."	"Woodland, Luther"	Gloucester	MJ	8/24/1922
+"Burroughs, Lenora V."		"Diggs, Hubert Franklin"	Tabernacle	MJ	8/31/1922
+"Dillon, Sarah J."	Newport News	"Riley, Robert H."	Gloucester	MJ	8/31/1922
+"Foster, Faith"	Warehouse	"Tucker, Edward"	"Salisbury, Md."	MJ	8/31/1922
+"Holland, Ruth Cobb (engaged)"	Norfolk	"Foster, Allen Lee"	Mathews	MJ	8/31/1922
+"White, Alice Madalyne (engaged)"	Norfolk	"Miles, Albert F."	Norfolk; Mathews	MJ	8/31/1922
+"Bland, Virginia Frances"	Cologne	"Hart, Robert Prestly"	Beuna Vista	GG	9/7/1922
+"Dunston, Beulah Virginia"	Clay Bank	"Smith, Herman"		GG	9/7/1922
+"Hupp, Emma"	Halifax	"Robins, Albert H."	Richmond	MJ	9/7/1922
+"Mott, Catherine Sanders"	Gloucester	"Catlett, Landon Carter, Lt."	Gloucester	GG	9/7/1922
+"Mott, Elizabeth St. Clair"	Gloucester	"Field, Catesby Todd"	Gloucester	GG	9/7/1922
+"Bland, Virginia Frances"	Cologne	"Hart, Robert Prestly"	Beuna Vista	GG	9/14/1922
+"Bland, Virginia Frances"		"Hart, Robert Prestly"	Buena Vista	MJ	9/14/1922
+"Callis, Olive Rosalyn"	Fitchetts	"Gwynn, Cecil Thomas"	Hudgins	MJ	9/14/1922
+"Holland, Ruth Cobb  "	Larchmont	"Foster, Allen Lee"	Mathews	MJ	9/14/1922
+"Hudgins, Kate L."	Port Haywood	"Smith, Leonard R."	Susan	MJ	9/14/1922
+"Mott, Catherine Sanders  "	Gloucester	"Catlett, Landon Carter, Lt."	Gloucester	MJ	9/14/1922
+"Mott, Elizabeth St. Clair  "	Gloucester	"Field, Catesby Todd"	Gloucester	MJ	9/14/1922
+"Garrett, Clara V."	Blakes	"Proctor, Henry Shields"	Nuttall	MJ	9/28/1922
+"Powell, Lona Eleanor"	Reedville	"Brownley, William Thomas"	Gloucester	MJ	9/28/1922
+"Folkes, Rosa Montague (engaged)"	Gloucester	"Jones, Catesby Graham"	Gloucester	GG	10/5/1922
+"Arnold, Gertrude"	Revell	"Farinholt, Boys"	Maryland	GG	10/12/1922
+"Hudgins, Florence Marie"	New Point	"Tomlinson, James W."	New Point	MJ	10/12/1922
+"Miller, Helen (engaged)"	Newport News	"Phillips, Jefferson Curl"	Hampton	MJ	10/12/1922
+"Perciful, Julia"		"Cauffman, Leon P."	Newport News	MJ	10/12/1922
+"Arnold, Gertrude"	Revell 	"Farinholt, Boyd Healy"	Gloucester	MJ	10/19/1922
+"Corr, Martha Elizabeth"	Gloucester	"Kemp, James Park"	Norfolk	GG	10/19/1922
+"Folkes, Rosa Montague (engaged)"	Gloucester	"Jones, Catesby Graham"	Gloucester	MJ	10/19/1922
+"White, Alice Madalyne  "	Norfolk	"Miles, Albert F."	Norfolk	MJ	10/19/1922
+"Milby, Victoria"	Shacklefords	"Stubblefield, Lester"	Pampa	MJ	10/26/1922
+"Anderton, Anne Lucille (engaged)"	Gloucester Point	"Ballentine, Frank M."	Newport News	GG	11/2/1922
+"Sinclair, Eloise Booth (engaged)"	Hampton	"Hardy, Leon Thomas"	Hampton	MJ	11/2/1922
+"Hudgins, Blanche"	Diggs	"Sadler, E. B."	Laban	MJ	11/9/1922
+"Kemp, Lillian (engaged)"	Sassafras	"Brenckman, Emil K., Pvt."	Langley Field	GG	11/9/1922
+"Parker, Miss"	Diggs	"Thomas, Freeman"	Diggs	MJ	11/9/1922
+"Rowe, Mary"	Glass	"Wynder, Mr."	Norfolk	GG	11/9/1922
+"Anderton, Annie Lucille"	Gloucester Point	"Ballentine, Frank M."	Newport News	GG	11/16/1922
+"Shackelford, Myrtle"	Severn	"Hogg, Charles Jennings"		GG	11/16/1922
+"Benson, Nancy  "		"Reger, Rees Robert"		GG	11/23/1922
+"Bradford, Ione G."	Richmond	"Richardson, Charles R."	Mathews	MJ	11/23/1922
+"Farley, Emily Virginia"	"Baltimore, MD."	"Rolph, William Thomas"	Gloucester	GG	11/23/1922
+"Folkes, Rosa Montague"	Gloucester	"Jones, Catesby Graham"	Gloucester	GG	11/23/1922
+"Kirwan, Willie Frances"	Mathews	"Lane, Walter Gardiner, Capt."	Mathews	MJ	11/23/1922
+"Minor, Mary Bell"		"Rockefellow, Sebring"	Mobjack	MJ	11/23/1922
+"Shackelford, Myrtle"	Severn	"Hogg, Charles Jennings"		MJ	11/23/1922
+"Brownley, Katie Virginia"	Gwynn's Island	"Diggs, Robert Emmett"	Gwynn's Island	MJ	11/30/1922
+"Daniels, Clara B."	Mathews	"Walker, Edward W."	Mathews	MJ	11/30/1922
+"Folkes, Rosa Montague  "	Gloucester	"Jones, Catesby Graham"	Gloucester	MJ	11/30/1922	
+"Collie, Vernah Belle"	Christchurch	"Williams, William Francis"		MJ	12/7/1922	
+"Grimstead, Erva Lena"	Gwynn's Island	"Callis, Rufus Gregory"	Gwynn's Island	MJ	12/14/1922	
+"Kemp, Lillian Davis"	Sassafras	"Brenckman, Emil Kemp"	Gloucester	GG	12/14/1922	
+"Godsey, Alice"	Gwynn's Island	"Grimstead, John D."	Gwynn's Island	MJ	12/21/1922	
+"Kemp, Lillian Davis"	Sassafras	"Brenckman, ___"		MJ	12/21/1922	`
+"Gray, Helen McCoy"	Soles	"Chapman, Marion Richardson"	Gloucester	MJ	1/25/1923	
+"Hudgins, Mary M."	Laban	"Hudgins, O. R."	Sarah	MJ	1/25/1923	
+"Blake, Margaret"	Locust Hill	"Hayden, Albert"	Saluda	MJ	2/8/1923	
+"Bell, Clara E."	Machipongo	"Oliver, George J."	Irvington	MJ	2/15/1923	
+"Bell, Josie Althea"	Hudgins	"Downs, Raymond"	Moon	MJ	2/15/1923	
+"Adkinson, Sallie"	Halifax	"Ryland, Wilbur H."	Urbanna	MJ	2/22/1923	
+"Travers, Gertrude Theresa (engaged)"		"Thompson, Ernest Jefferson"		MJ	3/1/1923	
+"Ward, Annabel Delany (engaged)"	Mathews	"Owers, Arthur Lynwood"	Laban	MJ	3/8/1923	
+"Dennis, Ellen L."	Norfolk	"Miller, Marion"	Norfolk; Mathews	MJ	3/15/1923	
+"Wyatt, Nell (engaged)"	Fox Hill	"Gage, Richard"	Richmond	MJ	3/22/1923	
+"Ward, Annabel  "	Mathews	"Owens, Lynwood"	Norfolk	MJ	3/29/1923
+"Wood, Mary S."	Syringa	"Miller, Dewey W."	Syringa	MJ	3/29/1923
+"Burroughs, Ruth"	Shadow	"White, Luther D."	New Point	MJ	4/5/1923
+"Lee, Frances (engaged)"	Irvington	"Williams, Mortimer, Dr."	Roanoke	MJ	4/5/1923
+"Hogg, Mary Elizabeth"	Norfolk	"Willis, D. B."		MJ	4/12/1923
+"Hudgins, Annie Laurie"	Diggs	"Edwards, Eugene Septimus"	"Calvert Co., Maryland"	MJ	4/12/1923
+"Travers, Gertrude Theresa  "	Redart	"Thompson, Ernest Jefferson"	Cobbs Creek	MJ	4/12/1923
+"Acey, Irene"	Blakes	"Palmer, Phil"	James Store	MJ	4/19/1923
+"Owens, Maude (engaged)"	Peary	"Thomas, Luther Snow"		MJ	4/19/1923
+"Thomas, Louise"	Shadow	"Smith, Linwood"	Diggs	MJ	4/26/1923
+"Cooke, Katharine Grosh (25 years)"	Mathews	"Cooke, Giles B., Rev."	Mathews	MJ	5/3/1923
+"Deagle, Iva I."	Deltaville	"Ward, John T."	"Crisfield, Md."	MJ	5/3/1923
+"Owens, Maude  "	Peary	"Thomas, Luther Snow"	New Point	MJ	5/3/1923
+"Topping, Elois Winifred"	Chincoteague	"Callis, L. B."	Norfolk; Mathews	MJ	5/3/1923
+"Hodges, Alice"		"Green, John Stanley"	Retz	MJ	5/10/1923
+"Spear, Naomi"	Grimstead	"Brown, W. C."	Gwynn's Island	MJ	5/10/1923
+"Stone, Lessie B."	Blakes	"Matthews, William Henry"	Cobbs Creek	MJ	5/10/1923
+"Robins, Lucy Elizabeth"	Gloucester	"Scott, John Lewis"	Powhatan	GG	5/14/1923
+"Haufler, Clara"	Redart	"Callis, James W."	Gwynn's Island	MJ	5/17/1923
+"Catlett, Mary Randolph (engaged)"	Gloucester	"Kellogg, Kemper Lowry"	Newport News	MJ	5/24/1923
+"Collier, Gladys Maud"	Gloucester Point	"Rudd, Grayson Baily"		MJ	5/24/1923
+"Diggs, Mary Richardson"	Diggs	"Stewart, James O."	Laban	MJ	5/24/1923
+"Lewis, Lolita E."		"Owens, Marius C."	Norfolk	MJ	5/24/1923
+"Powell, Belle"	Gwynn's Island	"Jarvis, Luther"	Susan	MJ	6/7/1923
+"White, Violet"	Dixie	"Edwards, Lawrence W."	Dixie	MJ	6/7/1923
+"Brothers, Oliver May"		"White, Sam"	Ware Neck	GG	6/21/1923
+"Haynes, Elizabeth A."	Gloucester	"Rowe, Marcus L."		GG	6/21/1923
+"Long, Miss"	"Baltimore, Md."	"Simmons, Ensign"	Cobbs Creek	MJ	6/21/1923
+"Buchannon, Pearl Virginia"	Grimstead	"Grimstead, Herbert F., Jr."	Gwynn's Island	MJ	6/28/1923
+"Haynes, Elizabeth A."	Gloucester	"Rowe, Marcus L."	Gloucester	MJ	6/28/1923
+"Miller, Gladys Nelson"	Norfolk; Mathews	"Wilder, Clement"	"Baltimore, Md."	MJ	6/28/1923
+"Callis, Mary Ruth"	Gloucester	"Sparrow, Robert V."	Gwynn's Island	MJ	7/5/1923
+"Collins, Ruth"	Hopewell	"Hogge, Maurice (brief)"	Gloucester	MJ	7/5/1923
+"Diggs, Cordelia"	Newport News; Mathews	"Sneed, Walter Allan"	South Carolina	MJ	7/5/1923
+"Lilly, Mary Evelyn"	Laban	"Payne, Richard Otis, Jr."	Craddock	MJ	7/5/1923
+"Minor, Elizabeth (brief)"	Coke	"Pointer, Edwin W."	Gloucester	MJ	7/5/1923
+"Catlett, Mary Randolph  "	Gloucester	"Kellogg, Kemper Lowry"	Richmond	MJ	7/12/1923
+"Sterling, Edith"	Naxera	"Waldrop, Martin A."		MJ	7/12/1923
+"Armstrong, Clara E."	Roanoke	"Powell, Charlie R."	Mathews	MJ	7/19/1923
+"Clark, Elizabeth Hunt"	New York; Virginia	"Wallis, John Samuel"	"Carlisle, Pa"	GG	7/19/1923
+"Ellis, Mary Thelma"		"Sutton, John Tribble"	Stevensville	MJ	7/19/1923
+"Stuart, Ladie Hilton"	Sarah	"Hudgins, John Diggs"	New Point	MJ	7/19/1923
+"Sutton, Em. Catherine"	Stevensville	"Eubank, Alvah H."	Tazewell	MJ	7/19/1923
+"Weaver, Linnie F."	Fonewood	"Sadler, James A."	Wake	MJ	7/19/1923
+"Larson, Anna F."	"Philadelphia, Pa."	"Minter, Oscar Alvin"	Gwynn's Island	MJ	7/26/1923
+"Spence, Mary Etta (engaged)"	Portsmouth 	"Caffee, George Edward, Jr."	"Baltimore, Md."	MJ	7/26/1923
+"Treakle, Charles H., Mrs. (50 years)"		"Treakle, Charles H."		MJ	8/2/1923
+"Jarvis, Myrtle Elizabeth (engaged)"		"Demaio, Rosario Lovis"		MJ	8/16/1923
+"Newcomb, Mary Anna"	Gloucester	"Marston, Walter Cleveland"	Shacklefords	GG	8/16/1923
+"Sadler, Olive May"	Diggs	"Riggs, Lawrence Clarence"	Norfolk	MJ	8/16/1923
+"Thorne, Gladys"	Isle of Wight	"Johnson, J. F."	Middlesex	MJ	8/16/1923
+"Benton, Blanche"	Mathews	"Evans, Charles T."	Onancock	MJ	8/30/1923
+"Claud, Mary Lois"	Southampton	"White, Hugh Vernon"	Gloucester	MJ	8/30/1923
+"Lee, Frances (engaged)"	Irvington	"Williams, Mortimer Harry, Dr."		MJ	8/30/1923
+"Perciful, Lucy Eubank"	Newport News	"Kissen, Reginald B."	"Kent, Conn."	MJ	8/30/1923
+"Pribble, Anna L."	Bohannon	"Williams, Cassell"	Bohannon	MJ	8/30/1923
+"Ruffin, Sue (engaged)"	Charles City	"Tyler, Lyon G., Dr."	Williamsburg	MJ	8/30/1923
+"Saunders, Ruth Esther"	Deltaville	"Mitchell, Bernard E., Rev."		MJ	8/30/1923
+"Brooks, Vera Pennell (engaged)"	Mathews	"Winder, Gatha Edward"	Norfolk	MJ	9/6/1923
+"Robbins, Mary Katherine"	Bohannon	"Jarvis, Monrow Wthison"	Bohannon	MJ	9/6/1923
+"Butler, Edith Mary"	Lee Hall	"Fleming, George Frank"	Lee Hall; Gloucester	GG	9/20/1923
+"Gilbert, Florine Marie (engaged)"	Richmond	"Smith, Benjamin Frankin"	Mathews	MJ	9/20/1923
+"Gow, Marian"	"Edinburgh, Scotland"	"Gayle, Joseph W."	Mathews	MJ	9/20/1923
+"Lee, Frances  "	Irvington	"Williams, Mortimer H., Dr."	Richmond	MJ	9/20/1923
+"Rollings, Lina Mabel"	Suffolk	"Haynes, Hunter McGuire"	Mathews	MJ	9/20/1923
+"Turner, Elizabeth Huntington (engaged)"	"Washington, D.C."	"Block, Leonard"	"Washington, D.C."	MJ	9/20/1923
+"Addison, Margaret Pickett (engaged)"		"Carneal, James D."		GG	9/27/1923
+"Brown, Mattie Louise"	Richmond	"Smith, Sands, Jr."	Texas; Mathews	MJ	9/27/1923
+"Carney, Ola Ernestine"	Gwynn's Island	"Bassett, John Raymond"	Blakes	MJ	9/27/1923
+"Clements, Maude"	Saluda	"Hurst, Ollie Hudgins"	Mathews	MJ	9/27/1923
+"George, Evelyn Louise (engaged)"	Mathews	"Griffith, Chris L."	Newport News	MJ	9/27/1923
+"Hudgins, Laura Bell"	Gwynn's Island	"Armistead, Irving"	Cobbs Creek	MJ	10/4/1923
+"Nelson, Frank Elton"	Middlesex	"Green, Clyde W."	Middlesex	MJ	10/4/1923
+"George, Evelyn L."	Mathews	"Griffith, Chris L."	Newport News	MJ	10/11/1923
+"Gilbert, Florine  "	Richmond	"Smith, Benjamin Frankin"	Mathews	MJ	10/11/1923
+"Hunley, Lessie Leona"	Newport News	"Evans, Charles Henry"		MJ	10/11/1923
+"Sadler, Florrie Lucile"	Diggs	"Smith, Brandon"	New Point	MJ	10/11/1923
+"Gibbs, Julia A."	"Leachville, N.C."	"Hudgins, Allen T."	Laban	MJ	10/18/1923
+"Garner, Irble Elizabeth"	Norfolk	"Callis, James C."	Norfolk	MJ	10/25/1923
+"Haywood, Mae (engaged)"	New Point	"Forrest, Clinton"		MJ	10/25/1923
+"Hurst, Lucy (reprint form 1905)"	Mathews	"Jarvis, Ernest"	Mathews	MJ	10/25/1923
+"Senger, Viola Susan"	Andersonville	"Shackelford, Samuel Harwood"	Richmond	GG	10/25/1923
+"Treakle, Sallie (reprint from 1905)"	Mathews	"Strue, Charles D."	"Baltimore, Md."	MJ	10/25/1923
+"Fitchett, Julia"	Norfolk	"Curfman, W. Leslie"	Foster	MJ	11/8/1923
+"James, Susie Winder"	North	"Kelly, V. G."	Hampton	MJ	11/22/1923
+"Topping, Eloise Winifred"	Chincoteague	"Callis, Linwood B."	Suffolk	MJ	11/22/1923
+"Ambrose, Emily Maggie"	Gloucester	"Croswell, Elmer D."	Gloucester	GG	11/29/1923
+"Corbin, Floy"	"Washington, D.C."	"Morse, Leonard Haynes"	"Washington, D.C.; Mathews"	MJ	11/29/1923
+"Plummer, Virginia B. Bonner"	Norfolk	"Gwynn, Walter Ennis"	Norfolk	MJ	11/29/1923
+"Smith, Pauline"	Severn	"Haywood, Luther"	Portsmouth	GG	11/29/1923
+"Spence, Mary Etta  "	Portsmouth 	"Caffee, George Edward, Jr."	"Baltimore, Md."	MJ	11/29/1923
+"White, Inez"	Motorun	"Thomas, George"		MJ	11/29/1923
+"White, Inez"	Mathews	"Thomas, George"	Mathews	MJ	12/6/1923
+"Diggs, Edith"	Onemo	"Brooks, Elwood"	Onemo	MJ	12/13/1923
+"Hodges, Gladys Virginia"	Redart	"Williams, Charles Harris"	Port Haywood	MJ	12/13/1923
+"Callis, Edith"	Hallieford	"Hudgins, Thomas H."	Hallieford	MJ	1/3/1924
+"Ripley, Dorothy Ilene"	Susan	"Hudgins, Augustus Tilton"	New Point	MJ	1/3/1924
+"Ripley, Edith Louise"	Susan	"Hudgins, Milton Leon"	Susan	MJ	1/3/1924
+"Wickre, Mabel Catherine"	Williamsburg	"Chenault, George C."		MJ	1/3/1924
+"Cuthrell, Gladys Mae (engaged)"		"Williams, Charles Lester"	Mathews	MJ	1/10/1924
+"Hudgins, Frances Idelle"	Norfolk	"Portlock, Roland Leo"	Norfolk	MJ	1/10/1924
+"Stuart, Ellen"	Sarah	"Savage, Worth Venable"	Portsmouth	MJ	1/10/1924
+"Waller, Virginia Stuart"		"Davis, Andrew J."	Hudgins	MJ	1/10/1924
+"Lee, Jane Knowslar (engaged)"	Gloucester	"Kelley, William Cole"	"New York, N.Y."	MJ	1/17/1924
+"Cuthrell, Gladys Mae  "		"Williams, Charles Lester"	Mathews	MJ	1/24/1924
+"Edwards, Eula Mae"	Norfolk	"Bonnivlle, Clarence Auburn"	Norfolk	MJ	1/24/1924
+"Gould, Irene"	"Yonkers, N.Y."	"Weston, John B."	Mathews	MJ	1/24/1924
+"Stuart, Ladie Alice (engaged) (Brownley)"	Port Haywood	"Hudgins, William Irving"		MJ	1/31/1924
+"Brownley, Ladie Alice"	Port Haywood	"Hudgins, William Irving"	Port Haywood	MJ	2/14/1924
+"Respess, Minnie A."	Gwynn's Island	"Powell, Graham M."	Gwynn's Island	MJ	2/14/1924
+"Belvin, Pearl"	Peary	"Lewis, Irving D."	North	MJ	3/6/1924
+"Callis, Florence A."	Hallieford	"Lewis, Raymond Preston"	Phoebus	MJ	3/6/1924
+"Richardson, Margaret (Marguerite) L."	Tabernacle	"Sadler, Harold (Howard) Albert"	Fitchetts	MJ	3/6/1924
+"Foster, Ester Lee"	Gwynn's Island	"Jones, George E."	Gwynn's Island	MJ	3/13/1924
+"Ransone, Louise"	Port Haywood	"Johnson, C. W."	Gloucester	MJ	3/20/1924
+"Davenport, R. Ethel"		"Hudgins, L. Boyd"	Laban	MJ	3/27/1924
+"Hudgins, Mamie"	New Point	"Travers, James"	Portsmouth	MJ	3/27/1924
+"Kemp, Maggie"	Soles	"Keesey, John"	Lawrenceville	MJ	4/3/1924
+"Reed, Hattie Ellis (engaged)"		"White, Holland Lee"	Bohannon	MJ	4/3/1924
+"Davis, Montrue Louise (engaged)"	Mathews	"Callis, Marshall Iverson"	Mathews	MJ	4/10/1924
+"Ewell, Ella"	Hampton	"Redfern, Albert"	"Farmville, N.C."	MJ	4/10/1924
+"Thompson, Lorina Gaines (engaged)"	Soles	"Murray, Benjamin"		MJ	4/10/1924
+"Ambrose, Mabel"	Gwynn's Island	"Brooks, Herman"	Gwynn's Island	MJ	4/17/1924
+"Shackleford, Juila Delma"	Foster	"Hyers, Everett"	Norfolk	MJ	4/17/1924
+"Thompson, Lorina Gaines  "	Soles	"Murray, Benjamin"	Mathews	MJ	4/17/1924
+"Callis, Dellmay"	Redart	"Hunley, Charles Randolph"	Redart	MJ	4/24/1924
+"Gunn, Lula Virginia"		"Walton, James Emmett"		GG	4/24/1924
+"Reed, Hattie  "	Bohannon	"White, Holland Lee"	Bohannon	MJ	4/24/1924
+"Davis, Montrue Louise  "	Mathews	"Callis, Marshall Iverson"	Mathews	MJ	5/1/1924
+"Wiatt, Marguerite Mackey (engaged)"	Gloucester	"Hoy, Louis K."	Alexandria	GG	5/8/1924
+"Hudgins, Rhoda"	Gwynn's Island	"Hope, Frederick, Capt."	Norfolk	MJ	5/15/1924
+"Fletcher, Miriam"	Minnesota; Mathews	"Bennett, Russell Hoadley"	Minnesota	MJ	6/12/1924
+"Spear, Lucy Captolia"	Grimstead	"Platte, Charles Frederick"	"Trenton, N.J."	MJ	6/19/1924
+"Ward, Jennie Elizabeth (engaged)"		"Edwards, Willard Mallory"		MJ	6/19/1924
+"Callis, Edna Theresa"	Mathews	"Elting, Chester Leo"	Kansas	MJ	6/26/1924
+"Ward, Jennie Elizabeth  "	Bohannon	"Edwards, Willard Mallory"	Norfolk; Cobbs Creek	MJ	6/26/1924
+"Hudgins, Metta"	Hampton	"Graham, Walter Hopkins"	Hampton	MJ	7/3/1924
+"LeCates, Virginia"		"Matthews, Marvin"	Cobbs Creek	MJ	7/3/1924
+"Rodwell, Minnie Powell"	Mathews	"Foster, Howitt H., Dr."	"Norlina, N.C.; Mathews"	MJ	7/24/1924
+"Brownley, Virdie (Birdie)"	Laban	"Smith, Edwin"	Diggs	MJ	7/31/1924
+"Foster, Julia Eliza"	Warehouse	"Chapman, Woodford R."	Wan	MJ	7/31/1924
+"Winn, Lena (engaged)"		"Kern, Everett Dean"	Washington	MJ	8/7/1924
+"Foster, Margaret Naomi (engaged)"	Blakes	"Thompson, Joseph B."	Blakes	MJ	8/14/1924
+"Brooks, Elsie"		"Diggs, Andy J., Jr."		MJ	8/21/1924
+"Foster, Margaret Naomi  "		"Thompson, Joseph B."		MJ	8/21/1924
+"Harris, Ella Rosebud"		"Fox, Robert"	Newport News	GG	8/21/1924
+"Riley, Amelia"		"Harris, John Franklin"	Gloucester Point	GG	8/21/1924
+"Trevilian, Helen"	Gloucester	"Kerns, Martin"	Williamsburg	GG	8/21/1924
+"Taliaferro, Mary Wellford (engaged)"	Gloucester	"DuVal, John Tabb"	Gloucester	GG	8/28/1924
+"Broaddus, Louise Montague"		"Spencer, John W."	North	MJ	9/4/1924
+"Lewis, Gay Burford"		"Tabb, Charles Brock"	Mathews	MJ	9/11/1924
+"Miller, Janie"	 	"Armistead, Mason, Rev."		MJ	9/25/1924
+"Winn, Lena  "	Norfolk	"Kern, Everett Dean"	Washington	MJ	9/25/1924
+"Hudgins, Josephine"	Mathews	"Thomas, Robert"	"Linden, N.J."	MJ	10/2/1924
+"Broaddus, Louise Montague"	Dutton	"Spencer, John W."	North	MJ	10/9/1924
+"Taliaferro, Molly Wellford (engaged)"	Gloucester	"DuVal, John Tabb"	Gloucester	MJ	10/9/1924
+"Withers, Katherine Page"	Gloucester	"Hamilton, Philip Wellford"	Richmond	MJ	10/9/1924
+"Bell, Violet Edgeworth"	Hudgins	???		MJ	10/16/1924
+"Ripley, Mary Moore"		"Hudgins, Lester"		MJ	10/16/1924
+"Taliaferro, Molly Wellford  "	Gloucester	"DuVal, John Tabb"	Gloucester	MJ	10/16/1924
+"Withers, Katherine Page"		"Hamilton, Philip Wellford"		MJ	10/16/1924
+"Benton, Alma Lee"	Norfolk	"Jackson, Grover Cleveland"		MJ	10/23/1924
+"Haywood, Mattie Lee (engaged)"		"Montague, C. J."	Portsmouth	MJ	10/23/1924
+"Lemond, Isabel Josephine"	"Huntingburg, Ind."	"Machen, Emmett L. H."	Mobjack	MJ	10/23/1924
+"Rudd, Virginia"	Norfolk	"Acey, Raymond Earl"	Norfolk	MJ	10/23/1924
+"Lewis, Mary Glenn"		"Armistead, Wilbur Venton"	Susan	MJ	10/30/1924
+"Richardson, Grace"	Retz	"Callis, Maywood"	Moon	MJ	10/30/1924
+"Brewer, Blance E."	Mathews	"McMahon, William J."	Newport News	MJ	11/6/1924
+"Bryan, Nathlee Mary"		"Acey, Elmer"	Mathews	MJ	11/13/1924
+"Hurst, Alice Lee"	Mathews	"Hurst, Marion Ray"	Norfolk	MJ	11/13/1924
+"Shipman, Frances Lillard"	Burkeville	"Sutton, David Nelson"	West Point	MJ	11/13/1924
+"Ryland, Vernah"	Urbanna	"Hattox, Henry Randolph"	"Baltimore, Md."	MJ	11/20/1924
+"Callis, Lillie Ann"	Grimstead	"Hudgins, James Elmer"	Grimstead	MJ	11/27/1924
+"Downs, Eloise"	Moon	"Forrest, William Penn"	Tabernacle	MJ	11/27/1924
+"Haywood, Mattie Lee  "	Anew Point	"Montague, Charles J."	Portsmouth	MJ	11/27/1924
+"Hudgins, Hilda"	Moon	"Green, Floyd"	Hallieford	MJ	11/27/1924
+"Hurst, Sadie Elizabeth"	New Point	"Thomas, Bernard Lee"	New Point	MJ	11/27/1924
+"Stuart, Clara Virginia"	Onemo	"Brooks, George E."	Onemo	MJ	11/27/1924
+"Hurst, Sadie  "		"Thomas, Vernon"	New Point	MJ	12/4/1924
+"Lewis, Effie Lee"	North	"Foster, Earl McVaden"	Cobbs Creek	MJ	12/4/1924
+"Brooks, Celia"		"Thomas, Jim"	Motorun	MJ	12/11/1924
+"Hunley, Mrs. George Y. nee Burke"	Mathews	"Bohannon, Benjamin W., Dr."		MJ	12/11/1924
+"Williams, Bessie"	Port Haywood	"Hurst, George W."	Diggs	MJ	12/11/1924
+"Wilson, Helen Elizabeth"	Norfolk	"Downs, Percy Clifton"	Mathews	MJ	12/11/1924
+"Morgan, Amy L."	Hallieford	"Peters, Elmer A."	Blakes	MJ	1/1/1925
+"Simmons, Mary Lilly"		"Thompson, Charles"		MJ	1/1/1925
+"Smith, Hazel Eugenia"	Susan	"Rollins, E. Mitchell"	Messick	MJ	1/1/1925
+"Compton, Hazel"	Norfolk	"Hudgins, Lewis"	Mathews	MJ	1/8/1925
+"Crockett, Jennie Boyce"	Wachapreague	"Chism, Clinton"	"Pocomoke City, Md."	MJ	1/8/1925
+"Garrett, Laura Louise"	Richmond	"Davis, Herman"	Mathews	MJ	1/22/1925
+"Diggs, Mary Virginia"	Sarah	"Billups, Robert A."	Motorun	MJ	2/12/1925
+"Sibley, Mary"	Mathews	"Bott, Roland"	Norfolk	MJ	2/12/1925
+"Hall, Mabel"		"Brown, Willie"	Motorun	MJ	2/19/1925
+"Johns, Georgia Hudgins"	Mathews	"Osborne, Richard Tatterson"	Norfolk	MJ	2/26/1925
+"Burke, Mary Ellen (engaged)"	Mathews	"Donald, George, Jr."	Richmond	MJ	3/5/1925
+"Sherner, Ruby Coleman"	Warwick	"Matthews, F. C."	Warwick	MJ	3/19/1925
+"Burke, Mary Ellen  "	Mathews	"Donald, George, Jr."	Richmond	MJ	4/16/1925
+"Walker, Estelle"	Gloucester	"Foster, Sidney"		MJ	4/16/1925
+"Ellen, Wilma Elizabeth"		"Fuqua, Randolph Robert"		GG	4/23/1925
+"Godsey, Mary"	Gwynn	"Benson (Bensten), Willard"	Gwynn's Island	MJ	4/23/1925
+"Hudgins, Roberta Sheppard"	New Point	"DeAlba, John"	Yorkton	MJ	4/30/1925
+"Owens, Wilma Delphine"	Norfolk	"Hudgins, Malvern Lee"	New Point	MJ	5/7/1925
+"Reichmann, Bertha"	Richmond	"Marcus, Edmund"	Newport News	GG	5/21/1925
+"Sibley, Ruby (engaged)"	Mathews	"White, B. G."	Richmond	MJ	5/21/1925
+"Kopple, Margaret Irene"	"Elkins, W. Va."	"Dudley, Thomas Nelson"	"Baltimore, Md."	MJ	5/28/1925
+"Booze, Helen Yeatman (engaged)"		"Fitzwilliam, Dennis"	Texas	MJ	6/4/1925
+"Cadot, Catherine"	Richmond	"Osmundson, Otto"	USMC	MJ	6/4/1925
+"Kopple, Margaret Irene"	"Elkins, W. Va."	"Dudley, Thomas Nelson"	"Baltimore, Md."	MJ	6/4/1925
+"Richardson, Ruth Lucille"		"Pugh, Vinton"		MJ	6/4/1925
+"Lee, Mary Allen"	Richmond	"Burnette, R. R., Rev."	Mobjack	MJ	6/11/1925
+"Lloyd, Constance Patricia"	Newport News	"Field, Fred Walker"	Newport News; Gloucester	GG	6/11/1925
+"Lloyd, Constance Patricia (engaged)"	Newport News	"Field, Fred Walker"	Newport News; Gloucester	GG	6/11/1925
+"Miles, Myrtle"		"Pugh, Frank L."	Peary	MJ	6/11/1925
+"Sibley, Ruby Armistead"	Mathews	"White, Bennett Graves"	Richmond	MJ	6/18/1925
+"Harrison, Dorothy"		"Powell, Aubrey"	Gwynn	MJ	6/25/1925
+"Miles, Effie"	Susan	"Smith, L. L."	Susan	MJ	6/25/1925
+"Rowe, Bernice"	Achilles	"White, C. Aubrey"	Susan	MJ	6/25/1925
+"White, C. Aubrey"	Port Haywood	"Rowe, Bernice"	Achilles	GG	6/25/1925
+"Williams, Etta"	"Baltimore, Md."	"Fox, E. Clyde"	Mathews	MJ	6/25/1925
+"Dunston, Mary Virginia"		"Marshall, George C."	King and Queen	GG	7/2/1925
+"Miles, Effie Claudia"	Susan	"Smith, Lester Lee"	Susan	MJ	7/2/1925
+"Lewis, Myrtle D."	Cobbs Creek	"Hudgins, William, Jr."	Diggs	MJ	7/9/1925
+"Stubbs, Velma Beatha (engaged)"	Gloucester	"Sparrow, Orus Varland"	Mathews	MJ	7/9/1925
+"Barnes, Alice Estelle"	Newport News	"Buchanan, Floyd Linwood"	Mathews	MJ	7/16/1925
+"Bew, Queen Evelyn"	Glenns	"Gunn, Lutha James"		GG	7/16/1925
+"Bray, Martha"	Hayes Store	"Scott, W. A."		GG	8/20/1925
+"Deal, Vernetta"		"Dunston, Beverly"	"Baltimore, Md.; Gloucester"	GG	8/20/1925
+"Weston, Nannie V."	Port Haywood	"Weston, N. Swift"	Richmond	MJ	8/20/1925
+"Deal, Vernetta"		"Dunston, Beverly"	"Baltimore, Md.; Gloucester"	GG	8/27/1925
+"Taliaferro, Etta Knox"	"Baltimore, Md.; Gloucester"	"Woodworth, Wetherel, Capt."		GG	8/27/1925
+"Rigsbee, Helen"	Wendell	"Thompson, Russell R."	Soles	MJ	9/3/1925
+"Tatum, Hazel Lee"		"Byrns, T. Lester"	Mathews	MJ	9/10/1925
+"Morgan, Addie"	Mobjack	"White, Herant V."	Mobjack	MJ	9/17/1925
+"Fry, Laritinea"	"Portland, Ore."	"Hodges, Leslie"	Redart	MJ	10/1/1925
+"Lilly, Mary"	Redart	"Marsden, Harry"	Hallieford	MJ	10/1/1925
+"Forrest, Ida Lee"	Blakes	"Hudgins, Irvin W."	New Point	MJ	10/15/1925
+"Owens, Amber Lee"	Diggs	"Grinnell, Carl"	New Point	MJ	10/15/1925
+"Booze, E. E., Mrs."		"Foster, E. A."		MJ	10/29/1925
+"Horsley, Mary Dallis"		"Horsley, Clarence Butts"		GG	10/29/1925
+"Kemp, Lucy Daniel"	Cash	"Roy, Harry Leonard"	Cash	GG	10/29/1925
+"Livington, Elizabeth Prentess (engaged)"	"Sherman, Tex."	"von Schilling, Franz, Jr."	Haiti; Gloucester	GG	10/29/1925
+"Marchant, Josephine Claiborne"	Mathews	"Fox, Julian Billups"	Mathews	MJ	11/12/1925
+"Miles, Florence"	Traders	"Hudgins, Ernest Kenneth"	Traders	MJ	11/12/1925
+"Thomas, Nellie E. Miller"	Mathews	"Thomas, William H."	Portsmouth	MJ	11/12/1925
+"Grinnell, Irene Gladys"	New Point	"Hudgins, Charles Victor"	Laban	MJ	11/19/1925
+"Chittie, Claudia Elizabeth"		"Gunn, Boyd Powhatan"		GG	12/25/1925
+Acey (fragmentary)		"Poteate, Blair"		MJ	1/28/1926
+"Wiatt, Marion"		"Hanson, John"	Norfolk	MJ	1/28/1926
+"Ingram, Clara Elizabeth"	Norfolk; Mathews	"Hudgins, Warner Maxwell"	Norfolk; Mathews	MJ	3/11/1926
+"Hudgins, Lucy"	Gwynn	"Callis, Mel., Capt."	Gwynn	MJ	3/18/1926
+"Ingram, Clara Elizabeth"		"Hudgins, Warner Maxwell"		MJ	4/8/1926
+"Tabb, Mildred"		"Johnson, Richard Fitz-Hugh"		MJ	4/8/1926
+"Barker, Dorothy"		"Foster, Gerrie G."	Warehouse	MJ	4/15/1926
+"Baukhages, Minna E."	Mathews	"Glover, H. Griswold"	Gloucester	MJ	4/15/1926
+"Baxter, Alwine (2 notices)"	Cobbs Creek	"Hudgins, George Frank"		MJ	4/15/1926
+"Benton, Mary Louise Evans"	Norfolk	"Dunton, Wilton C."	Norfolk	MJ	4/15/1926
+"Headly, Estney Lee"	Middlesex	"Thompson, Dickie"	Mathews	MJ	4/15/1926
+"Tabb, Mildred"	"High Point, N.C."	"Johnson, Richard Fitz Hugh"	"High Point, N.C."	MJ	4/15/1926
+"Smith, Joyce"	Port Haywood	"Weston, Frank"		MJ	4/22/1926
+"Williams, Virginia"	Foster	"Spear, Frank M."	Grimstead	MJ	4/22/1926
+"Ashenfelder, Dorothy"		"Jones, Cecil H."	North  	MJ	5/6/1926
+"Atherton, Charlotte"	Blakes	"Davis, Walter"		MJ	5/6/1926
+"Baldwin, Marian (engaged)"		"Mason, Randolph Tucker"		MJ	5/13/1926
+"Baldwin, Marian Kyle"	Mathews	"Mason, Randolph Tucker"	North	MJ	5/20/1926
+"Hodges, Margaret B."		"Callis, Raymond T."	Redart	MJ	5/20/1926
+"Lilly, Pauline W."		"Smith, Coleman R."		MJ	5/20/1926
+"Fitchett, Martha Virginia"	Motorun	"Haywood, Rennie Deans"	New Point	MJ	6/4/1926
+"Grubb, Helen Vermont"	Hudgins	"Taylor, Pervis Curtis"	Hudgins	MJ	6/4/1926
+"Oglesby, N.P., Mrs."	Mathews	"Krantz, John Grady"		MJ	6/4/1926
+"Callis, Mary Elizabeth"	Hallieford	"Bridges, Thomas Herman"	Hallieford	MJ	6/10/1926
+"Hardwick,Mildred E."	"Baltimore, Md."	"Walker, John E."		MJ	6/10/1926
+"Johnson, Lucille"	"Manteo, N.C."	"Motley, Claude S."	Gloucester	GG	6/10/1926
+"Sterling, Alice Eugenia (engaged)"		"Lewis, Theodore D."	"Washington, D. C."	GG	6/10/1926
+"Thompson, Clarene Audrey (engaged)"	Cobbs Creek	"Miller, John W. "	Harcum	MJ	6/10/1926
+"Thompson, Clarene Audrey (2 notices)"	Cobbs Creek	"Miller, John W. "	Harcum	MJ	6/17/1926
+"Bristow, Lillian Marie"	Hardyville	"Ashe, James H."	Achilles	GG	6/24/1926
+"Campbell, Jeanie (engaged)"		"Towill, Rosewell Murray"		GG	6/24/1926
+"Woodland, Catherine"	Zanoni	"Miller, William Roy"	Gloucester	GG	6/24/1926
+"Blair, Annie E."	"New York, N.Y."	"Callis, William H."	"New York, N.Y.; Mathews"	MJ	7/8/1926
+"Howell, Mamie"	Newport News	"Williams, Cecil"	Gloucester	GG	7/8/1926
+"Jones, Rebecca Catesby"	Gloucester	"Ferguson, William Edward"	"Bridgeville, Del."	GG	7/8/1926
+"Sterling, Alice Eugenia (engaged)"		"Lewis, Theodore D."	"Washington, D. C."	GG	7/8/1926
+"Edwards, Alice Gay"	Gwynn	"James, Robert Wilson"	Elizabeth City County	MJ	7/15/1926
+"Banks, Inez"	Diggs	"Morgan, Southey"	Diggs	MJ	7/22/1926
+"Callis, Rosa"	Warehouse	"Payne, Armistead"		MJ	7/22/1926
+"Callis, Emma Lizzie (engaged)"		"Hutson, S. C."		MJ	8/26/1926
+"Pearson, Grace Mae (engaged)"	Ocean View	"Foster, Edwin Muse"	Mathews	MJ	8/26/1926
+"Bland, Mary Louise"	Buena Vista	"Morgan, Loran V."	Gloucester	GG	9/9/1926
+"Munro, Jennie"	Hawaii	"Towill, Rosewell Murray"		GG	9/9/1926
+"Pritchett, Evelyn"	Peary	"Owens, Malcolm"	Susan	MJ	9/9/1926
+"Tomlinson, Elsie"	New Point	"Hudgins, Leslie"	New Point	MJ	9/9/1926
+"Bryant, Dorothy"		"Owens, John"	Peary	MJ	9/16/1926
+"Hudson, Naomi C."	Pinetta	"Blake, Enos B."	Allmondsville	GG	9/16/1926
+"Lewis, Maude I"	Hudgins	"Garrett, Howard R."	Blakes	MJ	9/16/1926
+"Muse, Ella Coates"	Ordinary	"Borden, Benjamin E."	Front Royal	GG	9/16/1926
+"Rose, Olive Spindle (2 notices)"	"Washington, D.C."	"Tabb, John Henry"	"Washington, D.C.; Gloucester"	GG	9/16/1926
+"Callis, Emma Lizzie  "		"Hutson, Samuel C."	Mathews	MJ	9/23/1926
+"Gayle, Evelyn"	Blakes	"Benson, Howard"	"Baltimore, Md."	MJ	9/23/1926
+"Lewis, Maude I."		"Garrett, Howard R."	Blakes	GG	9/23/1926
+"Muse, Ella Coates"	Gloucester	"Borden, Benjamin E."	Front Royal	GG	9/23/1926
+"Pearson, Grace Mae  "		"Foster, E. Muse"	Mathews	MJ	9/23/1926
+"Gray, Flora Lee"		"Edwards, Cliford E."	"Rocky Mount, N.C."	MJ	9/30/1926
+"Hudgins, Minnie   "		"Forrest, Norman"	Tabernacle	MJ	9/30/1926
+"Morgan, Edith"		"Brooks, Aaron"	Diggs	MJ	9/30/1926
+"Hurst, Carrie  "		"Mitchem, Thomas"	Gwynn's Island	MJ	10/7/1926
+"Landon, Arinthia (engaged)"	"Baltimore, Md.; Mathews"	??		MJ	10/14/1926
+"Smith, Lottie Davis"	Susan	"Rollins, John Freeman"	Messick	MJ	10/14/1926
+"Matthews, Louise"		"Fitchett, Curtis"	Cobbs Creek	MJ	10/21/1926
+"Grimstead, Mrs."	Soles	"Rammell, Charlie"	Soles	MJ	10/28/1926
+"Hudgins, Jennie"	Motorun	"Ripley, Austin"	Motorun	MJ	10/28/1926
+"Jarvis, Margaret Matilda"	Susan	"Foster, W. B."	Gwynn	MJ	11/4/1926
+"Lackey, Doris Roberts"	Northumberland	"Foster, Henry Baldwin"	Mathews	MJ	11/4/1926
+"Landon, Arinthia"	"Baltimore, Md.; Mathews"	"Jenkins, George T."	"Baltimore, Md."	MJ	11/4/1926
+"Smither, Effie Blanche"	"Philadelphia, Pa."	"Hunley, Alfred Slagle"	"Baltimore, Md.; Mathews"	Mj	11/4/1926
+"Hogge, Lillian"	Port Haywood	"Pugh, John L."	Horn Harbor	MJ	11/11/1926
+"Hudgins, Susie Frances"	New Point	"Grimstead, J. B."	Grimstead	MJ	11/11/1926
+"Sadler, M. B., Mrs. (4 years)"	Diggs	"Sadler, M. B."	Diggs	MJ	11/11/1926
+"White, Edna"		"Hudgins, Carl"		MJ	11/11/1926
+"Audas, Eleanor J."	"Syracuse, NY"	"Mellen, Robert J."	Foster	MJ	11/24/1926
+"Claytor, Susie Cecil"		"Bunting, Leonard Carlyle"		GG	12/2/1926
+"Dixon, Marion"	Hudgins	"Foster, Emory"	Blakes	Mj	12/2/1926
+"Dutton, Hazel"	Blakes	"Dillehay, Percy"	Hudgins	MJ	12/2/1926
+"Milby, Mary Elizabeth"	Cash	"Wilson, Lewellyn"		GG	12/2/1926
+"Curfman, Ruby Louise"	Foster	"Willams, Herbert Taylor"	Foster	MJ	1/6/1927
+"Jarvis, Mary Susan"	Susan	"Callis, Theodore Earl"	Deltaville	MJ	1/6/1927
+"Ward, Josie Mae"	Tabernacle	"Morgan, James Wallace"	Diggs	MJ	1/6/1927
+"Hudgins, Mary S."	Susan	"Curfman, J. Edmond"	Foster	MJ	1/13/1927
+"Owens, Laura Elizabeth"		"Harrell, Leonard Bruce"	Portsmouth	MJ	1/13/1927
+"Ramey, Edithe Belle (engaged)"	Richmond	"Marchant, Bernard"	Mathews	MJ	1/13/1927
+"Anderson, Bessie Davis (1 year)"	Hampton	"Anderson, E. B."	Hampton	MJ	1/27/1927
+"White, Dell"	"Baltimore, Md."	"Ricky, Lloyd Owens"	Wytheville	MJ	2/17/1927
+"Ramey, Edith Belle"	Richmond	"Marchant, Bernard"	Mathews	MJ	2/24/1927
+"Hudgins, Erline"	Sarah	"Forrest, Wilton (3 notices)"	Diggs	MJ	3/3/1927
+"Hahn, Dorothy Louise"		"Treakle, Frederick Spurgeon"	Norfolk	MJ	3/17/1927
+"Hudgins, Emma (engaged)"	Hallieford	"Soles, Earl Lumpkin"	Cobbs Creek	MJ	3/17/1927
+"White, Eva Elizabeth"	Mathews	"Armistead, Alton George"		MJ	3/17/1927
+"Diggs, Elizabeth"	Norfolk; Mathews	"Bew, William T."	Norfolk	MJ	3/24/1927
+"Hudgins, Mary Ruth"	Mobjack	"Ransone, Welford G."	Bohannon	MJ	3/24/1927
+"Riley, Helen Walton"	 	"Smith, Arthur Everett"	"Baltimore, Md."	GG	3/24/1927
+"Dunn, Cecile"	"Mobile, Ala."	"Hodges, Leslie"	Mathews	MJ	3/31/1927
+"Moyer, Mildred Seitz"		"Adams, Steve S."	"Melbourne, Fl.; North"	MJ	3/31/1927
+"Seitz, Mildred"	"Melbourne, Fl."	"Adams, Steve S."	"Melbourne, Fl.; North"	MJ	5/5/1927
+"Shackelford, Delma"	Port Haywood	"Hudgins, Leon (Lem)"	Susan	MJ	5/12/1927
+"Ripley, Irene"		"Smith, Emmanuel"		MJ	5/26/1927
+"Shackelford, Delma"	Sarah	"Hudgins, Leon Warner"	Susan	MJ	5/26/1927
+"Shawn, Estelle"		"Owens, Stanley"		MJ	5/26/1927
+"Woodward, Betty Purkins (engaged)"	Saluda	"James, Rodney"	Mobjack	MJ	5/26/1927
+"Woodward, Betty Purkins (engaged)"	Saluda	"James, Rodney"	Mobjack	MJ	6/9/1927
+"Bendall, Annie Gladys"		"Brown, William Weston"	Gwynn's Island	MJ	6/16/1927
+"Woodward, Betty Purkins (engaged)"	Saluda	"James, Rodney"	Mobjack	MJ	6/16/1927
+"Clements, Julia"	Gloucester	"James, Jefferson, Jr."	Mobjack	MJ	6/30/1927
+"Reed, Georgie"	Bohannon	"Alexander, Roscoe"		MJ	6/30/1927
+"Harg, Mary"	King and Queen	"Thompson, Franklin"	Soles	MJ	7/7/1927
+"Murray, Dorothy"	Williams Wharf	"Booker, W. G."	Mathews	MJ	7/14/1927
+"Rayne, Edith Margaret"		"Shackelford, George Wiley"	Foster	MJ	7/14/1927
+"Burt, Mary Macon"	Bowling Green	"Beale, Richard L. Turbeville"	Richmond	MJ	7/21/1927
+"Minor, Elsie L."	Newton	"Edwards, Ernest"	Owenton	MJ	7/21/1927
+"Snellings, Bernice May"	Falmouth	"Snellings, Alonzo"		MJ	7/21/1927
+"Hudgins, Louise M."		"Diggs, Jack B."		MJ	7/28/1927
+"Burroughs, Margaret"	Mathews	"Knowles, Benjamin F., Jr."	Newport News	MJ	8/4/1927
+"Deagle, Della"	Foster	"Shackelford, Russell E."	Foster	MJ	8/4/1927
+"Hudgins, Mary Elizabeth"	Port Haywood	"Lee, A. W."	"Washington, D.C."	MJ	8/11/1927
+"Brooks, Eugenia"	"Bradenton, Fl."	"Goodpasture, Charles"		MJ	8/25/1927
+"Diggs, Ruby"	Gwynn	"Forrest, Alvin"	Messick	MJ	8/25/1927
+"Callis, Belva Bernice"		"Begor, William Edward"	Newport News	MJ	9/8/1927
+"Armistead, Nellie"		"Harris, Joseph D."	Norfolk	MJ	9/15/1927
+"Tate, Emma Jo"	Essex	"Corr, William Poindexter"	Richmond	MJ	9/15/1927
+"Hunley, Mildred (engaged)"	Fitchetts	"Godwin, Judson T."	Norfolk	MJ	9/22/1927
+"Marchant, Sadie Lee"	Hampton	"Perkins, Herbert"	"Hampton, N.H."	MJ	9/22/1927
+"White, Viola Vance (engaged)"		"Drewry, J. Ralph"	Norfolk	MJ	9/22/1927
+"Wiley, Mildred Gwynn"	Norfolk	"Hudgins, Weldon, Capt."	New Point	MJ	9/22/1927
+"Hudgins, Gazelle (engaged)"	Gwynn's Island	"Moore, J. F. Garland, Rev."	Gwynn's Island	MJ	9/29/1927
+"Hudgins, Irene Beuna"	Shadow	"Hudgins, James Hugh Kiah"	Blakes	MJ	10/6/1927
+"Morgan, Anna (engaged)"	Warsaw	"Marshall, William Coulbourn"		MJ	10/6/1927
+"Rudiger, Anna E."		"Davis, E. Carl"	Norfolk; Mathews	MJ	10/13/1927
+"Sibley, Lucy Virginia (engaged)"	Mathews	"Parkins, Harry"	Norfolk	MJ	10/20/1927
+"White, Viola Vance"	Norfolk	"Drewry, John Ralph"	Norfolk	MJ	10/20/1927
+"Hoskins, Mathilda Byrd (engaged)"	"Beckley, W. Va."	"Farrell, Felix Martin"	"Detroit, Mich."	MJ	10/27/1927
+"Davis, Vera Marion"	Norfolk	"Collins, Elvin Johnson"	Norfolk	MJ	11/3/1927
+"Handy, Bertha Beatrice"	Mathews	"Hicks, James S."	"Washington, D.C."	MJ	11/10/1927
+"Shackelford, Mary Ellen (engaged)"	Norfolk; Mathews	"Bonney, Hal James"	Norfolk	MJ	11/10/1927
+"Stevens, Marjorie Farwell"	"Washington, D.C."	"Hunley, William Carter"	"Washington, D.C."	MJ	11/17/1927
+"Shaw, Georgia Armistead"	Mathews	"Shaw, George C., Rev."	Mathews	MJ	11/24/1927
+"Sibley, Lucy Virginia  "	Mathews	"Parkins, Harry"	Norfolk	MJ	11/24/1927
+"Williams, Grace Elizabeth"	Norfolk	"Hogge, L. Richard"	Mathews	MJ	11/24/1927
+"Brownley, Sophie Eleanor"	Gwynn's Island	"St. Pierre, Joseph E."	"Salem, Oregon"	MJ	12/1/1927
+"Callis, Hattie Elizabeth"		"Hauffler, Edwin C."		MJ	12/1/1927
+"Hutson, Ola Thomas (engaged)"	Mathews	"Chitty, Luther E."	Norfolk	MJ	12/1/1927
+"Robins, Fannie"	Warner	"Owens, Willie"	Tabernacle	MJ	12/1/1927
+"Hughes, Sarah Gertrude"	Urbanna	"Hudgins, Edward"	Mathews	MJ	12/8/1927
+"Shackelford, Mary Ellen"	Norfolk	"Bonney, Hal James"	Norfolk	MJ	12/8/1927
+"Byrnes, Lillie Goldie"	Mathews	"Rabbit, Edward J."	"New York, N.Y."	MJ	12/15/1927
+"Daniel, Annie Leon"	Deltaville	"Callis, Rupert Leslie"	Gwynn	MJ	12/22/1927
+"Powell, Omega, Mrs. (50 years)"		"Powell, Omega, Capt."		MJ	12/22/1927
+"Brooks, Annie Gladys"		"Owens, Howard Linwood"		MJ	1/5/1928
+"Forrest, Lorina Bell"		"Armistead, ____P."		MJ	1/5/1928
+"Hudgins, ___leigh"		"Diggs, (?), John Raymond"		MJ	1/5/1928
+"Ransone, Mattie Virginia"	Port Haywood	"Hudigns, Marvis Webster"		MJ	1/5/1928
+"Williams, Mary Kathleen"	Port Haywood	"Phines, John O."	Mathews	MJ	1/5/1928
+"Hutson, Ola Thomas"		"Chitty, Luther Evans"	Norfolk	MJ	1/12/1928
+"Hudgins, Nancy"	New Point	"Carney, William"		MJ	1/19/1928
+"Sadler, Mayme"		"Owens, E. Ditus"		MJ	2/2/1928
+"Brooks, W. T., Mrs. (50 years)"	Hallieford	"Brooks, W. T."	Hallieford	MJ	2/16/1928
+"Majette, Lillian Virginia (engaged)"	Norfolk	"Scott, Jesse L."	North Carolina	MJ	2/23/1928
+"Majette, Lillian Virginia  "	Norfolk	"Scott, Jesse L."	North Carolina	MJ	3/1/1928
+"Hudgins, Pauline Virginia"		"Godsey, Binford"	Newport News	MJ	3/8/1928
+"Shell, Mrs."	Richmond	"Williams, Willie"	Beaverlett	MJ	4/5/1928
+"Brooks, Inez"	Mathews	"Davis, Frederick Graham"	Newport News	MJ	4/12/1928
+"Lewis, Clemmie"	Cobbs Creek	"Jackson, D. W., Rev."		MJ	4/19/1928
+"Presson, Lillie Beryl"		"Hudgins, Elwood"	Peary	MJ	5/10/1928
+"Williams, Alma Lee"		"Shackelford, Carl"	Sarah	MJ	5/17/1928
+"Morgan, Virginia"	Hallieford	"Lewis, Maynard"		MJ	5/24/1928
+"Hudgins, Rilla"	Motorun	"Renell, Wainwright"		MJ	6/7/1928
+"Hudgins, Thelma"	Motorun	"Hudgins, Walter"		MJ	6/7/1928
+"Brooks, Lola May"	Bridges	"White, Luther Clyde"	Bohannon	MJ	6/28/1928
+"Fox, Ottie"	Mathews	"Hurst, Cecil"	Sarah	MJ	6/28/1928
+"Rains, Daisy Virginia"	Bohannon	"Hodges, Wilbert Sisk"	West Point	MJ	6/28/1928
+"West, Eva"	Peary	"Hudgins, Leslie"	Hallieford	MJ	7/5/1928
+"Ingram, Hannah Down"	"Baltimore, Md."	"Yingling, William J."	Crewe	MJ	7/19/1928
+"Taylor, Mildred"	"Tarboro, N.C."	"Sugg, Palmer"	"Kinston, N.C."	MJ	7/19/1928
+"Minter, Nellie"	Cobbs Creek	"Hatch, James"	Cobbs Creek	MJ	7/26/1928
+"Hudgins, Elizabeth"	Blakes	"Robins, Willard"	Gloucester	MJ	8/9/1928
+"Morgan, Ethel"	Hallieford	"Morgan, Enos"		MJ	8/9/1928
+"Robbins, Anna"	Diggs	"Morgan, John E., Capt."	Gwynn	MJ	8/16/1928
+"Sadler, Winnie Eliza"	Blakes	"Lewis, James Chris"	Bohannon	MJ	8/16/1928
+"Foster, Mildred Lee"		"Willis, Alton Lee"	"Baltimore, Md."	MJ	8/30/1928
+"Mitchem, Susie L."	Mathews	"Shields, Mallory L."	York	MJ	8/30/1928
+"Ogden, Mary Elizabeth"	Hudgins	"Thornton, Carroll Parks"	Norfolk	MJ	8/30/1928
+"Thompson, Junius, Jr."	Cobbs Creek	"Owens, Fannie"	Diggs	MJ	8/30/1928
+"Forrest, Earle"	Mathews	"Shackelford, E. Burke"	Mathews	MJ	9/6/1928
+"Proctor, Mary Katherine"		"Sutton, Marion"	Dutton	MJ	9/6/1928
+"Armistead, Alvin"	Hudgins	"Downes, L. R."	Norfolk	MJ	9/27/1928
+"Buchanan, Mary Elizabeth (engaged)"	Mathews	"Futrell, Jesse"	"Conway, N.C."	MJ	9/27/1928
+"Otey, Earl Staunton"		"Booze, Marjorie Yeatman"		MJ	9/27/1928
+"Ashberry, Minnie L."	Richmond	"Lilly, W. Maywood"	Mathews	MJ	10/3/1928
+"Burroughs, Mary Louise (engaged)"	New Point	"Hallman, Gary W."		MJ	10/11/1928
+"Winans, Olive August"	"Linden, N.J."	"Handy, Albert Franklin"	Mathews	MJ	10/11/1928
+"Powell, Dorothy"	Hudgins	"Hudgins, Guy, Capt."	Sarah	MJ	10/18/1928
+"Burroughs, Mary Louise  "	New Point	"Hallman, Gary W."		MJ	10/25/1928
+"Davis, Merie Vashti"	Mathews	"Huette, James Stanley"	Norfolk	MJ	11/8/1928
+"Faust, Lora Elizabeth"	Mobjack	"Hundley, Alvin Graham"	"Baltimore, Md."	MJ	11/15/1928
+"Brownley, Clarice Vaden"	Bohannon	"Callis, Leonard Raymond"	Grimstead	MJ	11/22/1928
+"Hodges, Florence Elizabeth"	Mathews	"Brown, J. C."	Gloucester	Mj	11/22/1928
+"Williams, Virginia Lee"	Port Haywood	"Grinnelle, Charles Cecil"		MJ	11/22/1928
+"Billups, Doris Elizabeth (engaged)"	Mathews	"Satchell, Charles Edward"	Norfolk	MJ	11/29/1928
+"Hobday, Edna Randolph"	Bohannon	"McCaleb, Percy Hall"	Norfolk	MJ	11/29/1928
+"Sadler, Cynthia E."	Diggs	"Sadler, Charles Linwood"	Diggs	Mj	11/29/1928
+"Hudgins, Bertha Mae"	Mathews	"Crewe, James Lee"	Mathews	MJ	12/6/1928
+"Hudgins, Christine"	Gwynn's Island	"Appleton, N. S."	Newport News	MJ	12/29/1928
+"O'Neill, Frances (film only)"	Amelia	"Harris, Bernard"	Gloucester Point	GG	12/15/1932
+"Phillips, Hilda"	Gloucester	"Kemp, Earl"	Pinetta	FP	12/6/1939
+"Streagle, Lillie Pollard"		"Rice, Henry Franklin"	Suffolk	FP	1/3/1940
+"Stubblefield, Grace"		"Riaiter, Harold E."	Richmond	FP	1/3/1940
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					

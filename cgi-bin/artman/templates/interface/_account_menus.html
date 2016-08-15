@@ -1,0 +1,641 @@
+<!-- templatecell : header_null -->
+<html><head><title></title>
+<style type="text/css"><!--
+
+ a		{ text-decoration: none; font-family: arial,sans-serif; font-size: 13px; color: #0000CC; }
+ a:hover	{ text-decoration: underline; }
+
+.NavLink	{ COLOR: #000000; text-decoration: none; }
+.NavUp		{ BORDER-STYLE: solid; BORDER-WIDTH: 1; BORDER-COLOR: #FFFFFF #999999 #999999 #FFFFFF; PADDING: 0 1 1 1; background-color: #CCCCCC; }
+.NavDown	{ BORDER-STYLE: solid; BORDER-WIDTH: 1; BORDER-COLOR: #999999 #FFFFFF #FFFFFF #999999; PADDING: 1 0 0 2; background-color: #CCCCCC; }
+.NavOff		{ BORDER-STYLE: solid; BORDER-WIDTH: 1; BORDER-COLOR: #CCCCCC #CCCCCC #CCCCCC #CCCCCC; PADDING: 0 1 1 1; background-color: #CCCCCC; }
+
+ --></style>
+  <script language="Javascript"><!--
+  // Check for CSS Support
+  (navigator.userAgent.indexOf("MSIE 5")!=-1)?CSS=true:CSS=false;
+
+  document.write ('<style type="text/css">');
+  if (CSS) {
+    document.write ('input.button  { background-color: #FFFFFF;  background-image: url(../images/button.gif); height: 16; width: 77; border: none; font-family: verdana, sans-serif; font-weight: normal;font-size: 10px; color: #000000; letter-spacing: -0.5pt; cursor: hand; }');
+    document.write ('input.button2 { background-color: #EEEEEE; background-image: url(../images/button.gif); height: 16; width: 77; border: none; font-family: verdana, sans-serif; font-weight: normal;font-size: 10px; color: #000000; letter-spacing: -0.5pt; cursor: hand; }');
+    document.write ('input.button_sm { background-color: #FFFFFF; background-image: url(../images/button_sm.gif); height: 16; width: 46; border: none; font-family: verdana, sans-serif; font-weight: normal;font-size: 10px; color: #000000; letter-spacing: -0.5pt; cursor: hand; }');
+    }
+  else { document.write ('.NavOff	{ BORDER-STYLE: none; BORDER-WIDTH: 0; PADDING: 0 0 0 0; }'); }
+  document.write ('</style>');
+
+// Menu Button Functions //
+
+function btnUp(obj)   { obj.className = "NavUp"; }
+function btnHide(obj) { obj.className = "NavOff"; }
+function btnDown(obj) { obj.className = "NavDown"; }
+
+//--></script>
+</head>
+<body bgcolor="#FFFFFF" marginwidth=15 marginheight=15 topmargin=15 leftmargin=15> 
+<font face="arial,sans-serif" style="font-size: 12px;">
+<!-- /templatecell : header_null -->
+
+<!-- templatecell : list --> 
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr>
+   <td height=22 bgcolor="#EEEEEE"><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></font></td>
+  </tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+$_header_tab3$
+
+<!-- START : tab content -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+ <tr>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=1 width=1200><img src="$_imageurl$spacer.gif" height=10 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF">
+
+    <table border=0 width=100% cellspacing=8 cellpadding=0>
+     <tr>
+      <td>
+
+       <input type="hidden" name="account_list" value="1">
+
+<table border=0 cellspacing=0 cellpadding=0>
+ <tr>
+  <td><font face="arial,sans-serif" style="font-size: 12px;">Search for Keyword</td>
+  <td><font face="arial,sans-serif" style="font-size: 12px;">PerPage</td>
+  <td><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;</td>
+ </tr>
+ <tr>
+  <td><input type="text" name="_keyword" value="$_keyword$" size=20>&nbsp;</td>
+  <td><select name="_perpage"><option $_perpage_5_selected$>5<option $_perpage_10_selected$>10<option $_perpage_15_selected$>15<option $_perpage_20_selected$>20<option $_perpage_25_selected$>25<option $_perpage_30_selected$>30<option $_perpage_40_selected$>40<option $_perpage_50_selected$>50<option $_perpage_100_selected$>100<option $_perpage_250_selected$>250</select>&nbsp;</td>
+  <td>
+   <input type="submit" name="account_list" value="Search">
+   <input type="submit" name="account_listall" value="List All"><br>
+  </td>
+ </tr>
+</table>
+
+      </td>
+      <td align=right>
+ 
+      <table border=0 cellspacing=0 cellpadding=1>
+       <tr><td align=center><font face="arial,sans-serif" style="font-size: 12px;">Found $_mcount$ of $_rcount$</td></tr>
+       <tr><td align=center><font face="arial,sans-serif" style="font-size: 12px;"><a href="$_cgiurl$?account_list=1&_pagenum=$_lpage$" title="Prev Page">&lt;&lt;</a> &nbsp;Page $_cpage$ of $_pcount$&nbsp; <a href="$_cgiurl$?account_list=1&_pagenum=$_npage$" title="Next Page">&gt;&gt;</a></td></tr>
+      </table>
+   
+     </td>
+    </tr>
+   </table>
+
+
+    <table border=0 cellspacing=1 cellpadding=1 width=100%>
+     <tr>
+      <td width=50% bgcolor="#CCCCFF"><font face="arial,sans-serif" style="font-size: 12px;"><b>&nbsp;Name</b></font></td>
+      <td width=30% bgcolor="#CCCCFF"><font face="arial,sans-serif" style="font-size: 12px;"><b>&nbsp;Access Level</b></font></td>
+      <td width=20% bgcolor="#CCCCFF" align=center colspan=2><font face="arial,sans-serif" style="font-size: 12px;"><b>Action</b></font></td>
+     </tr>
+<!-- template insert : $_list$ -->
+<!-- templatecell : row -->
+     <tr>
+      <td bgcolor="$_bgcolor$" width=50%><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;$name$</font></td>
+      <td bgcolor="$_bgcolor$" width=30%><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;$access$</font></td>
+      <td bgcolor="$_bgcolor$" width=10% align=center><font face="arial,sans-serif" style="font-size: 12px;"><a href="$_cgiurl$?account_edit=$num$">modify</a></font></td>
+      <td bgcolor="$_bgcolor$" width=10% align=center><font face="arial,sans-serif" style="font-size: 12px;"><a href="$_cgiurl$?account_confirm_erase=$num$">erase</a></font></td>
+     </tr>
+<!-- /templatecell : row -->
+<!-- templatecell : not_found -->
+     <tr>
+      <td bgcolor="#EEEEFF" colspan=2><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;Sorry, no accounts were found!</font></td>
+      <td bgcolor="#EEEEFF" width=10% align=center><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;</font></td>
+      <td bgcolor="#EEEEFF" width=10% align=center><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;</font></td>
+     </tr>
+<!-- /templatecell : not_found -->
+    </table>
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+  <tr>
+   <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+    <input type="submit" class="button" name="account_list"  value=" Refresh ">
+    <input type="submit" class="button" name="account_add"  value="Create New"><br>
+   </td>
+  </tr>
+ </table>
+ 
+  </td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=3 width=1 border=0></td></tr>
+ <tr><td bgcolor="#000000" colspan=5><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td></tr>
+</table>
+<!-- END : tab content --> 
+
+<!-- /templatecell : list -->
+
+<!-- templatecell : edit -->
+
+ <input type=hidden name="num" value="$num$">
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr>
+   <td height=22 bgcolor="#EEEEEE"><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></font></td>
+  </tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+$_header_tab3$
+
+<!-- START : tab content -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+ <tr>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=1 width=1200><img src="$_imageurl$spacer.gif" height=10 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF">
+
+
+   <p><table border=0 cellspacing=0 cellpadding=1>
+     <tr><td rowspan=20>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
+     <tr>
+      <td height=21><font face="arial,sans-serif" style="font-size: 12px;">Created &nbsp;</td>
+      <td><font face="arial,sans-serif" style="font-size: 12px;">$created$ (by $created_by$)</td>
+     </tr>
+     <tr>
+      <td height=21><font face="arial,sans-serif" style="font-size: 12px;">Last Updated &nbsp;</td>
+      <td><font face="arial,sans-serif" style="font-size: 12px;">$updated$ (by $updated_by$)</td>
+     </tr>
+     <tr>
+      <td><font face="arial,sans-serif" style="font-size: 12px;">Full Name &nbsp;</td>
+      <td><input type="text" name="name" value="$name$" size=40></td>
+     </tr>
+     <tr>
+      <td><font face="arial,sans-serif" style="font-size: 12px;">Email &nbsp;</td>
+      <td><input type="text" name="email" value="$email$" size=40></td>
+     </tr>
+     <tr>
+      <td><font face="arial,sans-serif" style="font-size: 12px;">Username &nbsp;</td>
+      <td><input type="text" name="id" value="$id$" size=40></td>
+     </tr>
+     <tr>
+      <td><font face="arial,sans-serif" style="font-size: 12px;">Password &nbsp;</td>
+      <td><input type="text" name="pw" value="$pw$" size=40></td>
+     </tr>
+     <tr>
+      <td><font face="arial,sans-serif" style="font-size: 12px;">Access Level &nbsp;</td>
+      <td>
+       <select name="acl">
+       $acl_list$
+       </select>
+      </td>
+     </tr>
+       <tr>
+        <td valign="top"><font face="arial,sans-serif" style="font-size: 12px;">Email Alert Options&nbsp;</font></td>
+        <td>
+          <input type="checkbox" name="email_notification_event_1" id="email_notification_event_1"$email_notification_event_1_checked$><label for="email_notification_event_1"><font face="arial,sans-serif" style="font-size: 12px;"> Send email when new articles are created</font></label><br>
+          <input type="checkbox" name="email_notification_event_2" id="email_notification_event_2"$email_notification_event_2_checked$><label for="email_notification_event_2"><font face="arial,sans-serif" style="font-size: 12px;"> Send email when articles are published (visible)</font></label><br>
+          <input type="checkbox" name="email_notification_event_3" id="email_notification_event_3"$email_notification_event_3_checked$><label for="email_notification_event_3"><font face="arial,sans-serif" style="font-size: 12px;"> Send email when articles are modified</font></label><br>
+          <input type="checkbox" name="email_notification_event_4" id="email_notification_event_4"$email_notification_event_4_checked$><label for="email_notification_event_4"><font face="arial,sans-serif" style="font-size: 12px;"> Send email when articles are erased</font></label><br>
+        </td>
+     </tr>
+     <script Language="JavaScript">
+        var Cats = [$cat_numbers$];
+        function Check(access_col, boxChecked) {
+          if (access_col) {
+            for (x = 0; x < Cats.length; x++) {
+              cboxObj = eval('document.forms[0].cat_' + Cats[x]);
+              cboxObj.checked = boxChecked ? true : false;
+            }
+          }
+          else {
+            for (x = 0; x < Cats.length; x++) {
+              cboxObj = eval('document.forms[0].email_cat_' + Cats[x]);
+              cboxObj.checked = boxChecked ? true : false;
+            }
+          }
+        }
+     </script>
+     <tr><td colspan=2 align="center"><font face="arial,sans-serif" style="font-size: 12px;">Email notifications are currently <b>$email_notification_enabled$</b> (<a href="admin.cgi?setup_tab2=1">change in Email Settings section in Setup</a>)</font></td></tr>
+     <tr><td colspan=2><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;</font></td></tr>
+     <tr>
+      <td colspan="2">
+        <table border="0" width="100%" cellpadding="1" cellspacing="1">
+          <tr><td bgcolor="#CCCCFF"><font face="arial,sans-serif" style="font-size: 12px;"><b>Categories</b></font></td><td align="center" width="90" bgcolor="#CCCCFF"><font face="arial,sans-serif" style="font-size: 12px;"><b>Allow Access<sup>*</sup></b></font></td><td align="center" width="70" bgcolor="#CCCCFF"><font face="arial,sans-serif" style="font-size: 12px;"><b>Email Alert</b></font></td></tr>
+          <tr><td bgcolor="#EEEEFF"><b><font face="arial,sans-serif" style="font-size: 12px;">All Categories</font></b></td><td align="center" bgcolor="#EEEEFF"><input type="checkbox" name="all_cats" value="1" $all_cats_1_checked$ onClick="Check(true, this.checked)"></td><td align="center" bgcolor="#EEEEFF"><input type="checkbox" name="email_all_cats" value="1" $email_all_cats_1_checked$ onClick="Check(false, this.checked)"></td></tr>
+          $category_list$
+        </table>
+      </td>
+     </tr>
+     <tr><td colspan=2><font face="arial,sans-serif" style="font-size: 12px;"><b><sup>*</sup></b> Administrators have access to all categories.</font></td></tr>
+      
+      </td>
+     </tr>
+     <tr>
+      <td colspan=2>
+       <font face="arial,sans-serif" style="font-size: 12px;"><br>Notes &nbsp;<br></font>
+       <textarea name="notes" cols=60 rows=5 wrap=soft>$notes$</textarea><br>
+      </td>
+     </tr>
+    </table>
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+   <tr>
+    <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+    <input type="submit" class="button" name="account_save" value="   Save   ">
+    <input type="submit" class="button" name="account_list" value=" Cancel "><br>
+   </td>
+  </tr>
+</table>
+
+  </td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=3 width=1 border=0></td></tr>
+ <tr><td bgcolor="#000000" colspan=5><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td></tr>
+</table>
+<!-- END : tab content --> 
+
+<!-- /templatecell : edit -->
+
+<!-- templatecell : confirm_erase -->
+
+
+<input type="hidden" name="num" value="$num$">
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr>
+   <td height=22 bgcolor="#EEEEEE"><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></font></td>
+  </tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+$_header_tab3$
+
+<!-- START : tab content -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+ <tr>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=1 width=1200><img src="$_imageurl$spacer.gif" height=10 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF"><font face="arial,sans-serif" style="font-size: 12px;">
+
+   <center><br><br><br><br>
+   <b>Are you sure you want to erase this account?</b><br>$name$
+   <br><br><br></center>
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="account_erase" value="  Erase  ">
+   <input type="submit" class="button" name="account_list" value=" Cancel "><br>
+  </td>
+ </tr>
+</table>
+
+  </td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=3 width=1 border=0></td></tr>
+ <tr><td bgcolor="#000000" colspan=5><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td></tr>
+</table>
+<!-- END : tab content --> 
+
+<!-- /templatecell : confirm_erase -->
+
+<!-- templatecell : erased -->
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr>
+   <td height=22 bgcolor="#EEEEEE"><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></font></td>
+  </tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+$_header_tab3$
+
+<!-- START : tab content -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+ <tr>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=1 width=1200><img src="$_imageurl$spacer.gif" height=10 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF"><font face="arial,sans-serif" style="font-size: 12px;">
+
+   <center><br><br><br><br>
+   <b>Account has been erased</b>
+   <br><br><br></center>
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="account_list" value="     OK     "></td>
+ </tr>
+</table>
+
+  </td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=3 width=1 border=0></td></tr>
+ <tr><td bgcolor="#000000" colspan=5><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td></tr>
+</table>
+<!-- END : tab content --> 
+
+<!-- /templatecell : erased -->
+
+<!-- templatecell : saved -->
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr>
+   <td height=22 bgcolor="#EEEEEE"><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></font></td>
+  </tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+$_header_tab3$
+
+<!-- START : tab content -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+ <tr>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=1 width=1200><img src="$_imageurl$spacer.gif" height=10 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF"><font face="arial,sans-serif" style="font-size: 12px;">
+
+   <center><br><br><br><br>
+   <b>Account has been saved</b>
+   <br><br><br></center>
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="account_list" value="     OK     "><br>
+  </td>
+ </tr>
+</table>
+
+  </td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=3 width=1 border=0></td></tr>
+ <tr><td bgcolor="#000000" colspan=5><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td></tr>
+</table>
+<!-- END : tab content --> 
+
+<!-- /templatecell : saved -->
+
+
+<!-- templatecell : error_max_records -->
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr>
+   <td height=22 bgcolor="#EEEEEE"><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></font></td>
+  </tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+$_header_tab3$
+
+<!-- START : tab content -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+ <tr>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=1 width=1200><img src="$_imageurl$spacer.gif" height=10 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF"><font face="arial,sans-serif" style="font-size: 12px;">
+
+   <center><br><br><br><br>
+   <b>Maximum account limit reached</b><br>
+   This product only supports up to $max_records$ account(s).<br>
+   <br><br></center>
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="account_list" value="     OK     "><br>
+  </td>
+ </tr>
+</table>
+
+  </td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=3 width=1 border=0></td></tr>
+ <tr><td bgcolor="#000000" colspan=5><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td></tr>
+</table>
+<!-- END : tab content --> 
+
+<!-- /templatecell : error_max_records -->
+
+
+<!-- templatecell : error_last_admin -->
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr>
+   <td height=22 bgcolor="#EEEEEE"><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></font></td>
+  </tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+$_header_tab3$
+
+<!-- START : tab content -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+ <tr>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=1 width=1200><img src="$_imageurl$spacer.gif" height=10 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF"><font face="arial,sans-serif" style="font-size: 12px;">
+
+   <center><br><br><br><br>
+   <b>Warning: There is only one admin user remaining!</b><br>
+   If you remove or change the access of the only admin account you will<Br>
+   no longer be able to access the administrative features of the program.<br>
+   <br><br></center>
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="account_list" value="     OK     "><br>
+  </td>
+ </tr>
+</table>
+
+  </td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=3 width=1 border=0></td></tr>
+ <tr><td bgcolor="#000000" colspan=5><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td></tr>
+</table>
+<!-- END : tab content --> 
+
+<!-- /templatecell : error_last_admin -->
+
+<!-- templatecell : error_erase_self -->
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr>
+   <td height=22 bgcolor="#EEEEEE"><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></font></td>
+  </tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+$_header_tab3$
+
+<!-- START : tab content -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+ <tr>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=1 width=1200><img src="$_imageurl$spacer.gif" height=10 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF"><font face="arial,sans-serif" style="font-size: 12px;">
+
+   <center><br><br><br><br>
+   <b>Warning: You can not erase your own user account!</b><br>
+   You can not erase the account you are logged in with.  If you want<Br>
+   to erase this account you must first login as a different user.<br>
+   <br><br></center>
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="account_list" value="     OK     "><br>
+  </td>
+ </tr>
+</table>
+
+  </td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=3 width=1 border=0></td></tr>
+ <tr><td bgcolor="#000000" colspan=5><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td></tr>
+</table>
+<!-- END : tab content --> 
+
+<!-- /templatecell : error_erase_self -->
+
+<!-- templatecell : error_username_taken -->
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr>
+   <td height=22 bgcolor="#EEEEEE"><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></font></td>
+  </tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+$_header_tab3$
+
+<!-- START : tab content -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+ <tr>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=1 width=1200><img src="$_imageurl$spacer.gif" height=10 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF"><font face="arial,sans-serif" style="font-size: 12px;">
+
+   <center><br><br><br><br>
+   <b>Sorry!  That username isn't available.</b><br>
+   The username you have selected has already been taken by<br>
+   another user.  Please select another and try again.<br>
+   <br><br></center>
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="button" class="button" name="account_list" value="     OK     " onclick="javascript:history.back()"><br>
+  </td>
+ </tr>
+</table>
+
+  </td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=3 width=1 border=0></td></tr>
+ <tr><td bgcolor="#000000" colspan=5><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td></tr>
+</table>
+<!-- END : tab content --> 
+
+<!-- /templatecell : error_username_taken -->
+
+<!-- templatecell : warning_no_cats -->
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr>
+   <td height=22 bgcolor="#EEEEEE"><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></font></td>
+  </tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+$_header_tab3$
+
+<!-- START : tab content -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+ <tr>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=1 width=1200><img src="$_imageurl$spacer.gif" height=10 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF"><font face="arial,sans-serif" style="font-size: 12px;">
+
+   <center><br><br><br><br>
+   <b>Warning!  User has no access to categories.</b><br>
+   This user will be able to login, but won't be able<br>
+   to save articles to specific categories.<br>
+   <br><br></center>
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="account_list" value="     OK     ">
+   <input type="button" class="button" name="account_list" value="  Cancel  " onclick="javascript:history.back()"><br>
+  </td>
+ </tr>
+</table>
+
+  </td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=3 width=1 border=0></td></tr>
+ <tr><td bgcolor="#000000" colspan=5><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td></tr>
+</table>
+<!-- END : tab content --> 
+
+<!-- /templatecell : warning_no_cats -->

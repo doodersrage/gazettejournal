@@ -1,0 +1,557 @@
+<!-- templatecell : header_null -->
+<script DEFER>
+  // this code is solely to make the template look nice for direct viewing by developers
+  // it is only executed when the template is viewed directly by the developer in their browser
+
+  var regexp = new RegExp ('[$]_imageurl[$]', 'gi') ;       // replace "$imageurl$" with "../images/"
+  for (var n=0; n < document.images.length; n++) {
+    document.images[n].src = document.images[n].src.replace(regexp, '../../images/')
+  }
+
+  document.bgColor = '#336699';
+
+</script>
+<!-- /templatecell : header_null -->
+<!-- templatecell : header -->
+<html>
+ <head>
+  <title>$_ui_title$</title>
+  <meta name="robots" content="noindex,nofollow">
+  <style type="text/css"><!--
+
+ body, td       { font-family: Arial, sans-serif; font-size: 12px; }
+
+ a		    { text-decoration: none; color: #0000CC; }
+ a:hover	    { text-decoration: underline; }
+ a.fmb  	    { text-decoration: none; color: #000000; }
+ a:hover.fmb	{ text-decoration: none; color: #000000; }
+
+ /* Menu bar font */
+ .fmb		{ font-family: ms sans serif, sans-serif; font-weight: normal; color: #000000; font-size: 11px; text-decoration: none; };
+ .ftb		{ font-family: ms sans serif, arial, sans-serif; font-weight: bold; color: #FFFFFF; font-size: 12px; text-decoration: none; };					/* Font Title Bar	*/
+
+ --></style>
+  <script language="Javascript"><!--
+  // determine which browser we're dealing with
+  var ie = document.all    ? true : false;        // internet explorer
+  var ns = document.layers ? true : false;        // netscape navigator <= 4
+  var mz = !ie && !ns      ? true : false;        // mozilla (netscape 6+)
+
+  // Check for CSS Support
+  if (navigator.userAgent.indexOf("MSIE 5") >= 0 ||
+      navigator.userAgent.indexOf("MSIE 6") >= 0) { CSS = true; }
+  else                                            { CSS = false; }
+
+  document.write ('<style type="text/css">');
+  if (CSS) {
+    document.write ('.NavLink	     { COLOR: #000000; text-decoration: none; }');
+    document.write ('.NavUp          { BORDER-STYLE: solid; BORDER-WIDTH: 1; BORDER-COLOR: #FFFFFF #999999 #999999 #FFFFFF; PADDING: 0 1 1 1; background-color: #CCCCCC; }');
+    document.write ('.NavDown        { BORDER-STYLE: solid; BORDER-WIDTH: 1; BORDER-COLOR: #999999 #FFFFFF #FFFFFF #999999; PADDING: 1 0 0 2; background-color: #CCCCCC; }');
+    document.write ('.NavOff  	     { BORDER-STYLE: solid; BORDER-WIDTH: 1; BORDER-COLOR: #CCCCCC #CCCCCC #CCCCCC #CCCCCC; PADDING: 0 1 1 1; background-color: #CCCCCC; }');
+    document.write ('input.button    { background-color: #FFFFFF;  background-image: url($_imageurl$button.gif); height: 16; width: 77; border: none; font-family: verdana, sans-serif; font-weight: normal;font-size: 10px; color: #000000; letter-spacing: -0.5pt; cursor: hand; }');
+    document.write ('input.button2   { background-color: #EEEEEE; background-image: url($_imageurl$button.gif); height: 16; width: 77; border: none; font-family: verdana, sans-serif; font-weight: normal;font-size: 10px; color: #000000; letter-spacing: -0.5pt; cursor: hand; }');
+    document.write ('input.button_sm { background-color: #FFFFFF;  background-image: url($_imageurl$button_sm.gif); height: 16; width: 46; border: none; font-family: verdana, sans-serif; font-weight: normal; font-size: 10px; color: #000000; letter-spacing: -0.5pt; cursor: hand; }');
+    }
+  document.write ('</style>');
+
+// Menu Button Functions //
+
+function btnUp(obj)   { obj.className = "NavUp"; }
+function btnHide(obj) { obj.className = "NavOff"; }
+function btnDown(obj) { obj.className = "NavDown"; }
+
+function browse_dir(field_ref){
+  for (var form_number = 0; document.forms[form_number] != field_ref.form; form_number++) {
+    if (form_number > 100) { alert('Cannot find element in document.forms[]'); return false; }
+  }
+  var field_name = 'forms[' + form_number +  '].' + field_ref.name;
+  var sdir = escape(field_ref.value);
+  window.open('$_cgiurl$?browse_dir=1&field_name=' + field_name + '&sdir=' + sdir,"PopUp",'resizable=yes,location=no,scrollbars=yes,toolbar=no,menubar=no,directories=no,status=yes,height=350,width=500');
+  return true;
+  }
+
+function browse_file(field_ref) {
+  for (var form_number = 0; document.forms[form_number] != field_ref.form; form_number++) {
+    if (form_number > 100) { alert('Cannot find element in document.forms[]'); return false; }
+  }
+  var field_name = 'forms[' + form_number +  '].' + field_ref.name;
+  var sdir = escape(field_ref.value);
+  window.open('$_cgiurl$?browse_file=1&field_name=' + field_name + '&sdir=' + sdir,"PopUp",'resizable=yes,location=no,scrollbars=yes,toolbar=no,menubar=no,directories=no,status=yes,height=350,width=500');
+  return true;
+  }
+
+function win_popup(url,h,w,rval) {
+  window.open(url,"PopUp",'resizable=yes,location=no,scrollbars=yes,toolbar=no,menubar=no,directories=no,status=yes,height='+h+',width='+w);
+  if (rval == true)  { return true; }
+  if (rval == false) { return false; }
+  }
+
+// --------------------------------------------------------------------------
+// Function    : isWysiwygSupported
+// Description : check if wysiwyg editor is supported on current browser
+// --------------------------------------------------------------------------
+
+function isWysiwygSupported() {
+  var userAgent          = navigator.userAgent;
+  var isWysiwygSupported = 0;
+
+  if      (userAgent.match('Safari'))     { isWysiwygSupported = 0; }
+  else if (userAgent.match('Windows CE')) { isWysiwygSupported = 0; }
+  else if (userAgent.match('Opera'))      { isWysiwygSupported = 0; }
+  else if (userAgent.match('MSIE') && !userAgent.match('Mac')) {
+    var ieVersion = parseFloat(navigator.appVersion.split("MSIE")[1]);  // returns "6.0" on "4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)"
+    if (ieVersion >= 5.5) { isWysiwygSupported = 1; }
+  }
+  else if (userAgent.match('Netscape')) {
+    var geckoVersion = navigator.productSub;    // Netscape 7.1 is 20030624
+    if (geckoVersion >= 20030624) { isWysiwygSupported = 1; }
+  }
+  else if (userAgent.match('Firefox')) {
+    var geckoVersion = navigator.productSub;    // firefox 1.0 is 20041107
+    if (geckoVersion >= 20041107) { isWysiwygSupported = 1; }
+  }
+  else if (userAgent.match('Gecko')) {
+    var geckoVersion = navigator.productSub;    // Moz 1.7 is 20040616
+    if (geckoVersion >= 20040616) { isWysiwygSupported = 1; }
+  }
+
+  return isWysiwygSupported;
+}
+
+
+// --------------------------------------------------------------------------
+// Function    : loadWysiwygScript
+// Description : load editor script for ie or mozilla or display an error
+// --------------------------------------------------------------------------
+
+function loadWysiwygScript() {
+  var editorUrlPath = '$_imageurl_je$wysiwyg2/scripts/';
+
+  if (navigator.appName == 'Microsoft Internet Explorer') {
+    document.write("<scr"+"ipt src='" +editorUrlPath+ "editor.js'></scr"+"ipt>");
+  }
+  else if (navigator.product == 'Gecko') {
+    document.write("<scr"+"ipt src='" +editorUrlPath+ "moz/editor.js'></scr"+"ipt>");
+  }
+  else {
+    alert("Can't load wysiwyg editor script, unknown browser!");
+  }
+}
+
+
+// --------------------------------------------------------------------------
+// Function    : replaceTextareaWithWysiwyg
+// Description : replace a textarea with a wysiwyg
+// --------------------------------------------------------------------------
+
+function replaceTextareaWithWysiwyg(fieldname, height) {  // min height is 200
+
+  // load content
+  var fieldElement = document.getElementById(fieldname);
+  var fieldContent = fieldElement.value;
+
+  // convert plaintext content to html
+  var autoFormatCheckbox = document.getElementById('format_' + fieldname);
+  if (autoFormatCheckbox == null) {
+    autoFormatCheckbox = document.getElementById(fieldname + '_format');
+  }
+  var isPlainText        = autoFormatCheckbox.checked;
+  var htmlContent        = fieldContent;
+  if (isPlainText) { htmlContent = htmlContent.replace(/(\r\n|\n)/g,"<br>\n"); }
+
+  // remove autoformat checkbox
+  var autoFormatContainer = document.getElementById(fieldname + '_autoformat_container');
+  autoFormatContainer.innerHTML = "";
+
+  // replace textarea with hidden field to store wysiwyg contents
+  var containerElement = document.getElementById(fieldname + '_container');
+  containerElement.innerHTML = '<input type="hidden" name="' +fieldname+ '"  id="' +fieldname+ '" value="">';
+  var hiddenElement = document.getElementById(fieldname);
+  hiddenElement.value = htmlContent;
+
+  // we don't need to create a hidden field for "format_" since it will default to no autoformatting
+
+  // insert wysiwyg
+  // note: the editor requires we create a global var for each wysiwyg instance and pass
+  // it the name of that global, so we're using eval to do that and then working with
+  // a copy of that global reference in the following code for simplicity.
+  var globalVar = fieldname + "_wysiwyg";
+  var wysiwyg   = eval(globalVar + " = new InnovaEditor('" +globalVar+ "')");
+
+  wysiwyg.arrStyle = [["body",false,"","font:12px verdana,arial,sans-serif;"]]; // CSS rules to apply to editor content
+
+  wysiwyg.features=[    // buttons to display
+    "FontName","FontSize","Bold","Italic","Underline","|",
+    "JustifyLeft","JustifyCenter","JustifyRight", "|","Numbering","Bullets","Indent","Outdent", "BRK",
+    "ForeColor","BackColor","|","Line","Hyperlink","Image","Table","|",
+    "HTMLSource","FullScreen"
+  ];
+  
+  wysiwyg.useDIV=false  // Pressing enter won't insert a <div> in Internet Explorer
+  wysiwyg.useBR=false   // Pressing enter won't insert a <br> in Internet Explorer
+  
+  // fonts to display
+  wysiwyg.arrFontName=["Arial", "Courier New", "Georgia", "Tahoma", "Times New Roman", "Verdana", "impact", "Wingdings"];  
+
+  wysiwyg.width    = 500;
+  wysiwyg.height   = height || 350;
+  wysiwyg.useTagSelector = false;
+
+  wysiwyg.RENDER(htmlContent);
+
+  // add to wysiwyg list
+  if (typeof(wysiwygFieldList) == 'undefined') { wysiwygFieldList = new Array(); }
+  wysiwygFieldList.push(fieldname);
+
+}
+
+// --------------------------------------------------------------------------
+// Function    : saveWysiwygContentToHiddenFields
+// Description : load the html contents from the wysiwyg fields and assign
+//               it to hidden fields so it will get submitted with the form.
+// Usage       : <form ... onsubmit="saveWysiwygContentToHiddenFields(this.id)">
+// --------------------------------------------------------------------------
+
+function saveWysiwygContentToHiddenFields(formId) {
+
+  // error checking
+  if (formId == '') { return alert("saveWysiwygContentToHiddenFields: no formId specified!"); }
+
+  // set content for each wysiwyg
+  for (var i=0; i<wysiwygFieldList.length; i++) {
+    var fieldName       = wysiwygFieldList[i];
+    var wysiwygObject   = eval(fieldName + "_wysiwyg");
+    var hiddenElement   = document.getElementById(fieldName);
+    hiddenElement.value = wysiwygObject.getHTMLBody();
+  }
+
+}
+
+// --------------------------------------------------------------------------
+// code to run
+// --------------------------------------------------------------------------
+
+if (isWysiwygSupported()) { loadWysiwygScript(); }
+
+//--></script>
+</head>
+<body bgcolor="$_ui_bgcolor$" marginwidth=0 marginheight=15 leftmargin=0>
+
+<table border=0 cellspacing=0 cellpadding=0><tr><td><!-- fix ns6 table height % bug -->
+<form method="post" action="$_cgiurl$"></td></tr></table>
+
+<!-- /templatecell : header -->
+
+<!-- templatecell : interface -->
+
+<div align=center>
+
+<table border="0" cellpadding="0" cellspacing="0" width=590>
+ <tr>
+  <td rowspan=12><img src="$_imageurl$ui_top_left.gif" width="7" height="48"></td>
+  <td width=576 bgcolor="#CCCCCC"><img src="$_imageurl$spacer.gif" height=1 width=1></td>
+  <td rowspan=12><img src="$_imageurl$ui_top_right.gif" width="7" height="48"></td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=1 width=1></td></tr>
+ <tr><td bgcolor="#999999"><img src="$_imageurl$spacer.gif" height=2 width=1></td></tr>
+ <tr>
+  <td bgcolor="#003399" height=18>
+   <table border=0 cellspacing=0 cellpadding=0 width=100%>
+    <tr>
+     <td><font face="ms sans serif, arial, sans-serif" color="#FFFFFF" style="font-size: 12px;"><b>&nbsp;$_ui_title$ &nbsp;</b></font></td>
+     <td align=right><img src="$_imageurl$ui_top_btn.gif" width=38 height=18 border=0 usemap="#ui_top_btn"></td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr><td bgcolor="#666666"><img src="$_imageurl$spacer.gif" height=1 width=1></td></tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=1 width=1></td></tr>
+ <tr>
+  <td bgcolor="#CCCCCC" height=18>
+
+   <table border=0 cellspacing=0 cellpadding=0 width=100% height=18><tr><td valign=center>
+   <table border=0 cellpadding=0 cellspacing=0 background="$_imageurl$spacer.gif">
+    <tr>
+     <td bgcolor="#CCCCCC" onmousedown="btnDown(this)"; onmouseover="btnUp(this)" onmouseout="btnHide(this)" onclick="location.href='$_cgiurl$?art_add=1'" CLASS="NavOff"><A class="fmb" onfocus="blur()" href="$_cgiurl$?art_add=1">&nbsp;&nbsp;Create&nbsp;Article&nbsp;&nbsp;</a></td>
+<!-- template insert : $menubar$ -->
+<!-- templatecell : menubar_acl2_only -->
+     <td bgcolor="#CCCCCC" width=98%><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+<!-- /templatecell : menubar_acl2_only -->
+<!-- templatecell : menubar_acl3_only -->
+     <td bgcolor="#CCCCCC" onmousedown="btnDown(this)"; onmouseover="btnUp(this)" onmouseout="btnHide(this)" onclick="location.href='$_cgiurl$?art_list=1'" CLASS="NavOff"><A class="fmb" onfocus="blur()" href="$_cgiurl$?art_list=1">&nbsp;&nbsp;Article&nbsp;Editor&nbsp;&nbsp;</a></td>
+     <td bgcolor="#CCCCCC" width=98%><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+<!-- /templatecell : menubar_acl3_only -->
+<!-- templatecell : menubar_acl4_only -->
+     <td bgcolor="#CCCCCC" onmousedown="btnDown(this)"; onmouseover="btnUp(this)" onmouseout="btnHide(this)" onclick="location.href='$_cgiurl$?art_list=1'" CLASS="NavOff"><A class="fmb" onfocus="blur()" href="$_cgiurl$?art_list=1">&nbsp;&nbsp;Article&nbsp;Editor&nbsp;&nbsp;</a></td>
+     <td bgcolor="#CCCCCC" width=98%><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+<!-- /templatecell : menubar_acl4_only -->
+<!-- templatecell : menubar_acl9_only -->
+     <td bgcolor="#CCCCCC" onmousedown="btnDown(this)"; onmouseover="btnUp(this)" onmouseout="btnHide(this)" onclick="location.href='$_cgiurl$?art_list=1'" CLASS="NavOff"><A class="fmb" onfocus="blur()" href="$_cgiurl$?art_list=1">&nbsp;&nbsp;Article&nbsp;Editor&nbsp;&nbsp;</a></td>
+     <td bgcolor="#CCCCCC" onmousedown="btnDown(this)"; onmouseover="btnUp(this)" onmouseout="btnHide(this)" onclick="location.href='$_cgiurl$?cat_list=1'" CLASS="NavOff"><A class="fmb" onfocus="blur()" href="$_cgiurl$?cat_list=1">&nbsp;&nbsp;Category&nbsp;Editor&nbsp;&nbsp;</a></td>
+     <td bgcolor="#CCCCCC" width=98%><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+     <td bgcolor="#CCCCCC" onmousedown="btnDown(this)"; onmouseover="btnUp(this)" onmouseout="btnHide(this)" onclick="location.href='$_cgiurl$?setup_edit=1'" CLASS="NavOff"><A class="fmb" onfocus="blur()" href="$_cgiurl$?setup_edit=1">&nbsp;&nbsp;Setup&nbsp;Options&nbsp;&nbsp;</a></td>
+<!-- /templatecell : menubar_acl9_only -->
+     <td bgcolor="#CCCCCC" onmousedown="btnDown(this)"; onmouseover="btnUp(this)" onmouseout="btnHide(this)" onclick="location.href='$_cgiurl$?logoff=1'" CLASS="NavOff"><A class="fmb" onfocus="blur()" href="$_cgiurl$?logoff=1">&nbsp;&nbsp;Logoff&nbsp;&nbsp;</a></td>
+    </tr>
+   </table>
+   </td></tr></table>
+
+  </td>
+ </tr>
+ <tr><td bgcolor="#666666"><img src="$_imageurl$spacer.gif" height=1 width=1></td></tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=1 width=1></td></tr>
+ <tr><td bgcolor="#999999"><img src="$_imageurl$spacer.gif" height=2 width=1></td></tr>
+ <tr><td bgcolor="#666666"><img src="$_imageurl$spacer.gif" height=1 width=1></td></tr>
+ <tr><td bgcolor="#000000"><img src="$_imageurl$spacer.gif" height=1 width=1></td></tr>
+</table>
+
+<map name="ui_top_btn">
+<area shape="circle" coords="9,9, 9" $no_help$ href="$_url_help$" title="Click for Help" onfocus="blur()" target="_blank">
+<area shape="circle" coords="27,9, 9" href="$_cgiurl$?logoff=1" title="Click to Logoff" onfocus="blur()">
+</map>
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width=590>
+ <tr>
+  <td bgcolor="#FFFFFF" background="$_imageurl$ui_mid_left.gif" rowspan=3><img src="$_imageurl$spacer.gif" width="12" height="1" border="0"></td>
+  <td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" width="566" height="6" border="0"></td>
+  <td bgcolor="#FFFFFF" background="$_imageurl$ui_mid_right.gif" rowspan=3><img src="$_imageurl$spacer.gif" width="12" height="1" border="0"></td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><font face="arial,sans-serif" style="font-size: 12px;">$content$</font></td></tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" width="566" height="6" border="0"></td></tr>
+ <tr>
+  <td colspan=3 height=22 background="$_imageurl$ui_bot.gif" align=center valign=top>
+
+   <table border=0 cellspacing=0 cellpadding=0 width=570 height=18><tr>
+    <td align=left background=""><font face="ms sans serif,arial,sans-serif" size=1>Current User: $_cuser_id$</font></td>
+    <td align=right background=""><font face="ms sans serif,arial,sans-serif" size=1>$_ui_footer$</font></td>
+   </tr></table>
+
+
+  </td>
+ </tr>
+</table>
+
+
+<!-- /templatecell : interface -->
+
+<!-- templatecell : no_help -->
+onclick="alert('Sorry,online help is not available.\nAdd a help URL under Setup Options\nor contact your vendor for support.'); return false;"
+<!-- /templatecell : no_help -->
+
+
+
+
+<!-- templatecell : login -->
+
+<!-- template insert : $passthru$ -->
+<input type="hidden" name="login" value="1">
+
+<table border=0 cellspacing=0 cellpadding=0 width=100% height=90%><tr><td align=center>
+<table bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+   <td rowspan="3"><img src="$_imageurl$login_image.gif" width="176" height="250" border="0"></td>
+   <td valign="top" height=80><img src="$_imageurl$login_logo.gif" width="223" height="81" border="0"></td>
+   <td rowspan="3" bgcolor="#000000"><img src="$_imageurl$spacer.gif" width="1" height="1" border="0"></td>
+  </tr>
+  <tr>
+   <td height=98 align=center valign=center><br>
+
+    <table border=0 cellspacing=0 cellpadding=0>
+     <tr>
+      <td><font face="arial" style="font-size: 12px;">Username &nbsp;</font></td>
+      <td><input type="text" name="id" value="$id$" size=14></td>
+     </tr>
+     <tr>
+      <td><font face="arial" style="font-size: 12px;">Password &nbsp;</font></td>
+      <td><input type="password" name="pw" value="$pw$" size=14></td>
+     </tr>
+     <tr>
+      <td colspan=2 align=right><font style="font-family: sans-serif; font-size: 10px;"><input type="submit" class="button_sm" name="login" value=" Login "></font></td>
+     </tr>
+    </table>
+
+<script><!--
+document.forms[0].id.focus();
+// --></script>
+
+   </td>
+  </tr>
+  <tr>
+   <td valign="bottom" height=70><a href="$_cgiurl$?about_license=1"><img src="$_imageurl$login_copyright.gif" width="223" height="71" border="0" alt="Click for license information."></a></td>
+  </tr>
+</table>
+</td></tr></table>
+<!-- /templatecell : login -->
+
+
+
+
+<!-- templatecell : login_message -->
+<table border=0 cellspacing=0 cellpadding=0 width=100% height=90%><tr><td align=center>
+<table bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+   <td rowspan="3"><img src="$_imageurl$login_image.gif" width="176" height="250" border="0"></td>
+   <td valign="top" height=80><img src="$_imageurl$login_logo.gif" width="223" height="81" border="0"></td>
+   <td rowspan="3" bgcolor="#000000"><img src="$_imageurl$spacer.gif" width="1" height="1" border="0"></td>
+  </tr>
+  <tr>
+   <td height=168 width=223 valign=top align=center>
+    <font size=1><br></font>
+    $message$
+   </td>
+  </tr>
+  <tr>
+   <td valign="bottom" bgcolor="#000000" height=1><img src="$_imageurl$spacer.gif" width="1" height="1" border="0"></td>
+  </tr>
+</table>
+</td></tr></table>
+<!-- /templatecell : login_message -->
+
+
+
+<table border=0 cellspacing=0 cellpadding=0 width=400><tr><td bgcolor="#000000">
+<table border=0 cellpadding=0 cellspacing=1 width=100%><tr><td bgcolor="#FFFFFF">
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr>
+   <td width=176 bgcolor="#CCCCCC"><img src="$_imageurl$spacer.gif" width="176" height="1" border="0"></td>
+   <td width=1   bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" width="1" height="1" border="0"></td>
+   <td width=223 align=center><font size=1><br></font>
+
+<!-- templatecell : login_license -->
+    <table border=0 cellspacing=0 cellpadding=1 width=180>
+     <tr><td bgcolor="#666666"><font face="ms sans serif,arial" color="#FFFFFF" size=1>&nbsp;This product is licensed to &nbsp;</font></td></tr>
+     <tr>
+      <td>
+       <font face="ms sans serif,arial" size=1><br>
+        $_reg1$<br>$_reg2$<br><Br>
+        Usage is subject to the terms of the license agreement.<br><br>
+        <div align=right><font style="font-family: sans-serif; font-size: 10px;"><input type="submit" class="button_sm" value=" ok "></font></div>
+       </font>
+      </td>
+     </tr>
+    </table>
+<!-- /templatecell : login_license -->
+
+<hr size=1>
+
+<!-- templatecell : login_expired -->
+
+    <!-- template insert : $passthru$ -->
+    <input type="hidden" name="logoff" value=1>
+
+    <table border=0 cellspacing=0 cellpadding=1 width=180>
+     <tr>
+      <td>
+       <font face="ms sans serif,arial" size=1>
+        <b>Session Expired</b><br><br>
+        You've been automatically logged off due to inactivity. <Br><br>If you think you've received this message in error please make sure you have javascript and cookies enabled.<br><br>
+        <div align=right><font style="font-family: sans-serif; font-size: 10px;"><input type="submit" class="button_sm" value=" ok "></font></div>
+       </font>
+      </td>
+     </tr>
+    </table>
+<!-- /templatecell : login_expired -->
+
+<hr size=1>
+
+<!-- templatecell : login_invalid -->
+    <table border=0 cellspacing=0 cellpadding=1 width=180>
+     <tr>
+      <td>
+       <font face="ms sans serif,arial" size=1>
+        <b>Invalid Login</b><br><br>
+        You've entered an incorrect username or password.  Please check the spelling and try again.<br><br>
+        <div align=right><font style="font-family: sans-serif; font-size: 10px;"><input type="submit" class="button_sm" value=" ok "></font></div>
+       </font>
+      </td>
+     </tr>
+    </table>
+<!-- /templatecell : login_invalid -->
+
+<hr size=1>
+
+<!-- templatecell : login_noaccess -->
+<input type="hidden" name="logoff" value="1">
+    <table border=0 cellspacing=0 cellpadding=1 width=180>
+     <tr>
+      <td>
+       <font face="ms sans serif,arial" size=1>
+        <b>No Login Access</b><br><br>
+        You're account doesn't have login access.  If you are a new user you may need to wait for your account to be approved, otherwise, check with the website operator for more information.<br><br>
+        <div align=right><font style="font-family: sans-serif; font-size: 10px;"><input type="submit" class="button_sm" value=" ok "></font></div>
+       </font>
+      </td>
+     </tr>
+    </table>
+<!-- /templatecell : login_noaccess -->
+
+<hr size=1>
+
+<!-- templatecell : login_disabled -->
+    <table border=0 cellspacing=0 cellpadding=1 width=180>
+     <tr>
+      <td>
+       <font face="ms sans serif,arial" size=1>
+
+      <p><b>License Expired!</b><br><br>
+      The license for this product has expired.  For assistance please email
+      <a href="$_vendor_url$">$_vendor_name$</a><br><br>
+        <div align=right><font style="font-family: sans-serif; font-size: 10px;"><input type="submit" class="button_sm" value=" ok "></font></div>
+       </font>
+      </td>
+     </tr>
+    </table>
+<!-- /templatecell : login_disabled -->
+
+<hr size=1>
+
+<!-- templatecell : login_corrupted -->
+    <table border=0 cellspacing=0 cellpadding=1 width=180>
+     <tr>
+      <td>
+       <font face="ms sans serif,arial" size=1>
+
+      <p><b>Program Corrupted</b><br><br>
+      One or more of this program's files have been corrupted or modified.
+      Please re-install the program or contact support for assistance.<br><br>
+
+        <div align=right><font style="font-family: sans-serif; font-size: 10px;"><input type="submit" class="button_sm" value=" ok "></font></div>
+       </font>
+      </td>
+     </tr>
+    </table>
+<!-- /templatecell : login_corrupted -->
+
+<!-- templatecell : demo_message -->
+    <table border=0 cellspacing=0 cellpadding=1 width=180>
+     <tr>
+      <td>
+       <font face="ms sans serif,arial" size=1>
+
+      <p><b>Sorry! &nbsp;Feature not available</b><br><br>
+      $message$<br><br>
+
+        <div align=right><font style="font-family: sans-serif; font-size: 10px;"><input type="submit" class="button_sm" value=" ok "></font></div>
+       </font>
+      </td>
+     </tr>
+    </table>
+<!-- /templatecell : demo_message -->
+
+   <font size=1><br></font>
+   </td>
+  </tr>
+</table>
+</td></tr></table>
+</td></tr></table>
+
+
+
+<!-- templatecell : footer -->
+
+</div></form>
+</body></html>
+<!-- /templatecell : footer -->
+

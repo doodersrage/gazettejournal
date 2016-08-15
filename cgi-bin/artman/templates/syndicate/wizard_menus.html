@@ -1,0 +1,1192 @@
+<!-- templatecell : frameset -->
+<frameset rows="40, *">
+  <frame name="header" src="$_cgiurl$?header=1" scrolling=no frameborder=0 marginwidth=0 noresize>
+  <frameset cols="292, *">
+    <frame name="menu" src="$_cgiurl$?simple=1&headline_style=$default_headline_style_ue$&width=200&show_date=true&show_summary=true" scrolling=auto frameborder=1 marginwidth=0>
+    <frame name="preview" src="$_cgiurl$?preview=1&headline_style=$default_headline_style_ue$&width=200&show_date=true&show_summary=true" scrolling=auto frameborder=1>
+  </frameset>
+</frameset>
+<!-- /templatecell : frameset -->
+
+
+<!-- templatecell : disabled -->
+<html>
+ <body bgcolor="#EEEEEE">
+  <table border=0 width=100% height=90%><tr><td align=center valign=center>
+   <table border=0 cellpadding=3 cellspacing=0><tr><td width=400  bgcolor="#666666">
+    <table border=0 cellpadding=15 cellspacing=0><tr><td bgcolor="#FFFFFF">
+
+      <p><font color="#000000" face="arial,helvetica,sans-serif" size=4><b>Program Disabled</b></font>
+
+      <p><font color="#000000" face="arial,helvetica,sans-serif" size=2>
+        The Webfeed Generator has been disabled
+      
+      <p>
+        Please ask your administrator to enable the Webfeed Generator in the Setup Options.
+
+      </font><br><br>
+
+    </td></tr><tr><td align=right bgcolor="#FFFFFF">
+
+      <p><a href="$url_publish$"><font color="#0000ff" face="arial,helvetica,sans-serif" size=2>click here to continue &gt;&gt;</a>
+
+    </td></tr></table>
+   </td></tr></table>
+  </td></tr></table>
+ </body>
+</html>
+<!-- /templatecell : disabled -->
+
+
+<!-- templatecell : header -->
+<html>
+ <body bgcolor="#d4d0c8">
+  <table cellpadding=3 width=100% height=100% border=0><tr><td valign=bottom>
+   &nbsp;<font face="arial,sans-serif" style="font-size: 17px;"><b>$_prog_name$ - Webfeed Generator</b></font>
+  </td><td align=right valign=bottom>
+    <a href="$_cgiurl$?help=1" target="_blank" onClick="window.open('$_cgiurl_je$?help=1','','toolbar=no,location=no,directories=no,status=yes,menubar=no,scrollbars=yes,resizable=yes,width=350,height=420'); return false"><img src="$_imageurl$question.gif" align=absbottom border=0><font face="arial,sans-serif" color="#000000" style="font-size: 17px; text-decoration: none"><b><i>&nbsp;HELP</i></b></font></a>&nbsp;&nbsp;
+  </td></tr></table>
+ </body>
+</html>
+<!-- /templatecell : header -->
+
+
+<!-- templatecell : menu_header -->
+
+<html>
+ <body bgcolor="#ffffff">
+
+<script language="Javascript1.1"><!--
+
+// Check for CSS Support
+if (navigator.userAgent.indexOf("MSIE 5") >= 0 ||
+    navigator.userAgent.indexOf("MSIE 6") >= 0) { CSS = true; }
+else                                            { CSS = false; }
+
+// Create style for buttons
+document.write ('<style type="text/css">');
+if (CSS) {
+  document.write ('input.button    { background-color: #FFFFFF;  background-image: url($_imageurl$button.gif); height: 16; width: 77; border: none; font-family: verdana, sans-serif; font-weight: normal;font-size: 10px; color: #000000; letter-spacing: -0.5pt; cursor: hand; }');
+  }
+document.write ('</style>');
+
+// Figure out cgiurl
+var cgiurl = location.protocol + '//' + location.host + location.pathname;
+
+
+// Colour Picker Launch
+
+/* ---------------------------------------------------------------------- *\
+  Function    : WhatBrowser()
+  Description : return browser name
+                ie = internet explorer
+                ns = netscape
+                mz = mozilla or netscape 6+
+  Usage       : var browser = WhatBrowser()
+  Requires    : none
+\* ---------------------------------------------------------------------- */
+
+function WhatBrowser() {
+
+var browser;
+if (document.all)                     { browser = 'ie'; }         // Internet Explorer
+else if (document.layers)             { browser = 'ns'; }         // Netscape 4
+else if (!document.all &&
+         document.getElementById)     { browser = 'mz'; }         // Netscape 6+ / Mozilla
+         
+return browser;
+
+}
+
+/* ---------------------------------------------------------------------- *\
+  Function    : MouseTrack()
+  Description : Track mouse position and set global MouseX, MouseY vars
+  Usage       : 
+                var browser = WhatBrowser();
+                var mouseX, mouseY;
+                window.onload = function() {
+                  if      (browser == 'ns') { document.captureEvents(Event.MOUSEMOVE); }
+                  document.onmousemove = MouseTrack;
+                }
+  Requires    : var browser to be set
+\* ---------------------------------------------------------------------- */
+
+function MouseTrack(e) {
+
+  if      (browser == 'ie') { mouseX = event.screenX; mouseY = event.screenY; }
+  else if (browser == 'ns') { mouseX = e.screenX;     mouseY = e.screenY; }
+  else if (browser == 'mz') { mouseX = e.screenX;     mouseY = e.screenY; }
+  else                      { mouseX = event.screenX; mouseY = event.screenY; }
+
+  var pos = mouseX + ", " + mouseY;
+//  window.status = pos;                // for debugging
+
+}
+
+/* ---------------------------------------------------------------------- *\
+  Function    : Form2Query()
+  Description : examine form element names/values and return query string
+  Usage       : var query = Form2Query(document.formname);
+                var query = Form2Query(document.forms[0]);
+  Requires    : none
+\* ---------------------------------------------------------------------- */
+
+function Form2Query(formobj) {
+
+  var query = '';
+
+  for (var i=0; i <= formobj.elements.length-1; i++) {
+    var eobj = formobj.elements[i];                     // element object
+    var type  = eobj.type
+    var fname  = escape(eobj.name);                     // field name
+    var fvalue = '';                                    // field value (defined below)
+ 
+    // error checking
+    if (fname.length == 0) { continue; }                 // skip blank names
+    
+    // for single pulldowns
+    if (type == 'select-one') {
+      var idx = eobj.options.selectedIndex;
+      var txt = eobj.options[idx].text;                 // <option>text</option> value
+      var val = eobj.options[idx].value;                // <option value="this">
+      if (val.length) { fvalue = val; }                  // try and use value first
+      else            { fvalue = txt; }
+      if (query.length) { query += "&"; }               // join name/value pairs
+      query += fname + "=" + fvalue;                      
+    }
+    
+    // for multiple pulldowns
+    else if (type == 'select-multiple') {
+      var sCount = 0;                                           // selected options count
+      for (var idx=0; idx <= eobj.options.length-1; idx++) {    // o is option index
+        if (eobj.options[idx].selected != true) { continue; }   // skip unselected values
+        sCount += 1;                                            // add one to selected options counter        
+                
+        var txt = eobj.options[idx].text;                       // <option>text</option> value
+        var val = eobj.options[idx].value;                      // <option value="this">
+        if (val.length) { fvalue = val; }                        // try and use value first
+        else            { fvalue = txt; }
+        if (query.length) { query += "&"; }                     // join name/value pairs
+        query += fname + "=" + fvalue;
+      }
+      if (sCount == 0) { 
+        if (query.length) { query += "&"; }                     // join name/value pairs
+        query += fname + "=" + fvalue;                     
+      }
+    }    
+
+    // for checkboxes and radios
+    else if (type == 'checkbox' || type == 'radio') {
+      if (eobj.checked) {                                       // only show "checked" checkboxes
+        fvalue = escape(eobj.value);                             // field value
+        if (query.length) { query += "&"; }                     // join name/value pairs
+        query += fname + "=" + fvalue;                      
+      }
+    }
+    
+    // for all other fields
+    else {
+      fvalue = escape(eobj.value);                               // field value
+      if (query.length) { query += "&"; }                       // join name/value pairs
+      query += fname + "=" + fvalue;                      
+    }
+    // end
+    
+  }
+
+  return query;
+}
+
+/* ---------------------------------------------------------------------- *\
+  Function    : Form_Number()
+  Description : Return form number (in forms array) of specified field.
+  Usage       : var form_num = Form_Number(this.form.myfield);
+\* ---------------------------------------------------------------------- */
+
+function Form_Number(fieldObj) {
+
+  // error checking
+  var ftype = fieldObj.type;
+  if (ftype != 'text'       && ftype != 'textarea' &&
+      ftype != 'select-one' && ftype != 'select-multiple' &&
+      ftype != 'radio'      && ftype != 'checkbox' &&
+      ftype != 'submit'     && ftype != 'button' &&
+      ftype != 'hidden') {
+     alert("Invalid field type : " + ftype);
+     return false;
+   }
+
+  for (var fnum = 0; document.forms[fnum] != fieldObj.form; fnum++) {
+    if (fnum > 100) {
+      alert('Cannot find element in document.forms[]');
+      return false;
+    }
+  }
+  return fnum;
+}
+
+// Track Mouse Position
+var browser = WhatBrowser();
+var mouseX, mouseY;
+window.onload = function() {
+  if (browser == 'ns') { document.captureEvents(Event.MOUSEMOVE); }
+  document.onmousemove = MouseTrack;
+}
+
+function SelectColor(field_ref){
+  var fnum     = Form_Number(field_ref);        // form number
+  var fname    = escape(field_ref.name);        // field name
+  var fvalue   = escape(field_ref.value);       // field value
+
+  // create window query string
+  var query    = '';                            // query string
+  query += 'fnum='   +fnum+ '&';
+  query += 'fname='  +fname+ '&';
+  query += 'fvalue=' +fvalue+ '&';
+
+  // set window attributes
+  var wAttributes = '';                         
+  wAttributes += "location=no,menubar=no,toolbar=no,directories=no,status=no,";
+  wAttributes += "height=164,width=232,resizable=no,scrollbars=no,";
+
+  // figure our optimal window placement
+  if (mouseX || mouseY) { 
+    var posX    = mouseX + 20;                                  // new window position
+    var posY    = mouseY + 20;
+    var screenW = screen.width;                                 // screen size
+    var screenH = screen.height - 20;                           // take taskbar into account
+    if ((posX % screen.width) + 232  > screenW) { posX = posX - 232 - 40; }       // if mouse too far right
+    if ((posY % screen.height) + 164 > screenH) { posY = posY - 164 - 80; }       // if mouse too far down
+    wAttributes += "screenX=" +posX+ ",screenY=" +posY+ ",left=" +posX+ ",top=" +posY;
+  }
+
+  // open popup window
+  window.open(cgiurl+'?color_picker=1&'+query, 'ColorPicker',wAttributes);
+  return true;
+}
+
+
+
+// Program Specific Functions
+
+function preview_webfeed() {
+  var get_string = Form2Query(document.forms[0]);
+  get_string += "&preview=1";
+  window.parent.preview.location = cgiurl + '?' + get_string;
+}
+
+function view_code() {
+  var get_string = Form2Query(document.forms[0]);
+  get_string += "&view_code=1";
+  window.parent.preview.location = cgiurl + '?' + get_string;
+}
+
+// Functions for Simple menu
+
+function to_advanced_menus() {
+  var get_string = Form2Query(document.forms[0]);
+  get_string += "&advanced=1";
+  window.parent.menu.location = cgiurl + '?' + get_string;
+}
+
+// Functions for Advanced menu
+
+function taint_style() {
+  document.forms[0].headline_style.value = 'custom';
+}
+
+function to_simple_menus() {
+  var get_string = Form2Query(document.forms[0]);
+  get_string += "&simple=1";
+  window.parent.menu.location = cgiurl + '?' + get_string;
+}
+
+
+// --></script>
+
+<!-- /templatecell : menu_header -->
+
+
+<!-- templatecell : simple -->
+
+<form name="simple" action="$_cgiurl$" method="post" onsubmit="preview_webfeed(); return false">
+
+<!-- template insert : $custom_settings$ -->
+
+<table cellpadding=0 cellspacing=0 border=0>
+
+ <tr>
+  <td rowspan=99 width=10><img src="$_imageurl$spacer.gif" width=10 height=1></td>
+  <td height=8 colspan=3><img src="$_imageurl$spacer.gif" width=1 height=8></td>
+  <td rowspan=99 width=10><img src="$_imageurl$spacer.gif" width=10 height=1></td>
+ </tr>
+ <tr><td valign=top>
+
+  <table cellpadding=0 cellspacing=0 border=0>
+  
+   <tr>
+    <td colspan=3><font face="arial,sans-serif" style="font-size: 12px;"><b>Webfeed Content</b></font></td>
+   </tr>
+   <tr><td colspan=3 height=4><img src="$_imageurl$spacer.gif" width=1 height=4></td></tr>
+
+   <tr>
+    <td rowspan=2 width=16>&nbsp;</td>
+    <td width=80><font face="arial,sans-serif" style="font-size: 12px;">Category</font></td>
+    <td>
+      <select name="category" onchange="preview_webfeed()">
+        <option value="0">All Categories
+        <!-- template insert : $cat_list$ -->
+      </select>
+    </td>
+   </tr>
+   <tr>
+    <td><font face="arial,sans-serif" style="font-size: 12px;">Headlines</font></td>
+    <td>
+      <input name="headlines" value="$headlines$" size="2" onchange="preview_webfeed()">
+      <font face="arial,sans-serif" style="font-size: 12px;">&nbsp;(max $max_headlines$)</font>
+    </td>
+   </tr>
+  
+   <tr><td colspan=3>&nbsp;</td></tr>
+  
+   <tr>
+    <td colspan=3><font face="arial,sans-serif" style="font-size: 12px;"><b>Look and Feel</b></font></td>
+   </tr>
+   <tr><td colspan=3 height=4><img src="$_imageurl$spacer.gif" width=1 height=4></td></tr>
+   <tr>
+    <td rowspan=4 width=8>&nbsp;</td>
+    <td width=80><font face="arial,sans-serif" style="font-size: 12px;">Style</font></td>
+    <td>
+      <select name="headline_style" onchange="preview_webfeed()">
+        <!-- template insert : $headline_style_list$ -->
+        <option value="custom"      $headline_style_custom_selected$     >Custom Style
+      </select>
+    </td>
+   </tr>
+   <tr>
+    <td><font face="arial,sans-serif" style="font-size: 12px;">Width</font></td>
+    <td>
+      <input name="width" value="$width$" size="3" onchange="preview_webfeed()">
+    </td>
+   </tr>
+   <tr>
+    <td><font face="arial,sans-serif" style="font-size: 12px;">Dates</font></td>
+    <td><font face="arial,sans-serif" style="font-size: 12px;">
+      <input type="checkbox" name="show_date" value="true" onclick="preview_webfeed()" $show_date_true_checked$> Show Dates
+      <input type="hidden" name="show_date_default_to" value="false">
+    </font></td>
+   </tr>
+   <tr>
+    <td><font face="arial,sans-serif" style="font-size: 12px;">Summaries </font></td>
+    <td><font face="arial,sans-serif" style="font-size: 12px;">
+      <input type="checkbox" name="show_summary" value="true" onclick="preview_webfeed()" $show_summary_true_checked$> Show Summaries
+      <input type="hidden" name="show_summary_default_to" value="false">
+    </font></td>
+   </tr>
+  
+   <tr><td colspan=3>&nbsp;</td></tr>
+  
+   <tr>
+    <td colspan=3 align=left>
+     <a href="$_cgiurl$?advanced=1" style="text-decoration: none" onclick="to_advanced_menus(); return false;"><font color="#0000ff" face="arial,sans-serif" style="font-size: 12px;">Advanced Menu &gt;&gt;</font></a>
+    </td>
+   </tr>
+   <tr><td colspan=3>&nbsp;</td></tr>
+   <tr>
+    <td colspan=3 align=right>
+     <input type="submit" class="button" value=" Preview " onclick="preview_webfeed(); return false;">
+     <input type="submit" class="button" value=" View Code " onclick="view_code(); return false;">
+    </td>
+   </tr>
+  
+  </table>
+
+ </td></tr>
+</table>
+
+</form>
+
+  </body>
+</html>
+<!-- /templatecell : simple -->
+
+
+<!-- templatecell : advanced -->
+
+<form name="advanced" action="$_cgiurl$" method="post" onsubmit="preview_webfeed(); return false">
+
+<input type="hidden" name="headline_style" value="$headline_style$">
+
+<table cellpadding=0 cellspacing=0 border=0>
+
+ <tr>
+  <td rowspan=99 width=10><img src="$_imageurl$spacer.gif" width=10 height=1></td>
+  <td height=8 colspan=3><img src="$_imageurl$spacer.gif" width=1 height=8></td>
+  <td rowspan=99 width=10><img src="$_imageurl$spacer.gif" width=10 height=1></td>
+ </tr>
+ <tr><td valign=top>
+
+  <table cellpadding=0 cellspacing=0 border=0 width=100%>
+
+   <tr>
+    <td colspan=3><font face="arial,sans-serif" style="font-size: 12px;"><b>Webfeed Content</b></font></td>
+   </tr>
+   <tr><td colspan=3 height=4><img src="$_imageurl$spacer.gif" width=1 height=4></td></tr>
+
+   <tr>
+    <td rowspan=4 width=16>&nbsp;</td>
+    <td width=80><font face="arial,sans-serif" style="font-size: 12px;">Category</font></td>
+    <td>
+      <select name="category" onchange="preview_webfeed()">
+        <option value="0">All Categories
+        <!-- template insert : $cat_list$ -->
+      </select>
+    </td>
+   </tr>
+   <tr>
+    <td><font face="arial,sans-serif" style="font-size: 12px;">Headlines</font></td>
+    <td>
+      <input name="headlines" value="$headlines$" size="2" onchange="preview_webfeed()">
+      <font face="arial,sans-serif" style="font-size: 12px;">&nbsp;(max $max_headlines$)</font>
+    </td>
+   </tr>
+   <tr>
+    <td><font face="arial,sans-serif" style="font-size: 12px;">Background</font></td>
+    <td>
+      <input name="bgcolor" value="$bgcolor$" size="7" onchange="taint_style();preview_webfeed()">
+      <a href="#" onClick="SelectColor(document.forms[0].bgcolor); return false;"><img src="$_imageurl$colorpicker.gif" alt="Select a color" border=0 align=absbottom></a>
+    </td>
+   </tr>
+   <tr>
+    <td><font face="arial,sans-serif" style="font-size: 12px;">Width</font></td>
+    <td>
+      <input name="width" value="$width$" size="3" onchange="preview_webfeed()">
+    </td>
+   </tr>
+
+   <tr><td colspan=3 height=12><img src="$_imageurl$spacer.gif" width=1 height=12></td></tr>
+
+   <tr>
+    <td colspan=3><font face="arial,sans-serif" style="font-size: 12px;"><b>Article Title</b></font></td>
+   </tr>
+   <tr><td colspan=3 height=4><img src="$_imageurl$spacer.gif" width=1 height=4></td></tr>
+
+   <tr>
+    <td colspan=3>
+     <select name="title_fontface" onchange="taint_style();preview_webfeed()">
+      <option value="arial"     $title_fontface_arial_selected$    >Arial
+      <option value="courier"   $title_fontface_courier_selected$  >Courier
+      <option value="georgia"   $title_fontface_georgia_selected$  >Georgia
+      <option value="tahoma"    $title_fontface_tahoma_selected$   >Tahoma
+      <option value="timesnew"  $title_fontface_timesnew_selected$ >Times New
+      <option value="verdana"   $title_fontface_verdana_selected$  >Verdana
+     </select>
+     <select name="title_fontsize" onchange="taint_style();preview_webfeed()">
+      <option $title_fontsize_1_selected$>1
+      <option $title_fontsize_2_selected$>2
+      <option $title_fontsize_3_selected$>3
+      <option $title_fontsize_4_selected$>4
+      <option $title_fontsize_5_selected$>5
+      <option $title_fontsize_6_selected$>6
+      <option $title_fontsize_7_selected$>7
+     </select>
+     <input name="title_fontcolor" value="$title_fontcolor$" size=7 onchange="taint_style();preview_webfeed()">
+     <a href="#" onClick="SelectColor(document.forms[0].title_fontcolor); return false;"><img src="$_imageurl$colorpicker.gif" alt="Select a color" border=0 align=absbottom></a>
+    </td>
+   </tr>
+  
+   <tr>
+    <td colspan=3><font face="arial,sans-serif" style="font-size: 12px;">
+     <input name="title_fontbold" type="checkbox" value="true" onclick="taint_style();preview_webfeed()" $title_fontbold_true_checked$> Bold
+     <input name="title_fontbold_default_to" type="hidden" value="false">
+     
+     <input name="title_fontital" type="checkbox" value="true" onclick="taint_style();preview_webfeed()" $title_fontital_true_checked$> Italic
+     <input name="title_fontital_default_to" type="hidden" value="false">
+    </font></td>
+   </tr>
+
+   <tr><td colspan=3 height=10><img src="$_imageurl$spacer.gif" width=1 height=10></td></tr>
+
+   <tr>
+    <td colspan=2><font face="arial,sans-serif" style="font-size: 12px;"><b>Article Date</b></font></td>
+    <td><font face="arial,sans-serif" style="font-size: 12px;">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="checkbox" name="show_date" value="true" onclick="preview_webfeed()" $show_date_true_checked$> show
+      <input type="hidden" name="show_date_default_to" value="false">
+    </font></td>
+   </tr>
+   <tr><td colspan=3 height=4><img src="$_imageurl$spacer.gif" width=1 height=4></td></tr>
+
+   <tr>
+    <td colspan=3>
+     <select name="date_fontface" onchange="taint_style();preview_webfeed()">
+      <option value="arial"     $date_fontface_arial_selected$    >Arial
+      <option value="courier"   $date_fontface_courier_selected$  >Courier
+      <option value="georgia"   $date_fontface_georgia_selected$  >Georgia
+      <option value="tahoma"    $date_fontface_tahoma_selected$   >Tahoma
+      <option value="timesnew"  $date_fontface_timesnew_selected$ >Times New
+      <option value="verdana"   $date_fontface_verdana_selected$  >Verdana
+     </select>
+     <select name="date_fontsize" onchange="taint_style();preview_webfeed()">
+      <option $date_fontsize_1_selected$>1
+      <option $date_fontsize_2_selected$>2
+      <option $date_fontsize_3_selected$>3
+      <option $date_fontsize_4_selected$>4
+      <option $date_fontsize_5_selected$>5
+      <option $date_fontsize_6_selected$>6
+      <option $date_fontsize_7_selected$>7
+     </select>
+     <input name="date_fontcolor" value="$date_fontcolor$" size=7 onchange="taint_style();preview_webfeed()">
+     <a href="#" onClick="SelectColor(document.forms[0].date_fontcolor); return false;"><img src="$_imageurl$colorpicker.gif" alt="Select a color" border=0 align=absbottom></a>
+    </td>
+   </tr>
+  
+   <tr>
+    <td colspan=3><font face="arial,sans-serif" style="font-size: 12px;">
+     <input name="date_fontbold" type="checkbox" value="true" onclick="taint_style();preview_webfeed()" $date_fontbold_true_checked$> Bold
+     <input name="date_fontbold_default_to" type="hidden" value="false">
+     
+     <input name="date_fontital" type="checkbox" value="true" onclick="taint_style();preview_webfeed()" $date_fontital_true_checked$> Italic
+     <input name="date_fontital_default_to" type="hidden" value="false">
+     
+     <input name="date_fontunder" type="checkbox" value="true" onclick="taint_style();preview_webfeed()" $date_fontunder_true_checked$> Underline
+     <input name="date_fontunder_default_to" type="hidden" value="false">
+    </font></td>
+   </tr>
+  
+   <tr><td colspan=3 height=10><img src="$_imageurl$spacer.gif" width=1 height=10></td></tr>
+
+   <tr>
+    <td colspan=2><font face="arial,sans-serif" style="font-size: 12px;"><b>Article Summary</b></font></td>
+    <td><font face="arial,sans-serif" style="font-size: 12px;">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="checkbox" name="show_summary" value="true" onclick="preview_webfeed()" $show_summary_true_checked$> show
+      <input type="hidden" name="show_summary_default_to" value="false">
+    </font></td>
+   </tr>
+   <tr><td colspan=3 height=4><img src="$_imageurl$spacer.gif" width=1 height=4></td></tr>
+
+   <tr>
+    <td colspan=3>
+     <select name="summary_fontface" onchange="taint_style();preview_webfeed()">
+      <option value="arial"     $summary_fontface_arial_selected$    >Arial
+      <option value="courier"   $summary_fontface_courier_selected$  >Courier
+      <option value="georgia"   $summary_fontface_georgia_selected$  >Georgia
+      <option value="tahoma"    $summary_fontface_tahoma_selected$   >Tahoma
+      <option value="timesnew"  $summary_fontface_timesnew_selected$ >Times New
+      <option value="verdana"   $summary_fontface_verdana_selected$  >Verdana
+     </select>
+     <select name="summary_fontsize" onchange="taint_style();preview_webfeed()">
+      <option $summary_fontsize_1_selected$>1
+      <option $summary_fontsize_2_selected$>2
+      <option $summary_fontsize_3_selected$>3
+      <option $summary_fontsize_4_selected$>4
+      <option $summary_fontsize_5_selected$>5
+      <option $summary_fontsize_6_selected$>6
+      <option $summary_fontsize_7_selected$>7
+     </select>
+     <input name="summary_fontcolor" value="$summary_fontcolor$" size=7 onchange="taint_style();preview_webfeed()">
+     <a href="#" onClick="SelectColor(document.forms[0].summary_fontcolor); return false;"><img src="$_imageurl$colorpicker.gif" alt="Select a color" border=0 align=absbottom></a>
+    </td>
+   </tr>
+  
+   <tr>
+    <td colspan=3><font face="arial,sans-serif" style="font-size: 12px;">
+     <input name="summary_fontbold" type="checkbox" value="true" onclick="taint_style();preview_webfeed()" $summary_fontbold_true_checked$> Bold
+     <input name="summary_fontbold_default_to" type="hidden" value="false">
+     
+     <input name="summary_fontital" type="checkbox" value="true" onclick="taint_style();preview_webfeed()" $summary_fontital_true_checked$> Italic
+     <input name="summary_fontital_default_to" type="hidden" value="false">
+     
+     <input name="summary_fontunder" type="checkbox" value="true" onclick="taint_style();preview_webfeed()" $summary_fontunder_true_checked$> Underline
+     <input name="summary_fontunder_default_to" type="hidden" value="false">
+    </font></td>
+   </tr>
+
+   <tr><td colspan=3>&nbsp;</td></tr>
+
+   <tr>
+    <td colspan=3 align=left>
+     <a href="$_cgiurl$?simple=1" style="text-decoration: none" onclick="to_simple_menus(); return false;"><font color="#0000ff" face="arial,sans-serif" style="font-size: 12px;">Simple Menu &gt;&gt;</font></a>
+    </td>
+   </tr>
+   <tr><td colspan=3>&nbsp;</td></tr>
+   <tr>
+    <td colspan=3 align=right>
+     <input type="submit" class="button" value=" Preview " onclick="preview_webfeed(); return false;">
+     <input type="submit" class="button" value=" View Code " onclick="view_code(); return false;">
+    </td>
+   </tr>
+  
+  </table>
+
+ </td></tr>
+</table>
+
+</form>
+
+  </body>
+</html>
+
+<!-- /templatecell : advanced -->
+
+
+<!-- templatecell : preview_header -->
+<html>
+<body bgcolor="$bgcolor$">
+
+<table cellpadding=0 cellspacing=0 border=0 width=100%>
+ <tr>
+  <td valign=top>
+<!-- /templatecell : preview_header -->
+
+<!-- templatecell : preview_footer -->
+  </td>
+ </tr>
+</table>
+
+</body>
+<!-- /templatecell : preview_footer -->
+
+
+<!-- templatecell : code_header -->
+<html>
+<body bgcolor="#FFFFFF">
+
+<table border=0 cellpadding=10 cellspacing=0>
+ <tr>
+  <td>
+   <font face="arial,sans-serif" style="font-size: 12px;">Copy and paste the following HTML into your web page:</font>
+  </td>
+ </tr>
+ <tr>
+  <td>
+   <form name="view_code">
+    <input type="hidden" name="view_code" value="1">
+    <textarea name="html" rows=15 cols=55 readonly wrap=off>
+
+
+<!-- /templatecell : code_header -->
+
+<!-- templatecell : code_footer -->
+
+
+</textarea>
+   </form>
+  </td>
+ </tr>
+</table>
+</body>
+<!-- /templatecell : code_footer -->
+
+
+<!-- templatecell : color_picker -->
+<html><head><title>Select Color</title>
+
+<script language="Javascript1.1">
+
+// Fix Netscape 4 window resize bug (lose CSS/JS on resize/load)
+function nsResizeFix(){ window.location.reload() }
+if (document.layers) { window.onresize = nsResizeFix; }
+
+// Define globals
+var Request = new ReadForm();                                   // Read for input
+var browser = WhatBrowser();
+var MonitorStatus = 'stop';                                       // Monitor text field changes
+
+/* ---------------------------------------------------------------------- *\
+  Function    : Init()
+  Description : get starting color and display in color preview window
+  Usage       : <body onload=Init()>
+  Requires    : ReadForm() Request Object,
+\* ---------------------------------------------------------------------- */
+
+function Init() {                                                       // run on page load
+
+  color = Request['fvalue'];
+  color = ValidateColor(color) || '000000';
+  View(color);                                                          // set default color
+
+  return true;
+}
+
+/* ---------------------------------------------------------------------- *\
+  Function    : View()
+  Description : display hex value and color preview of selected color
+  Usage       : View(color)
+  Requires    : none
+\* ---------------------------------------------------------------------- */
+
+function View(color) {                  // preview color
+
+  // change color name field
+  document.myform.ColorHex.value = '#' + color;
+
+  // change color preview
+  if      (browser == 'ie') { document.all.ColorPreview.style.backgroundColor = '#' + color; }
+  else if (browser == 'ns') { document.ColorPreviewNS.bgColor = '#' + color; }
+  else if (browser == 'mz') { document.getElementById('ColorPreview').style.backgroundColor = '#' + color; }
+  else                      { document.getElementById('ColorPreview').style.backgroundColor = '#' + color; }
+
+}
+
+/* ---------------------------------------------------------------------- *\
+  Function    : Set()
+  Description : set value of color field on calling page and close window
+  Usage       : Set()
+  Requires    : none
+\* ---------------------------------------------------------------------- */
+
+function Set() {
+
+  var string = document.myform.ColorHex.value;
+  var color = ValidateColor(string);
+
+  if (color == null) { alert("Invalid color code: " + string); }        // invalid color
+  else {                                                                // valid color
+    View(color);                                                        // show selected color
+
+    // set field value in parent page
+
+    var pform = opener.document.forms[ Request['fnum'] ];               // parent form
+    pform[ Request['fname'] ].value = '#' + color;                      // set color
+
+    // syndicator specific: taint the headline_style and view the changes
+    opener.taint_style();
+    opener.preview_webfeed();
+
+    window.close();                                                     // close dialog
+  }
+}
+
+/* ---------------------------------------------------------------------- *\
+  Function    : ValidateColor()
+  Description : Take color string and return valid color hex or blank string
+  Usage       : ValidateColor(color_string)
+  Requires    : none
+\* ---------------------------------------------------------------------- */
+
+function ValidateColor(string) {                // return valid color code
+  string = string || '';
+  string = string.toUpperCase();
+  chars = '0123456789ABCDEF';
+  out   = '';
+
+  for (i=0; i<string.length; i++) {             // remove invalid color chars
+    schar = string.charAt(i);
+    if (chars.indexOf(schar) != -1) { out += schar; }
+  }
+
+  // pad string to 6 chars (if it's shorter)
+  while (out.length < 6) { out += "0"; }
+
+  // chop string to 6 chars (if it's longer)
+  if (out.length > 6) { 
+    out = out.substring(0,6);
+    }
+   
+  if (out.length != 6) { return null; }            // check length
+  return out;
+} 
+
+/* ---------------------------------------------------------------------- *\
+  Function    : MonitorChanges()
+  Description : Watch "ColorHex" for changes and update color preview
+  Usage       : <input type=text name=ColorHex
+                                 onFocus=WatchHex('start')
+                                 onBlur =WatchHex('stop')>
+  Requires    : none
+\* ---------------------------------------------------------------------- */
+
+function MonitorChanges(cmd) {
+
+  if (cmd != null) { MonitorStatus = cmd; }                     // set MonitorStatus
+
+  var string = document.myform.ColorHex.value;                  // field value
+  var color  = ValidateColor(string);                           // valid color (or blank)
+
+  if (color == null) { color= "000000"; }                      // display color
+
+  // change color preview
+  if      (browser == 'ie') { document.all.ColorPreview.style.backgroundColor = '#' + color; }
+  else if (browser == 'ns') { document.ColorPreviewNS.bgColor = '#' + color; }
+  else if (browser == 'mz') { document.getElementById('ColorPreview').style.backgroundColor = '#' + color; }
+  else                      { document.getElementById('ColorPreview').style.backgroundColor = '#' + color; }
+
+  if (MonitorStatus != 'stop') {
+    window.setTimeout("MonitorChanges()", 0250);
+  }
+  return true;
+
+}
+
+/* ---------------------------------------------------------------------- *\
+  Function    : ReadForm()
+  Description : Parse Get Form query strings and return "object hash"
+  Usage       : var Request = new ReadForm();
+  Example     : for (qname in Request) {         // Loop over name/value pairs:
+                  alert(qname + " = " + Request[qname]);
+                }
+  Requires    : Javascript1.1
+\* ---------------------------------------------------------------------- */
+
+function ReadForm() {
+
+  var Query   = window.location.search;                 // query string
+  var Request = new Object();
+  var pairs   = new Array();
+
+  // remove ? from query string
+  if (Query.charAt(0) == '?') { Query = Query.substring(1, Query.length); }
+
+  pairs = Query.split("&");
+  
+  for (var i=0; i < pairs.length; i++) {
+    var thispair = pairs[i]
+    var temp = '';
+
+    // Replace + char with ' ' 
+    for (var n=0; n < thispair.length; n++) {
+      var chr = thispair.charAt(n);
+      if (chr == '+') { chr = ' '; }
+      temp += chr;
+    }
+    thispair = temp;
+
+    // split into name and value
+    var namevalue = thispair.split("=");
+
+    // set field name/value values.  set undefined values to zero length string
+    var fname  = (namevalue[0] == null)  ? '' : unescape( namevalue[0] );
+    var fvalue = (namevalue[1] == null)  ? '' : unescape( namevalue[1] );
+    
+    if (fname.length) { this[fname] = fvalue; }            // set object value
+  }
+
+}
+
+/* ---------------------------------------------------------------------- *\
+  Function    : WhatBrowser()
+  Description : return browser name
+                ie = internet explorer
+                ns = netscape
+                mz = mozilla or netscape 6+
+  Usage       : var browser = WhatBrowser()
+  Requires    : none
+\* ---------------------------------------------------------------------- */
+
+function WhatBrowser() {
+
+var browser;
+if (document.all)                     { browser = 'ie'; }         // Internet Explorer
+else if (document.layers)             { browser = 'ns'; }         // Netscape 4
+else if (!document.all &&
+         document.getElementById)     { browser = 'mz'; }         // Netscape 6+ / Mozilla
+         
+return browser;
+
+}
+
+
+</script>
+</head>
+<body bgcolor="#000000" topmargin=0 leftmargin=0 marginwidth=0 marginheight=0 onload="Init();" >
+
+<table border=0 cellspacing=0 cellpadding=4 width=100%>
+ <tr>
+  <td bgcolor="#CCCCCC" valign=center>
+   <table border=0 cellspacing=0 cellpadding=1 width=50 height=21><tr><td bgcolor="#000000">
+   <table border=0 cellspacing=0 cellpadding=0 width=50 height=21><tr><td id="ColorPreview">
+    <ilayer id="ColorPreviewNS" width=50 height=21 bgcolor="#000000"></ilayer>
+    <nolayer>&nbsp;</nolayer>
+   </td></tr></table>
+   </td></tr></table>
+   
+  </td><form name="myform" method=get onSubmit="Set(); return false;">
+  <td bgcolor="#CCCCCC" valign=center><input type="text" name="ColorHex" value="" size=15 style="font-size: 12px" onFocus="MonitorChanges('start')" onBlur="MonitorChanges('stop')"></td>
+  <td bgcolor="#CCCCCC" width=100%>&nbsp;</td>
+ </tr>
+</table>
+
+<table border=0 cellspacing=1 cellpadding=0 bgcolor=#000000 style="cursor: hand;">
+<tr>
+<td bgcolor=#000000><a href=# onMouseOver=View('000000') onClick=Set('000000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#000000><a href=# onMouseOver=View('000000') onClick=Set('000000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#000000><a href=# onMouseOver=View('000000') onClick=Set('000000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#000000><a href=# onMouseOver=View('000000') onClick=Set('000000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#003300><a href=# onMouseOver=View('003300') onClick=Set('003300')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#006600><a href=# onMouseOver=View('006600') onClick=Set('006600')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#009900><a href=# onMouseOver=View('009900') onClick=Set('009900')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#00CC00><a href=# onMouseOver=View('00CC00') onClick=Set('00CC00')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#00FF00><a href=# onMouseOver=View('00FF00') onClick=Set('00FF00')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#330000><a href=# onMouseOver=View('330000') onClick=Set('330000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#333300><a href=# onMouseOver=View('333300') onClick=Set('333300')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#336600><a href=# onMouseOver=View('336600') onClick=Set('336600')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#339900><a href=# onMouseOver=View('339900') onClick=Set('339900')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#33CC00><a href=# onMouseOver=View('33CC00') onClick=Set('33CC00')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#33FF00><a href=# onMouseOver=View('33FF00') onClick=Set('33FF00')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#660000><a href=# onMouseOver=View('660000') onClick=Set('660000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#663300><a href=# onMouseOver=View('663300') onClick=Set('663300')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#666600><a href=# onMouseOver=View('666600') onClick=Set('666600')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#669900><a href=# onMouseOver=View('669900') onClick=Set('669900')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#66CC00><a href=# onMouseOver=View('66CC00') onClick=Set('66CC00')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#66FF00><a href=# onMouseOver=View('66FF00') onClick=Set('66FF00')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+</tr>
+<tr>
+<td bgcolor=#000000><a href=# onMouseOver=View('000000') onClick=Set('000000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#333333><a href=# onMouseOver=View('333333') onClick=Set('333333')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#000000><a href=# onMouseOver=View('000000') onClick=Set('000000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#000033><a href=# onMouseOver=View('000033') onClick=Set('000033')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#003333><a href=# onMouseOver=View('003333') onClick=Set('003333')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#006633><a href=# onMouseOver=View('006633') onClick=Set('006633')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#009933><a href=# onMouseOver=View('009933') onClick=Set('009933')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#00CC33><a href=# onMouseOver=View('00CC33') onClick=Set('00CC33')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#00FF33><a href=# onMouseOver=View('00FF33') onClick=Set('00FF33')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#330033><a href=# onMouseOver=View('330033') onClick=Set('330033')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#333333><a href=# onMouseOver=View('333333') onClick=Set('333333')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#336633><a href=# onMouseOver=View('336633') onClick=Set('336633')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#339933><a href=# onMouseOver=View('339933') onClick=Set('339933')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#33CC33><a href=# onMouseOver=View('33CC33') onClick=Set('33CC33')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#33FF33><a href=# onMouseOver=View('33FF33') onClick=Set('33FF33')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#660033><a href=# onMouseOver=View('660033') onClick=Set('660033')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#663333><a href=# onMouseOver=View('663333') onClick=Set('663333')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#666633><a href=# onMouseOver=View('666633') onClick=Set('666633')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#669933><a href=# onMouseOver=View('669933') onClick=Set('669933')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#66CC33><a href=# onMouseOver=View('66CC33') onClick=Set('66CC33')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#66FF33><a href=# onMouseOver=View('66FF33') onClick=Set('66FF33')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+</tr>
+<tr>
+<td bgcolor=#000000><a href=# onMouseOver=View('000000') onClick=Set('000000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#666666><a href=# onMouseOver=View('666666') onClick=Set('666666')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#000000><a href=# onMouseOver=View('000000') onClick=Set('000000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#000066><a href=# onMouseOver=View('000066') onClick=Set('000066')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#003366><a href=# onMouseOver=View('003366') onClick=Set('003366')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#006666><a href=# onMouseOver=View('006666') onClick=Set('006666')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#009966><a href=# onMouseOver=View('009966') onClick=Set('009966')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#00CC66><a href=# onMouseOver=View('00CC66') onClick=Set('00CC66')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#00FF66><a href=# onMouseOver=View('00FF66') onClick=Set('00FF66')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#330066><a href=# onMouseOver=View('330066') onClick=Set('330066')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#333366><a href=# onMouseOver=View('333366') onClick=Set('333366')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#336666><a href=# onMouseOver=View('336666') onClick=Set('336666')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#339966><a href=# onMouseOver=View('339966') onClick=Set('339966')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#33CC66><a href=# onMouseOver=View('33CC66') onClick=Set('33CC66')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#33FF66><a href=# onMouseOver=View('33FF66') onClick=Set('33FF66')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#660066><a href=# onMouseOver=View('660066') onClick=Set('660066')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#663366><a href=# onMouseOver=View('663366') onClick=Set('663366')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#666666><a href=# onMouseOver=View('666666') onClick=Set('666666')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#669966><a href=# onMouseOver=View('669966') onClick=Set('669966')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#66CC66><a href=# onMouseOver=View('66CC66') onClick=Set('66CC66')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#66FF66><a href=# onMouseOver=View('66FF66') onClick=Set('66FF66')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+</tr>
+<tr>
+<td bgcolor=#000000><a href=# onMouseOver=View('000000') onClick=Set('000000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#999999><a href=# onMouseOver=View('999999') onClick=Set('999999')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#000000><a href=# onMouseOver=View('000000') onClick=Set('000000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#000099><a href=# onMouseOver=View('000099') onClick=Set('000099')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#003399><a href=# onMouseOver=View('003399') onClick=Set('003399')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#006699><a href=# onMouseOver=View('006699') onClick=Set('006699')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#009999><a href=# onMouseOver=View('009999') onClick=Set('009999')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#00CC99><a href=# onMouseOver=View('00CC99') onClick=Set('00CC99')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#00FF99><a href=# onMouseOver=View('00FF99') onClick=Set('00FF99')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#330099><a href=# onMouseOver=View('330099') onClick=Set('330099')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#333399><a href=# onMouseOver=View('333399') onClick=Set('333399')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#336699><a href=# onMouseOver=View('336699') onClick=Set('336699')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#339999><a href=# onMouseOver=View('339999') onClick=Set('339999')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#33CC99><a href=# onMouseOver=View('33CC99') onClick=Set('33CC99')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#33FF99><a href=# onMouseOver=View('33FF99') onClick=Set('33FF99')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#660099><a href=# onMouseOver=View('660099') onClick=Set('660099')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#663399><a href=# onMouseOver=View('663399') onClick=Set('663399')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#666699><a href=# onMouseOver=View('666699') onClick=Set('666699')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#669999><a href=# onMouseOver=View('669999') onClick=Set('669999')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#66CC99><a href=# onMouseOver=View('66CC99') onClick=Set('66CC99')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#66FF99><a href=# onMouseOver=View('66FF99') onClick=Set('66FF99')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+</tr>
+<tr>
+<td bgcolor=#000000><a href=# onMouseOver=View('000000') onClick=Set('000000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CCCCCC><a href=# onMouseOver=View('CCCCCC') onClick=Set('CCCCCC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#000000><a href=# onMouseOver=View('000000') onClick=Set('000000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#0000CC><a href=# onMouseOver=View('0000CC') onClick=Set('0000CC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#0033CC><a href=# onMouseOver=View('0033CC') onClick=Set('0033CC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#0066CC><a href=# onMouseOver=View('0066CC') onClick=Set('0066CC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#0099CC><a href=# onMouseOver=View('0099CC') onClick=Set('0099CC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#00CCCC><a href=# onMouseOver=View('00CCCC') onClick=Set('00CCCC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#00FFCC><a href=# onMouseOver=View('00FFCC') onClick=Set('00FFCC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#3300CC><a href=# onMouseOver=View('3300CC') onClick=Set('3300CC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#3333CC><a href=# onMouseOver=View('3333CC') onClick=Set('3333CC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#3366CC><a href=# onMouseOver=View('3366CC') onClick=Set('3366CC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#3399CC><a href=# onMouseOver=View('3399CC') onClick=Set('3399CC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#33CCCC><a href=# onMouseOver=View('33CCCC') onClick=Set('33CCCC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#33FFCC><a href=# onMouseOver=View('33FFCC') onClick=Set('33FFCC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#6600CC><a href=# onMouseOver=View('6600CC') onClick=Set('6600CC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#6633CC><a href=# onMouseOver=View('6633CC') onClick=Set('6633CC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#6666CC><a href=# onMouseOver=View('6666CC') onClick=Set('6666CC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#6699CC><a href=# onMouseOver=View('6699CC') onClick=Set('6699CC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#66CCCC><a href=# onMouseOver=View('66CCCC') onClick=Set('66CCCC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#66FFCC><a href=# onMouseOver=View('66FFCC') onClick=Set('66FFCC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+</tr>
+<tr>
+<td bgcolor=#000000><a href=# onMouseOver=View('000000') onClick=Set('000000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FFFFFF><a href=# onMouseOver=View('FFFFFF') onClick=Set('FFFFFF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#000000><a href=# onMouseOver=View('000000') onClick=Set('000000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#0000FF><a href=# onMouseOver=View('0000FF') onClick=Set('0000FF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#0033FF><a href=# onMouseOver=View('0033FF') onClick=Set('0033FF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#0066FF><a href=# onMouseOver=View('0066FF') onClick=Set('0066FF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#0099FF><a href=# onMouseOver=View('0099FF') onClick=Set('0099FF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#00CCFF><a href=# onMouseOver=View('00CCFF') onClick=Set('00CCFF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#00FFFF><a href=# onMouseOver=View('00FFFF') onClick=Set('00FFFF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#3300FF><a href=# onMouseOver=View('3300FF') onClick=Set('3300FF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#3333FF><a href=# onMouseOver=View('3333FF') onClick=Set('3333FF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#3366FF><a href=# onMouseOver=View('3366FF') onClick=Set('3366FF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#3399FF><a href=# onMouseOver=View('3399FF') onClick=Set('3399FF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#33CCFF><a href=# onMouseOver=View('33CCFF') onClick=Set('33CCFF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#33FFFF><a href=# onMouseOver=View('33FFFF') onClick=Set('33FFFF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#6600FF><a href=# onMouseOver=View('6600FF') onClick=Set('6600FF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#6633FF><a href=# onMouseOver=View('6633FF') onClick=Set('6633FF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#6666FF><a href=# onMouseOver=View('6666FF') onClick=Set('6666FF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#6699FF><a href=# onMouseOver=View('6699FF') onClick=Set('6699FF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#66CCFF><a href=# onMouseOver=View('66CCFF') onClick=Set('66CCFF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#66FFFF><a href=# onMouseOver=View('66FFFF') onClick=Set('66FFFF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+</tr>
+<tr>
+<td bgcolor=#000000><a href=# onMouseOver=View('000000') onClick=Set('000000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FF0000><a href=# onMouseOver=View('FF0000') onClick=Set('FF0000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#000000><a href=# onMouseOver=View('000000') onClick=Set('000000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#990000><a href=# onMouseOver=View('990000') onClick=Set('990000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#993300><a href=# onMouseOver=View('993300') onClick=Set('993300')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#996600><a href=# onMouseOver=View('996600') onClick=Set('996600')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#999900><a href=# onMouseOver=View('999900') onClick=Set('999900')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#99CC00><a href=# onMouseOver=View('99CC00') onClick=Set('99CC00')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#99FF00><a href=# onMouseOver=View('99FF00') onClick=Set('99FF00')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CC0000><a href=# onMouseOver=View('CC0000') onClick=Set('CC0000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CC3300><a href=# onMouseOver=View('CC3300') onClick=Set('CC3300')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CC6600><a href=# onMouseOver=View('CC6600') onClick=Set('CC6600')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CC9900><a href=# onMouseOver=View('CC9900') onClick=Set('CC9900')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CCCC00><a href=# onMouseOver=View('CCCC00') onClick=Set('CCCC00')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CCFF00><a href=# onMouseOver=View('CCFF00') onClick=Set('CCFF00')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FF0000><a href=# onMouseOver=View('FF0000') onClick=Set('FF0000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FF3300><a href=# onMouseOver=View('FF3300') onClick=Set('FF3300')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FF6600><a href=# onMouseOver=View('FF6600') onClick=Set('FF6600')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FF9900><a href=# onMouseOver=View('FF9900') onClick=Set('FF9900')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FFCC00><a href=# onMouseOver=View('FFCC00') onClick=Set('FFCC00')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FFFF00><a href=# onMouseOver=View('FFFF00') onClick=Set('FFFF00')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+</tr>
+<tr>
+<td bgcolor=#000000><a href=# onMouseOver=View('000000') onClick=Set('000000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#00FF00><a href=# onMouseOver=View('00FF00') onClick=Set('00FF00')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#000000><a href=# onMouseOver=View('000000') onClick=Set('000000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#990033><a href=# onMouseOver=View('990033') onClick=Set('990033')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#993333><a href=# onMouseOver=View('993333') onClick=Set('993333')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#996633><a href=# onMouseOver=View('996633') onClick=Set('996633')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#999933><a href=# onMouseOver=View('999933') onClick=Set('999933')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#99CC33><a href=# onMouseOver=View('99CC33') onClick=Set('99CC33')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#99FF33><a href=# onMouseOver=View('99FF33') onClick=Set('99FF33')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CC0033><a href=# onMouseOver=View('CC0033') onClick=Set('CC0033')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CC3333><a href=# onMouseOver=View('CC3333') onClick=Set('CC3333')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CC6633><a href=# onMouseOver=View('CC6633') onClick=Set('CC6633')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CC9933><a href=# onMouseOver=View('CC9933') onClick=Set('CC9933')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CCCC33><a href=# onMouseOver=View('CCCC33') onClick=Set('CCCC33')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CCFF33><a href=# onMouseOver=View('CCFF33') onClick=Set('CCFF33')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FF0033><a href=# onMouseOver=View('FF0033') onClick=Set('FF0033')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FF3333><a href=# onMouseOver=View('FF3333') onClick=Set('FF3333')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FF6633><a href=# onMouseOver=View('FF6633') onClick=Set('FF6633')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FF9933><a href=# onMouseOver=View('FF9933') onClick=Set('FF9933')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FFCC33><a href=# onMouseOver=View('FFCC33') onClick=Set('FFCC33')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FFFF33><a href=# onMouseOver=View('FFFF33') onClick=Set('FFFF33')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+</tr>
+<tr>
+<td bgcolor=#000000><a href=# onMouseOver=View('000000') onClick=Set('000000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#0000FF><a href=# onMouseOver=View('0000FF') onClick=Set('0000FF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#000000><a href=# onMouseOver=View('000000') onClick=Set('000000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#990066><a href=# onMouseOver=View('990066') onClick=Set('990066')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#993366><a href=# onMouseOver=View('993366') onClick=Set('993366')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#996666><a href=# onMouseOver=View('996666') onClick=Set('996666')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#999966><a href=# onMouseOver=View('999966') onClick=Set('999966')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#99CC66><a href=# onMouseOver=View('99CC66') onClick=Set('99CC66')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#99FF66><a href=# onMouseOver=View('99FF66') onClick=Set('99FF66')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CC0066><a href=# onMouseOver=View('CC0066') onClick=Set('CC0066')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CC3366><a href=# onMouseOver=View('CC3366') onClick=Set('CC3366')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CC6666><a href=# onMouseOver=View('CC6666') onClick=Set('CC6666')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CC9966><a href=# onMouseOver=View('CC9966') onClick=Set('CC9966')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CCCC66><a href=# onMouseOver=View('CCCC66') onClick=Set('CCCC66')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CCFF66><a href=# onMouseOver=View('CCFF66') onClick=Set('CCFF66')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FF0066><a href=# onMouseOver=View('FF0066') onClick=Set('FF0066')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FF3366><a href=# onMouseOver=View('FF3366') onClick=Set('FF3366')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FF6666><a href=# onMouseOver=View('FF6666') onClick=Set('FF6666')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FF9966><a href=# onMouseOver=View('FF9966') onClick=Set('FF9966')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FFCC66><a href=# onMouseOver=View('FFCC66') onClick=Set('FFCC66')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FFFF66><a href=# onMouseOver=View('FFFF66') onClick=Set('FFFF66')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+</tr>
+<tr>
+<td bgcolor=#000000><a href=# onMouseOver=View('000000') onClick=Set('000000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FFFF00><a href=# onMouseOver=View('FFFF00') onClick=Set('FFFF00')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#000000><a href=# onMouseOver=View('000000') onClick=Set('000000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#990099><a href=# onMouseOver=View('990099') onClick=Set('990099')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#993399><a href=# onMouseOver=View('993399') onClick=Set('993399')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#996699><a href=# onMouseOver=View('996699') onClick=Set('996699')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#999999><a href=# onMouseOver=View('999999') onClick=Set('999999')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#99CC99><a href=# onMouseOver=View('99CC99') onClick=Set('99CC99')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#99FF99><a href=# onMouseOver=View('99FF99') onClick=Set('99FF99')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CC0099><a href=# onMouseOver=View('CC0099') onClick=Set('CC0099')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CC3399><a href=# onMouseOver=View('CC3399') onClick=Set('CC3399')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CC6699><a href=# onMouseOver=View('CC6699') onClick=Set('CC6699')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CC9999><a href=# onMouseOver=View('CC9999') onClick=Set('CC9999')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CCCC99><a href=# onMouseOver=View('CCCC99') onClick=Set('CCCC99')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CCFF99><a href=# onMouseOver=View('CCFF99') onClick=Set('CCFF99')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FF0099><a href=# onMouseOver=View('FF0099') onClick=Set('FF0099')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FF3399><a href=# onMouseOver=View('FF3399') onClick=Set('FF3399')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FF6699><a href=# onMouseOver=View('FF6699') onClick=Set('FF6699')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FF9999><a href=# onMouseOver=View('FF9999') onClick=Set('FF9999')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FFCC99><a href=# onMouseOver=View('FFCC99') onClick=Set('FFCC99')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FFFF99><a href=# onMouseOver=View('FFFF99') onClick=Set('FFFF99')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+</tr>
+<tr>
+<td bgcolor=#000000><a href=# onMouseOver=View('000000') onClick=Set('000000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#00FFFF><a href=# onMouseOver=View('00FFFF') onClick=Set('00FFFF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#000000><a href=# onMouseOver=View('000000') onClick=Set('000000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#9900CC><a href=# onMouseOver=View('9900CC') onClick=Set('9900CC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#9933CC><a href=# onMouseOver=View('9933CC') onClick=Set('9933CC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#9966CC><a href=# onMouseOver=View('9966CC') onClick=Set('9966CC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#9999CC><a href=# onMouseOver=View('9999CC') onClick=Set('9999CC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#99CCCC><a href=# onMouseOver=View('99CCCC') onClick=Set('99CCCC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#99FFCC><a href=# onMouseOver=View('99FFCC') onClick=Set('99FFCC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CC00CC><a href=# onMouseOver=View('CC00CC') onClick=Set('CC00CC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CC33CC><a href=# onMouseOver=View('CC33CC') onClick=Set('CC33CC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CC66CC><a href=# onMouseOver=View('CC66CC') onClick=Set('CC66CC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CC99CC><a href=# onMouseOver=View('CC99CC') onClick=Set('CC99CC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CCCCCC><a href=# onMouseOver=View('CCCCCC') onClick=Set('CCCCCC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CCFFCC><a href=# onMouseOver=View('CCFFCC') onClick=Set('CCFFCC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FF00CC><a href=# onMouseOver=View('FF00CC') onClick=Set('FF00CC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FF33CC><a href=# onMouseOver=View('FF33CC') onClick=Set('FF33CC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FF66CC><a href=# onMouseOver=View('FF66CC') onClick=Set('FF66CC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FF99CC><a href=# onMouseOver=View('FF99CC') onClick=Set('FF99CC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FFCCCC><a href=# onMouseOver=View('FFCCCC') onClick=Set('FFCCCC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FFFFCC><a href=# onMouseOver=View('FFFFCC') onClick=Set('FFFFCC')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+</tr>
+<tr>
+<td bgcolor=#000000><a href=# onMouseOver=View('000000') onClick=Set('000000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FF00FF><a href=# onMouseOver=View('FF00FF') onClick=Set('FF00FF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#000000><a href=# onMouseOver=View('000000') onClick=Set('000000')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#9900FF><a href=# onMouseOver=View('9900FF') onClick=Set('9900FF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#9933FF><a href=# onMouseOver=View('9933FF') onClick=Set('9933FF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#9966FF><a href=# onMouseOver=View('9966FF') onClick=Set('9966FF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#9999FF><a href=# onMouseOver=View('9999FF') onClick=Set('9999FF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#99CCFF><a href=# onMouseOver=View('99CCFF') onClick=Set('99CCFF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#99FFFF><a href=# onMouseOver=View('99FFFF') onClick=Set('99FFFF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CC00FF><a href=# onMouseOver=View('CC00FF') onClick=Set('CC00FF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CC33FF><a href=# onMouseOver=View('CC33FF') onClick=Set('CC33FF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CC66FF><a href=# onMouseOver=View('CC66FF') onClick=Set('CC66FF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CC99FF><a href=# onMouseOver=View('CC99FF') onClick=Set('CC99FF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CCCCFF><a href=# onMouseOver=View('CCCCFF') onClick=Set('CCCCFF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#CCFFFF><a href=# onMouseOver=View('CCFFFF') onClick=Set('CCFFFF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FF00FF><a href=# onMouseOver=View('FF00FF') onClick=Set('FF00FF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FF33FF><a href=# onMouseOver=View('FF33FF') onClick=Set('FF33FF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FF66FF><a href=# onMouseOver=View('FF66FF') onClick=Set('FF66FF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FF99FF><a href=# onMouseOver=View('FF99FF') onClick=Set('FF99FF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FFCCFF><a href=# onMouseOver=View('FFCCFF') onClick=Set('FFCCFF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+<td bgcolor=#FFFFFF><a href=# onMouseOver=View('FFFFFF') onClick=Set('FFFFFF')><img src="$_imageurl$spacer.gif" height=10 width=10 border=0></a></td>
+</tr>
+</table>
+
+</form>
+</body></html>
+<!-- /templatecell : color_picker -->

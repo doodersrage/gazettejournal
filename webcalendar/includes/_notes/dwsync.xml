@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="config.php" server="www.beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="connect.php" server="www.beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="dbtable.php" server="www.beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="functions.php" server="www.beta.gazettejournal.net/public_html/" local="128578501200000000" remote="128578501200000000" />
+<file name="help_trailer.php" server="www.beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="index.html" server="www.beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="index.php" server="www.beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="init.php" server="www.beta.gazettejournal.net/public_html/" local="128578502400000000" remote="128578502400000000" />
+<file name="js.php" server="www.beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="php-dbi.php" server="www.beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="print_styles.css" server="www.beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="settings.php" server="www.beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="settings.php.orig" server="www.beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="site_extras.php" server="www.beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="styles.php" server="www.beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="trailer.php" server="www.beta.gazettejournal.net/public_html/" local="128552475600000000" remote="128552475600000000" />
+<file name="translate.php" server="www.beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="user-app-postnuke.php" server="www.beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="user-ldap.php" server="www.beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="user-nis.php" server="www.beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="user.php" server="www.beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="validate.php" server="www.beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="config.php" server="beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="connect.php" server="beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="dbtable.php" server="beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="functions.php" server="beta.gazettejournal.net/public_html/" local="128578501200000000" remote="128578501200000000" />
+<file name="help_trailer.php" server="beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="index.html" server="beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="index.php" server="beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="init.php" server="beta.gazettejournal.net/public_html/" local="128578502400000000" remote="128578502400000000" />
+<file name="js.php" server="beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="php-dbi.php" server="beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="print_styles.css" server="beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="settings.php" server="beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="settings.php.orig" server="beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="site_extras.php" server="beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="styles.php" server="beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="trailer.php" server="beta.gazettejournal.net/public_html/" local="128552475600000000" remote="128552475600000000" />
+<file name="translate.php" server="beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="user-app-postnuke.php" server="beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="user-ldap.php" server="beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="user-nis.php" server="beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="user.php" server="beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+<file name="validate.php" server="beta.gazettejournal.net/public_html/" local="128540530800000000" remote="128540530800000000" />
+</dwsync>

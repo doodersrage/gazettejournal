@@ -1,0 +1,15 @@
+Subject: Article $event$ by $user_fullname$ - status is $status$ 
+
+Body: $user_fullname$ has $event$ the article entitled "$art_name$". 
+ 
+Status: $status$. 
+ 
+Summary: $art_summary$ 
+ 
+==================================================== 
+     This is an automated e-mail notification. 
+ 
+     Please contact $mail_sender_name$ at  
+     $mail_sender_email$ if you no longer wish to  
+     receive notifications.  
+====================================================

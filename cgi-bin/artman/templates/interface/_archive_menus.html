@@ -1,0 +1,614 @@
+<!-- templatecell : header_null -->
+<html><head><title></title>
+<style type="text/css"><!--
+
+ a		{ text-decoration: none; font-family: arial,sans-serif; font-size: 13px; color: #0000CC; }
+ a:hover	{ text-decoration: underline; }
+
+.NavLink	{ COLOR: #000000; text-decoration: none; }
+.NavUp		{ BORDER-STYLE: solid; BORDER-WIDTH: 1; BORDER-COLOR: #FFFFFF #999999 #999999 #FFFFFF; PADDING: 0 1 1 1; background-color: #CCCCCC; }
+.NavDown	{ BORDER-STYLE: solid; BORDER-WIDTH: 1; BORDER-COLOR: #999999 #FFFFFF #FFFFFF #999999; PADDING: 1 0 0 2; background-color: #CCCCCC; }
+.NavOff		{ BORDER-STYLE: solid; BORDER-WIDTH: 1; BORDER-COLOR: #CCCCCC #CCCCCC #CCCCCC #CCCCCC; PADDING: 0 1 1 1; background-color: #CCCCCC; }
+
+ --></style>
+  <script language="Javascript"><!--
+  // Check for CSS Support
+  (navigator.userAgent.indexOf("MSIE 5")!=-1)?CSS=true:CSS=false;
+
+  document.write ('<style type="text/css">');
+  if (CSS) {
+    document.write ('input.button  { background-color: #FFFFFF;  background-image: url(../images/button.gif); height: 16; width: 77; border: none; font-family: verdana, sans-serif; font-weight: normal;font-size: 10px; color: #000000; letter-spacing: -0.5pt; cursor: hand; }');
+    document.write ('input.button2 { background-color: #EEEEEE; background-image: url(../images/button.gif); height: 16; width: 77; border: none; font-family: verdana, sans-serif; font-weight: normal;font-size: 10px; color: #000000; letter-spacing: -0.5pt; cursor: hand; }');
+    document.write ('input.button_sm { background-color: #FFFFFF; background-image: url(../images/button_sm.gif); height: 16; width: 46; border: none; font-family: verdana, sans-serif; font-weight: normal;font-size: 10px; color: #000000; letter-spacing: -0.5pt; cursor: hand; }');
+    }
+  else { document.write ('.NavOff	{ BORDER-STYLE: none; BORDER-WIDTH: 0; PADDING: 0 0 0 0; }'); }
+  document.write ('</style>');
+
+// Menu Button Functions //
+
+function btnUp(obj)   { obj.className = "NavUp"; }
+function btnHide(obj) { obj.className = "NavOff"; }
+function btnDown(obj) { obj.className = "NavDown"; }
+
+//--></script>
+</head>
+<body bgcolor="#FFFFFF" marginwidth=15 marginheight=15 topmargin=15 leftmargin=15> 
+<font face="arial,sans-serif" style="font-size: 12px;">
+<!-- /templatecell : header_null -->
+
+<!-- templatecell : list --> 
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr>
+   <td height=22 bgcolor="#EEEEEE"><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></font></td>
+  </tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+$_header_tab4$
+
+<input type="hidden" name="archive_list" value="1">
+
+<!-- START : tab content -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+ <tr>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=1 width=1200><img src="$_imageurl$spacer.gif" height=10 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF">
+
+<p><br><table border=0 cellspacing=0 cellpadding=3 width=100%>
+  <tr><td colspan=3 bgcolor="#EEEEEE"><font face="arial,sans-serif" style="font-size: 12px;"><b>&nbsp;Move Articles</b></td></tr>
+ </table>
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+   <tr>
+    <td width=100><font face="arial,sans-serif" style="font-size: 12px;">Move From</td>
+    <td><font face="arial,sans-serif" style="font-size: 12px;"><select name="source_archive">$datafile_list$</select></td>
+   </tr>
+   <tr>
+    <td><font face="arial,sans-serif" style="font-size: 12px;">Date Range</td>
+    <td><font face="arial,sans-serif" style="font-size: 12px;">
+     <select name="mon1"><option value="1" $mon1_1_selected$>Jan<option value="2" $mon1_2_selected$>Feb<option value="3" $mon1_3_selected$>Mar<option value="4" $mon1_4_selected$>Apr<option value="5" $mon1_5_selected$>May<option value="6" $mon1_6_selected$>Jun<option value="7" $mon1_7_selected$>Jul<option value="8" $mon1_8_selected$>Aug<option value="9" $mon1_9_selected$>Sep<option value="10" $mon1_10_selected$>Oct<option value="11" $mon1_11_selected$>Nov<option value="12" $mon1_12_selected$>Dec</select>
+     <select name="day1"><option value="1" $day1_1_selected$>1<option value="2" $day1_2_selected$>2<option value="3" $day1_3_selected$>3<option value="4" $day1_4_selected$>4<option value="5" $day1_5_selected$>5<option value="6" $day1_6_selected$>6<option value="7" $day1_7_selected$>7<option value="8" $day1_8_selected$>8<option value="9" $day1_9_selected$>9<option value="10" $day1_10_selected$>10<option value="11" $day1_11_selected$>11<option value="12" $day1_12_selected$>12<option value="13" $day1_13_selected$>13<option value="14" $day1_14_selected$>14<option value="15" $day1_15_selected$>15<option value="16" $day1_16_selected$>16<option value="17" $day1_17_selected$>17<option value="18" $day1_18_selected$>18<option value="19" $day1_19_selected$>19<option value="20" $day1_20_selected$>20<option value="21" $day1_21_selected$>21<option value="22" $day1_22_selected$>22<option value="23" $day1_23_selected$>23<option value="24" $day1_24_selected$>24<option value="25" $day1_25_selected$>25<option value="26" $day1_26_selected$>26<option value="27" $day1_27_selected$>27<option value="28" $day1_28_selected$>28<option value="29" $day1_29_selected$>29<option value="30" $day1_30_selected$>30<option value="31" $day1_31_selected$>31</select>
+     <select name="year1">$year_list$</select>
+     &nbsp; to &nbsp;
+     <select name="mon2"><option value="1" $mon2_1_selected$>Jan<option value="2" $mon2_2_selected$>Feb<option value="3" $mon2_3_selected$>Mar<option value="4" $mon2_4_selected$>Apr<option value="5" $mon2_5_selected$>May<option value="6" $mon2_6_selected$>Jun<option value="7" $mon2_7_selected$>Jul<option value="8" $mon2_8_selected$>Aug<option value="9" $mon2_9_selected$>Sep<option value="10" $mon2_10_selected$>Oct<option value="11" $mon2_11_selected$>Nov<option value="12" $mon2_12_selected$>Dec</select>
+     <select name="day2"><option value="1" $day2_1_selected$>1<option value="2" $day2_2_selected$>2<option value="3" $day2_3_selected$>3<option value="4" $day2_4_selected$>4<option value="5" $day2_5_selected$>5<option value="6" $day2_6_selected$>6<option value="7" $day2_7_selected$>7<option value="8" $day2_8_selected$>8<option value="9" $day2_9_selected$>9<option value="10" $day2_10_selected$>10<option value="11" $day2_11_selected$>11<option value="12" $day2_12_selected$>12<option value="13" $day2_13_selected$>13<option value="14" $day2_14_selected$>14<option value="15" $day2_15_selected$>15<option value="16" $day2_16_selected$>16<option value="17" $day2_17_selected$>17<option value="18" $day2_18_selected$>18<option value="19" $day2_19_selected$>19<option value="20" $day2_20_selected$>20<option value="21" $day2_21_selected$>21<option value="22" $day2_22_selected$>22<option value="23" $day2_23_selected$>23<option value="24" $day2_24_selected$>24<option value="25" $day2_25_selected$>25<option value="26" $day2_26_selected$>26<option value="27" $day2_27_selected$>27<option value="28" $day2_28_selected$>28<option value="29" $day2_29_selected$>29<option value="30" $day2_30_selected$>30<option value="31" $day2_31_selected$>31</select>
+     <select name="year2">$year_list$</select><br>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top"><font face="arial,sans-serif" style="font-size: 12px;">Move To</td>
+    <td>
+
+     <table border=0 cellpadding=0 cellspacing=0>
+      <tr>
+       <td>
+        <font face="arial,sans-serif" style="font-size: 12px;"><input type="radio" name="new_archive" value="" checked> Existing Archive &nbsp;&nbsp;&nbsp;&nbsp;
+       </td>
+       <td>
+        <font face="arial,sans-serif" style="font-size: 12px;"><select name="target_archive">$datafile_list$</select>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <font face="arial,sans-serif" style="font-size: 12px;"><input type="radio" name="new_archive" value="1"> New Archive
+       </td>
+       <td>
+        <font face="arial,sans-serif" style="font-size: 12px;"><input type="text" name="new_archive_name" value="">
+       </td>
+      </tr>
+     </table>
+
+    </td>
+   </tr>
+   <tr>
+    <td valign=top><font face="arial,sans-serif" style="font-size: 12px;">Categories</td>
+    <td><font face="arial,sans-serif" style="font-size: 12px;">
+     <select size=12 multiple name="cat_multi">
+     $cat_list$
+     </select><br>
+     hold &lt;ctrl&gt; to select or deselect categories
+    </td>
+   </tr>
+</table>
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+  <tr>
+   <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+    <input type="submit" class="button" name="archive_confirm_move"  value="  Move  "><br>
+   </td>
+  </tr>
+ </table>
+
+<p><table border=0 cellspacing=0 cellpadding=3 width=100%>
+  <tr><td colspan=3 bgcolor="#EEEEEE"><font face="arial,sans-serif" style="font-size: 12px;"><b>&nbsp;Existing Archives</b></td></tr>
+ </table>
+
+    <p><table border=0 cellspacing=1 cellpadding=1 width=100%>
+     <tr>
+      <td width=8% bgcolor="#CCCCFF" align=center><font face="arial,sans-serif" style="font-size: 12px;"><b>&nbsp;ID</b></font></td>
+      <td width=52% bgcolor="#CCCCFF"><font face="arial,sans-serif" style="font-size: 12px;"><b>&nbsp;Archive Name</b></font></td>
+      <td width=20% bgcolor="#CCCCFF"><font face="arial,sans-serif" style="font-size: 12px;"><b>&nbsp;Articles Stored</b></font></td>
+      <td width=20% bgcolor="#CCCCFF" align=center colspan=2><font face="arial,sans-serif" style="font-size: 12px;"><b>Action</b></font></td>
+     </tr>
+     <tr>
+      <td bgcolor="#EEEEFF" width=8% align=center><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;n/a</font></td>
+      <td bgcolor="#EEEEFF" width=52%><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;Current Articles</font></td>
+      <td bgcolor="#EEEEFF" width=20%><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;<a href="$_cgiurl$?archive_show=0">$current_count$</a></font></td>
+      <td bgcolor="#EEEEFF" width=10% align=center><font face="arial,sans-serif" style="font-size: 12px;" color="#666666">modify</font></td>
+      <td bgcolor="#EEEEFF" width=10% align=center><font face="arial,sans-serif" style="font-size: 12px;" color="#666666">erase</font></td>
+     </tr>
+<!-- template insert : $_list$ -->
+<!-- templatecell : row -->
+     <tr>
+      <td bgcolor="$_bgcolor$" width=8% align=center><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;$num$</font></td>
+      <td bgcolor="$_bgcolor$" width=52%><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;$name$</font></td>
+      <td bgcolor="$_bgcolor$" width=20%><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;<a href="$_cgiurl$?archive_show=$num$">$count$</a></font></td>
+      <td bgcolor="$_bgcolor$" width=10% align=center><font face="arial,sans-serif" style="font-size: 12px;"><a href="$_cgiurl$?archive_edit=$num$">modify</a></font></td>
+      <td bgcolor="$_bgcolor$" width=10% align=center><font face="arial,sans-serif" style="font-size: 12px;"><a href="$_cgiurl$?archive_confirm_erase=$num$">erase</a></font></td>
+     </tr>
+<!-- /templatecell : row -->
+<!-- templatecell : not_found -->
+<!-- /templatecell : not_found -->
+    </table>
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+  <tr>
+   <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+    <input type="submit" class="button" name="archive_list"  value=" Refresh "><br>
+   </td>
+  </tr>
+ </table>
+
+  </td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=3 width=1 border=0></td></tr>
+ <tr><td bgcolor="#000000" colspan=5><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td></tr>
+</table>
+<!-- END : tab content --> 
+
+<!-- /templatecell : list -->
+
+<!-- templatecell : edit -->
+
+<input type=hidden name="num" value="$num$">
+<input type=hidden name="count" value="$count$">
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr>
+   <td height=22 bgcolor="#EEEEEE"><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></font></td>
+  </tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+$_header_tab4$
+
+<!-- START : tab content -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+ <tr>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=1 width=1200><img src="$_imageurl$spacer.gif" height=10 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF">
+
+
+   <p><table border=0 cellspacing=0 cellpadding=1>
+     <tr><td rowspan=20>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
+     <tr>
+      <td height=21><font face="arial,sans-serif" style="font-size: 12px;">Created &nbsp;</td>
+      <td><font face="arial,sans-serif" style="font-size: 12px;">$created$ (by $created_by$)</td>
+     </tr>
+     <tr>
+      <td height=21><font face="arial,sans-serif" style="font-size: 12px;">Last Updated &nbsp;</td>
+      <td><font face="arial,sans-serif" style="font-size: 12px;">$updated$ (by $updated_by$)</td>
+     </tr>
+     <tr><td><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;</font></td></tr>
+     <tr>
+      <td><font face="arial,sans-serif" style="font-size: 12px;">Archive Name &nbsp;</td>
+      <td><input type="text" name="name" value="$name$" size=40></td>
+     </tr>
+     <tr><td height=21 colspan=2><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;</td></tr>
+     <tr>
+      <td height=21><font face="arial,sans-serif" style="font-size: 12px;">Number of articles &nbsp;</td>
+      <td><font face="arial,sans-serif" style="font-size: 12px;">$count$</td>
+     </tr>
+     <tr>
+      <td height=21><font face="arial,sans-serif" style="font-size: 12px;">Oldest article &nbsp;</td>
+      <td><font face="arial,sans-serif" style="font-size: 12px;">$oldest$</td>
+     </tr>
+     <tr>
+      <td height=21><font face="arial,sans-serif" style="font-size: 12px;">Newest article &nbsp;</td>
+      <td><font face="arial,sans-serif" style="font-size: 12px;">$newest$</td>
+     </tr>
+     <tr>
+      <td height=21><font face="arial,sans-serif" style="font-size: 12px;">List articles &nbsp;</td>
+      <td><font face="arial,sans-serif" style="font-size: 12px;"><a href="$_cgiurl$?archive_show=$num$">Click here to list articles</a></td>
+     </tr>
+    </table>
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+   <tr>
+    <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+    <input type="submit" class="button" name="archive_save" value="   Save   ">
+    <input type="submit" class="button" name="archive_list" value=" Cancel "><br>
+   </td>
+  </tr>
+</table>
+
+  </td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=3 width=1 border=0></td></tr>
+ <tr><td bgcolor="#000000" colspan=5><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td></tr>
+</table>
+<!-- END : tab content --> 
+
+<!-- /templatecell : edit -->
+
+<!-- templatecell : saved -->
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr>
+   <td height=22 bgcolor="#EEEEEE"><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></font></td>
+  </tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+$_header_tab4$
+
+<!-- START : tab content -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+ <tr>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=1 width=1200><img src="$_imageurl$spacer.gif" height=10 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF"><font face="arial,sans-serif" style="font-size: 12px;">
+
+   <center><br><br><br><br><font face="arial,sans-serif" style="font-size: 12px;">
+   <b>Archive has been saved</b>
+   <br><br><br></center>
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="archive_list" value="     OK     "><br>
+  </td>
+ </tr>
+</table>
+
+</td></tr></table>
+  </td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=3 width=1 border=0></td></tr>
+ <tr><td bgcolor="#000000" colspan=5><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td></tr>
+</table>
+<!-- END : tab content --> 
+
+<!-- /templatecell : saved -->
+
+<!-- templatecell : confirm_erase -->
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr>
+   <td height=22 bgcolor="#EEEEEE"><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></font></td>
+  </tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+$_header_tab4$
+
+<!-- START : tab content -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+ <tr>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=1 width=1200><img src="$_imageurl$spacer.gif" height=10 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF">
+
+    <table border=0 width=100% cellspacing=8 cellpadding=0>
+     <tr>
+      <td>
+
+
+<input type="hidden" name="num" value="$num$">
+
+   <center><br><br><br><br><font face="arial,sans-serif" style="font-size: 12px;">
+   <b>Are you sure you want to erase this archive?</b><br>$name$<br><br>
+   <font color="#CC0000"><b>The $count$ articles in this archive will be lost forever!</b></font>
+   <br><br><br></center>
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="archive_erase" value="  Erase  ">
+   <input type="submit" class="button" name="archive_list" value=" Cancel "><br>
+  </td>
+ </tr>
+</table>
+
+</td></tr></table>
+  </td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=3 width=1 border=0></td></tr>
+ <tr><td bgcolor="#000000" colspan=5><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td></tr>
+</table>
+<!-- /templatecell : confirm_erase -->
+
+<!-- templatecell : erased -->
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr>
+   <td height=22 bgcolor="#EEEEEE"><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></font></td>
+  </tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+$_header_tab4$
+
+<!-- START : tab content -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+ <tr>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=1 width=1200><img src="$_imageurl$spacer.gif" height=10 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF">
+
+    <table border=0 width=100% cellspacing=8 cellpadding=0>
+     <tr>
+      <td>
+
+   <center><br><br><br><br><font face="arial,sans-serif" style="font-size: 12px;">
+   <b>Archive has been erased</b>
+   <br><br><br></center>
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="archive_list" value="     OK     "></td>
+ </tr>
+</table>
+
+</td></tr></table>
+  </td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=3 width=1 border=0></td></tr>
+ <tr><td bgcolor="#000000" colspan=5><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td></tr>
+</table>
+<!-- /templatecell : erased -->
+
+<!-- templatecell : confirm_move -->
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr>
+   <td height=22 bgcolor="#EEEEEE"><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></font></td>
+  </tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+$_header_tab4$
+
+<!-- START : tab content -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+ <tr>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=1 width=1200><img src="$_imageurl$spacer.gif" height=10 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF">
+
+    <table border=0 width=100% cellspacing=8 cellpadding=0>
+     <tr>
+      <td>
+
+       <input type="hidden" name="source_archive" value="$source_archive$">
+       <input type="hidden" name="target_archive" value="$target_archive$">
+       <input type="hidden" name="new_archive_name" value="$new_archive_name$">
+       <input type="hidden" name="time1" value="$time1$">
+       <input type="hidden" name="time2" value="$time2$">
+       <input type="hidden" name="cats_to_move" value="$cats_to_move$">
+
+<font face="arial,sans-serif" style="font-size: 12px;">
+Are you sure you want to move these $count$ articles from "$source_archive_name_he$" to "$target_archive_name_he$":
+
+<p><table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="archive_move" value="    Yes    ">
+   <input type="submit" class="button" name="archive_list" value="    No    "></td>
+ </tr>
+</table>
+
+<p>
+<table border=0 cellspacing=1 cellpadding=1 width=100%>
+ <tr>
+  <td width=8% bgcolor="#CCCCFF" align=center><font face="arial,sans-serif" style="font-size: 12px;"><b>Num</b></font></td>
+  <td width=18% bgcolor="#CCCCFF" align=center><font face="arial,sans-serif" style="font-size: 12px;"><b>Date</b></font></td>
+  <td width=74% bgcolor="#CCCCFF"><font face="arial,sans-serif" style="font-size: 12px;"><b>&nbsp;Article Name</b></font></td>
+ </tr>
+<!-- template insert : $list$ -->
+<!-- templatecell : confirm_move_row -->
+ <tr>
+  <td bgcolor="$_bgcolor$" width=8% align=center><font face="arial,sans-serif" style="font-size: 12px;">$num$</font></td>
+  <td bgcolor="$_bgcolor$" width=18% align=center><font face="arial,sans-serif" style="font-size: 12px;">$date$</font></td>
+  <td bgcolor="$_bgcolor$" width=74%><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;$name$</font></td>
+ </tr>
+<!-- /templatecell : confirm_move_row -->
+<!-- templatecell : confirm_move_not_found -->
+ <tr>
+  <td bgcolor="#EEEEFF" colspan=3><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;No articles matched the criteria</font></td>
+ </tr>
+<!-- /templatecell : confirm_move_not_found -->
+</table>
+
+<p><table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="archive_move" value="    Yes    ">
+   <input type="submit" class="button" name="archive_list" value="    No    "></td>
+ </tr>
+</table>
+
+</td></tr></table>
+  </td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=3 width=1 border=0></td></tr>
+ <tr><td bgcolor="#000000" colspan=5><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td></tr>
+</table>
+<!-- /templatecell : confirm_move -->
+
+<!-- templatecell : moved -->
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr>
+   <td height=22 bgcolor="#EEEEEE"><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></font></td>
+  </tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+$_header_tab4$
+
+<!-- START : tab content -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+ <tr>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=1 width=1200><img src="$_imageurl$spacer.gif" height=10 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF">
+
+    <table border=0 width=100% cellspacing=8 cellpadding=0>
+     <tr>
+      <td>
+
+   <center><br><br><br><br><font face="arial,sans-serif" style="font-size: 12px;">
+   <b>$count$ articles have been moved</b>
+   <br><br><br></center>
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="archive_list" value="     OK     "></td>
+ </tr>
+</table>
+
+</td></tr></table>
+  </td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=3 width=1 border=0></td></tr>
+ <tr><td bgcolor="#000000" colspan=5><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td></tr>
+</table>
+<!-- /templatecell : moved -->
+
+<!-- templatecell : show -->
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr>
+   <td height=22 bgcolor="#EEEEEE"><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Setup Options</b></font></td>
+  </tr></table>
+  </td></tr></table>
+
+  <img src="$_imageurl$spacer.gif" height=10 width=1 border=0><br>
+
+$_header_tab4$
+
+<!-- START : tab content -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+ <tr>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=1 width=1200><img src="$_imageurl$spacer.gif" height=10 width=1 border=0></td>
+  <td bgcolor="#FFFFFF" rowspan=3 width=6><img src="$_imageurl$spacer.gif" height=1 width=6 border=0></td>
+  <td bgcolor="#000000" rowspan=3 width=1><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td>
+ </tr>
+ <tr>
+  <td bgcolor="#FFFFFF">
+
+    <table border=0 width=100% cellspacing=8 cellpadding=0>
+     <tr>
+      <td>
+
+       <input type="hidden" name="source_archive" value="$source_archive$">
+       <input type="hidden" name="target_archive" value="$target_archive$">
+       <input type="hidden" name="time1" value="$time1$">
+       <input type="hidden" name="time2" value="$time2$">
+
+<font face="arial,sans-serif" style="font-size: 12px;">
+$archive_name_he$ contains these $count$ records:
+
+<p><table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="archive_list" value="     OK     "></td>
+ </tr>
+</table>
+
+<p>
+<table border=0 cellspacing=1 cellpadding=1 width=100%>
+ <tr>
+  <td width=8% bgcolor="#CCCCFF" align=center><font face="arial,sans-serif" style="font-size: 12px;"><b>Num</b></font></td>
+  <td width=18% bgcolor="#CCCCFF" align=center><font face="arial,sans-serif" style="font-size: 12px;"><b>Date</b></font></td>
+  <td width=74% bgcolor="#CCCCFF"><font face="arial,sans-serif" style="font-size: 12px;"><b>&nbsp;Article Name</b></font></td>
+ </tr>
+<!-- template insert : $list$ -->
+<!-- templatecell : show_row -->
+ <tr>
+  <td bgcolor="$_bgcolor$" width=8% align=center><font face="arial,sans-serif" style="font-size: 12px;">$num$</font></td>
+  <td bgcolor="$_bgcolor$" width=18% align=center><font face="arial,sans-serif" style="font-size: 12px;">$date$</font></td>
+  <td bgcolor="$_bgcolor$" width=74%><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;$name$</font></td>
+ </tr>
+<!-- /templatecell : show_row -->
+<!-- templatecell : show_not_found -->
+ <tr>
+  <td bgcolor="#EEEEFF" colspan=3><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;No articles have been moved to this archive</font></td>
+ </tr>
+<!-- /templatecell : show_not_found -->
+</table>
+
+<p><table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="archive_list" value="     OK     "></td>
+ </tr>
+</table>
+
+</td></tr></table>
+  </td>
+ </tr>
+ <tr><td bgcolor="#FFFFFF"><img src="$_imageurl$spacer.gif" height=3 width=1 border=0></td></tr>
+ <tr><td bgcolor="#000000" colspan=5><img src="$_imageurl$spacer.gif" height=1 width=1 border=0></td></tr>
+</table>
+<!-- /templatecell : show -->

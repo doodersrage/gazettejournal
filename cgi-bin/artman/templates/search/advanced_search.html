@@ -1,0 +1,294 @@
+<html><head><title>Advanced Search</title>
+<link href="$_imageurl$common/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="bg_main">
+
+<div align=center>
+<a name="top"></a>
+
+<table border=0 cellspacing=0 cellpadding=10 width=100% class="bg_header"><tr><td>
+
+   <table border=0 cellspacing=0 cellpadding=0>
+    <tr>
+            <td valign=top><span class="logo_text">GazetteJournal.net</span></td>
+    </tr>
+    <tr>
+            <td style="padding-left: 67px;"><span class="logo_sub">News and Information</span><br>
+            </td>
+    </tr>
+   </table>
+ 
+</td><td align=right valign=top>
+<span class="general_text">
+
+    <a href="#">Linkname</a> | 
+    <a href="#">Linkname</a> | 
+    <a href="#">Linkname</a> | 
+    <a href="#">Linkname</a> | 
+    <a href="#">Linkname</a>&nbsp;<br><br>
+
+</span>
+</td></tr></table>
+
+<!-- body: left nav -->
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100% height=100%>
+    <tr> 
+      <td class="bg_nav_left" valign=top width=1%> <!-- INCLUDE CATEGORY LIST --> 
+        <!--#include virtual="$publishdir_virtualpath$$file_categories$" --> <!-- INCLUDE SEARCH FORM --> 
+        <!--#include virtual="$publishdir_virtualpath$$file_search$" --> <img src="$_imageurl$set1_maple/spacer.gif" height=3 width=150><br>
+      </td>
+      <td><img src="$_imageurl$set1_maple/spacer.gif" height=1 width=25></td>
+      <td width=100% valign=top> 
+        <table border=0 cellspacing=0 cellpadding=0 width=100%>
+          <tr>
+            <td> <span class="general_text"> 
+              <table border=0 cellspacing=0 cellpadding=0 width=100%>
+                <tr> 
+                  <td><span class="header_breadcrumb">ADVANCED SEARCH</span></td>
+                  <td align="right">&nbsp;</td>
+                </tr>
+              </table>
+              <hr size=1>
+              <br>
+              <form action="$url_search$" method="post">
+                <blockquote> 
+                  <table border=0 cellspacing=0 cellpadding=0>
+                    <tr> 
+                      <td class="general_text">Keyword &nbsp;</td>
+                      <td>
+                        <input type="general_text" name="keyword" value="" size=25>
+                      </td>
+                    </tr>
+                    <tr> 
+                      <td class="general_text">Posted after &nbsp;</td>
+                      <td> 
+                        <select name="mon">
+                          <option value="">mon
+                          <option value="1" $mon_1_selected$>Jan
+                          <option value="2" $mon_2_selected$>Feb
+                          <option value="3" $mon_3_selected$>Mar
+                          <option value="4" $mon_4_selected$>Apr
+                          <option value="5" $mon_5_selected$>May
+                          <option value="6" $mon_6_selected$>Jun
+                          <option value="7" $mon_7_selected$>Jul
+                          <option value="8" $mon_8_selected$>Aug
+                          <option value="9" $mon_9_selected$>Sep
+                          <option value="10" $mon_10_selected$>Oct
+                          <option value="11" $mon_11_selected$>Nov
+                          <option value="12" $mon_12_selected$>Dec
+                        </select>
+                        <select name="day">
+                          <option value="">day
+                          <option value="1" $day_1_selected$>1
+                          <option value="2" $day_2_selected$>2
+                          <option value="3" $day_3_selected$>3
+                          <option value="4" $day_4_selected$>4
+                          <option value="5" $day_5_selected$>5
+                          <option value="6" $day_6_selected$>6
+                          <option value="7" $day_7_selected$>7
+                          <option value="8" $day_8_selected$>8
+                          <option value="9" $day_9_selected$>9
+                          <option value="10" $day_10_selected$>10
+                          <option value="11" $day_11_selected$>11
+                          <option value="12" $day_12_selected$>12
+                          <option value="13" $day_13_selected$>13
+                          <option value="14" $day_14_selected$>14
+                          <option value="15" $day_15_selected$>15
+                          <option value="16" $day_16_selected$>16
+                          <option value="17" $day_17_selected$>17
+                          <option value="18" $day_18_selected$>18
+                          <option value="19" $day_19_selected$>19
+                          <option value="20" $day_20_selected$>20
+                          <option value="21" $day_21_selected$>21
+                          <option value="22" $day_22_selected$>22
+                          <option value="23" $day_23_selected$>23
+                          <option value="24" $day_24_selected$>24
+                          <option value="25" $day_25_selected$>25
+                          <option value="26" $day_26_selected$>26
+                          <option value="27" $day_27_selected$>27
+                          <option value="28" $day_28_selected$>28
+                          <option value="29" $day_29_selected$>29
+                          <option value="30" $day_30_selected$>30
+                          <option value="31" $day_31_selected$>31
+                        </select>
+                        <select name="year">
+                          <option value="">year
+                          <option value="2000" $year_2000_selected$>2000
+                          <option value="2001" $year_2001_selected$>2001
+                          <option value="2002" $year_2002_selected$>2002
+                          <option value="2003" $year_2003_selected$>2003
+                          <option value="2004" $year_2004_selected$>2004
+                          <option value="2005" $year_2005_selected$>2005
+                          <option value="2006" $year_2006_selected$>2006
+                          <option value="2007" $year_2007_selected$>2007
+                          <option value="2008" $year_2008_selected$>2008
+                          <option value="2009" $year_2009_selected$>2009
+                          <option value="2010" $year_2010_selected$>2010
+                          <option value="2011" $year_2011_selected$>2011
+                          <option value="2012" $year_2012_selected$>2012
+                          <option value="2013" $year_2013_selected$>2013
+                          <option value="2014" $year_2014_selected$>2014
+                          <option value="2015" $year_2015_selected$>2015
+                          <option value="2016" $year_2016_selected$>2016
+                          <option value="2017" $year_2017_selected$>2017
+                          <option value="2018" $year_2018_selected$>2018
+                          <option value="2019" $year_2019_selected$>2019
+                          <option value="2020" $year_2020_selected$>2020
+                          <option value="2021" $year_2021_selected$>2021
+                          <option value="2022" $year_2022_selected$>2022
+                          <option value="2023" $year_2023_selected$>2023
+                          <option value="2024" $year_2024_selected$>2024
+                        </select>
+                      </td>
+                    </tr>
+                    <tr> 
+                      <td class="general_text">Posted before &nbsp;</td>
+                      <td> 
+                        <select name="mon2">
+                          <option value="">mon
+                          <option value="1" $mon2_1_selected$>Jan
+                          <option value="2" $mon2_2_selected$>Feb
+                          <option value="3" $mon2_3_selected$>Mar
+                          <option value="4" $mon2_4_selected$>Apr
+                          <option value="5" $mon2_5_selected$>May
+                          <option value="6" $mon2_6_selected$>Jun
+                          <option value="7" $mon2_7_selected$>Jul
+                          <option value="8" $mon2_8_selected$>Aug
+                          <option value="9" $mon2_9_selected$>Sep
+                          <option value="10" $mon2_10_selected$>Oct
+                          <option value="11" $mon2_11_selected$>Nov
+                          <option value="12" $mon2_12_selected$>Dec
+                        </select>
+                        <select name="day2">
+                          <option value="">day
+                          <option value="1" $day2_1_selected$>1
+                          <option value="2" $day2_2_selected$>2
+                          <option value="3" $day2_3_selected$>3
+                          <option value="4" $day2_4_selected$>4
+                          <option value="5" $day2_5_selected$>5
+                          <option value="6" $day2_6_selected$>6
+                          <option value="7" $day2_7_selected$>7
+                          <option value="8" $day2_8_selected$>8
+                          <option value="9" $day2_9_selected$>9
+                          <option value="10" $day2_10_selected$>10
+                          <option value="11" $day2_11_selected$>11
+                          <option value="12" $day2_12_selected$>12
+                          <option value="13" $day2_13_selected$>13
+                          <option value="14" $day2_14_selected$>14
+                          <option value="15" $day2_15_selected$>15
+                          <option value="16" $day2_16_selected$>16
+                          <option value="17" $day2_17_selected$>17
+                          <option value="18" $day2_18_selected$>18
+                          <option value="19" $day2_19_selected$>19
+                          <option value="20" $day2_20_selected$>20
+                          <option value="21" $day2_21_selected$>21
+                          <option value="22" $day2_22_selected$>22
+                          <option value="23" $day2_23_selected$>23
+                          <option value="24" $day2_24_selected$>24
+                          <option value="25" $day2_25_selected$>25
+                          <option value="26" $day2_26_selected$>26
+                          <option value="27" $day2_27_selected$>27
+                          <option value="28" $day2_28_selected$>28
+                          <option value="29" $day2_29_selected$>29
+                          <option value="30" $day2_30_selected$>30
+                          <option value="31" $day2_31_selected$>31
+                        </select>
+                        <select name="year2">
+                          <option value="">year
+                          <option value="2000" $year2_2000_selected$>2000
+                          <option value="2001" $year2_2001_selected$>2001
+                          <option value="2002" $year2_2002_selected$>2002
+                          <option value="2003" $year2_2003_selected$>2003
+                          <option value="2004" $year2_2004_selected$>2004
+                          <option value="2005" $year2_2005_selected$>2005
+                          <option value="2006" $year2_2006_selected$>2006
+                          <option value="2007" $year2_2007_selected$>2007
+                          <option value="2008" $year2_2008_selected$>2008
+                          <option value="2009" $year2_2009_selected$>2009
+                          <option value="2010" $year2_2010_selected$>2010
+                          <option value="2011" $year2_2011_selected$>2011
+                          <option value="2012" $year2_2012_selected$>2012
+                          <option value="2013" $year2_2013_selected$>2013
+                          <option value="2014" $year2_2014_selected$>2014
+                          <option value="2015" $year2_2015_selected$>2015
+                          <option value="2016" $year2_2016_selected$>2016
+                          <option value="2017" $year2_2017_selected$>2017
+                          <option value="2018" $year2_2018_selected$>2018
+                          <option value="2019" $year2_2019_selected$>2019
+                          <option value="2020" $year2_2020_selected$>2020
+                          <option value="2021" $year2_2021_selected$>2021
+                          <option value="2022" $year2_2022_selected$>2022
+                          <option value="2023" $year2_2023_selected$>2023
+                          <option value="2024" $year2_2024_selected$>2024
+                        </select>
+                      </td>
+                    </tr>
+                    <tr> 
+                      <td class="general_text">Category &nbsp;</td>
+                      <td class="general_text"> 
+                        <select name="cat">
+                          <option value="">All Categories</option>
+        $category_pulldown$
+                        </select>
+                        <input type="hidden" name="search_subcats" value=0>
+                        <input type="checkbox" name="search_subcats" value=1 checked>
+                        Search subcategories<br>
+                      </td>
+                    </tr>
+                    <tr> 
+                      <td class="general_text">Article Set &nbsp;</td>
+                      <td> 
+                        <select name="archive">
+                          <option value="">Current Articles</option>
+        $archive_pulldown$
+                        </select>
+                      </td>
+                    </tr>
+                    <tr> 
+                      <td class="general_text">Results perpage &nbsp;</td>
+                      <td> 
+                        <select name="perpage">
+                          <option value="5">5</option>
+                          <option value="10">10</option>
+                          <option value="15">15</option>
+                          <option value="20">20</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr> 
+                      <td class="general_text">&nbsp;</td>
+                      <td align=right>
+                        <input type="submit" name="search" value="Search">
+                      </td>
+                    </tr>
+                  </table>
+                </blockquote>
+              </form>
+              </span> </td>
+          </tr>
+        </table>
+      </td>
+      <td><img src="$_imageurl$set1_maple/spacer.gif" height=1 width=25></td>
+      <td class="bg_nav_right" valign=top width=1%> <!-- INCLUDE TOP HEADLINES (from each category) --> 
+        <!--#include virtual="$publishdir_virtualpath$$file_headlines_bycat$" --> 
+        <img src="$_imageurl$set1_maple/spacer.gif" height=1 width=150><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="bg_nav_left" valign=top width=1%>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td width=100% valign=top>
+        <DIV ALIGN="RIGHT"><SPAN CLASS="general_text">Last Updated: </SPAN><SPAN CLASS="global_updated">$global_updated$</SPAN></DIV>
+      </td>
+      <td>&nbsp;</td>
+      <td class="bg_nav_right" valign=top width=1%>&nbsp;</td>
+    </tr>
+  </table>
+
+<!-- footer -->
+
+</div>
+
+</body>
+</html>

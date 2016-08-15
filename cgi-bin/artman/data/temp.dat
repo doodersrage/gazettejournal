@@ -1,0 +1,4 @@
+#!/usr/bin/perl
+#0
+print "Content-type: text/html\n\n<html></html>";
+__END__

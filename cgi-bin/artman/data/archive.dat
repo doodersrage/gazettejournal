@@ -1,0 +1,5 @@
+#!/usr/bin/perl
+#1
+print "Content-type: text/html\n\n<html></html>";
+__END__
+1¡1074893766¡1¡1074893766¡1¡January 14 2004¡6¡

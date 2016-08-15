@@ -1,0 +1,151 @@
+body {
+	background-image: url(/images/Gazettebg2sm.jpg);
+	background-repeat: no-repeat;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	background-color: #29150E;
+	font-family: Arial, Helvetica, sans-serif;
+}
+form {
+margin:0;
+padding:0;
+}
+p,input,select {
+  font-size: 12px;
+}
+.container {
+width:1290px;;
+}
+.content {
+position:absolute;
+display:block;
+left:20px;
+top:42px;
+width:800px;
+background-image:url(/images/Gazettebg2-bottom.jpg)
+}
+.notepad {
+position:absolute;
+display:block;
+top:350px;
+left:1014px;
+width:226px;
+}
+.bottom_nav_area {
+display:block;
+width:784px;
+}
+.advertisements {
+position:absolute;
+display:block;
+left:818px;
+top:35px;
+padding: 0 7px 10px 10px;
+background: #ebeed9 url(/images/GazetteAdsbg.png) top right repeat-y;
+}
+
+a {
+color:#003399;
+text-decoration:none;
+}
+a:hover {
+color:#000;
+text-decoration:underline;
+}
+.top_nav_area, .top_nav_area a{font-family: Arial, Helvetica, sans-serif; color: #FFFFFF; font-size: 10px;}
+.article_title {
+	font-size: 14pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.article_author {font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; }
+.reach_us_area {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 9pt;
+}
+.style21 {font-family: Arial, Helvetica, sans-serif; color: #333333; font-size: 10px; }
+.bottom_nav_header {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.bottom_nav a {
+color:#000000;
+text-decoration:none;
+}
+.bottom_nav a:hover {
+text-decoration:underline;
+}
+
+.last_updated {
+float:right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.header_left {
+float:left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+.search_box {
+font-size:12px;
+margin:0;
+padding:0;
+position:absolute;
+left:620px;
+top:66px;
+width:223px;
+height:104px;
+}
+
+.search_box input {
+border:1px solid #000;
+}
+
+.search_head {
+text-align:center;
+width:100%;
+font-weight:700;
+font-size:16px;
+}
+
+.search_drop {
+width:140px;
+border:1px solid #000;
+}
+.search_button {
+font-size:16px;
+font-weight:700;
+color:#666;
+}
+.search_string {
+width:140px;
+}
+
+.template_blue {
+background-image:url(/images/blue.jpg)
+}
+.template_line1 {
+background-image:url(../../images/line1.jpg)
+}
+.copywrite {
+color: #666666; 
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 10px;
+}
+.nav_left {
+width:275px;
+}
+.category_content {
+width:591px;
+}
+.home_image {
+padding:3px;
+}
+.copy_area {
+display:block;
+width:784px;
+margin:0 auto;
+}

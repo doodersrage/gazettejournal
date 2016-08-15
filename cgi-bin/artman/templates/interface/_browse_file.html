@@ -1,0 +1,103 @@
+<html>
+ <head>
+  <title>$_ui_title$</title>
+  <meta name="robots" content="noindex,nofollow">
+  <style type="text/css"><!--
+
+ a                { text-decoration: none; }
+ a:hover	  { text-decoration: underline; }
+ a:hover.NavLink  { text-decoration: none; color: #000000; }
+
+ --></style>
+ <script>
+ 
+function Update(str){
+  opener.document.$field_name$.value=str;
+  window.close();
+  }
+
+ </script>
+</head>
+<body bgcolor="#FFFFFF" text="#000000" link="#0000CC" vlink="#0000CC" alink="#0000CC" marginwidth=10 marginheight=10 topmargin=10 leftmargin=10 onload="focus();"> 
+
+<form method=post action="$_cgiurl$">
+<input type="hidden" name="browse_file" value="1">
+<input type="hidden" name="field_name" value="$field_name$">
+<input type="hidden" name="cdir" value="$dir$">
+
+    <p><table border=0 width=100% cellspacing=0 cellpadding=2>
+     <tr><td bgcolor="#CCCCCC"><font style="font-size: 12px;" face="arial"><b>&nbsp;Browse...</b></font></td></tr>
+    </table>
+
+    <table border=0 width=100% cellspacing=8 cellpadding=0>
+     <tr>
+      <td>
+       <font face="arial" style="font-size: 12px;"><b>Current Directory</b></font><br>
+       <input type="text" name="dir" value="$dir$" size=45>
+       <input type="submit" name="" value=" Go "><br>
+      </td>
+    </tr>
+   </table>
+
+    <table border=0 cellspacing=1 cellpadding=1 width=100%>
+     <tr>
+      <td bgcolor="#CCCCCC" width=1%><font style="font-size: 12px;" face="arial"><b>&nbsp;</b></font></td>
+      <td bgcolor="#CCCCCC" width=77%><font style="font-size: 12px;" face="arial"><b>&nbsp;Name</b></font></td>
+      <td bgcolor="#CCCCCC" width=1% align=right><font style="font-size: 12px;" face="arial"><b>&nbsp;Size&nbsp;</b></font></td>
+      <td bgcolor="#CCCCCC" width=20%><font style="font-size: 12px;" face="arial"><b>&nbsp;Last Modified</b></font></td>
+     </tr>
+<!-- template insert : $list$ -->
+<!-- templatecell : parent -->
+     <tr>
+      <td bgcolor="#EEEEEE" align=center><a href="$_cgiurl$?dir=$parent_ue$&browse_file=1&field_name=$field_name$"><img src="$_imageurl$icon-parent.gif" height=15 width=15 hspace=3 border=0 alt=""></a></td>
+      <td bgcolor="#EEEEEE"><font face="arial" style="font-size: 12px;">&nbsp;<a href="$_cgiurl$?dir=$parent_ue$&browse_file=1&field_name=$field_name$">Up to higher level directory</a></font></td>
+      <td bgcolor="#EEEEEE"><font face="arial" style="font-size: 12px;">&nbsp;</font></td>
+      <td bgcolor="#EEEEEE"><font face="arial" style="font-size: 12px;">&nbsp;</font></td>
+     </tr>
+<!-- /templatecell : parent -->
+<!-- templatecell : dir -->
+     <tr>
+      <td bgcolor="#EEEEEE" align=center><a href="$_cgiurl$?dir=$path_ue$&browse_file=1&field_name=$field_name$"><img src="$_imageurl$icon-dir.gif" height=15 width=15 hspace=3 border=0 alt=""></a></td>
+      <td bgcolor="#EEEEEE"><font face="arial" style="font-size: 12px;">&nbsp;<a href="$_cgiurl$?dir=$path_ue$&browse_file=1&field_name=$field_name$">$name$</a></font></td>
+      <td bgcolor="#EEEEEE" align=center><font face="arial" style="font-size: 12px;">&nbsp;&lt;DIR&gt;&nbsp;</font></td>
+      <td bgcolor="#EEEEEE"><font face="arial" style="font-size: 12px;"><nobr>&nbsp;$modified$&nbsp;&nbsp;&nbsp;</nobr></font></td>
+     </tr>
+<!-- /templatecell : dir -->
+<!-- templatecell : file -->
+     <tr>
+      <td bgcolor="#EEEEEE" align=center><a href="javascript:Update('$path$')"><img src="$_imageurl$icon-file.gif" height=15 width=15 hspace=3 border=0 alt=""></a></td>
+      <td bgcolor="#EEEEEE"><font face="arial" style="font-size: 12px;">&nbsp;<a href="javascript:Update('$path$')">$name$</a></font></td>
+      <td bgcolor="#EEEEEE" align=right><font face="arial" style="font-size: 12px;">&nbsp;$size$&nbsp;</font></td>
+      <td bgcolor="#EEEEEE"><font face="arial" style="font-size: 12px;"><nobr>&nbsp;$modified$&nbsp;&nbsp;&nbsp;</nobr></font></td>
+     </tr>
+<!-- /templatecell : file -->
+<!-- templatecell : other -->
+     <tr>
+      <td bgcolor="#EEEEEE" align=center><img src="$_imageurl$icon-file.gif" height=15 width=15 hspace=3 border=0 alt=""></td>
+      <td bgcolor="#EEEEEE"><font face="arial" color="#999999" style="font-size: 12px;">&nbsp;$name$</font></td>
+      <td bgcolor="#EEEEEE" align=right><font face="arial" style="font-size: 12px;">&nbsp;$size$&nbsp;</font></td>
+      <td bgcolor="#EEEEEE"><font face="arial" style="font-size: 12px;"><nobr>&nbsp;$modified$&nbsp;&nbsp;&nbsp;</nobr></font></td>
+     </tr>
+<!-- /templatecell : other -->
+<!-- templatecell : nofiles -->
+     <tr>
+      <td bgcolor="#EEEEEE"><font style="font-size: 12px;" face="arial"><b>&nbsp;</b></font></td>
+      <td bgcolor="#EEEEEE" colspan=5><font face="arial" style="font-size: 12px;">&nbsp;There are no files in this directory</font></td>
+     </tr>
+<!-- /templatecell : nofiles -->
+<!-- templatecell : error -->
+     <tr>
+      <td bgcolor="#EEEEEE"><font style="font-size: 12px;" face="arial"><b>&nbsp;</b></font></td>
+      <td bgcolor="#EEEEEE" colspan=5><font face="arial" style="font-size: 12px;">&nbsp;<b>Error :&nbsp;</b>$error$</font></td>
+     </tr>
+<!-- /templatecell : error -->
+     <tr>
+      <td bgcolor="#DDDDDD" align=center><img src="$_imageurl$icon-file.gif" height=15 width=15 hspace=3 border=0 alt=""></td>
+      <td bgcolor="#DDDDDD" colspan=3><input type="text" name="mkfile_name" value="$mkfile_name$" style="font-size: 12px;"0> <input type="submit" name="mkfile" value="Create File"><br>
+      <!-- template insert : $file_error$ -->
+      <!-- templatecell : file_error --><font face="arial" style="font-size: 12px;">&nbsp;<b>Error :&nbsp;</b>$file_error$</font><br><!-- /templatecell : file_error --></td>
+     </tr>
+    </table>
+
+</body>
+</html>

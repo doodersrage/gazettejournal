@@ -1,0 +1,792 @@
+<!-- templatecell : header_null -->
+<html><head><title></title>
+<style type="text/css"><!--
+
+ a		{ text-decoration: none; font-family: arial,sans-serif; font-size: 13px; color: #0000CC; }
+ a:hover	{ text-decoration: underline; }
+
+.NavLink	{ COLOR: #000000; text-decoration: none; }
+.NavUp		{ BORDER-STYLE: solid; BORDER-WIDTH: 1; BORDER-COLOR: #FFFFFF #999999 #999999 #FFFFFF; PADDING: 0 1 1 1; background-color: #CCCCCC; }
+.NavDown	{ BORDER-STYLE: solid; BORDER-WIDTH: 1; BORDER-COLOR: #999999 #FFFFFF #FFFFFF #999999; PADDING: 1 0 0 2; background-color: #CCCCCC; }
+.NavOff		{ BORDER-STYLE: solid; BORDER-WIDTH: 1; BORDER-COLOR: #CCCCCC #CCCCCC #CCCCCC #CCCCCC; PADDING: 0 1 1 1; background-color: #CCCCCC; }
+
+ --></style>
+  <script language="Javascript"><!--
+  // Check for CSS Support
+  (navigator.userAgent.indexOf("MSIE 5")!=-1)?CSS=true:CSS=false;
+
+  document.write ('<style type="text/css">');
+  if (CSS) {
+    document.write ('input.button  { background-color: #FFFFFF;  background-image: url(../images/button.gif); height: 16; width: 77; border: none; font-family: verdana, sans-serif; font-weight: normal;font-size: 10px; color: #000000; letter-spacing: -0.5pt; cursor: hand; }');
+    document.write ('input.button2 { background-color: #EEEEEE; background-image: url(../images/button.gif); height: 16; width: 77; border: none; font-family: verdana, sans-serif; font-weight: normal;font-size: 10px; color: #000000; letter-spacing: -0.5pt; cursor: hand; }');
+    document.write ('input.button_sm { background-color: #FFFFFF; background-image: url(../images/button_sm.gif); height: 16; width: 46; border: none; font-family: verdana, sans-serif; font-weight: normal;font-size: 10px; color: #000000; letter-spacing: -0.5pt; cursor: hand; }');
+    }
+  else { document.write ('.NavOff	{ BORDER-STYLE: none; BORDER-WIDTH: 0; PADDING: 0 0 0 0; }'); }
+  document.write ('</style>');
+
+// Menu Button Functions //
+
+function btnUp(obj)   { obj.className = "NavUp"; }
+function btnHide(obj) { obj.className = "NavOff"; }
+function btnDown(obj) { obj.className = "NavDown"; }
+
+//--></script>
+</head>
+<body bgcolor="#FFFFFF" marginwidth=15 marginheight=15 topmargin=15 leftmargin=15> 
+<font face="arial,sans-serif" style="font-size: 12px;">
+<!-- /templatecell : header_null -->
+
+<!-- templatecell : list --> 
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr><td bgcolor="#EEEEEE">
+  <table border=0 width=100% cellspacing=0 cellpadding=0><tr>
+   <td align=left height=22><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;$_menu_header$</b></font></td>
+   <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+    <input type="submit" class="button2" name="$_menu_name$_list"  value="Refresh">
+    <input type="submit" class="button2" name="$_menu_name$_add"  value="Create New">&nbsp;
+   </td>
+  </tr></table>
+  </td></tr></table>
+  </td></tr></table>
+
+    <table border=0 width=100% cellspacing=8 cellpadding=0>
+     <tr>
+      <td>
+
+       <input type=hidden name="default_action" value="$_menu_name$_list">
+
+<table border=0 cellspacing=0 cellpadding=0>
+ <tr>
+  <td><font face="arial,sans-serif" style="font-size: 12px;">Search for Keyword</font></td>
+  <td><font face="arial,sans-serif" style="font-size: 12px;">PerPage</font></td>
+  <td><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;</font></td>
+ </tr>
+ <tr>
+  <td><input type="text" name="_keyword" value="$_keyword$" size=25>&nbsp;</td>
+  <td><select name="_perpage"><option $_perpage_5_selected$>5<option $_perpage_10_selected$>10<option $_perpage_15_selected$>15<option $_perpage_20_selected$>20<option $_perpage_25_selected$>25<option $_perpage_30_selected$>30<option $_perpage_40_selected$>40<option $_perpage_50_selected$>50<option $_perpage_100_selected$>100<option $_perpage_250_selected$>250</select>&nbsp;</td>
+  <td>
+   <input type="submit" name="$_menu_name$_list" value="Search">
+   <input type="submit" name="$_menu_name$_listall" value="List All"><br>
+  </td>
+ </tr>
+</table>
+
+      </td>
+      <td align=right>
+ 
+      <table border=0 cellspacing=0 cellpadding=1>
+       <tr><td align=center><font face="arial,sans-serif" style="font-size: 12px;">Found $_mcount$ of $_rcount$</font></tr>
+       <tr><td align=center><font face="arial,sans-serif" style="font-size: 12px;"><a href="$_cgiurl$?$_menu_name$_list=1&_pagenum=$_lpage$" title="Prev Page">&lt;&lt;</a> &nbsp;Page $_cpage$ of $_pcount$&nbsp; <a href="$_cgiurl$?$_menu_name$_list=1&_pagenum=$_npage$" title="Next Page">&gt;&gt;</a></font></td></tr>
+      </table>
+   
+     </td>
+    </tr>
+   </table>
+
+
+    <table border=0 cellspacing=1 cellpadding=1 width=100%>
+     <tr>
+      <td width=10% bgcolor="#CCCCFF" align=center><font face="arial,sans-serif" style="font-size: 12px;"><b>Order</b></font></td>
+      <td width=60% bgcolor="#CCCCFF"><font face="arial,sans-serif" style="font-size: 12px;"><b>&nbsp;Name</b></font></td>
+      <td width=10% bgcolor="#CCCCFF" align=center><font face="arial,sans-serif" style="font-size: 12px;"><b>Visible</b></font></td>
+      <td width=20% bgcolor="#CCCCFF" align=center colspan=2><font face="arial,sans-serif" style="font-size: 12px;"><b>Action</b></font></td>
+     </tr>
+<!-- template insert : $_list$ -->
+<!-- templatecell : row -->
+     <tr>
+      <td bgcolor="$_bgcolor$" width=10% align=center>
+       <a href="$_cgiurl$?cat_move=$num$&dir=up"><font face="arial,sans-serif" style="font-size: 10px;">UP</font></a>&nbsp;
+       <a href="$_cgiurl$?cat_move=$num$&dir=dn"><font face="arial,sans-serif" style="font-size: 10px;">DN</font></a>
+      </td>
+      <td bgcolor="$_bgcolor$" width=60%><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;$indented_name$</font></td>
+      <td bgcolor="$_bgcolor$" width=10% align=center><font face="arial,sans-serif" style="font-size: 10px;">$visible$</font></td>
+      <td bgcolor="$_bgcolor$" width=10% align=center><font face="arial,sans-serif" style="font-size: 12px;"><a href="$_cgiurl$?$_menu_name$_edit=$num$">modify</a></font></td>
+      <td bgcolor="$_bgcolor$" width=10% align=center><font face="arial,sans-serif" style="font-size: 12px;"><a href="$_cgiurl$?$_menu_name$_confirm_erase=$num$">erase</a></font></td>
+     </tr>
+<!-- /templatecell : row -->
+<!-- templatecell : not_found -->
+     <tr>
+      <td bgcolor="#EEEEFF" colspan=5><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;Sorry, no categories were found!</font></td>
+     </tr>
+<!-- /templatecell : not_found -->
+    </table>
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+  <tr>
+   <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+    <input type="submit" class="button" name="$_menu_name$_alpha"  value="Sort A - Z">
+    <input type="submit" class="button" name="$_menu_name$_list"  value="Refresh">
+    <input type="submit" class="button" name="$_menu_name$_add"  value="Create New"><br>
+   </td>
+  </tr>
+ </table>
+
+<!-- /templatecell : list -->
+
+<!-- templatecell : edit -->
+
+</form>
+<form method=post action="$_cgiurl$" enctype="multipart/form-data">
+
+ <input type=hidden name="num" value="$num$">
+ <input type=hidden name="default_action" value="$_menu_name$_save">
+
+ <input type=hidden name="global_order" value="$global_order$">
+ <input type=hidden name="sibling_order" value="$sibling_order$">
+ <input type=hidden name="depth" value="$depth$">
+ <input type=hidden name="lineage" value="$lineage$">
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr><td bgcolor="#EEEEEE">
+  <table border=0 width=100% cellspacing=0 cellpadding=0><tr>
+   <td align=left height=22><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;$_menu_header$</b></font></td>
+   <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button2" name="$_menu_name$_save" value="   Save   ">
+   <input type="submit" class="button2" name="$_menu_name$_list" value=" Cancel ">&nbsp;
+   </td>
+  </tr></table>
+  </td></tr></table>
+  </td></tr></table>
+
+
+   <p><table border=0 cellspacing=0 cellpadding=1 width=92%>
+     <tr><td rowspan=99>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
+<!-- Begin Fields -->
+     <tr>
+      <td height=21 width="120"><font face="arial,sans-serif" style="font-size: 12px;">Created &nbsp;</font></td>
+      <td><font face="arial,sans-serif" style="font-size: 12px;">$created$ (by $created_by$)</font></td>
+     </tr>
+     <tr>
+      <td height=21><font face="arial,sans-serif" style="font-size: 12px;">Last Updated &nbsp;</font></td>
+      <td><font face="arial,sans-serif" style="font-size: 12px;">$updated$ (by $updated_by$)</font></td>
+     </tr>
+
+     <tr><td colspan=2><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;</font></td></tr>
+     <tr>
+      <td><font face="arial,sans-serif" style="font-size: 12px;">Category Name &nbsp;</font></td>
+      <td><input type="text" name="name" value="$name$" size=35></td>
+     </tr>
+
+<script>
+
+/* ---------------------------------------------------------------------- *\
+  Function    : setWindowGlobal
+  Description : store or retrieve a global variable or object.
+                Global means global to this window.  Access parent windows
+                with window.opener.
+  Usage       : setWindowGlobal(oName, oValue);
+                oValue = getWindowGlobal(oName);
+\* ---------------------------------------------------------------------- */
+
+function setWindowGlobal(oName, oValue) {
+  if (typeof(window._jsGlobals) == 'undefined') { window._jsGlobals = new Object(); }
+  var windowGlobals = window._jsGlobals;
+
+  windowGlobals[oName] = oValue;
+}
+
+function getWindowGlobal(oName) {
+  if (typeof(window._jsGlobals) == 'undefined') { window._jsGlobals = new Object(); }
+  var windowGlobals = window._jsGlobals;
+
+  return windowGlobals[oName];
+}
+
+
+/* ---------------------------------------------------------------------- *\
+  Function    : disallowOptionValues
+  Description : Don't allow options with the specified value to be selected.
+                Display an error message (if defined) and reset pulldown to
+                first option.  Multiple values/errors can be displayed.
+  Usage       : <select onchange="disallowOptionValues(this, {'': 'Error: Invalid selection'})">
+\* ---------------------------------------------------------------------- */
+
+function disallowOptionValues(obj, disallowedValues) {
+  var selectedValue = obj.options[obj.selectedIndex].value;
+  if (disallowedValues[selectedValue]) {
+    var errorMsg      = disallowedValues[selectedValue];
+    if (errorMsg) { alert(errorMsg); }
+
+    var oldIndex = getWindowGlobal('oldSelectedIndex');
+    
+    if (oldIndex != null) { obj.selectedIndex = oldIndex; }
+    else                  { obj.selectedIndex = 0; }
+  }
+}
+
+
+
+</script>
+<style>
+.unavailable_option { color: #AAAAAA; }
+</style>
+
+     <tr>
+      <td><font face="arial,sans-serif" style="font-size: 12px;">Parent Category &nbsp;</font></td>
+      <td>
+       <select name="parent"
+               onclick="setWindowGlobal('oldSelectedIndex', this.selectedIndex)"
+               onchange="disallowOptionValues(this, { 'grafting would exceed max depth': 'Error: Selecting that category would exceed the maximum\n category depth of $max_subcat_depth$ levels (defined in Setup Options).',
+                                                      'child of source category':        'Error: You can\'t select the current category or it\'s children as a parent.'})">
+        <option value="0">None (top level category)</option>
+        $category_breadcrumb_options$
+       </select>
+      </td>
+
+     <tr>
+      <td><font face="arial,sans-serif" style="font-size: 12px;">Hide Category&nbsp;</font></td>
+      <td><font face="arial,sans-serif" style="font-size: 12px;"><input type="checkbox" name="hidden" value="1" $hidden_1_checked$> Hide published articles and category pages</font></td>
+     </tr>
+     <tr>
+      <td><font face="arial,sans-serif" style="font-size: 12px;">Display Only&nbsp;</font></td>
+      <td><font face="arial,sans-serif" style="font-size: 12px;"><input type="checkbox" name="display_only" value="1" $display_only_1_checked$> Don't allow users to add articles to this category</font></td>
+     </tr>
+
+
+
+
+     <tr><td colspan=2><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;</font></td></tr>
+     
+     <!-- advanced -->
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr><td bgcolor="#EEEEEE">
+  <table border=0 width=100% cellspacing=0 cellpadding=0><tr>
+   <td align=left height=22><font face="arial,sans-serif" style="font-size: 13px;"><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;Advanced Options </b></font></td>
+  </tr></table>
+  </td></tr></table>
+  </td></tr></table>
+  
+     <p><table border=0 cellspacing=0 cellpadding=1 width=96%>
+     <tr><td rowspan=99>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
+
+
+<tr><td colspan="2">
+<fieldset><legend><font face="arial,sans-serif" style="font-size: 12px;"><strong>Category Settings</strong></font></legend>
+
+<table cellpadding="0" cellspacing="5" border="0" width="100%"><tr><td>
+<table cellpadding="0" cellspacing="0" border="0">
+<tr>
+      <td valign=top width="120"><font face="arial,sans-serif" style="font-size: 12px;">Articles per page &nbsp;</font></td>
+      <td>
+       <table border=0 cellspacing=0 cellpadding=0>
+        <tr>
+         <td><input type="radio" name="pub_perpage_specify" value="" $pub_perpage_specify__checked$></td>
+         <td><font face="arial,sans-serif" style="font-size: 12px;">Default: ($default_perpage_index$ articles, $default_perpage_headlines$ headlines)</font></td>
+        </tr>
+        <tr>
+         <td><input type="radio" name="pub_perpage_specify" value="1" $pub_perpage_specify_1_checked$></td>
+         <td>
+          <font face="arial,sans-serif" style="font-size: 12px;">Custom:
+          <input type="text" name="perpage_index" value="$perpage_index$" size=2 maxlength=5 style="font-size: 12px;"> articles,&nbsp;
+          <input type="text" name="perpage_headlines" value="$perpage_headlines$" size=2 maxlength=5 style="font-size: 12px;"> headlines</font><br>
+         </td>
+        </tr>
+       </table>
+      </td>
+     </tr>
+
+     <tr><td colspan=2><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;</font></td></tr>
+
+     <tr>
+      <td valign=top><font face="arial,sans-serif" style="font-size: 12px;">Category Filename &nbsp;</font></td>
+      <td>
+        <table border=0 cellspacing=0 cellpadding=0>
+          <tr>
+            <td><input type="radio" name="pub_fileprefix_specify" value="" $pub_fileprefix_specify__checked$></td>
+            <td><font face="arial,sans-serif" style="font-size: 12px;">Use default (eg: $publish_cat_fileprefix$$num$.$publish_fileext$)</font></td>
+          </tr>
+          <tr>
+            <td><input type="radio" name="pub_fileprefix_specify" value="1" $pub_fileprefix_specify_1_checked$></td>
+            <td>
+              <font face="arial,sans-serif" style="font-size: 12px;">Use filename:</font>
+              <input type="text" name="pub_fileprefix" value="$pub_fileprefix$" size=12 style="font-size: 12px;"><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;.$publish_fileext$</font><br>
+            </td>
+          </tr>
+        </table>
+      </td>
+     </tr>
+     
+
+
+     <tr><td colspan=2><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;</font></td></tr>
+      
+<!-- template insert : $cat_image$ -->
+<!-- templatecell : cat_image_has_image -->
+     <tr>
+      <td valign="top"><font face="arial,sans-serif" style="font-size: 12px;"><div style="margin-top:5px;">Category Image &nbsp;</div></font></td>
+      <td rowspan=2>
+       <table border=0 cellspacing=0 cellpadding=1>
+       <tr>
+         <td><font face="arial,sans-serif" style="font-size: 12px;"><div style="margin-top:3px;">Filename &nbsp;</div></font></td>
+         <td><font face="arial,sans-serif" style="font-size: 12px;">$cat_img_name$ (<input type="checkbox" name="ufile_image_remove" value="1"> remove)&nbsp;</font></td>
+        </tr>
+        <tr>
+         <td><font face="arial,sans-serif" style="font-size: 12px;">Replace: &nbsp;</font></td>
+         <td><input type="file" name="ufile_image" size=22></td>
+        </tr>
+        <tr>
+         <td valign="top"><font face="arial,sans-serif" style="font-size: 12px;">Preview: &nbsp;</font></td>
+         <td><a href="$cat_img_src$" target="_blank"><img src="$cat_img_src$" width="$cat_img_width$" height="$cat_img_height$" border="2"></a></td>
+        </tr>
+       </table>
+	     </td>
+	</tr> 		 
+	<tr><td><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;</font></td></tr>
+<!-- /templatecell : cat_image_has_image -->
+
+<!-- templatecell : cat_image_no_image -->
+     <tr>
+      <td valign="middle"><font face="arial,sans-serif" style="font-size: 12px;">Category Image &nbsp;</font></td>
+      <td>
+       <table border=0 cellspacing=0 cellpadding=0>
+       <tr>
+         <td><font face="arial,sans-serif" style="font-size: 12px;">Upload: &nbsp;</font></td>
+         <td><input type="file" name="ufile_image" size=22></td>
+           </tr>
+       </table>   
+	   </td>
+	</tr> 
+<!-- /templatecell : cat_image_no_image -->
+
+     
+     </table>
+     </td></tr>
+</table>
+     </fieldset>
+     </td></tr>
+ 
+     <!-- Template Options -->
+     <tr><td colspan=2><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;</font></td></tr>   
+        <tr><td colspan="2">
+        <fieldset><legend><font face="arial,sans-serif" style="font-size: 12px;"><strong>Templates</strong></font></legend>
+        <table cellpadding="0" cellspacing="5" border="0">
+          <tr><td>
+            <table cellpadding="0" cellspacing="0" border="0">    
+              <tr>
+                <td height=21 width="120"><font face="arial,sans-serif" style="font-size: 12px;">Category&nbsp;Index&nbsp;Page&nbsp;&nbsp;</font></td>
+                <td><select name="template_file">$template_file_list$</select></td>
+              </tr>
+              <tr>
+                <td height=21><font face="arial,sans-serif" style="font-size: 12px;">Latest&nbsp;Headlines&nbsp;&nbsp;</font></td>
+                <td><select name="headline_template_file">$headline_template_file_list$</select></td>
+              </tr>
+              <tr>
+                <td height=21><font face="arial,sans-serif" style="font-size: 12px;">Article&nbsp;Pages&nbsp;&nbsp;</font></td>
+                <td><select name="article_template_file">$article_template_file_list$</select></td>
+              </tr>
+              <tr>
+                <td height=21><font face="arial,sans-serif" style="font-size: 12px;">Article&nbsp;Printer&nbsp;Pages&nbsp;&nbsp;</font></td>
+                <td><select name="printer_template_file">$printer_template_file_list$</select></td>
+              </tr>
+            </table>
+          </td></tr>
+        </table>
+        </fieldset>
+     </td></tr>
+     
+     <!-- Folder Options -->
+     <tr><td colspan=2><font face="arial,sans-serif" style="font-size: 12px;">&nbsp;</font></td></tr>
+      <tr><td colspan="2">
+        <fieldset><legend><font face="arial,sans-serif" style="font-size: 12px;"><strong>Folders</strong></font></legend>
+          <table cellpadding="0" cellspacing="5" border="0" width="100%"><tr><td>
+		  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr><td colspan="2"><input type="radio" name="publish_specify" value="" $publish_specify__checked$><font face="arial,sans-serif" style="font-size: 12px;">Publish to Setup Defaults (<a href="$_cgiurl$?setup_tab2=1">See Directories and URLs section in Setup</a>)</font></td></tr>
+            <tr><td colspan="2"><input type="radio" name="publish_specify" value="1" $publish_specify_1_checked$><font face="arial,sans-serif" style="font-size: 12px;">Custom Folders (specify below)</font></td></tr>
+            <tr><td colspan="2">&nbsp;</td></tr>
+            <tr>
+              <td width="120"><font face="arial,sans-serif" style="font-size: 12px;margin-left:40px;">Articles Dir&nbsp;</td>
+              <td><input type="text" name="dir_publish" value="$dir_publish$" size=33> <input type="button" value="Browse..."  onClick="browse_dir(dir_publish);"></td>
+            </tr>
+            <tr>
+              <td><font face="arial,sans-serif" style="font-size: 12px;margin-left:40px;">Articles URL&nbsp;</td>
+              <td><input type="text" name="url_publish" value="$url_publish$" size=33></td>
+            </tr>
+            <tr>
+              <td><font face="arial,sans-serif" style="font-size: 12px;margin-left:40px;">Upload Dir&nbsp;</td>
+              <td><input type="text" name="dir_upload" value="$dir_upload$" size=33> <input type="button" value="Browse..." onClick="browse_dir(dir_upload);"></td>
+            </tr>
+            <tr>
+              <td><font face="arial,sans-serif" style="font-size: 12px;margin-left:40px;">Upload URL&nbsp;</td>
+              <td><input type="text" name="url_upload" value="$url_upload$" size=33></td>
+            </tr>
+          </table>
+		  </td></tr>
+		  </table>
+        </fieldset>
+      </td></tr>
+
+<!-- End Fields -->
+    </table>
+
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+   <tr>
+    <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+    <input type="submit" class="button" name="$_menu_name$_save" value="   Save   ">
+    <input type="submit" class="button" name="$_menu_name$_list" value=" Cancel ">
+   </td>
+  </tr>
+</table>
+
+<!-- /templatecell : edit -->
+
+<!-- templatecell : confirm_erase -->
+
+<input type="hidden" name="num" value="$num$">
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr><td bgcolor="#EEEEEE">
+  <table border=0 width=100% cellspacing=0 cellpadding=0><tr>
+   <td align=left height=22><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;$_menu_header$</b></font></td>
+  </tr></table>
+  </td></tr></table>
+  </td></tr></table>
+
+   <center><br><br><br><br>
+   
+      
+   <b>Are you sure you want to erase this category?</b><br>
+   $name$
+   
+   <!-- template insert : $confirm_erase_warnings$ -->
+
+   <!-- templatecell : confirm_erase_warning_header -->
+   <p><b>Erasing this category would also erase:<br>
+   <!-- /templatecell : confirm_erase_warning_header -->
+   
+   <!-- templatecell : confirm_erase_warning_subcats -->
+   <font color="#CC0000">$subcat_count$ subcategories</font><br>
+   <!-- /templatecell : confirm_erase_warning_subcats -->
+
+   <!-- templatecell : confirm_erase_warning_articles -->
+   <font color="#CC0000">$article_count$ articles</font><br>
+   <!-- /templatecell : confirm_erase_warning_articles -->
+   
+   <!-- templatecell : confirm_erase_warning_archived_articles -->
+   <font color="#CC0000">$archived_article_count$ archived articles</font><br>
+   <!-- /templatecell : confirm_erase_warning_archived_articles -->
+   
+
+   <br><br><br><br></center>
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="cat_erase" value="  Erase  ">
+   <input type="submit" class="button" name="cat_list" value=" Cancel "><br>
+  </td>
+ </tr>
+</table>
+
+<!-- /templatecell : confirm_erase -->
+
+<!-- templatecell : erased -->
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr><td bgcolor="#EEEEEE">
+  <table border=0 width=100% cellspacing=0 cellpadding=0><tr>
+   <td align=left height=22><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;$_menu_header$</b></font></td>
+  </tr></table>
+  </td></tr></table>
+  </td></tr></table>
+
+   <center><br><br><br><br>
+   <b>Category has been erased</b>
+   <br><br><br></center>
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="$_menu_name$_list" value="     OK     "></td>
+ </tr>
+</table>
+
+<!-- /templatecell : erased -->
+
+<!-- templatecell : saved -->
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr><td bgcolor="#EEEEEE">
+  <table border=0 width=100% cellspacing=0 cellpadding=0><tr>
+   <td align=left height=22><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;$_menu_header$</b></font></td>
+  </tr></table>
+  </td></tr></table>
+  </td></tr></table>
+
+   <center><br><br><br><br>
+   <b>Category has been saved</b>
+   <br><br><br></center>
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="$_menu_name$_list" value="     OK     "><br>
+  </td>
+ </tr>
+</table>
+
+<!-- /templatecell : saved -->
+
+<!-- templatecell : error_upload_not_saved -->
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr><td bgcolor="#EEEEEE">
+  <table border=0 width=100% cellspacing=0 cellpadding=0><tr>
+   <td align=left height=22><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;$_menu_header$</b></font></td>
+  </tr></table>
+  </td></tr></table>
+  </td></tr></table>
+
+   <center><br><br><br>
+   <b>Warning: The following files were not saved:</b><br></b>
+   $message$
+
+
+   <br><br>
+   <b>Please note the following restrictions:</b><br>
+   <!-- template insert : $maxsize$ --><!-- templatecell : maxsize -->Uploads must be no larger than $uploadmax$ Kbytes in size.<br><!-- /templatecell : maxsize -->
+   <!-- template insert : $maxheight$ --><!-- templatecell : maxheight -->Images must be no taller than $upload_height$ pixels.<br><!-- /templatecell : maxheight -->
+   <!-- template insert : $maxwidth$ --><!-- templatecell : maxwidth -->Images must be no wider than $upload_width$ pixels.<br><!-- /templatecell : maxwidth -->
+   <!-- template insert : $acceptext$ --><!-- templatecell : acceptext -->Accepted file formats: $uploadext$<br><!-- /templatecell : acceptext -->
+   <br><br>
+   </center>
+
+<!-- return to edit page -->
+<input type="hidden" name="$_menu_name$_edit" value="$num$">
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="submit" value="Go Back"><br>
+  </td>
+ </tr>
+</table>
+
+<!-- /templatecell : error_upload_not_saved -->
+
+
+<!-- templatecell : error_max_records -->
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr><td bgcolor="#EEEEEE">
+  <table border=0 width=100% cellspacing=0 cellpadding=0><tr>
+   <td align=left height=22><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;$_menu_header$</b></font></td>
+  </tr></table>
+  </td></tr></table>
+  </td></tr></table>
+
+   <center><br><br><br><br>
+   <b>Maximum record limit reached</b><br>
+   This product only supports up to $max_records$ record(s).<br>
+   <br><br><br></center>
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="$_menu_name$_list" value="     OK     "><br>
+  </td>
+ </tr>
+</table>
+
+<!-- /templatecell : error_max_records -->
+
+<!-- templatecell : error_duplicate_filename -->
+
+<input type="hidden" name="num" value="$num$">
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr><td bgcolor="#EEEEEE">
+  <table border=0 width=100% cellspacing=0 cellpadding=0><tr>
+   <td align=left height=22><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;$_menu_header$</b></font></td>
+  </tr></table>
+  </td></tr></table>
+  </td></tr></table>
+
+   <center><br><br><br><br>
+   <b>Publish Filename in use</b><br>
+   $message$<br>
+   <br><br><br></center>
+
+<!-- return to edit page -->
+<input type="hidden" name="$_menu_name$_edit" value="$num$">
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="submit" value="      OK      "><br>
+  </td>
+ </tr>
+</table>
+
+<!-- /templatecell : error_duplicate_filename -->
+
+<!-- templatecell : error_blank_fields -->
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr><td bgcolor="#EEEEEE">
+  <table border=0 width=100% cellspacing=0 cellpadding=0><tr>
+   <td align=left height=22><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;$_menu_header$</b></font></td>
+  </tr></table>
+  </td></tr></table>
+  </td></tr></table>
+
+   <center><br><br><br>
+   <b>Required field(s) left blank:</b><br></b>
+   The following fields may not be left blank when using<br>
+   custom publish or upload directories or urls<br>
+   in Category and Article files section.
+   <br><br>
+   $blank_fields_list$
+   <br><br>
+   </center>
+
+<!-- return to edit page -->
+<input type="hidden" name="$_menu_name$_edit" value="$num$">
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="button" class="button" value="Go Back" onClick="javascript:history.back()"><br>
+  </td>
+ </tr>
+</table>
+
+<!-- /templatecell : error_blank_fields -->
+
+<!-- templatecell : error_bad_dirs -->
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr><td bgcolor="#EEEEEE">
+  <table border=0 width=100% cellspacing=0 cellpadding=0><tr>
+   <td align=left height=22><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;$_menu_header$</b></font></td>
+  </tr></table>
+  </td></tr></table>
+  </td></tr></table>
+
+   <center><br><br><br>
+   <b>Directory problem(s):</b><br></b>
+   Please correct the following problems on the server.
+   <br><br>
+   $problems$
+   <br><br>
+   </center>
+
+<!-- return to edit page -->
+<input type="hidden" name="$_menu_name$_edit" value="$num$">
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="button" class="button" value="Go Back" onClick="javascript:history.back()"><br>
+  </td>
+ </tr>
+</table>
+
+<!-- /templatecell : error_bad_dirs -->
+
+<!-- templatecell : move_uploads_ask -->
+
+
+<input type="hidden" name="num" value="$num$">
+<input type="hidden" name="old_dir_upload" value="$old_dir_upload_he$">
+<input type="hidden" name="new_dir_upload" value="$new_dir_upload_he$">
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr><td bgcolor="#EEEEEE">
+  <table border=0 width=100% cellspacing=0 cellpadding=0><tr>
+   <td align=left height=22><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;$_menu_header$</b></font></td>
+  </tr></table>
+  </td></tr></table>
+  </td></tr></table>
+
+   <center><br><br>
+   <b>The following $filecount$ files will be moved to the new upload<br>folder to keep your articles intact. (<a href="JavaScript:alert('Move to the new upload folder\nTo prevent uploaded images/files embedded in articles from breaking, the files associated with this category will be moved to the new upload directory.');">More info</a>)</b><br><br>
+   </center>
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="cat_move_uploads" value="  Move  ">
+  </td>
+ </tr>
+ </table>
+ 
+ <table border=0 cellspacing=1 cellpadding=1 width=100%>
+   <tr><td bgcolor="#CCCCFF" align="center"><b><font style="font-family: sans-serif; font-size: 10px;">Filename</font></b></td></tr>
+   <!-- template insert: $file_list$ -->
+   <!-- templatecell : filename -->
+   <tr><td bgcolor="$_bgcolor$" align="center"><font style="font-family: sans-serif; font-size: 10px;">$filename$</font></td></tr>
+   <!-- /templatecell : filename -->
+ </table>
+ 
+ <table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right>
+   <input type="submit" class="button" name="cat_move_uploads" value="  Move  ">
+  </td>
+ </tr>
+</table>
+
+<!-- /templatecell : move_uploads_ask -->
+
+<!-- templatecell : uploads_moved -->
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr><td bgcolor="#EEEEEE">
+  <table border=0 width=100% cellspacing=0 cellpadding=0><tr>
+   <td align=left height=22><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;$_menu_header$</b></font></td>
+  </tr></table>
+  </td></tr></table>
+  </td></tr></table>
+
+   <center><br><br><br><br>
+   <b>$filecount$ files have been moved</b><br><br>
+   </center><br><br>
+   
+
+<table border=0 cellspacing=7 cellpadding=0 width=100%>
+ <tr>
+  <td align=right><font style="font-family: sans-serif; font-size: 10px;">
+   <input type="submit" class="button" name="$_menu_name$_list" value="     OK     "><br>
+  </td>
+ </tr>
+</table>
+
+<!-- /templatecell : uploads_moved -->
+
+<!-- templatecell : uploads_renamed -->
+
+  <table border=0 cellspacing=0 cellpadding=0 width=100%><tr><td bgcolor="#999999">
+  <table border=0 width=100% cellspacing=1 cellpadding=0><tr><td bgcolor="#EEEEEE">
+  <table border=0 width=100% cellspacing=0 cellpadding=0><tr>
+   <td align=left height=22><font face="arial,sans-serif" style="font-size: 13px;"><b>&nbsp;$_menu_header$</b></font></td>
+  </tr></table>
+  </td></tr></table>
+  </td></tr></table>
+
+   <center><br><br><br><br>
+   <b>The following files were renamed to avoid conflicts:</b><br><br>
+   </center><br><br>
+   
+
+<table border=0 cellspacing=1 cellpadding=1 width=100%>
+ <tr>
+  <td bgcolor="#CCCCFF" align="center"><b><font style="font-family: sans-serif; font-size: 10px;">Source filename</font></b></td>
+  <td bgcolor="#CCCCFF" align="center"><b><font style="font-family: sans-serif; font-size: 10px;">New filename</font></b></td>
+ </tr>
+ <!-- template insert: $file_list$ -->
+ <!-- templatecell : name_changes -->
+ <tr>
+  <td bgcolor="$_bgcolor$" align="center"><font style="font-family: sans-serif; font-size: 10px;">$oldfilename$</font></td>
+  <td bgcolor="$_bgcolor$" align="center"><font style="font-family: sans-serif; font-size: 10px;">$newfilename$</font></td>
+ </tr>
+ <!-- /templatecell : name_changes -->
+ <tr>
+  <td colspan="2" align=right>
+   <input type="submit" class="button" name="$_menu_name$_list" value="     OK     "><br>
+  </td>
+ </tr>
+</table>
+
+<!-- /templatecell : uploads_renamed -->
